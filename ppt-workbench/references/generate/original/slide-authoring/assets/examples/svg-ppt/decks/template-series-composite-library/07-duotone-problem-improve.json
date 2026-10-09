@@ -1,0 +1,20 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "blue_green_diagnostic",
+  "pattern": "duotone_problem_improve",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "三类关键短板通过对应改进形成闭环",
+  "data": {
+    "problems": [
+      {"title": "目标分散", "detail": "优先级反复变化", "metric_label": "影响", "metric_value": "等待增加"},
+      {"title": "协同断点", "detail": "跨团队交接滞后", "metric_label": "影响", "metric_value": "返工上升"},
+      {"title": "度量滞后", "detail": "结果无法及时回指", "metric_label": "影响", "metric_value": "决策变慢"}
+    ],
+    "responses": [
+      {"title": "聚焦目标", "detail": "建立统一优先级", "metric_label": "动作", "metric_value": "周度校准"},
+      {"title": "贯通流程", "detail": "明确交接标准", "metric_label": "动作", "metric_value": "责任到人"},
+      {"title": "前置度量", "detail": "过程与结果同看", "metric_label": "动作", "metric_value": "实时反馈"}
+    ],
+    "center_label": "从问题到改进"
+  }
+}

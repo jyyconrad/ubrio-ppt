@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <text x="70.4" y="19.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">市级数据治理项目 / 阶段汇报 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="94.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">附录：项目交付材料与验收口径</text>
+  <text x="70.4" y="129.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">附录页覆盖交付物、验收证据和责任人。</text>
+  <rect x="70.4" y="150.4" width="1139.2" height="33.6" rx="14.4" fill="#EAF3FF" stroke="#B8D8FF" />
+  <text x="92.8" y="172" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：观点 + 证据 + 解释 + 影响 + 行动/风险，所有正文页必须有责任人、时限或来源。</text>
+  <rect x="70.4" y="200" width="532.8" height="134.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <rect x="91.2" y="217.6" width="94.4" height="27.2" rx="13.6" fill="#EAF3FF" stroke="#2F80ED" />
+  <text x="105.6" y="236" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">table</text>
+  <text x="91.2" y="260.8" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">项目周报台账</text>
+  <text x="91.2" y="286.4" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">project-weekly-ledger</text>
+  <text x="91.2" y="310.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">记录总体进度、里程碑、责任人、风险等级和下周动作。</text>
+  <rect x="643.2" y="200" width="532.8" height="134.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <rect x="664" y="217.6" width="94.4" height="27.2" rx="13.6" fill="#EAF3FF" stroke="#2F80ED" />
+  <text x="678.4" y="236" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">table</text>
+  <text x="664" y="260.8" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">联调问题清单</text>
+  <text x="664" y="286.4" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">integration-issue-list</text>
+  <text x="664" y="310.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">记录异常回流、口径差异、关闭截图和技术责任人。</text>
+  <rect x="70.4" y="371.2" width="532.8" height="134.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <rect x="91.2" y="388.8" width="94.4" height="27.2" rx="13.6" fill="#EAF3FF" stroke="#2F80ED" />
+  <text x="105.6" y="407.2" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">schedule</text>
+  <text x="91.2" y="432" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">PMO 验收排期表</text>
+  <text x="91.2" y="457.6" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">pmo-schedule-board</text>
+  <text x="91.2" y="481.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">记录区县驻场窗口、供应商资源冲突和验收材料提交节点。</text>
+  <rect x="643.2" y="371.2" width="532.8" height="134.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <rect x="664" y="388.8" width="94.4" height="27.2" rx="13.6" fill="#EAF3FF" stroke="#2F80ED" />
+  <text x="678.4" y="407.2" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">evidence_pack</text>
+  <text x="664" y="432" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">验收证据包目录</text>
+  <text x="664" y="457.6" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">acceptance-evidence-pack</text>
+  <text x="664" y="481.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">记录部署包、联调截图、培训签到、会议纪要和口径确认单。</text>
+  <rect x="70.4" y="564.8" width="1139.2" height="60.8" rx="12.8" fill="#FFF7ED" stroke="#F59E0B" />
+  <text x="94.4" y="590.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="900" text-anchor="start">附录使用方式</text>
+  <text x="208" y="590.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="800" text-anchor="start">真实生成时先读文件树和素材 metadata，再把当前页引用的表格、截图、口径说明写入正文页证据槽。</text>
+  <text x="208" y="611.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">示例路径：materials/index.md -&gt; issue-list.xlsx -&gt; pmo-schedule.xlsx -&gt; acceptance-evidence-pack/</text>
+  <text x="70.4" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：项目周报台账 / 联调问题清单 / PMO 验收排期表 / 验收证据包目录</text>
+  <text x="992" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">项目阶段汇报 / 10-appendix</text>
+  </svg>

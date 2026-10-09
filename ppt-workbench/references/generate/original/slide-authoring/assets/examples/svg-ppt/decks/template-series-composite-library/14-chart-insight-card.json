@@ -1,0 +1,38 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "chart_insight_card",
+  "native_data_ref": "14-chart-insight-card.native-data.json",
+  "region": {
+    "x": 430,
+    "y": 120,
+    "w": 420,
+    "h": 470
+  },
+  "data": {
+    "card": {
+      "title": "项目按期交付率",
+      "highlight": {
+        "prefix": "当前",
+        "value": "83% → 90%",
+        "suffix": "目标"
+      },
+      "meaning": "交付节奏持续稳定",
+      "visual": {
+        "kind": "native_chart",
+        "slot_id": "delivery-rate-chart",
+        "chart_kind": "bar",
+        "labels": ["Q1", "Q2", "Q3", "Q4"],
+        "series": [
+          {
+            "name": "按期交付率",
+            "values": [0.68, 0.73, 0.78, 0.83]
+          }
+        ],
+        "value_format": "0%",
+        "source": "项目组合经营台账，2026 Q1-Q4"
+      },
+      "insight": "承诺兑现能力逐季增强"
+    }
+  }
+}

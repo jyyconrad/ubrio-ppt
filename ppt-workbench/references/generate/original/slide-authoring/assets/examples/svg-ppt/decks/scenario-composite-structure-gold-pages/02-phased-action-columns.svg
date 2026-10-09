@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+<text x="48" y="54" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">某数字化项目三阶段落地举措 · 试点—铺开—收口</text>
+<text x="48" y="82" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="13.5">按季度分三期推进，每栏一个阶段表头 + 逐条落地举措；顶部为三阶段总量摘要</text>
+<rect x="48" y="96" width="1184" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+<line x1="344" y1="104" x2="344" y2="130" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="640" y1="104" x2="640" y2="130" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="936" y1="104" x2="936" y2="130" stroke="#E2E8F0" stroke-width="1"/>
+<text x="72" y="126" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">120家</text>
+<text x="144" y="126" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="13">覆盖门店</text>
+<text x="368" y="126" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">850人</text>
+<text x="440" y="126" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="13">参与人员</text>
+<text x="664" y="126" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">96%</text>
+<text x="720" y="126" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="13">整体达成</text>
+<text x="960" y="126" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">100%</text>
+<text x="1016" y="126" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="13">阶段准点</text>
+<rect x="48" y="170" width="362" height="480" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<polygon points="64,200 170,186 288,186 394,200 394,242 64,242" fill="#B45309"/>
+<text x="229" y="224" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="700" text-anchor="middle">Q1 试点</text>
+<text x="72" y="274" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14">1–3 月 · 打样验证</text>
+<rect x="70" y="298" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="81" y="314" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<text x="102" y="314" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">选定 3 家标杆门店先行试点</text>
+<rect x="70" y="354" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="81" y="370" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">2</text>
+<text x="102" y="370" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">搭建数据看板与操作 SOP</text>
+<rect x="70" y="410" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="81" y="426" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">3</text>
+<text x="102" y="426" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">完成一线人员首轮培训</text>
+<rect x="70" y="466" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="81" y="482" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">4</text>
+<text x="102" y="482" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">跑通核心业务流程闭环</text>
+<rect x="70" y="560" width="330" height="56" rx="10" fill="#F1F5F9"/>
+<text x="88" y="584" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">里程碑</text>
+<text x="88" y="606" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13">打样通过，具备复制条件</text>
+<rect x="458" y="170" width="362" height="480" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<polygon points="474,200 580,186 698,186 804,200 804,242 474,242" fill="#B45309"/>
+<text x="639" y="224" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="700" text-anchor="middle">Q2 铺开</text>
+<text x="482" y="274" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14">4–6 月 · 规模复制</text>
+<rect x="480" y="298" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="491" y="314" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<text x="512" y="314" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">覆盖门店扩展至 120 家</text>
+<rect x="480" y="354" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="491" y="370" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">2</text>
+<text x="512" y="370" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">上线自助下单与智能补货</text>
+<rect x="480" y="410" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="491" y="426" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">3</text>
+<text x="512" y="426" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">建立区域督导巡检机制</text>
+<rect x="480" y="466" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="491" y="482" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">4</text>
+<text x="512" y="482" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">沉淀标准化推广手册</text>
+<rect x="480" y="560" width="330" height="56" rx="10" fill="#F1F5F9"/>
+<text x="498" y="584" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">里程碑</text>
+<text x="498" y="606" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13">规模化跑通，指标达标</text>
+<rect x="868" y="170" width="362" height="480" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<polygon points="884,200 990,186 1108,186 1214,200 1214,242 884,242" fill="#B45309"/>
+<text x="1049" y="224" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="700" text-anchor="middle">Q3 收口</text>
+<text x="892" y="274" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14">7–9 月 · 固化验收</text>
+<rect x="890" y="298" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="901" y="314" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">1</text>
+<text x="922" y="314" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">全量门店完成系统切换</text>
+<rect x="890" y="354" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="901" y="370" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">2</text>
+<text x="922" y="370" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">关键指标验收达成 96%</text>
+<rect x="890" y="410" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="901" y="426" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">3</text>
+<text x="922" y="426" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">问题清单闭环归档</text>
+<rect x="890" y="466" width="22" height="22" rx="6" fill="#FEF0D9"/>
+<text x="901" y="482" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">4</text>
+<text x="922" y="482" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15">输出复盘与迁移方案</text>
+<rect x="890" y="560" width="330" height="56" rx="10" fill="#F1F5F9"/>
+<text x="908" y="584" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">里程碑</text>
+<text x="908" y="606" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13">整体验收，固化交付</text>
+</svg>

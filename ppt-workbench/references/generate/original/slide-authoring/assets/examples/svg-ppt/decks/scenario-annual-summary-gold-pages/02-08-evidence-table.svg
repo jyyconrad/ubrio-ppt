@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="70.4" y="19.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">年度经营总结 / 经营复盘 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="92.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">证据表：经营结论必须对应来源、口径和缺口</text>
+  <text x="70.4" y="128" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">用于训练模型不要只写泛化判断。</text>
+  <rect x="70.4" y="148.8" width="1139.2" height="33.6" rx="14.4" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="92.8" y="170.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：年度总结必须同时写结果、差距、原因、证据口径和来年动作；缺数据时标缺口，不删问题。</text>
+  <g id="annual-evidence-metrics">
+  <rect x="70.4" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="86.4" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">已验证结论</text>
+  <text x="86.4" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">3</text>
+  <text x="163.2" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">收入、行业、效率</text>
+  <rect x="355.2" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="371.2" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">待补口径</text>
+  <text x="371.2" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">4</text>
+  <text x="448" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">毛利、复购、返工、续约</text>
+  <rect x="640" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="656" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">责任部门</text>
+  <text x="656" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">5</text>
+  <text x="732.8" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">财经/销售/交付/客成/运营</text>
+  <rect x="924.8" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="940.8" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">复盘频率</text>
+  <text x="940.8" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">月度</text>
+  <text x="1017.6" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">进入经营会</text>
+  </g>
+  <g id="annual-evidence-table">
+  <rect x="70.4" y="281.6" width="814.4" height="283.2" rx="12.8" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="94.4" y="313.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">经营结论</text>
+  <text x="244.8" y="313.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">证据/口径</text>
+  <text x="454.4" y="313.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">解释</text>
+  <text x="625.6" y="313.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">缺口</text>
+  <text x="766.4" y="313.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">Owner</text>
+  <line x1="84.8" y1="326.4" x2="865.6" y2="326.4" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="348.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">收入达成</text>
+  <text x="244.8" y="348.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">财务月报</text>
+  <text x="454.4" y="348.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">全年目标完成但结构需分解</text>
+  <text x="625.6" y="348.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">按行业收入/毛利</text>
+  <text x="766.4" y="348.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">财经</text>
+  <line x1="84.8" y1="366.4" x2="865.6" y2="366.4" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="388.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">重点行业提升</text>
+  <text x="244.8" y="388.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">CRM合同清单</text>
+  <text x="454.4" y="388.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">标杆复制开始形成贡献</text>
+  <text x="625.6" y="388.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">客户名单/区域对比</text>
+  <text x="766.4" y="388.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">销售</text>
+  <line x1="84.8" y1="406.4" x2="865.6" y2="406.4" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="428.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">交付效率改善</text>
+  <text x="244.8" y="428.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">PMO项目台账</text>
+  <text x="454.4" y="428.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">联合评审压缩返工周期</text>
+  <text x="625.6" y="428.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">平均周期/返工率</text>
+  <text x="766.4" y="428.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">交付</text>
+  <line x1="84.8" y1="446.4" x2="865.6" y2="446.4" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="468.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">复购贡献待补</text>
+  <text x="244.8" y="468.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">客户成功台账</text>
+  <text x="454.4" y="468.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">老客户价值挖掘不足</text>
+  <text x="625.6" y="468.8" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">复购率/续约金额</text>
+  <text x="766.4" y="468.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">客成</text>
+  <line x1="84.8" y1="486.4" x2="865.6" y2="486.4" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="508.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">数据口径不一</text>
+  <text x="244.8" y="508.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">经营会纪要</text>
+  <text x="454.4" y="508.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">跨部门复盘无法闭环</text>
+  <text x="625.6" y="508.8" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">统一字段和日期</text>
+  <text x="766.4" y="508.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">运营</text>
+  </g>
+  <g id="annual-proof-chain">
+  <rect x="912" y="281.6" width="297.6" height="283.2" rx="12.8" fill="#FFF7ED" stroke="#F59E0B" />
+  <text x="931.2" y="313.6" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">证据链写法</text>
+  <rect x="929.6" y="344" width="260.8" height="28.8" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="942.4" y="362.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">1 观点</text>
+  <text x="998.4" y="362.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="700" text-anchor="start">先写经营判断，不写名词标签</text>
+  <rect x="929.6" y="384" width="260.8" height="28.8" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="942.4" y="402.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">2 证据</text>
+  <text x="998.4" y="402.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="700" text-anchor="start">每条结论绑定表格、截图或会议纪要</text>
+  <rect x="929.6" y="424" width="260.8" height="28.8" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="942.4" y="442.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">3 解释</text>
+  <text x="998.4" y="442.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="700" text-anchor="start">说明数据为什么支撑该判断</text>
+  <rect x="929.6" y="464" width="260.8" height="28.8" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="942.4" y="482.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">4 缺口</text>
+  <text x="998.4" y="482.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="700" text-anchor="start">缺数据时标待补口径和责任人</text>
+  <rect x="929.6" y="504" width="260.8" height="28.8" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="942.4" y="522.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">5 动作</text>
+  <text x="998.4" y="522.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="700" text-anchor="start">进入来年计划或月度经营会</text>
+  </g>
+  <g id="annual-evidence-closure">
+  <rect x="70.4" y="584" width="256" height="43.2" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="84.8" y="601.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">数据</text>
+  <text x="126.4" y="601.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">按月/行业/区域补齐收入和毛利</text>
+  <text x="126.4" y="619.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">财经负责人</text>
+  <rect x="355.2" y="584" width="256" height="43.2" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="369.6" y="601.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">客户</text>
+  <text x="411.2" y="601.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">输出 A/B/C 客户分层和续约池</text>
+  <text x="411.2" y="619.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">客户成功</text>
+  <rect x="640" y="584" width="256" height="43.2" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="654.4" y="601.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">交付</text>
+  <text x="696" y="601.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">补平均周期和返工率趋势</text>
+  <text x="696" y="619.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">交付 PMO</text>
+  <rect x="924.8" y="584" width="256" height="43.2" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="939.2" y="601.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">经营</text>
+  <text x="980.8" y="601.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">统一收入、毛利、回款口径</text>
+  <text x="980.8" y="619.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">运营负责人</text>
+  <rect x="70.4" y="640" width="1139.2" height="27.2" rx="11.2" fill="#0F3B73" stroke="#0F3B73" />
+  <text x="94.4" y="658.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">证据表合同：每个经营结论必须有来源、解释、缺口和Owner；不能用“持续优化、加强管理”替代表格证据。</text>
+  </g>
+  <text x="70.4" y="676.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：年度财务月报 / CRM 商机与合同清单 / 交付 PMO 台账 / 客户成功复购台账</text>
+  <text x="992" y="676.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">年度经营总结 / 08-evidence-table</text>
+  </svg>

@@ -1,0 +1,21 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "shared_source_platform_value",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "统一资源库支撑多平台复用并持续释放业务价值",
+  "data": {
+    "source": {"title": "统一资源库", "items": ["统一数据口径", "沉淀共性资产"]},
+    "platforms": [
+      {"title": "研发平台", "capabilities": ["需求协同", "工程复用"]},
+      {"title": "交付平台", "capabilities": ["过程监控", "质量门禁"]},
+      {"title": "运营平台", "capabilities": ["价值度量", "持续优化"]}
+    ],
+    "common_capabilities": ["标准统一", "数据互通", "流程贯通", "协同高效"],
+    "values": [
+      {"title": "交付效率", "detail": "减少等待与返工", "metric_label": "周期", "metric_value": "-28%"},
+      {"title": "资产复用", "detail": "共性能力跨场景使用", "metric_label": "复用率", "metric_value": "+24pp"},
+      {"title": "用户价值", "detail": "结果回指真实需求", "metric_label": "实现率", "metric_value": "+31%"}
+    ]
+  }
+}

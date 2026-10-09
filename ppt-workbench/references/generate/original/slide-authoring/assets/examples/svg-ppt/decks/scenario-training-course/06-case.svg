@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">培训课程 / content</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">案例演练：班组交付延误如何拆成可执行闭环</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">案例页要保留场景、问题、动作、结果。</text>
+  <rect x="72" y="240" width="344" height="248" rx="17.6" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="102.4" y="288" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">背景</text>
+  <text x="102.4" y="329.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">场景</text>
+  <text x="102.4" y="372" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">班组连续两周交付延误</text>
+  <text x="102.4" y="416" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 影响客户上线窗口</text>
+  <text x="102.4" y="443.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 跨岗位协同不清</text>
+  <rect x="460" y="240" width="344" height="248" rx="17.6" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="490.4" y="288" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">处理</text>
+  <text x="490.4" y="329.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">动作</text>
+  <text x="490.4" y="372" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">建立日清单和风险升级</text>
+  <text x="490.4" y="416" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 责任人到人</text>
+  <text x="490.4" y="443.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 每日 17 点同步</text>
+  <rect x="848" y="240" width="344" height="248" rx="17.6" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="878.4" y="288" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">复盘</text>
+  <text x="878.4" y="329.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">结果</text>
+  <text x="878.4" y="372" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">延误事项逐步收敛</text>
+  <text x="878.4" y="416" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 需补真实数据</text>
+  <text x="878.4" y="443.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 沉淀排期模板</text>
+  <rect x="72" y="556" width="1136" height="65.6" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="99.2" y="596.8" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">示例重点：案例页必须有对象、动作、结果和待补证据。</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：培训课程 / 04-case / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

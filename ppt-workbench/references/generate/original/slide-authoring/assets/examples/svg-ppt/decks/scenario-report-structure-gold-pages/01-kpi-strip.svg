@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="kpiGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7A3AAE"/>
+      <stop offset="1" stop-color="#2E1B5E"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="#F7F7FA"/>
+  <polygon points="100,52 136,86 136,124 64,124 64,86" fill="#2E1B5E"/>
+  <polygon points="100,52 136,86 64,86" fill="#6B2D9C"/>
+  <text x="100" y="114" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" text-anchor="middle">5项</text>
+  <text x="160" y="92" fill="#241238" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="800">年度经营指标概览</text>
+  <text x="160" y="124" fill="#3B2A4D" font-family="Microsoft YaHei, Arial" font-size="18">五项核心 KPI 一屏陈列</text>
+  <rect x="1066" y="64" width="150" height="36" rx="18" fill="#EFE9F7" stroke="#D8CCEA"/>
+  <text x="1141" y="88" fill="#6B2D9C" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="middle">示例数据</text>
+  <rect x="64" y="176" width="1152" height="40" rx="12" fill="#EFE9F7" stroke="#D8CCEA"/>
+  <rect x="64" y="176" width="200" height="40" rx="12" fill="#6B2D9C"/>
+  <text x="88" y="202" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700">经营健康度</text>
+  <text x="288" y="202" fill="#3B2A4D" font-family="Microsoft YaHei, Arial" font-size="15">满意度 · 复购 · 交付 · 增长 · 覆盖，五项一屏对齐</text>
+  <polygon points="64,260 246,260 276,290 276,560 64,560" fill="url(#kpiGrad)"/>
+  <polygon points="246,260 276,290 246,290" fill="#1F1240"/>
+  <circle cx="94" cy="294" r="6" fill="#C8A6E8"/>
+  <text x="110" y="300" fill="#E7D8F5" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600">指标 01</text>
+  <text x="88" y="398" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="60" font-weight="800">96%</text>
+  <line x1="88" y1="426" x2="252" y2="426" stroke="#8A5CC0" stroke-width="1"/>
+  <text x="88" y="466" fill="#F2E9FB" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">客户满意度</text>
+  <text x="88" y="500" fill="#D9C4F0" font-family="Microsoft YaHei, Arial" font-size="13">CSAT 年度均值</text>
+  <polygon points="299,260 481,260 511,290 511,560 299,560" fill="url(#kpiGrad)"/>
+  <polygon points="481,260 511,290 481,290" fill="#1F1240"/>
+  <circle cx="329" cy="294" r="6" fill="#C8A6E8"/>
+  <text x="345" y="300" fill="#E7D8F5" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600">指标 02</text>
+  <text x="323" y="398" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="60" font-weight="800">38%</text>
+  <line x1="323" y1="426" x2="487" y2="426" stroke="#8A5CC0" stroke-width="1"/>
+  <text x="323" y="466" fill="#F2E9FB" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">老客复购率</text>
+  <text x="323" y="500" fill="#D9C4F0" font-family="Microsoft YaHei, Arial" font-size="13">同比 +6pct</text>
+  <polygon points="534,260 716,260 746,290 746,560 534,560" fill="url(#kpiGrad)"/>
+  <polygon points="716,260 746,290 716,290" fill="#1F1240"/>
+  <circle cx="564" cy="294" r="6" fill="#C8A6E8"/>
+  <text x="580" y="300" fill="#E7D8F5" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600">指标 03</text>
+  <text x="558" y="398" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="60" font-weight="800">92%</text>
+  <line x1="558" y1="426" x2="722" y2="426" stroke="#8A5CC0" stroke-width="1"/>
+  <text x="558" y="466" fill="#F2E9FB" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">交付准时率</text>
+  <text x="558" y="500" fill="#D9C4F0" font-family="Microsoft YaHei, Arial" font-size="13">SLA 达成</text>
+  <polygon points="769,260 951,260 981,290 981,560 769,560" fill="url(#kpiGrad)"/>
+  <polygon points="951,260 981,290 951,290" fill="#1F1240"/>
+  <circle cx="799" cy="294" r="6" fill="#C8A6E8"/>
+  <text x="815" y="300" fill="#E7D8F5" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600">指标 04</text>
+  <text x="793" y="398" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="60" font-weight="800">+21%</text>
+  <line x1="793" y1="426" x2="957" y2="426" stroke="#8A5CC0" stroke-width="1"/>
+  <text x="793" y="466" fill="#F2E9FB" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">营收同比</text>
+  <text x="793" y="500" fill="#D9C4F0" font-family="Microsoft YaHei, Arial" font-size="13">增速转正</text>
+  <polygon points="1004,260 1186,260 1216,290 1216,560 1004,560" fill="url(#kpiGrad)"/>
+  <polygon points="1186,260 1216,290 1186,290" fill="#1F1240"/>
+  <circle cx="1034" cy="294" r="6" fill="#C8A6E8"/>
+  <text x="1050" y="300" fill="#E7D8F5" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600">指标 05</text>
+  <text x="1028" y="398" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="60" font-weight="800">45</text>
+  <text x="1096" y="398" fill="#E7D8F5" font-family="Microsoft YaHei, Arial" font-size="26" font-weight="700">城</text>
+  <line x1="1028" y1="426" x2="1192" y2="426" stroke="#8A5CC0" stroke-width="1"/>
+  <text x="1028" y="466" fill="#F2E9FB" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">覆盖城市</text>
+  <text x="1028" y="500" fill="#D9C4F0" font-family="Microsoft YaHei, Arial" font-size="13">新进 8 城</text>
+  <rect x="64" y="592" width="1152" height="72" rx="16" fill="#2E1B5E"/>
+  <rect x="88" y="612" width="92" height="32" rx="16" fill="#6B2D9C"/>
+  <text x="134" y="634" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="middle">结论</text>
+  <text x="200" y="634" fill="#EAD9F7" font-family="Microsoft YaHei, Arial" font-size="17">满意度与准时率稳居高位，复购率与城市覆盖是下阶段重点。</text>
+  <text x="64" y="696" fill="#9B8AAE" font-family="Microsoft YaHei, Arial" font-size="12">示例数据 · 仅供 layout-kpi-strip 结构参考，真实生成需替换为用户证据</text>
+</svg>

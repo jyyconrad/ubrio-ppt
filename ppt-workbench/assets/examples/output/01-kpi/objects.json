@@ -1,0 +1,48 @@
+{
+  "file": "01-kpi.pptx",
+  "sha256": "19fe6ab15bdcaef34b07f7b07d99bfb82cca0feb56a30876ff9252d7d52bfa34",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "三季度收入增长12%，回款率仍低于目标",
+        "经营指标 / 合成数据 / 金额单位：万元",
+        "合成评测数据；收入同比=(1120-1000)/1000",
+        "1",
+        "本期收入",
+        "1120",
+        "万元；合成数据",
+        "收入同比",
+        "12%",
+        "基期 1000 万元",
+        "回款率",
+        "86%",
+        "低于目标 4 个百分点",
+        "待核实：回款缺口的账龄分布及成因。"
+      ],
+      "tables": [],
+      "charts": [],
+      "native_shapes": 17,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 12%增幅与4个百分点差距正确；不编造回款偏低原因",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

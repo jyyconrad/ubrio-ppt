@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "source": "workbench-overlay",
+  "purpose": "Workbench-owned gold example overlay. Merge with SHA-frozen examples-manifest.json gold_examples; do not edit the original manifest.",
+  "gold_examples": [
+    {
+      "id": "scenario-government-briefing-gold-pages",
+      "scenario": "政务/平台汇报金标结构五页",
+      "theme": "government_briefing",
+      "purpose": "金字塔、深色驾驶舱、证据表、分层卡片、时间线；按路径只读打开，抄层级与密度，不抄坐标，也不照抄整页预览 rect。",
+      "page_count": 5,
+      "coverage": {
+        "routes": ["svg_drawingml", "native_chart_slot", "native_table_slot"],
+        "layouts": [
+          "pyramid_hierarchy",
+          "dark_cockpit_combo",
+          "evidence_table_dark_panel",
+          "tiered_cards_composite",
+          "timeline_arrow"
+        ]
+      },
+      "pages": [
+        {
+          "id": "01-pyramid-hierarchy",
+          "role": "content",
+          "layout": "pyramid_hierarchy",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-briefing-gold-pages/01-pyramid-hierarchy.svg"
+        },
+        {
+          "id": "02-dark-cockpit-combo",
+          "role": "content",
+          "layout": "dark_cockpit_combo",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-briefing-gold-pages/02-dark-cockpit-combo.svg"
+        },
+        {
+          "id": "03-evidence-table-dark-panel",
+          "role": "content",
+          "layout": "evidence_table_dark_panel",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-briefing-gold-pages/03-evidence-table-dark-panel.svg"
+        },
+        {
+          "id": "04-tiered-cards-composite",
+          "role": "content",
+          "layout": "tiered_cards_composite",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-briefing-gold-pages/04-tiered-cards-composite.svg"
+        },
+        {
+          "id": "05-timeline-arrow",
+          "role": "content",
+          "layout": "timeline_arrow",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-briefing-gold-pages/05-timeline-arrow.svg"
+        }
+      ]
+    },
+    {
+      "id": "scenario-blue-dense-report",
+      "scenario": "蓝色高密度中文业务汇报复合页",
+      "theme": "blue_dense_business",
+      "purpose": "从包内参考图提取多区证据、数字焦点和行动收口；示例为合成演示，先读配套 README 与完整 page_spec，再看可编辑 SVG/PPTX/PNG，不复制数据。",
+      "page_count": 1,
+      "coverage": {
+        "routes": ["svg_drawingml"],
+        "layouts": ["result_dashboard_composite"]
+      },
+      "pages": [
+        {
+          "id": "01-result-dashboard",
+          "role": "content",
+          "layout": "result_dashboard_composite",
+          "svg": "assets/examples/blue-dense/result-dashboard.svg",
+          "pptx": "assets/examples/blue-dense/result-dashboard.pptx",
+          "preview": "assets/examples/blue-dense/result-dashboard.png",
+          "spec": "assets/examples/blue-dense/result-dashboard.page_spec.json"
+        }
+      ]
+    }
+  ]
+}

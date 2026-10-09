@@ -1,0 +1,86 @@
+{
+  "file": "03-target.pptx",
+  "sha256": "9df328d6599797a4b01ae748a421e3a073b04fc3eadf57085d01850b5b1577f3",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "华东超额完成目标，华北与华南仍有缺口",
+        "区域目标与实际 / 合成数据 / 单位：万元",
+        "合成区域销售；目标合计1000，实际合计965",
+        "1",
+        "合计完成率96.5%；区域差异需结合各区域口径继续分析。"
+      ],
+      "tables": [],
+      "charts": [
+        {
+          "part": "ppt/charts/chart2.xml",
+          "series": [
+            {
+              "name": "目标",
+              "labels": [
+                "华东",
+                "华北",
+                "华南"
+              ],
+              "category_levels": [
+                [
+                  "华东",
+                  "华北",
+                  "华南"
+                ]
+              ],
+              "values": [
+                "400",
+                "300",
+                "300"
+              ]
+            },
+            {
+              "name": "实际",
+              "labels": [
+                "华东",
+                "华北",
+                "华南"
+              ],
+              "category_levels": [
+                [
+                  "华东",
+                  "华北",
+                  "华南"
+                ]
+              ],
+              "values": [
+                "440",
+                "270",
+                "255"
+              ]
+            }
+          ],
+          "embedded_workbook": true
+        }
+      ],
+      "native_shapes": 5,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 分组柱图含两序列；不将总量口径与第一例混用",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#07111F" />
+  <text x="72" y="96" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="600" text-anchor="start">融资路演 / 企业智能化升级</text>
+  <text x="72" y="174.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="43.2" font-weight="900" text-anchor="start">垂直行业智能化进入规模复制期</text>
+  <text x="72" y="228.8" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="400" text-anchor="start">以行业数据、交付网络和标杆客户形成壁垒，支撑产品扩展和销售放大。</text>
+  <rect x="72" y="408" width="336" height="120" rx="19.2" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="99.2" y="456" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">窗口</text>
+  <text x="99.2" y="500" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">高价值行业先启动</text>
+  <rect x="448" y="408" width="336" height="120" rx="19.2" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="475.2" y="456" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">壁垒</text>
+  <text x="475.2" y="500" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">数据 + 交付网络</text>
+  <rect x="824" y="408" width="336" height="120" rx="19.2" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="851.2" y="456" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">用途</text>
+  <text x="851.2" y="500" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">工程化与销售放大</text>
+  <rect x="72" y="576" width="1136" height="57.6" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="99.2" y="612" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="700" text-anchor="start">示例重点：这是一套多页 deck 的封面，不作为内容页结构复用。</text>
+  <text x="72" y="684.8" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：融资路演 / 01-cover / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

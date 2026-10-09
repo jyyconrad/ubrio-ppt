@@ -1,0 +1,189 @@
+{
+  "schema_version": "gold_page_spec/v1",
+  "page_role": "result_summary",
+  "theme_id": "business_blue",
+  "layout": "gold_cards",
+  "stage_label": "仓储订单运营复盘 / 合成演示",
+  "title": "四项运营指标均改善，下一步将三项机制固化到日常作业",
+  "key_message": "演示期当前值相较起点均向目标方向变化；本页只陈述同期变化，不把三项行动写成指标改善的原因。",
+  "primary_claim": "同一仓配网络的四项运营指标在演示期内均改善，管理层可继续固化作业机制，并在下一轮单独验证行动与指标变化的关系。",
+  "audience_takeaway": "当前数据支持继续执行和复盘，不支持因果归因。",
+  "proves": "四项运营指标均改善",
+  "dominant": "成效看板",
+  "attached": ["同一网络与期间口径", "合成来源与因果限制", "下一轮分层复盘"],
+  "claim_type": "observation",
+  "evidence_type": "internal_baseline",
+  "evidence_state": "OBSERVED",
+  "baseline_status": "internal_baseline",
+  "source_ref": "合成演示数据集 / 仓储订单运营四项起点与当前值",
+  "evidence_refs": ["合成演示数据集 / 仓储订单运营四项起点与当前值"],
+  "limitations": ["不代表真实企业数据；未提供对照组，不支持行动的独立因果贡献。"],
+  "supporting_points": [
+    {"role": "evidence", "text": "四项同口径起点与当前值均向改善方向变化", "source_ref": "合成演示数据集", "limitation": "仅为同期观察，不支持因果"},
+    {"role": "limitation", "text": "三项行动与指标并列出现，尚未分层验证"},
+    {"role": "action", "text": "继续固化机制，下轮按同口径分层复盘"}
+  ],
+  "plain_language_test": {
+    "what_happened": "四项合成运营指标较起点改善。",
+    "why_it_matters": "可继续观察作业机制，但当前不能判断各行动贡献。",
+    "what_next": "固化记录，并按订单与申请类型分层复盘。"
+  },
+  "density_budget": {
+    "min_unique_factual_atoms": 12,
+    "min_relation_edges": 3,
+    "min_evidence_bearing_objects": 7,
+    "min_body_font_px": 15
+  },
+  "skeleton_id": "blue-dense-actions-and-results",
+  "same_skeleton_run": 1,
+  "visual_brief": {
+    "composition": "左侧三项行动及观察点，右侧四项前后指标，上方口径条，下方洞察行动",
+    "visual_focus": "四项指标当前值与变化方向，随后读下轮验证动作",
+    "background": "白底，浅蓝证据面，深蓝分区与行动收口",
+    "element_positions": "标题在上，口径横条，左右证据区共用列线，底部推论与来源"
+  },
+  "reference_dna": ["背景口径条", "行动与结果左右对应", "指标卡内前后对比", "深蓝行动收口"],
+  "example_refs": [{
+    "example_id": "blue-dense-result-p4",
+    "source": "assets/visual-references/blue-dense/result-p4.jpg",
+    "reuse_reason": "复用口径、举措、指标和收口的分层关系",
+    "adaptations": ["换为仓储合成数据", "四项结果与三项行动分区，不主张因果"]
+  }],
+  "action": "继续固化库位、扫描与调拨记录，下轮按同口径分层复盘四项指标。",
+  "plain_language_who_scene_problem_action": {
+    "who": "仓储与调拨运营负责人",
+    "scene": "演示期运营复盘",
+    "problem": "四项指标改善，但行动与结果之间尚无因果证据",
+    "action": "固化库位、扫描和调拨规则，并保持同口径复盘"
+  },
+  "framework_layer": {
+    "background_owner": "ppt_framework",
+    "draw_full_page_background_in_svg": false,
+    "safe_area": {"x": 54, "y": 38, "w": 1172, "h": 647}
+  },
+  "quality_targets": {
+    "metrics_min": 4,
+    "groups_min": 3,
+    "evidence_per_group_min": 2,
+    "structured_fields_min": 4,
+    "sources_min": 1
+  },
+  "typography": {
+    "font_family": "Hiragino Sans GB",
+    "title_px": 32,
+    "body_px": 16,
+    "source_px": 12
+  },
+  "metrics": [
+    {
+      "label": "订单准时交付率",
+      "value": "82% → 94%",
+      "note": "演示期起点 82%，演示期当前 94%，提高 12 个百分点",
+      "evidence_type": "internal_baseline",
+      "claim_type": "fact",
+      "population": "合成演示中的同一仓配网络订单",
+      "period": "演示期起点与演示期当前",
+      "denominator": "该口径下全部应交付订单",
+      "source_ref": "合成演示数据集 / 订单履约汇总",
+      "limitation": "未提供样本量、分仓明细或对照组，不能归因于三项行动",
+      "on_metric_label": "内部基线 · 百分比 · 仅描述同期变化"
+    },
+    {
+      "label": "单单拣货时长",
+      "value": "14 → 11 分钟",
+      "note": "演示期起点 14 分钟，演示期当前 11 分钟，缩短 3 分钟",
+      "evidence_type": "internal_baseline",
+      "claim_type": "fact",
+      "population": "合成演示中的已完成拣货订单",
+      "period": "演示期起点与演示期当前",
+      "denominator": "每一笔纳入口径的已完成拣货订单",
+      "source_ref": "合成演示数据集 / 拣货作业时长汇总",
+      "limitation": "未控制订单行数、货品结构和班次差异，不能推断库位重排的独立贡献",
+      "on_metric_label": "内部基线 · 分钟/单 · 未校正订单结构"
+    },
+    {
+      "label": "退货错发率",
+      "value": "1.6% → 0.9%",
+      "note": "演示期起点 1.6%，演示期当前 0.9%，下降 0.7 个百分点",
+      "evidence_type": "internal_baseline",
+      "claim_type": "fact",
+      "population": "合成演示中的退货处理订单",
+      "period": "演示期起点与演示期当前",
+      "denominator": "该口径下全部退货处理订单",
+      "source_ref": "合成演示数据集 / 退货差错汇总",
+      "limitation": "未提供错发分类和复核链路记录，不能推断扫描校验的独立贡献",
+      "on_metric_label": "内部基线 · 百分比 · 缺少差错分类"
+    },
+    {
+      "label": "跨区调拨等待",
+      "value": "2.5 → 1.4 天",
+      "note": "演示期起点 2.5 天，演示期当前 1.4 天，缩短 1.1 天",
+      "evidence_type": "internal_baseline",
+      "claim_type": "fact",
+      "population": "合成演示中的跨区调拨申请",
+      "period": "演示期起点与演示期当前",
+      "denominator": "每一笔纳入口径的跨区调拨申请",
+      "source_ref": "合成演示数据集 / 跨区调拨等待汇总",
+      "limitation": "未区分缺货、加急和常规申请，不能推断规则统一的独立贡献",
+      "on_metric_label": "内部基线 · 天/单 · 未分申请类型"
+    }
+  ],
+  "groups": [
+    {
+      "title": "库位重排",
+      "role": "support",
+      "claim": "按动销级别调整库位，并保留每周变更记录。",
+      "evidence": [
+        "行动记录：高频货品优先靠近拣选路径",
+        "观察指标：单单拣货时长由 14 分钟变为 11 分钟"
+      ],
+      "explanation": "两者在同一演示期内并列出现，尚未控制订单结构等因素。",
+      "action": "下一轮按动销级别与订单行数分层复盘拣货时长。"
+    },
+    {
+      "title": "扫描校验",
+      "role": "support",
+      "claim": "出库与退货均扫描复核，异常进入班次记录。",
+      "evidence": [
+        "行动记录：出库与退货环节均设置扫描复核",
+        "观察指标：退货错发率由 1.6% 变为 0.9%"
+      ],
+      "explanation": "同期变化只能提示需要继续观察，不能证明扫描校验造成下降。",
+      "action": "下一轮补充漏扫、复核异常与错发分类的对应记录。"
+    },
+    {
+      "title": "调拨规则统一",
+      "role": "support",
+      "claim": "跨区申请采用统一优先级字段和登记口径。",
+      "evidence": [
+        "行动记录：缺货、加急与跨区条件统一登记",
+        "观察指标：跨区调拨等待由 2.5 天变为 1.4 天"
+      ],
+      "explanation": "申请类型和供给条件尚未分层，当前结果不能支持因果归因。",
+      "action": "下一轮按申请类型分别复盘等待时长。"
+    }
+  ],
+  "supporting_relations": [
+    {
+      "id": "relation-1",
+      "from": ["订单准时交付率", "单单拣货时长", "退货错发率", "跨区调拨等待"],
+      "to": "primary_claim",
+      "relation": "四项同口径起点—当前对比共同支撑“指标均改善”的事实判断"
+    },
+    {
+      "id": "relation-2",
+      "from": ["库位重排", "扫描校验", "调拨规则统一"],
+      "to": "primary_claim",
+      "relation": "三项行动支撑“继续固化和复盘”的管理动作，不支撑指标改善的因果归因"
+    },
+    {
+      "id": "relation-3",
+      "from": ["各指标 limitation", "各行动 explanation"],
+      "to": "audience_takeaway",
+      "relation": "证据限制支撑“下一轮单独验证行动与指标关系”的复盘要求"
+    }
+  ],
+  "sources": [
+    "合成演示数据集：仓储订单运营四项起点与当前值；仅用于技能示例，不代表真实企业数据。"
+  ]
+}

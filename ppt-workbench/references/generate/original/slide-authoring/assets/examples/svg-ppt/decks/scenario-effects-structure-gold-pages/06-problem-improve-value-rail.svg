@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="#F0F2F5"/>
+<text x="48" y="52" fill="#16233B" font-family="Microsoft YaHei, Arial" font-size="25" font-weight="700">季度经营复盘：三项症结、四项整改与价值收束</text>
+<text x="48" y="78" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="13.5">左侧定位存在问题 · 中部展开改进举措 · 右侧收束价值收益，非对称双面板 + 价值轨</text>
+<rect x="48" y="100" width="450" height="532" rx="18" fill="#16B98D"/>
+<polygon points="36,92 250,92 232,130 18,130" fill="#0E8F6C"/>
+<text x="134" y="117" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="middle">存在问题</text>
+<text x="72" y="162" fill="#DCF3EA" font-family="Microsoft YaHei, Arial" font-size="13">现状诊断 · 3 项症结拖累季度目标</text>
+<rect x="72" y="196" width="38" height="38" rx="9" fill="#FFFFFF"/>
+<line x1="81" y1="205" x2="101" y2="225" stroke="#0A7A5C" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="101" y1="205" x2="81" y2="225" stroke="#0A7A5C" stroke-width="3.6" stroke-linecap="round"/>
+<text x="124" y="211" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="700">线索转化率下滑</text>
+<text x="474" y="211" fill="#EAFBF4" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="end">环比 -4.2pt</text>
+<text x="124" y="233" fill="#DCF3EA" font-family="Microsoft YaHei, Arial" font-size="13.5">线索到成交转化持续下探，</text>
+<text x="124" y="252" fill="#DCF3EA" font-family="Microsoft YaHei, Arial" font-size="13.5">已低于警戒线，季度目标承压</text>
+<rect x="72" y="342" width="38" height="38" rx="9" fill="#FFFFFF"/>
+<line x1="81" y1="351" x2="101" y2="371" stroke="#0A7A5C" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="101" y1="351" x2="81" y2="371" stroke="#0A7A5C" stroke-width="3.6" stroke-linecap="round"/>
+<text x="124" y="357" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="700">交付周期偏长</text>
+<text x="474" y="357" fill="#EAFBF4" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="end">均 37 天</text>
+<text x="124" y="379" fill="#DCF3EA" font-family="Microsoft YaHei, Arial" font-size="13.5">标准项目平均交付 37 天，</text>
+<text x="124" y="398" fill="#DCF3EA" font-family="Microsoft YaHei, Arial" font-size="13.5">超出 SLA 承诺近两周</text>
+<rect x="72" y="488" width="38" height="38" rx="9" fill="#FFFFFF"/>
+<line x1="81" y1="497" x2="101" y2="517" stroke="#0A7A5C" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="101" y1="497" x2="81" y2="517" stroke="#0A7A5C" stroke-width="3.6" stroke-linecap="round"/>
+<text x="124" y="503" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="700">客诉响应滞后</text>
+<text x="474" y="503" fill="#EAFBF4" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="end">满意 81%</text>
+<text x="124" y="525" fill="#DCF3EA" font-family="Microsoft YaHei, Arial" font-size="13.5">工单首次响应普遍超 24 小时，</text>
+<text x="124" y="544" fill="#DCF3EA" font-family="Microsoft YaHei, Arial" font-size="13.5">客户满意度回落到 81%</text>
+<rect x="526" y="100" width="520" height="532" rx="18" fill="#2456C8"/>
+<text x="550" y="140" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">改进举措 · 4 项对症整改</text>
+<rect x="550" y="150" width="132" height="3" rx="1.5" fill="#7FA0E8"/>
+<text x="550" y="172" fill="#C7D6F7" font-family="Microsoft YaHei, Arial" font-size="12.5">按优先级推进，逐项挂责任人与目标值</text>
+<polygon points="550,200 550,216 565,208" fill="#8FB0F0"/>
+<text x="574" y="213" fill="#9FC0FF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">01</text>
+<text x="604" y="213" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">重构线索评级</text>
+<text x="1020" y="213" fill="#CFE0FF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="end">转化→18%</text>
+<circle cx="612" cy="235" r="3" fill="#8FB0F0"/>
+<text x="626" y="240" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">按行为分层打分，优先跟进高意向线索</text>
+<circle cx="612" cy="257" r="3" fill="#8FB0F0"/>
+<text x="626" y="262" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">季度转化率目标回升到 18%</text>
+<polygon points="550,306 550,322 565,314" fill="#8FB0F0"/>
+<text x="574" y="319" fill="#9FC0FF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">02</text>
+<text x="604" y="319" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">压缩交付流水线</text>
+<text x="1020" y="319" fill="#CFE0FF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="end">周期≤25天</text>
+<circle cx="612" cy="341" r="3" fill="#8FB0F0"/>
+<text x="626" y="346" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">标准化交付清单，设计开发并行推进</text>
+<circle cx="612" cy="363" r="3" fill="#8FB0F0"/>
+<text x="626" y="368" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">平均交付周期压到 25 天以内</text>
+<polygon points="550,412 550,428 565,420" fill="#8FB0F0"/>
+<text x="574" y="425" fill="#9FC0FF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">03</text>
+<text x="604" y="425" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">客诉分级响应</text>
+<text x="1020" y="425" fill="#CFE0FF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="end">满意≥90%</text>
+<circle cx="612" cy="447" r="3" fill="#8FB0F0"/>
+<text x="626" y="452" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">按严重度分级派单，1 小时内首次响应</text>
+<circle cx="612" cy="469" r="3" fill="#8FB0F0"/>
+<text x="626" y="474" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">季度满意度回升到 90% 以上</text>
+<polygon points="550,518 550,534 565,526" fill="#8FB0F0"/>
+<text x="574" y="531" fill="#9FC0FF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">04</text>
+<text x="604" y="531" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">周度经营复盘</text>
+<text x="1020" y="531" fill="#CFE0FF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="end">闭环追踪</text>
+<circle cx="612" cy="553" r="3" fill="#8FB0F0"/>
+<text x="626" y="558" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">指标看板周更，异常项当周挂责任人</text>
+<circle cx="612" cy="575" r="3" fill="#8FB0F0"/>
+<text x="626" y="580" fill="#DCE7FB" font-family="Microsoft YaHei, Arial" font-size="13.5">沉淀问题—改进闭环，防同类复发</text>
+<text x="1082" y="124" fill="#16233B" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">价值收益</text>
+<rect x="1082" y="132" width="52" height="3" rx="1.5" fill="#2456C8"/>
+<rect x="1070" y="146" width="162" height="148" rx="14" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="1"/>
+<polygon points="1090,184 1106,184 1098,168" fill="#2456C8"/>
+<text x="1090" y="226" fill="#1D3E8F" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">转化提效</text>
+<text x="1090" y="254" fill="#31414F" font-family="Microsoft YaHei, Arial" font-size="14">线索成交更快</text>
+<rect x="1070" y="310" width="162" height="148" rx="14" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="1"/>
+<polygon points="1090,348 1106,348 1098,332" fill="#2456C8"/>
+<text x="1090" y="390" fill="#1D3E8F" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">交付提速</text>
+<text x="1090" y="418" fill="#31414F" font-family="Microsoft YaHei, Arial" font-size="14">周期缩短三成</text>
+<rect x="1070" y="474" width="162" height="148" rx="14" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="1"/>
+<polygon points="1090,512 1106,512 1098,496" fill="#2456C8"/>
+<text x="1090" y="554" fill="#1D3E8F" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">口碑回升</text>
+<text x="1090" y="582" fill="#31414F" font-family="Microsoft YaHei, Arial" font-size="14">满意重回高位</text>
+<polygon points="503,348 515,360 503,372 499,372 511,360 499,348" fill="#B4C6D8"/>
+<polygon points="513,348 525,360 513,372 509,372 521,360 509,348" fill="#93A8BE"/>
+<text x="512" y="392" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="11.5" text-anchor="middle">转化</text>
+<polygon points="1050,348 1062,360 1050,372 1046,372 1058,360 1046,348" fill="#B4C6D8"/>
+<polygon points="1058,348 1070,360 1058,372 1054,372 1066,360 1054,348" fill="#93A8BE"/>
+<text x="1058" y="392" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="11.5" text-anchor="middle">增值</text>
+<rect x="48" y="648" width="1184" height="40" rx="10" fill="#1D3E8F"/>
+<text x="72" y="673" fill="#9FC0FF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">整改承诺</text>
+<text x="168" y="673" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="14.5">三项症结逐项挂责任人，周度复盘追踪到人，季度末回看整改成效</text>
+<text x="1208" y="673" fill="#9FC0FF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="end">两季度内闭环</text>
+</svg>

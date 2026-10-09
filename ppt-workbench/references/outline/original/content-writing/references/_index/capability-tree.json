@@ -1,0 +1,197 @@
+{
+  "description": "content-writing 的 machine-readable 能力树。outline 阶段需要确认 canonical outline 结构、证据缺口写法或文件工作流时，优先让 route_ppt_skills / load_skill_references 读取这些模块。",
+  "always_read": [],
+  "default_gold_path": [
+    {
+      "file": "outline-shape-schema.md",
+      "reason": "outline 的核心是 canonical schema 和固定页边界。"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "skill-section/outline-shape",
+      "file": "outline-shape-schema.md",
+      "category": "content-structure",
+      "intent": "定义 canonical outline 结构骨架与固定页边界",
+      "page_roles": [
+        "cover",
+        "agenda",
+        "content",
+        "summary",
+        "closing",
+        "section_divider"
+      ],
+      "tokens": 220,
+      "triggers": [
+        "根据材料生成大纲",
+        "材料生成汇报大纲",
+        "生成大纲",
+        "写大纲",
+        "汇报大纲",
+        "章节拆分",
+        "封面",
+        "目录",
+        "大纲结构",
+        "canonical outline",
+        "sections",
+        "slides",
+        "key_message",
+        "叙事 deck",
+        "视觉意图字段",
+        "layout_family",
+        "visual_polarity",
+        "image_request",
+        "requires_content_understanding",
+        "文学纪录片",
+        "读书分享",
+        "主视觉结构"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "skill-section/work-method",
+      "file": "outline-work-method.md",
+      "category": "workflow-method",
+      "intent": "定义 outline 阶段的文件工作流与单一确认出口",
+      "page_roles": [],
+      "tokens": 180,
+      "triggers": [
+        "调整大纲",
+        "修改大纲",
+        "重排章节",
+        "章节顺序",
+        "补充页面",
+        "删减页面",
+        "读取本地输入",
+        "简化 JSON",
+        "outline.md",
+        "outline_confirm",
+        "一次性改完再确认"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "skill-section/outline-criteria",
+      "file": "outline-evidence-gap.md",
+      "category": "content-structure",
+      "intent": "约束 evidence gap、来源写法和结论先行标题",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 170,
+      "triggers": [
+        "根据材料补证据",
+        "大纲证据",
+        "证据不足",
+        "evidence gap",
+        "证据缺口",
+        "素材不足",
+        "大纲背景图",
+        "背景图素材缺口",
+        "背景图入池",
+        "引用来源",
+        "结论先行标题"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "skill-section/background-materialization",
+      "file": "outline-background-materialization.md",
+      "category": "asset-reference",
+      "intent": "outline 阶段确定页面或页型需要背景图时，先搜索入池并把背景素材引用写入 support 或大纲",
+      "page_roles": [
+        "cover",
+        "section_divider",
+        "content",
+        "closing"
+      ],
+      "tokens": 210,
+      "triggers": [
+        "大纲阶段背景图",
+        "大纲确定背景图",
+        "页面背景图需求",
+        "image_request background",
+        "搜索背景图",
+        "背景图素材入池",
+        "全局背景图候选",
+        "selected_image_binding",
+        "read_ref"
+      ],
+      "outputs": [
+        "background_image_requests",
+        "outline_support_material_refs",
+        "selected_image_bindings"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "skill-section/public-image-materialization",
+      "file": "outline-public-image-materialization.md",
+      "category": "asset-reference",
+      "intent": "outline 阶段确定某页需要景点、场馆、产品、人物、案例、活动现场等公共图片时，把图片用途和受控引用写入 support 或大纲",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary",
+        "closing"
+      ],
+      "tokens": 240,
+      "triggers": [
+        "公共图片",
+        "公开图片",
+        "景点宣传",
+        "文旅宣传",
+        "城市推介",
+        "场馆展示",
+        "园区展示",
+        "产品展示",
+        "人物介绍",
+        "讲师介绍",
+        "活动现场",
+        "案例图片",
+        "证据图片",
+        "image_request inline",
+        "image_request evidence",
+        "use_case inline",
+        "use_case evidence",
+        "selected_image_binding",
+        "read_ref"
+      ],
+      "outputs": [
+        "public_image_requests",
+        "outline_support_material_refs",
+        "selected_image_bindings"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "skill-section/page-seed-depth",
+      "file": "page-seed-depth.md",
+      "category": "content-structure",
+      "intent": "逐页 seed 输入包深度契约:成稿深度上限=输入包深度(先修 seed 不修 prompt)、逐页最小字段(观点句标题/key_message/必须出现数据点[值+口径+来源+时间]/内容组/来源/图片候选/按页审核检查点/major_risks)、固定页豁免、机器/语义分工",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "逐页素材",
+        "素材深度",
+        "页面种子",
+        "页面seed",
+        "成稿过浅",
+        "逐页输入包",
+        "必须出现的数据点",
+        "内容过素",
+        "seed深度"
+      ],
+      "outputs": [
+        "page_seed_fields",
+        "seed_depth_checklist"
+      ],
+      "priority": "P1"
+    }
+  ]
+}

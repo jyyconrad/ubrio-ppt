@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">产品发布 / content</text>
+  <text x="72" y="113.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">价值差异：从单点工具升级为组织级协同系统</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">功能亮点必须对应用户收益。</text>
+  <rect x="72" y="224" width="544" height="264" rx="17.6" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="100.8" y="276" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">Before</text>
+  <text x="100.8" y="318.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="22.4" font-weight="900" text-anchor="start">传统工具</text>
+  <text x="100.8" y="361.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">提醒、表格和群消息割裂</text>
+  <text x="100.8" y="406.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 人工维护成本高</text>
+  <text x="100.8" y="433.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 责任链不清晰</text>
+  <rect x="664" y="224" width="544" height="264" rx="17.6" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="692.8" y="276" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">After</text>
+  <text x="692.8" y="318.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="22.4" font-weight="900" text-anchor="start">新平台</text>
+  <text x="692.8" y="361.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">事项自动进入执行闭环</text>
+  <text x="692.8" y="406.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 责任、进度、结果可追踪</text>
+  <text x="692.8" y="433.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 管理者一屏掌握</text>
+  <rect x="72" y="560" width="1136" height="62.4" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="99.2" y="598.4" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">Value：减少人工汇总，提高督办透明度</text>
+  <text x="416" y="598.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">适配会议、专项督办、项目协同</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：产品发布 / 04-comparison / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

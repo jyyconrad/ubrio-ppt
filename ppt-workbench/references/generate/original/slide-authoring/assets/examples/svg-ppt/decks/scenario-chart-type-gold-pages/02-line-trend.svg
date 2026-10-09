@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-native-data-ref="assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/02-line-trend.native-data.json">
+  <rect x="0" y="0" width="1280" height="720" fill="#F9FAFB"/>
+  <rect x="46" y="42" width="1188" height="636" rx="0" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <text x="82" y="88" fill="#111827" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">月度活跃用户连续三个月恢复增长</text>
+  <text x="82" y="119" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="15">Chart gold example / line trend / native chart slot</text>
+  <rect x="82" y="155" width="276" height="422" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="110" y="194" fill="#111827" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">趋势判断</text>
+  <text x="110" y="232" fill="#374151" font-family="Microsoft YaHei, Arial" font-size="16">Q2 触底后，MAU 与付费用户</text>
+  <text x="110" y="260" fill="#374151" font-family="Microsoft YaHei, Arial" font-size="16">同步回升，留存策略开始见效。</text>
+  <text x="110" y="304" fill="#1D4ED8" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700">+26%</text>
+  <text x="110" y="334" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="14">近三个月 MAU 增幅</text>
+  <line x1="110" y1="368" x2="326" y2="368" stroke="#D1D5DB"/>
+  <text x="110" y="405" fill="#111827" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700">解读要点</text>
+  <text x="110" y="436" fill="#374151" font-family="Microsoft YaHei, Arial" font-size="15">1. 5 月出现增长拐点</text>
+  <text x="110" y="466" fill="#374151" font-family="Microsoft YaHei, Arial" font-size="15">2. 付费用户增长滞后半月</text>
+  <text x="110" y="496" fill="#374151" font-family="Microsoft YaHei, Arial" font-size="15">3. 继续跟踪 7 日留存</text>
+  <text x="410" y="146" fill="#111827" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">MAU 与付费用户趋势</text>
+  <g id="line-slot-1" data-role="native-chart-slot" data-native-chart="true"
+     data-x="410" data-y="164" data-w="744" data-h="413">
+    <rect x="410" y="164" width="744" height="413" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="2"/>
+    <text x="440" y="226" fill="#9CA3AF" font-family="Microsoft YaHei, Arial" font-size="14">占位说明：此区域由 native chart slot 生成真实折线图，本行渲染时自动移除。</text>
+  </g>
+  <text x="410" y="624" fill="#4B5563" font-family="Microsoft YaHei, Arial" font-size="14">来源：产品数据仓库，2026 年 1-6 月；预测数据未纳入。</text>
+</svg>

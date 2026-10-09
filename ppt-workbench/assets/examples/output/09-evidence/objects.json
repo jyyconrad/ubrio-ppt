@@ -1,0 +1,43 @@
+{
+  "file": "09-evidence.pptx",
+  "sha256": "3a11a11a6d6bd495666b1ce7c398717976b6c7c4d88b414b3957b423e7a4e762",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "示例台账显示：华南项目仍待验收",
+        "证据组合 / 页面截图为合成台账，非真实客户资料",
+        "包内合成台账示例的实际PPTX渲染图",
+        "1",
+        "截图对应示例台账中的第三项记",
+        "录。",
+        "可确认：当前状态为待验收。",
+        "不可推出：已延期或客户拒绝验",
+        "收。"
+      ],
+      "tables": [],
+      "charts": [],
+      "native_shapes": 5,
+      "pictures": 1,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 截图独立图片对象；正文保持可编辑；证据边界明确",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

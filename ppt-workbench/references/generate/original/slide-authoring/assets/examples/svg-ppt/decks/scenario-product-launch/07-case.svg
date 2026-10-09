@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">产品发布 / content</text>
+  <text x="72" y="113.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">试点案例：专项督办场景验证闭环价值</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">案例页要写对象、动作、结果和待补指标。</text>
+  <rect x="72" y="240" width="344" height="248" rx="17.6" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="102.4" y="288" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">客户</text>
+  <text x="102.4" y="329.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">对象</text>
+  <text x="102.4" y="372" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">某政企客户专项督办</text>
+  <text x="102.4" y="416" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 事项多、责任链长</text>
+  <rect x="460" y="240" width="344" height="248" rx="17.6" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="490.4" y="288" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">动作</text>
+  <text x="490.4" y="329.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">动作</text>
+  <text x="490.4" y="372" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">会议纪要转任务清单</text>
+  <text x="490.4" y="416" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 责任人自动归集</text>
+  <text x="490.4" y="443.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 风险定期提醒</text>
+  <rect x="848" y="240" width="344" height="248" rx="17.6" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="878.4" y="288" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">结果</text>
+  <text x="878.4" y="329.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">结果</text>
+  <text x="878.4" y="372" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">人工汇总成本下降</text>
+  <text x="878.4" y="416" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 需补具体效率指标</text>
+  <text x="878.4" y="443.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 需补客户证言</text>
+  <rect x="72" y="556" width="1136" height="65.6" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="99.2" y="596.8" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">示例重点：案例页必须有对象、动作、结果和待补证据。</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：产品发布 / 05-case / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "charts": [
+    {
+      "slot_id": "pie-slot-1",
+      "kind": "pie",
+      "title": "成本结构占比",
+      "labels": ["云资源", "研发人力", "市场投放", "外包服务", "其他"],
+      "series": [
+        {"name": "占比", "values": [38, 31, 14, 9, 8], "color": "#2563EB"}
+      ],
+      "colors": ["#2563EB", "#16A34A", "#F59E0B", "#DC2626", "#94A3B8"],
+      "source": "财务月结，2026 Q2；总成本基数 1,000 万元",
+      "insight": "云资源与研发人力占比接近七成，是成本优化的主战场。",
+      "style": {
+        "title_text_color": "#1C1917",
+        "axis_text_color": "#44403C",
+        "legend_text_color": "#44403C",
+        "grid_color": "#D6D3D1"
+      },
+      "options": {"legend": true, "value_axis": {"format": "0%"}}
+    }
+  ],
+  "tables": []
+}

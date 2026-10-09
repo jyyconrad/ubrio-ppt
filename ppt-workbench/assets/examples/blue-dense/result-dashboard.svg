@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="title-layer">
+    <rect x="54" y="38" width="7" height="55" rx="3" fill="#0B4E9B"/>
+    <text x="78" y="72" font-family="Hiragino Sans GB" font-size="32" font-weight="700" fill="#0A2F61">四项运营指标均改善，下一步将三项机制固化到日常作业</text>
+    <text x="78" y="98" font-family="Hiragino Sans GB" font-size="15" fill="#5B6F86">仓储订单运营复盘｜合成演示｜对比口径：演示期起点与演示期当前</text>
+    <line x1="54" y1="112" x2="1226" y2="112" stroke="#B8C6D8" stroke-width="1"/>
+  </g>
+
+  <g id="context-strip">
+    <rect x="54" y="126" width="1172" height="54" rx="4" fill="#EFF5FB" stroke="#D6E1EE" stroke-width="1"/>
+    <rect x="54" y="126" width="152" height="54" rx="4" fill="#0B4E9B"/>
+    <text x="77" y="159" font-family="Hiragino Sans GB" font-size="20" font-weight="700" fill="#FFFFFF">复盘口径</text>
+    <circle cx="237" cy="153" r="4" fill="#1477C9"/>
+    <text x="252" y="158" font-family="Hiragino Sans GB" font-size="16" fill="#183A61">同一仓配网络</text>
+    <line x1="395" y1="139" x2="395" y2="167" stroke="#BAC8D8" stroke-width="1"/>
+    <circle cx="428" cy="153" r="4" fill="#1477C9"/>
+    <text x="443" y="158" font-family="Hiragino Sans GB" font-size="16" fill="#183A61">四项指标方向一致</text>
+    <line x1="634" y1="139" x2="634" y2="167" stroke="#BAC8D8" stroke-width="1"/>
+    <circle cx="667" cy="153" r="4" fill="#1477C9"/>
+    <text x="682" y="158" font-family="Hiragino Sans GB" font-size="16" fill="#183A61">仅描述同期变化，不推断因果</text>
+    <rect x="1087" y="139" width="117" height="28" rx="3" fill="#DCEBFA"/>
+    <text x="1113" y="159" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#0B4E9B">合成演示</text>
+  </g>
+
+  <g id="actions-header">
+    <line x1="54" y1="211" x2="250" y2="211" stroke="#6E849D" stroke-width="1"/>
+    <text x="267" y="218" font-family="Hiragino Sans GB" font-size="21" font-weight="700" fill="#153F72">三项行动机制</text>
+    <line x1="411" y1="211" x2="621" y2="211" stroke="#6E849D" stroke-width="1"/>
+  </g>
+
+  <g id="action-1">
+    <rect x="54" y="236" width="176" height="170" rx="4" fill="#FFFFFF" stroke="#C8D5E3" stroke-width="1"/>
+    <rect x="54" y="236" width="176" height="38" rx="4" fill="#0B4E9B"/>
+    <text x="68" y="261" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#FFFFFF">01｜库位重排</text>
+    <rect x="76" y="296" width="44" height="17" rx="2" fill="#B8D7F3"/>
+    <rect x="76" y="318" width="68" height="17" rx="2" fill="#6FA8DD"/>
+    <rect x="76" y="340" width="91" height="17" rx="2" fill="#0B4E9B"/>
+    <text x="76" y="380" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#173B66">按动销级别调整库位</text>
+    <text x="76" y="400" font-family="Hiragino Sans GB" font-size="15" fill="#556B82">缩短高频货品行走距离</text>
+  </g>
+
+  <g id="action-connector-1">
+    <line x1="230" y1="321" x2="250" y2="321" stroke="#0B4E9B" stroke-width="3"/>
+    <polygon points="250,314 260,321 250,328" fill="#0B4E9B"/>
+  </g>
+
+  <g id="action-2">
+    <rect x="260" y="236" width="176" height="170" rx="4" fill="#FFFFFF" stroke="#C8D5E3" stroke-width="1"/>
+    <rect x="260" y="236" width="176" height="38" rx="4" fill="#1477C9"/>
+    <text x="274" y="261" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#FFFFFF">02｜扫描校验</text>
+    <rect x="283" y="298" width="42" height="54" rx="3" fill="#E4F0FA" stroke="#1477C9" stroke-width="2"/>
+    <line x1="291" y1="311" x2="317" y2="311" stroke="#1477C9" stroke-width="2"/>
+    <line x1="291" y1="321" x2="317" y2="321" stroke="#1477C9" stroke-width="2"/>
+    <rect x="341" y="300" width="72" height="11" fill="#B8D7F3"/>
+    <rect x="341" y="319" width="60" height="11" fill="#6FA8DD"/>
+    <rect x="341" y="338" width="47" height="11" fill="#0B4E9B"/>
+    <text x="282" y="380" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#173B66">出库与退货均扫描复核</text>
+    <text x="282" y="400" font-family="Hiragino Sans GB" font-size="15" fill="#556B82">异常记录进入班次复盘</text>
+  </g>
+
+  <g id="action-connector-2">
+    <line x1="436" y1="321" x2="456" y2="321" stroke="#0B4E9B" stroke-width="3"/>
+    <polygon points="456,314 466,321 456,328" fill="#0B4E9B"/>
+  </g>
+
+  <g id="action-3">
+    <rect x="466" y="236" width="155" height="170" rx="4" fill="#FFFFFF" stroke="#C8D5E3" stroke-width="1"/>
+    <rect x="466" y="236" width="155" height="38" rx="4" fill="#0A2F61"/>
+    <text x="480" y="261" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#FFFFFF">03｜调拨规则统一</text>
+    <circle cx="506" cy="321" r="19" fill="#E4F0FA" stroke="#0B4E9B" stroke-width="2"/>
+    <circle cx="581" cy="301" r="11" fill="#B8D7F3"/>
+    <circle cx="581" cy="341" r="11" fill="#6FA8DD"/>
+    <line x1="525" y1="315" x2="568" y2="304" stroke="#0B4E9B" stroke-width="2"/>
+    <line x1="525" y1="327" x2="568" y2="338" stroke="#0B4E9B" stroke-width="2"/>
+    <text x="487" y="380" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#173B66">跨区申请采用同一优先级</text>
+    <text x="487" y="400" font-family="Hiragino Sans GB" font-size="15" fill="#556B82">缺货与加急条件统一登记</text>
+  </g>
+
+  <g id="metrics-header">
+    <line x1="650" y1="211" x2="828" y2="211" stroke="#6E849D" stroke-width="1"/>
+    <text x="846" y="218" font-family="Hiragino Sans GB" font-size="21" font-weight="700" fill="#153F72">四项指标对比</text>
+    <line x1="1000" y1="211" x2="1226" y2="211" stroke="#6E849D" stroke-width="1"/>
+  </g>
+
+  <g id="metric-1">
+    <rect x="650" y="236" width="276" height="170" rx="4" fill="#F9FBFD" stroke="#C8D5E3" stroke-width="1"/>
+    <text x="668" y="261" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#183A61">订单准时交付率</text>
+    <text x="668" y="297" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#0B4E9B">82%</text>
+    <text x="727" y="296" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">起点</text>
+    <text x="807" y="297" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#1477C9">94%</text>
+    <text x="867" y="296" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">当前</text>
+    <line x1="668" y1="365" x2="904" y2="365" stroke="#AAB9CA" stroke-width="1"/>
+    <rect x="705" y="332" width="50" height="33" fill="#AFCBE8"/>
+    <rect x="818" y="316" width="50" height="49" fill="#0B4E9B"/>
+    <text x="668" y="391" font-family="Hiragino Sans GB" font-size="15" fill="#556B82">变化：+12 个百分点</text>
+  </g>
+
+  <g id="metric-2">
+    <rect x="950" y="236" width="276" height="170" rx="4" fill="#F9FBFD" stroke="#C8D5E3" stroke-width="1"/>
+    <text x="968" y="261" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#183A61">单单拣货时长</text>
+    <text x="968" y="297" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#0B4E9B">14</text>
+    <text x="1004" y="296" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">分钟</text>
+    <text x="1101" y="297" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#1477C9">1</text>
+    <text x="1118" y="297" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#1477C9">1</text>
+    <text x="1142" y="296" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">分钟</text>
+    <line x1="968" y1="365" x2="1204" y2="365" stroke="#AAB9CA" stroke-width="1"/>
+    <rect x="1005" y="316" width="50" height="49" fill="#AFCBE8"/>
+    <rect x="1118" y="327" width="50" height="38" fill="#0B4E9B"/>
+    <text x="968" y="391" font-family="Hiragino Sans GB" font-size="15" fill="#556B82">变化：缩短 3 分钟</text>
+  </g>
+
+  <g id="metric-3">
+    <rect x="650" y="424" width="276" height="170" rx="4" fill="#F9FBFD" stroke="#C8D5E3" stroke-width="1"/>
+    <text x="668" y="449" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#183A61">退货错发率</text>
+    <text x="668" y="485" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#0B4E9B">1.6%</text>
+    <text x="733" y="484" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">起点</text>
+    <text x="807" y="485" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#1477C9">0.9%</text>
+    <text x="873" y="484" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">当前</text>
+    <line x1="668" y1="553" x2="904" y2="553" stroke="#AAB9CA" stroke-width="1"/>
+    <rect x="705" y="504" width="50" height="49" fill="#AFCBE8"/>
+    <rect x="818" y="526" width="50" height="27" fill="#0B4E9B"/>
+    <text x="668" y="579" font-family="Hiragino Sans GB" font-size="15" fill="#556B82">变化：下降 0.7 个百分点</text>
+  </g>
+
+  <g id="metric-4">
+    <rect x="950" y="424" width="276" height="170" rx="4" fill="#F9FBFD" stroke="#C8D5E3" stroke-width="1"/>
+    <text x="968" y="449" font-family="Hiragino Sans GB" font-size="15" font-weight="700" fill="#183A61">跨区调拨等待</text>
+    <text x="968" y="485" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#0B4E9B">2.5</text>
+    <text x="1011" y="484" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">天</text>
+    <text x="1101" y="485" font-family="Hiragino Sans GB" font-size="26" font-weight="700" fill="#1477C9">1.4</text>
+    <text x="1144" y="484" font-family="Hiragino Sans GB" font-size="15" fill="#60758D">天</text>
+    <line x1="968" y1="553" x2="1204" y2="553" stroke="#AAB9CA" stroke-width="1"/>
+    <rect x="1005" y="504" width="50" height="49" fill="#AFCBE8"/>
+    <rect x="1118" y="526" width="50" height="27" fill="#0B4E9B"/>
+    <text x="968" y="579" font-family="Hiragino Sans GB" font-size="15" fill="#556B82">变化：缩短 1.1 天</text>
+  </g>
+
+  <g id="action-footnotes">
+    <rect x="54" y="424" width="567" height="170" rx="4" fill="#F4F8FC" stroke="#D2DFEC" stroke-width="1"/>
+    <text x="76" y="455" font-family="Hiragino Sans GB" font-size="16" font-weight="700" fill="#153F72">执行观察点</text>
+    <circle cx="82" cy="487" r="5" fill="#1477C9"/>
+    <text x="99" y="493" font-family="Hiragino Sans GB" font-size="15" fill="#2E4B69">库位：每周更新动销分级，变更记录到库位清单</text>
+    <circle cx="82" cy="527" r="5" fill="#1477C9"/>
+    <text x="99" y="533" font-family="Hiragino Sans GB" font-size="15" fill="#2E4B69">扫描：班次内登记漏扫与复核异常，不补写结果</text>
+    <circle cx="82" cy="567" r="5" fill="#1477C9"/>
+    <text x="99" y="573" font-family="Hiragino Sans GB" font-size="15" fill="#2E4B69">调拨：统一缺货、加急和跨区优先级字段</text>
+  </g>
+
+  <g id="insight-band">
+    <rect x="54" y="621" width="1172" height="64" rx="4" fill="#0A2F61"/>
+    <rect x="54" y="621" width="176" height="64" rx="4" fill="#1477C9"/>
+    <circle cx="88" cy="653" r="17" fill="#FFFFFF"/>
+    <line x1="79" y1="654" x2="86" y2="661" stroke="#1477C9" stroke-width="4"/>
+    <line x1="86" y1="661" x2="98" y2="644" stroke="#1477C9" stroke-width="4"/>
+    <text x="116" y="660" font-family="Hiragino Sans GB" font-size="20" font-weight="700" fill="#FFFFFF">洞察与行动</text>
+    <text x="257" y="648" font-family="Hiragino Sans GB" font-size="18" font-weight="700" fill="#FFFFFF">当前结果支持继续固化作业机制</text>
+    <text x="257" y="673" font-family="Hiragino Sans GB" font-size="15" fill="#DCEBFA">下轮按同口径复盘四项指标，并单独验证各行动与指标变化的关系</text>
+    <text x="1144" y="661" font-family="Hiragino Sans GB" font-size="15" fill="#BBD3EA">01</text>
+  </g>
+</svg>

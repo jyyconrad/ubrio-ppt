@@ -1,0 +1,31 @@
+blue-dense synthetic result dashboard validation
+date: 2026-09-26
+
+1. Gold page specification
+command: python scripts/svg/build_gold_svg_page.py --spec assets/examples/blue-dense/result-dashboard.page_spec.json --validate-only
+result: ok=true; quality_status=ready; missing=[]; warnings=[]; metrics=4; content_units=3; structured_hits=4
+
+2. DrawingML SVG preflight
+command: python scripts/svg/validate_svg_drawingml.py --svg assets/examples/blue-dense/result-dashboard.svg --mode full --assets-dir assets/examples/blue-dense
+result: ok=true; ready_to_render=true; issues=[]; warnings=[]; text_nodes=51; top_level_groups=15; shapes=63; minimum_font_size_svg_px=15
+
+3. Editable PPTX generation
+command: python scripts/svg/render_svg_drawingml.py --svg assets/examples/blue-dense/result-dashboard.svg --output assets/examples/blue-dense/result-dashboard.pptx --assets-dir assets/examples/blue-dense
+result: ok=true; status=rendered; overlay_applied=true; pictures=0
+
+4. PPTX structure inspection
+command: python scripts/inspect_pptx.py assets/examples/blue-dense/result-dashboard.pptx
+result: structure_passed=true; errors=[]; warnings=[]; page_count=1; size=13.333333x7.5in; native_shapes=114; pictures=0; font=Hiragino Sans GB; sha256=c25280cc2b845fa0bf64672c0f903ef006611fe49d536883e83b73478ad451e9
+
+5. Final visual review
+renderer: macOS Quick Look from result-dashboard.pptx
+artifact: result-dashboard.png (1280x720 RGBA)
+result: pass; Chinese text readable; title, context strip, three actions, four metrics and bottom insight band visible; no clipping, overlap or out-of-bounds objects observed
+
+Note: LibreOfficeDev 26.8.0.0.alpha0 on this host substituted CJK text with missing-glyph boxes despite correct DrawingML font declarations. Those previews were rejected and are not retained in this directory.
+
+6. Shared deck contract (metadata completed in optimization round 3)
+command: python3 scripts/validate_deck_contract.py --manifest assets/examples/blue-dense/deck-manifest.json --page-spec assets/examples/blue-dense/result-dashboard.page_spec.json
+result: ok=true; validation_scope=declared_contract_only; all reported contract fields=true; blockers=[]; warnings=[]
+command: python3 scripts/svg/build_gold_svg_page.py --spec assets/examples/blue-dense/result-dashboard.page_spec.json --validate-only
+result: quality_status=ready; missing=[]; warnings=[]; added deck metadata does not change final SVG visual fields

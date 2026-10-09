@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "charts": [
+    {
+      "slot_id": "revenue-trend-chart",
+      "kind": "line",
+      "title": "季度收入与目标差距",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "series": [
+        {
+          "name": "实际收入",
+          "values": [
+            68.0,
+            74.0,
+            79.0,
+            91.0,
+            96.0,
+            108.0
+          ],
+          "color": "#155A9C"
+        },
+        {
+          "name": "目标收入",
+          "values": [
+            72.0,
+            78.0,
+            84.0,
+            90.0,
+            99.0,
+            110.0
+          ],
+          "color": "#18A999"
+        }
+      ],
+      "colors": [
+        "#155A9C",
+        "#18A999"
+      ],
+      "source": "经营分析台账，2025 Q1-2026 Q2",
+      "insight": "实际收入连续改善，Q4 短暂超过目标，最新季度仍有 2 百万元差距。",
+      "data_unit": "百万元",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": true,
+        "show_title": false,
+        "value_axis": {
+          "format": "0"
+        }
+      }
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "violet_performance",
+  "pattern": "north_star_kpi_roof",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "年度 North-star 牵引增长、效率与组织能力同步提升",
+  "data": {
+    "north_star": "年度关键指标",
+    "subtitle": "以用户增长与经营质量为双重结果",
+    "principles": ["战略规划", "目标分解", "执行监控"],
+    "metrics": [
+      {"title": "收入增长", "detail": "重点业务贡献", "metric_label": "目标", "metric_value": "+28%"},
+      {"title": "客户增长", "detail": "高价值客户", "metric_label": "目标", "metric_value": "+35%"},
+      {"title": "交付效率", "detail": "端到端周期", "metric_label": "目标", "metric_value": "-20%"},
+      {"title": "人均产出", "detail": "能力复用驱动", "metric_label": "目标", "metric_value": "+18%"},
+      {"title": "满意度", "detail": "重点客户反馈", "metric_label": "目标", "metric_value": "92分"}
+    ],
+    "conclusion": "实现业绩、效率与能力的协同增长"
+  }
+}

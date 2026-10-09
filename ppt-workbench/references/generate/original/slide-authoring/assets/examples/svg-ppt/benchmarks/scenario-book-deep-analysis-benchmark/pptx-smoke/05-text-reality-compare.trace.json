@@ -1,0 +1,253 @@
+{
+  "output": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/05-text-reality-compare.pptx",
+  "slide_count": 1,
+  "slides": [
+    {
+      "slide_num": 1,
+      "svg": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/05-text-reality-compare.svg",
+      "summary": {
+        "converted": 15,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            762000,
+            781050,
+            1447800,
+            828675
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            729615,
+            924878,
+            7935277,
+            1443038
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            765810,
+            1375410,
+            5276850,
+            1619250
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "editorial-title-block",
+          "shape_id": 5,
+          "bounds_emu": [
+            729615,
+            781050,
+            7935277,
+            1619250
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            819150,
+            1733550,
+            3543300,
+            5410200
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            990600,
+            1905000,
+            3371850,
+            4972050
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1054418,
+            5038249,
+            3679508,
+            5236369
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "destiny-cover-like-photo",
+          "shape_id": 9,
+          "bounds_emu": [
+            819150,
+            1733550,
+            3679508,
+            5410200
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            4095750,
+            1657350,
+            11334750,
+            2438400
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            4306252,
+            1827371,
+            4741497,
+            2116931
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            5682615,
+            1839278,
+            9069705,
+            2052638
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            4095750,
+            2647950,
+            11334750,
+            3429000
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            4306252,
+            2817971,
+            4741497,
+            3107531
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            5682615,
+            2829878,
+            9349740,
+            3043238
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            4095750,
+            3638550,
+            11334750,
+            4419600
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            4306252,
+            3808571,
+            4741497,
+            4098131
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            5682615,
+            3820478,
+            9629775,
+            4033838
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            4095750,
+            4972050,
+            11334750,
+            5695950
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 20,
+          "bounds_emu": [
+            4293870,
+            5017770,
+            4539653,
+            5505450
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            4632008,
+            5139214,
+            10198585,
+            5398294
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 22,
+          "bounds_emu": [
+            751522,
+            6330791,
+            4001381,
+            6498431
+          ]
+        }
+      ]
+    }
+  ]
+}

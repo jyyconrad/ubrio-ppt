@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">学术答辩 / content</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">创新贡献：从人工排查推进到可解释半自动治理流程</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">创新页用金字塔表达理论、方法和应用层贡献。</text>
+  <rect x="432" y="228" width="416" height="89.6" rx="14.4" fill="#2563EB" stroke="#E2E8F0" />
+  <text x="460.8" y="264.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="900" text-anchor="start">应用贡献</text>
+  <text x="460.8" y="293.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">支撑城市治理数据口径协同</text>
+  <rect x="336" y="344" width="608" height="89.6" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="364.8" y="380.8" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="900" text-anchor="start">方法贡献</text>
+  <text x="364.8" y="409.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">融合规则约束和语义匹配</text>
+  <rect x="240" y="460" width="800" height="89.6" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="268.8" y="496.8" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="900" text-anchor="start">理论贡献</text>
+  <text x="268.8" y="525.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">构建口径一致性识别框架</text>
+  <rect x="904" y="256" width="264" height="240" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="928" y="297.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="800" text-anchor="start">使用提示</text>
+  <text x="928" y="339.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 层级要有递进关系</text>
+  <text x="928" y="369.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 不把口号当证据</text>
+  <text x="928" y="400" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 底层必须可执行</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：学术答辩 / 05-contribution / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

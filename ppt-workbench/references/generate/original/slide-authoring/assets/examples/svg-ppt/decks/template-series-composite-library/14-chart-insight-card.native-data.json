@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "charts": [
+    {
+      "slot_id": "delivery-rate-chart",
+      "kind": "bar",
+      "title": "项目按期交付率",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "series": [
+        {
+          "name": "按期交付率",
+          "values": [
+            0.68,
+            0.73,
+            0.78,
+            0.83
+          ],
+          "color": "#155A9C"
+        }
+      ],
+      "colors": [
+        "#155A9C"
+      ],
+      "source": "项目组合经营台账，2026 Q1-Q4",
+      "insight": "承诺兑现能力逐季增强",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": false,
+        "show_title": false,
+        "value_axis": {
+          "format": "0%"
+        }
+      }
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,206 @@
+{
+  "formatVersion": 1,
+  "upstream": {
+    "name": "ppt-master",
+    "remote": "https://github.com/hugohe3/ppt-master.git",
+    "head": "328388d4e76778535676056f49be8f28a08e79b2"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "vendor/ppt_master/LICENSE",
+    "sha256": "80cefc234c1ec12a8cece4344f16300c634fa03df7891686fcf979e3828f0921"
+  },
+  "scope": {
+    "source": "skills/ppt-master/scripts",
+    "included": [
+      "scripts/svg_to_pptx.py",
+      "scripts/svg_to_pptx/",
+      "scripts/finalize_svg.py",
+      "scripts/svg_finalize/",
+      "scripts/config.py",
+      "scripts/project_utils.py",
+      "LICENSE"
+    ],
+    "excluded": [
+      "templates/icons/"
+    ],
+    "limitations": [
+      "P0 does not vendor templates/icons. finalize_svg embed-icons and native in-memory data-icon expansion are limited unless icons are expanded upstream."
+    ]
+  },
+  "localPatches": [
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_context.py",
+      "reason": "Scale nested group translate values by the parent context scale so 1600x900 canvas normalization does not push child shapes outside ppt169 bounds."
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_utils.py",
+      "reason": "I-017: parse_font_family resolves the East Asian (CJK) typeface against fonts actually installed on the render host (fontconfig/fc-list), honoring the author's CSS EA fallback chain. Windows-only EA names (e.g. Microsoft YaHei) were substituted by Latin faces in the LibreOffice thumbnail pipeline, producing jagged/broken CJK glyphs. Latin typeface mapping and Windows-friendly fallback when fontconfig is absent are preserved."
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_styles.py",
+      "reason": "P2 true-3D: build_sp3d_xml emits controlled <a:scene3d>/<a:sp3d> from the data-effect-3d attribute (3 named presets: card-raised/button-soft/block-extruded), invalid input returns '' so the SVG input gate is the enforcing layer (render-primitive-effects-extension-design.md §1b)."
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_elements.py",
+      "reason": "P2 true-3D: _wrap_shape gains sp3d_xml appended on the effect line (empty-string byte-identical to keep pptx_sha256 stable); rect/circle/path/polygon/ellipse call build_sp3d_xml. polygon/ellipse also gained the previously-missing filter effect wiring (glow/shadow), matching rect/circle/path. I-018: single-line text boxes reserve proportional plus half-em width and use noAutofit so LibreOffice thumbnails neither wrap nor distort text that PowerPoint keeps on one line."
+    }
+  ],
+  "files": [
+    {
+      "path": "vendor/ppt_master/LICENSE",
+      "sha256": "80cefc234c1ec12a8cece4344f16300c634fa03df7891686fcf979e3828f0921",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/config.py",
+      "sha256": "dbb319b2eb2c467d2d01442b6f1d139b127382deb05a0cb53e3f4ab2dc23cb7f",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/finalize_svg.py",
+      "sha256": "197b7be447e0cbb93c1f0758cbd734b21a877635c426918db94c7b68d2e54be4",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/project_utils.py",
+      "sha256": "c789479186a952c18ca4aed3c60f79853fac2e4739994ce1ec306258d6edaab2",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/__init__.py",
+      "sha256": "70e938bc248b6788a58fe6275d1a3b12601817440b1d4e689d22d3fe6b81d826",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/align_embed_images.py",
+      "sha256": "874b6fe35c2aaca89cc219befe598de967453e0355fb2c8b78409e420f9a2599",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/crop_images.py",
+      "sha256": "fe7df3ac94864225473d7f30e4019cf475b0967a5de2de374a69f3e96bd00953",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/embed_icons.py",
+      "sha256": "e3763f899f0565f28f5f4065206057d62cc569ccef5625969cef7eb50edbe572",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/embed_images.py",
+      "sha256": "d717a39bbb8c22ea52f31e4ee7557927dca5ac956ab20d9d380356855d240072",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/fix_image_aspect.py",
+      "sha256": "a7654eb36daca0b711e07936c72fc11458affd97e4f294e9e24b8283a4d305ae",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/flatten_tspan.py",
+      "sha256": "763d3ec236f74864afadb3f563a096dace75d83fc4437df7fc4bcbe22a1ea715",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_finalize/svg_rect_to_path.py",
+      "sha256": "3c1982c9d6b08cf0207c6bd1c1a7e00f7d0ab90859076564e58bb4a0f2318d5e",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx.py",
+      "sha256": "a0c5b98eea7a9d181a8ebb2b8913fe904d7f0b75c3e8e0d9e1e2f08c9cb3ae21",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/__init__.py",
+      "sha256": "53c756f176f3e9683c6b5d460938ee6c62dc1cb2b81bbd6fd6ffd5a435000c23",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/animation_config.py",
+      "sha256": "2b94e924c4ffc0909d130636c8c2db56b7482a83d0ef8fcb6bce665b418261ee",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_context.py",
+      "sha256": "1ceaeaf75ea8fa12dce3356fb01caf8206f31bf8caa00f6b0df237cd79cf4bef",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_converter.py",
+      "sha256": "247901c05bbd98475d93f249c1708d2717f5ec6e9db0f9c3eeb99e59d3d6a779",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_elements.py",
+      "sha256": "5c15a7760b101244ba48e96bcb82aa82ba7d26445f2daec8d7edc2b1b43ed4fd",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_paths.py",
+      "sha256": "d2d302bf4757250b0a9c9593e30065aaf60dfaf60c344217143f10338396c5d0",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_styles.py",
+      "sha256": "c22fd6bb5f0d7eb6a87945f3d74444cdd46564b02c95e305a16dc1fff72097b8",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/drawingml_utils.py",
+      "sha256": "a68dcc00f3b817bd54891457848662efcb3527673a279817dfb3e35b9f47e14e",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_builder.py",
+      "sha256": "7c3e18bfb16b9263d46e22d0939f70a24c606e5ea5475431678d5498424af640",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_cli.py",
+      "sha256": "8cf320f941b91eba9c301ec883ed9aa09838b5f6f8de51bfabd4aa8d504abfe4",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_dimensions.py",
+      "sha256": "b08218647e70b7551fc8270a038cb6e76c499b50989b3698ea484760ffbcf4c9",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_discovery.py",
+      "sha256": "f63ab21b2aa890b6024918845ad8a4408b7e6d99426b30299e1958297731e86e",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_media.py",
+      "sha256": "d5bb360f5e4dc9a99d6482ede764fe952f4b32220570ffed034560df868d6a9e",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_narration.py",
+      "sha256": "50850f804a59691f66cd828599b38001a4b390d08ffca8477c42a9efac23ed3e",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_notes.py",
+      "sha256": "05985b07f269068bdc9def06f1e552c75494e4e269a7f5c23756e56cb920ce6f",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/pptx_slide_xml.py",
+      "sha256": "637f3079e9b254edc4eef346dbb7569ee3453b3ae51ad7d665abf77776bd5d37",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/tspan_flattener.py",
+      "sha256": "3a6c21ef027041e4eb2c617f3c6419d46f86c2bad95efafaad29927b610ee404",
+      "license": "MIT"
+    },
+    {
+      "path": "vendor/ppt_master/scripts/svg_to_pptx/use_expander.py",
+      "sha256": "7eb7f32a800a2514f0ebfd746ea768725ff92a5eefa700cbea306ae619299514",
+      "license": "MIT"
+    }
+  ]
+}

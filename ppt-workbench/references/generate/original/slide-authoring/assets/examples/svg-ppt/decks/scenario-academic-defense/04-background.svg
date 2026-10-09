@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">学术答辩 / content</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">研究背景：多源数据治理面临三类现实冲突</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">答辩页用 SCQA 说明为什么这个问题值得研究。</text>
+  <rect x="72" y="204" width="472" height="400" rx="17.6" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="104" y="256" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="23.2" font-weight="900" text-anchor="start">研究问题</text>
+  <text x="104" y="305.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="600" text-anchor="start">不同部门的数据口径、周期和责任主体存在差异。</text>
+  <text x="104" y="360" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="400" text-anchor="start">- 人工排查成本高</text>
+  <text x="104" y="390.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="400" text-anchor="start">- 影响治理决策一致性</text>
+  <rect x="104" y="520" width="176" height="32" rx="16" fill="#FEF2F2" stroke="#E2E8F0" />
+  <text x="129.6" y="541.6" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">问题</text>
+  <rect x="608" y="204" width="600" height="105.6" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="640" y="242.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">冲突一</text>
+  <text x="640" y="272.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">指标定义不统一</text>
+  <text x="640" y="295.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="500" text-anchor="start">同名指标含义不同 / 跨部门映射缺失</text>
+  <rect x="608" y="336" width="600" height="105.6" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="640" y="374.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">冲突二</text>
+  <text x="640" y="404.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">异常发现依赖经验</text>
+  <text x="640" y="427.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="500" text-anchor="start">缺少自动排序 / 复核压力大</text>
+  <rect x="608" y="468" width="600" height="105.6" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="640" y="506.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">冲突三</text>
+  <text x="640" y="536.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">责任闭环弱</text>
+  <text x="640" y="559.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="500" text-anchor="start">发现问题后难追踪整改 / 反馈不能反哺模型</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：学术答辩 / 02-background / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

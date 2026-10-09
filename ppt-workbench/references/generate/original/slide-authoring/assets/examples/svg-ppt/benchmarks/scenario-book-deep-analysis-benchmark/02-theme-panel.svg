@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-layout-family="editorial_image_panel" data-native-data-ref="02-theme-panel.native-data.json">
+  <g id="editorial-title-block">
+  <rect x="80" y="82" width="72" height="5" rx="0" fill="#A16207"/>
+  <text x="80" y="126" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="34" font-weight="900">命运不是一条线，而是一张不断收紧的网</text>
+  <text x="82" y="158" fill="#6B7280" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500">这类页面用一张可追溯图片承担情绪，用右侧论述块承接讲述密度。</text>
+  </g>
+  <rect x="78" y="164" width="706" height="430" rx="22" fill="#FFFCF6" stroke="#D6C8B8" opacity="0.72"/>
+  <text x="112" y="214" fill="#A16207" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700">01</text>
+  <text x="154" y="214" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="20" font-weight="800">从出生处境进入主题</text>
+  <text x="154" y="248" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="15" font-weight="500">先解释人物为什么被抛入某种秩序，而不是急着给出价值判断。</text>
+  <text x="112" y="332" fill="#A16207" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700">02</text>
+  <text x="154" y="332" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="20" font-weight="800">从身体经验进入文本</text>
+  <text x="154" y="366" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="15" font-weight="500">把疼痛、恐惧、亲密关系等具体经验转成可讲述的证据链。</text>
+  <text x="112" y="450" fill="#A16207" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="700">03</text>
+  <text x="154" y="450" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="20" font-weight="800">从文本回到读者</text>
+  <text x="154" y="484" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="15" font-weight="500">最后把作品中的命运感翻译成听众能理解的现实回声。</text>
+  <rect x="112" y="560" width="638" height="76" rx="18" fill="#F7F0E5" stroke="#D6C8B8" opacity="0.72"/>
+  <text x="136" y="592" fill="#A16207" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="32" font-weight="900">“</text>
+  <text x="170" y="592" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="17" font-weight="700">不是命运先完成我们，而是我们在回应中继续生成命运。</text>
+  <g id="destiny-cover-like-photo" data-role="native-image-slot" data-native-image="true" data-x="850.0" data-y="166.0" data-w="350.0" data-h="412.0">
+  <rect x="850" y="166" width="350" height="412" rx="20" fill="#F7F0E5" stroke="#D6C8B8" opacity="0.78"/>
+  <rect x="868" y="184" width="314" height="348" rx="16" fill="none" stroke="#E7D2A4" opacity="0.85"/>
+  <text x="876" y="550" fill="#6B7280" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="500">用户上传《命运》样本中抽取的深色影像素材</text>
+  </g>
+  <text x="80" y="674" fill="#7C6F64" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="11" font-weight="500">来源：用户上传样本 PPT / slide-authoring literary benchmark</text>
+  </svg>

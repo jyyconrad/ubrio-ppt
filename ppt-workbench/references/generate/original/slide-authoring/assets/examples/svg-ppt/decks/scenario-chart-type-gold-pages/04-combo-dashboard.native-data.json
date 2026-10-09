@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "charts": [
+    {
+      "slot_id": "combo-bar-slot",
+      "kind": "bar",
+      "title": "分渠道收入",
+      "labels": ["直销", "渠道", "生态", "续费"],
+      "series": [
+        {"name": "收入", "values": [1280, 910, 540, 1130], "color": "#60A5FA"}
+      ],
+      "colors": ["#60A5FA"],
+      "source": "经营日报，2026 Q2",
+      "insight": "续费与直销贡献主要收入。",
+      "style": {
+        "title_text_color": "#F8FAFC",
+        "axis_text_color": "#CBD5E1",
+        "legend_text_color": "#CBD5E1",
+        "grid_color": "#64748B"
+      },
+      "options": {"legend": false, "value_axis": {"format": "0"}}
+    },
+    {
+      "slot_id": "combo-line-slot",
+      "kind": "line",
+      "title": "收入与成本效率趋势",
+      "labels": ["4月", "5月", "6月"],
+      "series": [
+        {"name": "收入", "values": [1120, 1260, 1480], "color": "#60A5FA"},
+        {"name": "获客成本指数", "values": [100, 94, 92], "color": "#F97316"}
+      ],
+      "colors": ["#60A5FA", "#F97316"],
+      "source": "经营日报，2026 Q2",
+      "insight": "收入增长同时获客成本下降，说明投放结构正在改善。",
+      "style": {
+        "title_text_color": "#F8FAFC",
+        "axis_text_color": "#CBD5E1",
+        "legend_text_color": "#CBD5E1",
+        "grid_color": "#64748B"
+      },
+      "options": {"legend": true, "value_axis": {"format": "0"}}
+    }
+  ],
+  "tables": []
+}

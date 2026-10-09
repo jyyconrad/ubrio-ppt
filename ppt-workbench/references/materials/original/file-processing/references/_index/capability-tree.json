@@ -1,0 +1,38 @@
+{
+  "description": "file-processing 的 machine-readable 能力树。materials / outline / slide_generation 阶段需要材料盘点、文件提取、文档摘要、证据整理或素材缺口标注时，优先通过 route_ppt_skills / load_skill_references 读取这些模块。",
+  "always_read": [],
+  "default_gold_path": [
+    {
+      "file": "material-evidence-processing.md",
+      "reason": "文件处理首先要把上传素材转成可追溯证据资产。"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "skill-section/material-evidence-processing",
+      "file": "material-evidence-processing.md",
+      "module_type": "skill_section",
+      "category": "workflow-method",
+      "intent": "定义材料盘点、文件提取、文档摘要和证据缺口输出合同",
+      "page_roles": [],
+      "tokens": 220,
+      "triggers": [
+        "材料盘点",
+        "素材盘点",
+        "整理材料",
+        "文件整理",
+        "文件提取",
+        "文档摘要",
+        "根据材料整理",
+        "证据整理",
+        "数据证据",
+        "材料清单",
+        "素材清单",
+        "material_id",
+        "get_materials",
+        "extract_material"
+      ],
+      "priority": "P0"
+    }
+  ]
+}

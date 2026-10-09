@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">产品发布 / content</text>
+  <text x="72" y="113.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">发布指标：试用、转化、活跃和留存必须可追踪</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">发布计划页不能只写市场动作。</text>
+  <rect x="72" y="212" width="1136" height="408" rx="14.4" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="104" y="256" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">证据项</text>
+  <text x="364" y="256" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">来源/口径</text>
+  <text x="624" y="256" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">必须补齐的信息</text>
+  <text x="1068" y="256" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">类型</text>
+  <line x1="96" y1="271.2" x2="1184" y2="271.2" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="104" y="301.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">试用客户</text>
+  <text x="364" y="301.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">CRM 目标名单</text>
+  <text x="624" y="301.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">首批 20 家；行业分布待补</text>
+  <text x="1068" y="301.6" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">试用</text>
+  <line x1="96" y1="344.8" x2="1184" y2="344.8" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="104" y="375.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">转化率</text>
+  <text x="364" y="375.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">销售漏斗</text>
+  <text x="624" y="375.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">试用到签约；周期待补</text>
+  <text x="1068" y="375.2" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">转化</text>
+  <line x1="96" y1="418.4" x2="1184" y2="418.4" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="104" y="448.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">活跃度</text>
+  <text x="364" y="448.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">产品埋点</text>
+  <text x="624" y="448.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">任务创建、闭环率；周活待补</text>
+  <text x="1068" y="448.8" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">活跃</text>
+  <line x1="96" y1="492" x2="1184" y2="492" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="104" y="522.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">客户反馈</text>
+  <text x="364" y="522.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">访谈记录</text>
+  <text x="624" y="522.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">证言、问题、需求池</text>
+  <text x="1068" y="522.4" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">反馈</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：产品发布 / 08-release-metrics / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

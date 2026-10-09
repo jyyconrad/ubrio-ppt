@@ -1,0 +1,21 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "violet_calendar",
+  "pattern": "calendar_summary_rail",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "下半年重点项目按节奏推进并形成三类成果",
+  "data": {
+    "months": ["7月", "8月", "9月", "10月", "11月", "12月"],
+    "events": [
+      {"title": "渠道策略升级", "start": 0, "end": 1},
+      {"title": "重点产品发布", "start": 1, "end": 3},
+      {"title": "客户运营专项", "start": 2, "end": 4},
+      {"title": "年度经营复盘", "start": 5, "end": 5}
+    ],
+    "summaries": [
+      {"title": "增长", "detail": "重点市场实现突破", "metric_label": "贡献", "metric_value": "+22%"},
+      {"title": "效率", "detail": "跨部门协同提速", "metric_label": "周期", "metric_value": "-18%"},
+      {"title": "能力", "detail": "形成可复制打法", "metric_label": "沉淀", "metric_value": "6套"}
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "phased_roadmap_matrix",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "三阶段推进让能力建设与业务结果同步验收",
+  "data": {
+    "stages": [
+      {"label": "阶段一", "window": "0-6月", "goal": "夯实基础", "actions": ["统一口径", "打通流程"], "outputs": ["基础能力上线"], "risk": "避免多线并行"},
+      {"label": "阶段二", "window": "6-12月", "goal": "规模复制", "actions": ["推广标准", "复用组件"], "outputs": ["核心场景覆盖"], "risk": "控制定制范围"},
+      {"label": "阶段三", "window": "12-18月", "goal": "价值闭环", "actions": ["持续优化", "经营度量"], "outputs": ["价值稳定兑现"], "risk": "防止指标失真"}
+    ]
+  }
+}

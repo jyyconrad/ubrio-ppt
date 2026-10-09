@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <text x="70.4" y="19.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">市级数据治理项目 / 阶段汇报 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="94.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">本周决策：明确责任边界，避免月底验收被动</text>
+  <text x="70.4" y="129.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">升级页要把判断、证据、诉求和截止时间放在同一页。</text>
+  <rect x="70.4" y="150.4" width="1139.2" height="33.6" rx="14.4" fill="#EAF3FF" stroke="#B8D8FF" />
+  <text x="92.8" y="172" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：观点 + 证据 + 解释 + 影响 + 行动/风险，所有正文页必须有责任人、时限或来源。</text>
+  <rect x="70.4" y="200" width="400" height="344" rx="19.2" fill="#003D79" stroke="#003D79" />
+  <text x="100.8" y="251.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="900" text-anchor="start">项目判断</text>
+  <text x="100.8" y="296" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="700" text-anchor="start">目标仍可达成，但不能继续由项目组内部消化风险。</text>
+  <text x="100.8" y="328" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="700" text-anchor="start">月底验收窗口不可后移，口径和排期已跨部门。</text>
+  <text x="100.8" y="360" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="700" text-anchor="start">若本周没有明确责任边界，下周只能被动补材料。</text>
+  <rect x="100.8" y="438.4" width="312" height="60.8" rx="14.4" fill="#F59E0B" stroke="#F59E0B" />
+  <text x="121.6" y="464" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">本周需拍板</text>
+  <text x="121.6" y="486.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">口径确认 / 驻场排期 / 日清机制</text>
+  <rect x="520" y="200" width="689.6" height="86.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="547.2" y="230.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">诉求一：确认指标口径</text>
+  <text x="547.2" y="256" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="700" text-anchor="start">业务处室A 本周三前给书面结论</text>
+  <text x="547.2" y="276.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">输出：口径说明 + 验收材料引用页</text>
+  <rect x="520" y="313.6" width="689.6" height="86.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="547.2" y="344" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">诉求二：统一区县排期</text>
+  <text x="547.2" y="369.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="700" text-anchor="start">PMO B 本周五前锁定驻场窗口</text>
+  <text x="547.2" y="390.4" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">输出：排期表 + 供应商责任边界</text>
+  <rect x="520" y="427.2" width="689.6" height="86.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="547.2" y="457.6" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">诉求三：建立日清机制</text>
+  <text x="547.2" y="483.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="700" text-anchor="start">技术C 每日18点同步异常关闭情况</text>
+  <text x="547.2" y="504" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">输出：问题单 + 回归截图 + 风险日报</text>
+  <rect x="520" y="563.2" width="689.6" height="46.4" rx="12.8" fill="#EAF3FF" stroke="#B8D8FF" />
+  <text x="547.2" y="592" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">决策后验收影响：材料口径统一、驻场窗口锁定、异常关闭可追踪，验收包可在6月14日复核。</text>
+  <text x="70.4" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：项目周报台账 / 联调问题清单 / PMO 验收排期表 / 验收证据包目录</text>
+  <text x="992" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">项目阶段汇报 / 06-decision</text>
+  </svg>

@@ -1,0 +1,16 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "violet_achievements",
+  "pattern": "highlight_matrix_core",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "四类重点工作共同支撑年度经营目标兑现",
+  "data": {
+    "items": [
+      {"title": "市场拓展", "work": "聚焦重点区域与客户", "result": "新增两类增长来源"},
+      {"title": "产品创新", "work": "升级核心产品能力", "result": "发布四项关键能力"},
+      {"title": "效率提升", "work": "重构跨部门交付流程", "result": "周期缩短20%"},
+      {"title": "组织协同", "work": "明确角色与协作机制", "result": "关键事项闭环率提升"}
+    ],
+    "core_labels": ["市场突破", "产品升级", "效率提升", "协作执行"]
+  }
+}

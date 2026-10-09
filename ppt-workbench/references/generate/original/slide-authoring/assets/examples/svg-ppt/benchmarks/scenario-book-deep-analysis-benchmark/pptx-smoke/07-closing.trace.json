@@ -1,0 +1,87 @@
+{
+  "output": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/07-closing.pptx",
+  "slide_count": 1,
+  "slides": [
+    {
+      "slide_num": 1,
+      "svg": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/07-closing.svg",
+      "summary": {
+        "converted": 1,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 1
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            5705475,
+            2038350,
+            6486525,
+            2076450
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            5912739,
+            2308860,
+            6279261,
+            2552700
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            858822,
+            2817495,
+            11333179,
+            3609975
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 5,
+          "bounds_emu": [
+            2114550,
+            3898582,
+            10077450,
+            4233862
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            4458652,
+            5416868,
+            7733347,
+            5691188
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "fixed-photo-dark-content",
+          "shape_id": 7,
+          "bounds_emu": [
+            858822,
+            2038350,
+            11333179,
+            5691188
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "file": "12-style.pptx",
+  "sha256": "90d4f11b83be1188947a982fa662841fc6fffadeebbaea99d78b6e4a25bd2472",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "同一组目标数据使用不同配色，事实保持不变",
+        "配色参考迁移 / 包内显式主题参数，不含任意母版复用",
+        "与目标对比样例相同的合成数据",
+        "1",
+        "合计完成率96.5%；区域差异需结合各区域口径继续分析。"
+      ],
+      "tables": [],
+      "charts": [
+        {
+          "part": "ppt/charts/chart4.xml",
+          "series": [
+            {
+              "name": "目标",
+              "labels": [
+                "华东",
+                "华北",
+                "华南"
+              ],
+              "category_levels": [
+                [
+                  "华东",
+                  "华北",
+                  "华南"
+                ]
+              ],
+              "values": [
+                "400",
+                "300",
+                "300"
+              ]
+            },
+            {
+              "name": "实际",
+              "labels": [
+                "华东",
+                "华北",
+                "华南"
+              ],
+              "category_levels": [
+                [
+                  "华东",
+                  "华北",
+                  "华南"
+                ]
+              ],
+              "values": [
+                "440",
+                "270",
+                "255"
+              ]
+            }
+          ],
+          "embedded_workbook": true
+        }
+      ],
+      "native_shapes": 5,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 只改变主题参数，不混入参考内容；不宣称原位母版迁移",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

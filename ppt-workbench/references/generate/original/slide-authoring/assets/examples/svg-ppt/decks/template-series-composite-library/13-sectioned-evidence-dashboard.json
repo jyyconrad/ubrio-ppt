@@ -1,0 +1,207 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "sectioned_evidence_dashboard",
+  "native_data_ref": "13-sectioned-evidence-dashboard.native-data.json",
+  "region": {
+    "x": 64,
+    "y": 86,
+    "w": 1152,
+    "h": 570
+  },
+  "title": "双维度联评让交付速度与质量同步改善",
+  "data": {
+    "sections": [
+      {
+        "title": "效率类指标体系",
+        "icon_label": "效",
+        "cards": [
+          {
+            "title": "项目按期交付率",
+            "highlight": {
+              "prefix": "当前",
+              "value": "83% → 90%",
+              "suffix": "目标"
+            },
+            "meaning": "交付节奏持续稳定",
+            "visual": {
+              "kind": "native_chart",
+              "slot_id": "delivery-rate-chart",
+              "chart_kind": "bar",
+              "labels": ["Q1", "Q2", "Q3", "Q4"],
+              "series": [
+                {
+                  "name": "按期交付率",
+                  "values": [0.68, 0.73, 0.78, 0.83]
+                }
+              ],
+              "value_format": "0%",
+              "source": "项目组合经营台账，2026 Q1-Q4"
+            },
+            "insight": "承诺兑现能力逐季增强"
+          },
+          {
+            "title": "研发周期达成率",
+            "highlight": {
+              "prefix": "实际/计划",
+              "value": "0.92",
+              "suffix": "健康"
+            },
+            "meaning": "周期管控逐步精准",
+            "visual": {
+              "kind": "native_chart",
+              "slot_id": "cycle-ratio-chart",
+              "chart_kind": "line",
+              "labels": ["Q1", "Q2", "Q3", "Q4"],
+              "series": [
+                {
+                  "name": "周期比",
+                  "values": [1.2, 1.08, 0.95, 0.92]
+                }
+              ],
+              "value_format": "0.00",
+              "source": "项目组合经营台账，2026 Q1-Q4"
+            },
+            "insight": "计划与实际偏差持续收窄"
+          },
+          {
+            "title": "需求变更率",
+            "highlight": {
+              "prefix": "当前",
+              "value": "12.8%",
+              "suffix": "阈值≤15%"
+            },
+            "meaning": "需求定义充分度达标",
+            "visual": {
+              "kind": "native_chart",
+              "slot_id": "change-rate-chart",
+              "chart_kind": "line",
+              "labels": ["Q1", "Q2", "Q3", "Q4"],
+              "series": [
+                {
+                  "name": "变更率",
+                  "values": [0.18, 0.165, 0.142, 0.128]
+                }
+              ],
+              "value_format": "0.0%",
+              "source": "需求治理台账，2026 Q1-Q4"
+            },
+            "insight": "需求澄清前置开始见效"
+          }
+        ]
+      },
+      {
+        "title": "质量类指标体系",
+        "icon_label": "质",
+        "cards": [
+          {
+            "title": "样机验证通过率",
+            "highlight": {
+              "prefix": "当前",
+              "value": "88%",
+              "suffix": "持续提升"
+            },
+            "meaning": "一次做对率持续提升",
+            "visual": {
+              "kind": "native_chart",
+              "slot_id": "validation-pass-chart",
+              "chart_kind": "bar",
+              "labels": ["Q1", "Q2", "Q3", "Q4"],
+              "series": [
+                {
+                  "name": "验证通过率",
+                  "values": [0.72, 0.78, 0.84, 0.88]
+                }
+              ],
+              "value_format": "0%",
+              "source": "工程验证台账，2026 Q1-Q4"
+            },
+            "insight": "前置验证减少后期返工"
+          },
+          {
+            "title": "千行代码缺陷率",
+            "highlight": {
+              "prefix": "当前",
+              "value": "1.2",
+              "suffix": "标杆0.8"
+            },
+            "meaning": "质量水平逐步靠近标杆",
+            "visual": {
+              "kind": "native_chart",
+              "slot_id": "code-defect-chart",
+              "chart_kind": "bar",
+              "labels": ["Q1", "Q2", "Q3", "Q4"],
+              "series": [
+                {
+                  "name": "缺陷率",
+                  "values": [1.8, 1.6, 1.3, 1.2]
+                }
+              ],
+              "value_format": "0.0",
+              "source": "研发质量平台，2026 Q1-Q4"
+            },
+            "insight": "关键模块缺陷密度明显下降"
+          },
+          {
+            "title": "量产初期不良率",
+            "highlight": {
+              "prefix": "近三月",
+              "value": "1.1%",
+              "suffix": "下降"
+            },
+            "meaning": "量产质量经受最终检验",
+            "visual": {
+              "kind": "native_chart",
+              "slot_id": "early-defect-chart",
+              "chart_kind": "line",
+              "labels": ["第1月", "第2月", "第3月"],
+              "series": [
+                {
+                  "name": "不良率",
+                  "values": [0.021, 0.016, 0.011]
+                }
+              ],
+              "value_format": "0.0%",
+              "source": "量产质量台账，最近三个月"
+            },
+            "insight": "研发与制造质量口径已贯通"
+          }
+        ]
+      }
+    ],
+    "closure": {
+      "title": "偏差根因拆解示例：关键里程碑延期 21 天",
+      "steps": [
+        {
+          "title": "现象层",
+          "icon_label": "现",
+          "detail": "关键验证未按计划完成"
+        },
+        {
+          "title": "执行层",
+          "icon_label": "执",
+          "detail": "方案验证覆盖不足"
+        },
+        {
+          "title": "流程层",
+          "icon_label": "流",
+          "detail": "关键关口设置偏后"
+        },
+        {
+          "title": "机制层",
+          "icon_label": "机",
+          "detail": "跨域评审触发不足"
+        },
+        {
+          "title": "根因层",
+          "icon_label": "因",
+          "detail": "统一验收口径缺失"
+        }
+      ],
+      "action": {
+        "title": "整改闭环",
+        "detail": "统一口径、前置验证并按月复盘"
+      }
+    }
+  }
+}

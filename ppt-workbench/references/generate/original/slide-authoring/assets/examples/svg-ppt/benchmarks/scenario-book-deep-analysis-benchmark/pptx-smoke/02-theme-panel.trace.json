@@ -1,0 +1,264 @@
+{
+  "output": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/02-theme-panel.pptx",
+  "slide_count": 1,
+  "slides": [
+    {
+      "slide_num": 1,
+      "svg": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/02-theme-panel.svg",
+      "summary": {
+        "converted": 16,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 2
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            762000,
+            781050,
+            1447800,
+            828675
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            729615,
+            924878,
+            7221188,
+            1443038
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            765810,
+            1375410,
+            5596890,
+            1619250
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "editorial-title-block",
+          "shape_id": 5,
+          "bounds_emu": [
+            729615,
+            781050,
+            7221188,
+            1619250
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 6,
+          "bounds_emu": [
+            742950,
+            1562100,
+            7467600,
+            5657850
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 7,
+          "bounds_emu": [
+            1054418,
+            1933099,
+            1195223,
+            2131219
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 8,
+          "bounds_emu": [
+            1447800,
+            1876425,
+            3376136,
+            2181225
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 9,
+          "bounds_emu": [
+            1452562,
+            2240756,
+            5681662,
+            2469356
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 10,
+          "bounds_emu": [
+            1054418,
+            3057049,
+            1229352,
+            3255169
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 11,
+          "bounds_emu": [
+            1447800,
+            3000375,
+            3376136,
+            3305175
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 12,
+          "bounds_emu": [
+            1452562,
+            3364706,
+            5381624,
+            3593306
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 13,
+          "bounds_emu": [
+            1054418,
+            4180999,
+            1229352,
+            4379119
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 14,
+          "bounds_emu": [
+            1447800,
+            4124325,
+            2956084,
+            4429125
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 15,
+          "bounds_emu": [
+            1452562,
+            4488656,
+            5081587,
+            4717256
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 16,
+          "bounds_emu": [
+            1066800,
+            5334000,
+            7143750,
+            6057900
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 17,
+          "bounds_emu": [
+            1264920,
+            5379720,
+            1510703,
+            5867400
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 18,
+          "bounds_emu": [
+            1603058,
+            5501164,
+            6098501,
+            5760244
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 19,
+          "bounds_emu": [
+            8096250,
+            1581150,
+            11430000,
+            5505450
+          ]
+        },
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 20,
+          "bounds_emu": [
+            8267700,
+            1752600,
+            11258550,
+            5067300
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 21,
+          "bounds_emu": [
+            8331518,
+            5133499,
+            10956608,
+            5331619
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "destiny-cover-like-photo",
+          "shape_id": 22,
+          "bounds_emu": [
+            8096250,
+            1581150,
+            11430000,
+            5505450
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 23,
+          "bounds_emu": [
+            751522,
+            6330791,
+            3990379,
+            6498431
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#07111F" />
+  <text x="72" y="70.4" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">融资路演 / content</text>
+  <text x="72" y="113.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">市场机会：需求增长但供给仍然碎片化</text>
+  <text x="72" y="155.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">BP 市场页用漏斗拆 TAM/SAM/SOM，同时标出待补数据口径。</text>
+  <rect x="136" y="228" width="720" height="84" rx="14.4" fill="#45D1FF" stroke="#2B4C7E" />
+  <text x="163.2" y="263.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">TAM</text>
+  <text x="163.2" y="290.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">企业智能化升级总需求</text>
+  <rect x="216" y="344" width="560" height="84" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="243.2" y="379.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">SAM</text>
+  <text x="243.2" y="406.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">垂直行业可服务市场</text>
+  <rect x="296" y="460" width="400" height="84" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="323.2" y="495.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">SOM</text>
+  <text x="323.2" y="522.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">12-18 个月可获得市场</text>
+  <rect x="896" y="228" width="312" height="84" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="920" y="261.6" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">最大市场</text>
+  <text x="920" y="288.8" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">制造、能源、园区预算明确 / 需补第三方市场报告</text>
+  <rect x="896" y="344" width="312" height="84" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="920" y="377.6" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">可服务</text>
+  <text x="920" y="404.8" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">先聚焦高频流程 / 渠道伙伴可覆盖</text>
+  <rect x="896" y="460" width="312" height="84" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="920" y="493.6" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">近期目标</text>
+  <text x="920" y="520.8" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">围绕标杆客户复制 / 销售线索集中</text>
+  <text x="72" y="684.8" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：融资路演 / 02-market / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

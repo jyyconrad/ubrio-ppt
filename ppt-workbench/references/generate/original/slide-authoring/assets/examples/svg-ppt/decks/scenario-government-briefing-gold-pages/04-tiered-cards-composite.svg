@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="gAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E4FCC"/><stop offset="1" stop-color="#4A8CFF"/>
+    </linearGradient>
+    <linearGradient id="gPool" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E4FCC"/><stop offset="0.55" stop-color="#123A8C"/><stop offset="1" stop-color="#0A1E45"/>
+    </linearGradient>
+    <linearGradient id="gDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123A8C"/><stop offset="1" stop-color="#0A1E45"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#123A8C" flood-opacity="0.16"/>
+    </filter>
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0A1E45" flood-opacity="0.20"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- 离线预览底色：仅供 rsvg 预览。运行时整页背景由 deck_framework.background 承载；
+       提交 render_svg_drawingml_slide 的内容层 SVG 不要照抄这行整页 rect，
+       否则触发 SVG_FULL_PAGE_BACKGROUND_FORBIDDEN。 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FC"/>
+
+  <!-- 标题区 -->
+  <rect x="64" y="50" width="10" height="38" rx="5" fill="url(#gAccent)"/>
+  <text x="88" y="84" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="800">席位分级 + 共享额度池</text>
+  <rect x="64" y="100" width="204" height="5" rx="2.5" fill="url(#gAccent)"/>
+  <line x1="276" y1="102" x2="1216" y2="102" stroke="#C9D9F2" stroke-width="2"/>
+  <text x="64" y="128" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="500">讲清定价逻辑与共享额度池机制 —— 价格为示例方案数据，用于卡片 + 汇流 + 表格三元素结构参考。</text>
+
+  <!-- 三档席位价格卡 -->
+  <g filter="url(#softShadow)">
+    <rect x="64" y="142" width="368" height="178" rx="14" fill="#FFFFFF"/>
+  </g>
+  <text x="88" y="176" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">基础席</text>
+  <text x="88" y="196" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500">全员开通 · 零门槛</text>
+  <text x="88" y="250" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="800">免费</text>
+  <text x="176" y="250" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="13">/席·月</text>
+  <line x1="88" y1="266" x2="408" y2="266" stroke="#E2EAF7" stroke-width="1"/>
+  <text x="88" y="288" fill="#33445C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600">从共享池消耗 · 不贡献配额</text>
+  <circle cx="92" cy="305" r="2.5" fill="#1D6FFF"/><text x="102" y="309" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="13">对话问答 不限 · Agent 任务 日限 3 次</text>
+
+  <rect x="450" y="136" width="380" height="190" rx="16" fill="#38BDF8" opacity="0.30" filter="url(#glow)"/>
+  <g filter="url(#cardShadow)">
+    <rect x="456" y="142" width="368" height="178" rx="14" fill="url(#gDark)" stroke="#4A8CFF" stroke-width="2"/>
+  </g>
+  <rect x="742" y="150" width="66" height="26" rx="13" fill="#38BDF8"/>
+  <text x="775" y="168" fill="#0A1E45" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="800" text-anchor="middle">推荐</text>
+  <text x="480" y="178" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800">标准席</text>
+  <text x="480" y="198" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500">专业岗位 · 日常深度使用</text>
+  <text x="480" y="252" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="44" font-weight="800">¥450</text>
+  <text x="604" y="252" fill="#9FC7E8" font-family="Microsoft YaHei, Arial" font-size="13">/席·月</text>
+  <rect x="480" y="266" width="188" height="22" rx="6" fill="#1D6FFF" fill-opacity="0.22"/>
+  <text x="490" y="281" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">月额度配额 400 万</text>
+  <circle cx="484" cy="305" r="2.5" fill="#38BDF8"/><text x="494" y="309" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="13">对话 / Agent 任务 不限 · 享企业级工作流</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="848" y="142" width="368" height="178" rx="14" fill="#FFFFFF"/>
+  </g>
+  <text x="872" y="176" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">高级席</text>
+  <text x="872" y="196" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500">重度用户 · 额度优先</text>
+  <text x="872" y="250" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="800">¥900</text>
+  <text x="980" y="250" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="13">/席·月</text>
+  <rect x="872" y="266" width="204" height="22" rx="6" fill="#EDF3FE"/>
+  <text x="882" y="281" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">月额度配额 1,000 万</text>
+  <circle cx="876" cy="305" r="2.5" fill="#1D6FFF"/><text x="886" y="309" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="13">对话 / Agent 不限 · 池内剩余可优先加量</text>
+
+  <!-- 汇流箭头 → 共享额度池 -->
+  <g stroke="#4A8CFF" stroke-width="3.2" fill="none" stroke-linecap="round">
+    <path d="M 248 320 Q 340 331 398 335"/>
+    <path d="M 640 320 L 640 335"/>
+    <path d="M 1032 320 Q 940 331 882 335"/>
+  </g>
+  <polygon points="400,345 392,331 408,331" fill="#4A8CFF"/>
+  <polygon points="640,345 632,331 648,331" fill="#4A8CFF"/>
+  <polygon points="880,345 872,331 888,331" fill="#4A8CFF"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="64" y="346" width="1152" height="54" rx="12" fill="url(#gPool)"/>
+  </g>
+  <g transform="translate(96,360)" stroke="#38BDF8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="10" cy="4" rx="10" ry="4"/>
+    <path d="M 0 4 V 16 A 10 4 0 0 0 20 16 V 4"/>
+    <path d="M 0 10 A 10 4 0 0 0 20 10"/>
+  </g>
+  <text x="146" y="368" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="800">共享额度池 · 企业统一配额 · 多模型调度</text>
+  <text x="146" y="388" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12.5">计费含输入+输出（随保留历史上下文累计） · 成员制固定额度可按席位分配与统一调度</text>
+  <rect x="1004" y="360" width="196" height="26" rx="13" fill="#38BDF8" fill-opacity="0.20"/>
+  <text x="1102" y="377" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">个人使用 → 企业调度</text>
+
+  <!-- 推荐配比表：手绘表格改写为 native table slot（行数据写入 tables[]） -->
+  <text x="64" y="428" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">推荐配比 · 按企业规模，所有席位共享同一额度池</text>
+  <g id="ratio-table-slot" data-role="native-table-slot" data-native-table="true"
+     data-x="64" data-y="438" data-w="1152" data-h="160">
+    <rect x="64" y="438" width="1152" height="160" rx="10" fill="#FFFFFF" stroke="#D7E3F7" stroke-width="1"/>
+    <rect x="64" y="438" width="1152" height="40" rx="10" fill="#0E2A66"/>
+    <text x="84" y="464" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">列：企业规模 · 推荐配比 · 月费 · 共享池额度</text>
+    <text x="84" y="510" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="13.5" font-weight="700">四档梯度：50 人以下 / 50–200 / 200–500 / 500 人以上</text>
+    <text x="84" y="536" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">月费 ¥3,150 → ¥40,500，共享池额度 3,000 万 → 3.9 亿，随规模线性放大。</text>
+    <text x="84" y="562" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="12.5" font-weight="700">table slot：逐单元格可编辑表格由 native table 生成，行数据写入 tables[]，SVG 只保留标题、洞察与 slot 外框。</text>
+    <text x="84" y="586" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="12">洞察：高级席按规模配 1→15 个，标准席是主力，基础席全员覆盖。</text>
+  </g>
+
+  <!-- 底部结论带 -->
+  <rect x="64" y="608" width="1152" height="40" rx="10" fill="url(#gAccent)"/>
+  <text x="640" y="633" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">席位定价卖的不是聊天次数，而是企业级统一配额 + 模型调用 + 工作流能力的组合</text>
+
+  <!-- 结构参考标注 -->
+  <text x="64" y="690" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11">示例数据 · 仅供 gold-structure-composition 结构参考（卡片 + 汇流 + 表格三元素融合），真实生成需替换为用户证据。</text>
+</svg>

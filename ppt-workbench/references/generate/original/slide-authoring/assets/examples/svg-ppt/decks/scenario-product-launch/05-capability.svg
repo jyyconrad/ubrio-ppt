@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">产品发布 / content</text>
+  <text x="72" y="113.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">产品能力：围绕任务闭环构建三层架构</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">能力页用架构关系解释功能价值。</text>
+  <rect x="472" y="292" width="336" height="112" rx="19.2" fill="#1A3A6B" stroke="#D9E2EC" />
+  <text x="640" y="340" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="900" text-anchor="middle">核心平台</text>
+  <text x="640" y="372" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="middle">数据 / 流程 / 权限 / 反馈</text>
+  <rect x="88" y="228" width="312" height="136" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="112" y="266.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">任务识别</text>
+  <text x="112" y="298.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">自动抽取责任事项</text>
+  <text x="112" y="328.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">会议、文档、聊天多源输入</text>
+  <line x1="400" y1="296" x2="640" y2="348" stroke="#D9E2EC" stroke-width="2.4" />
+  <rect x="856" y="228" width="312" height="136" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="880" y="266.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">过程跟踪</text>
+  <text x="880" y="298.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">按项目和责任人归集</text>
+  <text x="880" y="328.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">看板、提醒、风险升级</text>
+  <line x1="856" y1="296" x2="640" y2="348" stroke="#D9E2EC" stroke-width="2.4" />
+  <rect x="88" y="448" width="312" height="136" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="112" y="486.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">结果复盘</text>
+  <text x="112" y="518.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">生成复盘建议和模板</text>
+  <text x="112" y="548.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">沉淀有效动作</text>
+  <line x1="400" y1="516" x2="640" y2="348" stroke="#D9E2EC" stroke-width="2.4" />
+  <rect x="856" y="448" width="312" height="136" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="880" y="486.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">权限审计</text>
+  <text x="880" y="518.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">满足政企安全要求</text>
+  <text x="880" y="548.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">可追踪、可留痕</text>
+  <line x1="856" y1="516" x2="640" y2="348" stroke="#D9E2EC" stroke-width="2.4" />
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：产品发布 / 03-capability / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

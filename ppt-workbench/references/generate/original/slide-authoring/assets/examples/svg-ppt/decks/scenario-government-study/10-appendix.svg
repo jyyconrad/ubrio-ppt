@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#8A1538" />
+  <text x="72" y="70.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">党政学习 / appendix</text>
+  <text x="72" y="113.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">附录：学习材料与落实台账清单</text>
+  <text x="72" y="155.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">党政附录页用于沉淀引用来源和执行证据。</text>
+  <rect x="88" y="232" width="496" height="140" rx="16" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="113.6" y="270.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">来源</text>
+  <text x="113.6" y="302.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">政策原文</text>
+  <text x="113.6" y="331.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">会议精神 / 文件摘录</text>
+  <text x="113.6" y="353.6" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">标明出处和日期</text>
+  <rect x="648" y="232" width="496" height="140" rx="16" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="673.6" y="270.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">记录</text>
+  <text x="673.6" y="302.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">学习记录</text>
+  <text x="673.6" y="331.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">签到 / 照片 / 纪要</text>
+  <text x="673.6" y="353.6" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">支部留档</text>
+  <rect x="88" y="416" width="496" height="140" rx="16" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="113.6" y="454.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">台账</text>
+  <text x="113.6" y="486.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">问题台账</text>
+  <text x="113.6" y="515.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">查摆问题 / 整改措施</text>
+  <text x="113.6" y="537.6" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">责任人和时限</text>
+  <rect x="648" y="416" width="496" height="140" rx="16" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="673.6" y="454.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">成果</text>
+  <text x="673.6" y="486.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">成果材料</text>
+  <text x="673.6" y="515.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">案例 / 制度 / 通报</text>
+  <text x="673.6" y="537.6" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">纳入年度总结</text>
+  <text x="72" y="684.8" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：党政学习 / 10-appendix / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

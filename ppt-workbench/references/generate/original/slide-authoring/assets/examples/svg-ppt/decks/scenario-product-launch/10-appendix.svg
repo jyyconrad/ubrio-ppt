@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">产品发布 / appendix</text>
+  <text x="72" y="113.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">附录：发布素材与演示资产清单</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">弱模型参考时要知道发布 deck 还需要哪些素材。</text>
+  <rect x="88" y="232" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="113.6" y="270.4" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">演示</text>
+  <text x="113.6" y="302.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">Demo 素材</text>
+  <text x="113.6" y="331.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">场景脚本 / 截图</text>
+  <text x="113.6" y="353.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">会议转任务 / 督办看板</text>
+  <rect x="648" y="232" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="673.6" y="270.4" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">销售</text>
+  <text x="673.6" y="302.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">销售素材</text>
+  <text x="673.6" y="331.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">一页纸 / FAQ</text>
+  <text x="673.6" y="353.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">行业话术 / 竞品回应</text>
+  <rect x="88" y="416" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="113.6" y="454.4" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">客户</text>
+  <text x="113.6" y="486.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">客户素材</text>
+  <text x="113.6" y="515.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">试点案例 / 证言</text>
+  <text x="113.6" y="537.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">授权范围 / 指标口径</text>
+  <rect x="648" y="416" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="673.6" y="454.4" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">运营</text>
+  <text x="673.6" y="486.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">运营素材</text>
+  <text x="673.6" y="515.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">试用流程 / 反馈表</text>
+  <text x="673.6" y="537.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">上线节奏 / 回访机制</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：产品发布 / 10-appendix / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

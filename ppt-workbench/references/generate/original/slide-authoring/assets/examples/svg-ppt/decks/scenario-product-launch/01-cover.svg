@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="72" y="96" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="600" text-anchor="start">产品发布 / 国产智能协同平台</text>
+  <text x="72" y="174.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="43.2" font-weight="900" text-anchor="start">三项能力重构政企客户协同闭环</text>
+  <text x="72" y="228.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="400" text-anchor="start">从单点提醒升级为任务识别、过程跟踪和结果复盘的端到端协同。</text>
+  <rect x="72" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="99.2" y="456" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">对象</text>
+  <text x="99.2" y="500" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">政企协同场景</text>
+  <rect x="448" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="475.2" y="456" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">能力</text>
+  <text x="475.2" y="500" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">识别-跟踪-复盘</text>
+  <rect x="824" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="851.2" y="456" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">行动</text>
+  <text x="851.2" y="500" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">开放试用</text>
+  <rect x="72" y="576" width="1136" height="57.6" rx="16" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="99.2" y="612" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="700" text-anchor="start">示例重点：这是一套多页 deck 的封面，不作为内容页结构复用。</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：产品发布 / 01-cover / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

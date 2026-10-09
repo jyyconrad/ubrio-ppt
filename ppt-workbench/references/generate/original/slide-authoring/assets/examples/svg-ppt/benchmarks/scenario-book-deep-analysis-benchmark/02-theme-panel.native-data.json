@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "slot_id": "destiny-cover-like-photo",
+      "asset_id": "destiny-upload:embedded:cover-like-photo",
+      "material_id": "destiny-upload",
+      "asset_key": "materials/destiny-upload/extracted-images/cover-like-photo.png",
+      "fit": "cover",
+      "corner_radius": 18,
+      "caption": "用户上传《命运》样本中抽取的深色影像素材",
+      "alt_text": "暗色森林/人物意象背景图，用于文学纪录片式页面"
+    }
+  ]
+}

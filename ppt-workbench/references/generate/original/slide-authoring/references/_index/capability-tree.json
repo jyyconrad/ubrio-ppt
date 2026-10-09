@@ -1,0 +1,4413 @@
+{
+  "version": "1.0.0",
+  "description": "slide-authoring reference 能力树。技能图谱语料构建（index_cli rebuild）与降级态兜底路由 route_skill_references 都读取本文件，根据当前页需求/页型/缺口语义筛选出 2-3 个最相关 reference；正常态主入口是 search_knowledge_base + load_skill_references。新增 reference 时在此追加节点并重建索引。",
+  "always_read": [
+    {
+      "file": "drawingml-svg-authoring-core.md",
+      "reason": "SVG DrawingML 可转换最小硬合同，每次走 svg 路线前必读；复杂边界再读完整 drawingml-svg-authoring.md",
+      "tokens": 420
+    },
+    {
+      "file": "contract-visual-token-core.md",
+      "reason": "汇报型页面的 deck 级主色、功能色配额与并列模块同色硬合同；不得依赖偶然检索命中",
+      "tokens": 820
+    }
+  ],
+  "default_gold_path": [
+    {
+      "file": "contract-gold-svg-builder.md",
+      "reason": "默认金标单页 page_spec / 校验 / 补丁 / builder 流程",
+      "tokens": 900
+    },
+    {
+      "file": "contract-structure-hierarchy.md",
+      "reason": "先拆信息层级再生成，避免直接套三卡/四卡",
+      "tokens": 760
+    }
+  ],
+  "nodes": [
+    {
+      "id": "contract-gold-svg-builder",
+      "file": "contract-gold-svg-builder.md",
+      "category": "execution-contract",
+      "intent": "任意可走 SVG DrawingML 的内容页默认起手式：建 page_spec → 填充 → 校验 → 出 source.svg 的金标单页流程",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 900,
+      "triggers": [
+        "生成这一页",
+        "开始画这页",
+        "这页要怎么写",
+        "补充这页内容",
+        "金标单页",
+        "page_spec",
+        "内容页起手式",
+        "第一次写这页",
+        "先建结构还是先画"
+      ],
+      "outputs": [
+        "page_spec_template",
+        "fill_plan",
+        "page_spec_json",
+        "quality_report",
+        "repair_patch"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "drawingml-svg-authoring",
+      "file": "drawingml-svg-authoring.md",
+      "category": "execution-contract",
+      "intent": "SVG DrawingML 完整可转换合同、复杂元素规则和校验失败调试说明",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 900,
+      "triggers": [
+        "完整SVG合同",
+        "DrawingML完整规则",
+        "复杂SVG",
+        "校验失败",
+        "元素不支持",
+        "坐标溢出",
+        "调试SVG"
+      ],
+      "outputs": [
+        "svg_compatibility_contract",
+        "debugging_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "fixed-cover-agenda",
+      "file": "layout-fixed-cover-agenda.md",
+      "category": "layout",
+      "intent": "固定封面/目录/2-4项简单介绍页，以及 photo_dark_serif 的深色影像章节/收尾固定页",
+      "page_roles": [
+        "cover",
+        "agenda",
+        "section_divider",
+        "closing"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "封面",
+        "cover",
+        "目录",
+        "agenda",
+        "toc",
+        "介绍页",
+        "introduction",
+        "简介页",
+        "扉页",
+        "标题页",
+        "photo_dark_serif",
+        "深色影像章节",
+        "收尾页"
+      ],
+      "outputs": [
+        "fixed_page_spec_json",
+        "source_svg",
+        "photo_dark_serif"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "svg-page-workflow",
+      "file": "contract-svg-page-workflow.md",
+      "category": "execution-contract",
+      "intent": "不知道 SVG 页从哪里开始 / 需要分步写作路径",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 700,
+      "triggers": [
+        "不知道从哪开始",
+        "第一次",
+        "流程",
+        "步骤",
+        "弱模型",
+        "分步"
+      ],
+      "outputs": [
+        "svg_steps"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "visual-token",
+      "file": "contract-visual-token.md",
+      "category": "execution-contract",
+      "intent": "确定 deck 统一主色、功能色配额、并列模块同色，以及字号/深浅背景可见性",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "tokens": 750,
+      "triggers": [
+        "颜色",
+        "配色",
+        "并列模块不同颜色",
+        "每个模块一种颜色",
+        "多色卡片",
+        "彩虹卡片",
+        "逐卡换色",
+        "主色统一",
+        "统一色系",
+        "颜色太多",
+        "紫色",
+        "单一色系",
+        "单色系",
+        "图表文字",
+        "字号",
+        "可见性",
+        "对比度",
+        "视觉token",
+        "深浅背景",
+        "看不清"
+      ],
+      "outputs": [
+        "visual_tokens",
+        "visibility_checklist"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "contract-visual-token-core",
+      "file": "contract-visual-token-core.md",
+      "category": "visual-theme",
+      "module_type": "style_family",
+      "intent": "SVG 内容层 deck 统一主色、并列模块同色、禁用卡片边缘装饰彩条、功能色小面积使用，以及字号、surface、accent、border 可见性规则",
+      "page_roles": [
+        "cover",
+        "agenda",
+        "content",
+        "section_divider",
+        "summary",
+        "closing"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "视觉token核心",
+        "颜色token",
+        "并列模块同色",
+        "功能色小面积",
+        "一册一主色",
+        "主色贯穿全册",
+        "避免彩虹配色",
+        "surface",
+        "accent",
+        "字号",
+        "单一色系",
+        "可见性",
+        "深色背景",
+        "浅色背景"
+      ],
+      "outputs": [
+        "visual_tokens",
+        "visibility_checklist"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "contract-chart-visibility",
+      "file": "contract-chart-visibility.md",
+      "category": "execution-contract",
+      "intent": "native chart/table 的标题、坐标轴、图例、数据标签、表格文字可见性",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "图表可见性",
+        "图表文字",
+        "坐标轴",
+        "图例",
+        "数据标签",
+        "表格文字",
+        "深底图表",
+        "chart visibility"
+      ],
+      "outputs": [
+        "chart_visibility_checklist",
+        "table_visibility_checklist"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "content-density",
+      "file": "contract-content-density.md",
+      "category": "execution-contract",
+      "intent": "内容过简、只有标题/编号/泛标签/口号",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "内容过简",
+        "只有标题",
+        "泛标签",
+        "口号",
+        "信息不足",
+        "密度不够",
+        "太空"
+      ],
+      "outputs": [
+        "density_slots"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-density",
+      "file": "contract-layout-density.md",
+      "category": "execution-contract",
+      "intent": "主体空白、卡片内部空洞、标题区被章节索引挤占",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 720,
+      "triggers": [
+        "空白",
+        "空洞",
+        "标题被挤",
+        "布局松散",
+        "留白过大",
+        "底部空白",
+        "这页太挤了",
+        "页面太挤",
+        "布局拥挤",
+        "放不下",
+        "高度不够",
+        "比例问题",
+        "只占上半部分",
+        "只占中部"
+      ],
+      "outputs": [
+        "layout_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "structure-hierarchy",
+      "file": "contract-structure-hierarchy.md",
+      "category": "execution-contract",
+      "intent": "页面效果固定，需要先拆信息层级再生成",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "拆层级",
+        "信息层级",
+        "页面固定",
+        "避免直接套三卡",
+        "结构拆解",
+        "这页信息太多怎么分",
+        "先想清楚结构",
+        "内容怎么分组",
+        "不要直接套模板",
+        "这页逻辑是什么",
+        "先分层再画"
+      ],
+      "outputs": [
+        "structure_hierarchy",
+        "svg_group_plan",
+        "page_spec_json"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "svg-self-qa",
+      "file": "contract-svg-self-qa.md",
+      "category": "execution-contract",
+      "intent": "写完 SVG 渲染前自检",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "tokens": 640,
+      "triggers": [
+        "自检",
+        "渲染前",
+        "qa",
+        "检查",
+        "门禁",
+        "草稿态"
+      ],
+      "outputs": [
+        "qa_checklist"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "icon-usage",
+      "file": "contract-icon-usage.md",
+      "category": "execution-contract",
+      "intent": "页面需要业务图标或图标槽位",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "图标",
+        "icon",
+        "图标槽位"
+      ],
+      "outputs": [
+        "icon_rules"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "theme-light-business-blue",
+      "file": "theme-light-business-blue.md",
+      "category": "visual-theme",
+      "intent": "浅底蓝白商务页、经营汇报、咨询分析",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "浅底",
+        "蓝白",
+        "商务",
+        "经营汇报",
+        "咨询",
+        "light"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "theme-dark-business-blue",
+      "file": "theme-dark-business-blue.md",
+      "category": "visual-theme",
+      "intent": "深蓝强调页、章节页、关键判断页",
+      "page_roles": [
+        "content",
+        "section_divider"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "深蓝",
+        "深色",
+        "章节页",
+        "强调",
+        "关键判断",
+        "dark"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "theme-red-gold-government",
+      "file": "theme-red-gold-government.md",
+      "category": "visual-theme",
+      "intent": "党政、国企、政策学习、正式宣贯",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "党政",
+        "国企",
+        "政策",
+        "党建",
+        "红金",
+        "宣贯",
+        "政府"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "theme-tech-dark-neon",
+      "file": "theme-tech-dark-neon.md",
+      "category": "visual-theme",
+      "intent": "科技、互联网、AI、平台能力、增长飞轮",
+      "page_roles": [
+        "content",
+        "section_divider"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "科技",
+        "互联网",
+        "AI",
+        "平台",
+        "增长",
+        "霓虹",
+        "neon",
+        "tech"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "theme-finance-silver-blue",
+      "file": "theme-finance-silver-blue.md",
+      "category": "visual-theme",
+      "intent": "金融、经营、咨询、财务分析、投资人材料",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 540,
+      "triggers": [
+        "金融",
+        "财务",
+        "投资人",
+        "经营分析",
+        "银蓝",
+        "finance"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "theme-training-clean",
+      "file": "theme-training-clean.md",
+      "category": "visual-theme",
+      "intent": "培训课件、方法论、SOP、练习页",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 500,
+      "triggers": [
+        "培训",
+        "课件",
+        "方法论",
+        "SOP",
+        "练习",
+        "课程",
+        "clean"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "theme-cultural-green",
+      "file": "theme-cultural-green.md",
+      "category": "visual-theme",
+      "intent": "文化、品牌、传统表达、文旅或价值观页面",
+      "page_roles": [
+        "content",
+        "section_divider"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "文化",
+        "品牌",
+        "传统",
+        "文旅",
+        "价值观",
+        "绿色",
+        "cultural"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "theme-violet-business",
+      "file": "theme-violet-business.md",
+      "category": "visual-theme",
+      "module_type": "style_family",
+      "intent": "紫色商务季度/半年/年度经营汇报,内敛专业带活力的浅底紫调主题",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 820,
+      "triggers": [
+        "紫色",
+        "紫色商务",
+        "紫调",
+        "商务汇报",
+        "季度汇报",
+        "半年汇报",
+        "年度汇报",
+        "经营汇报",
+        "violet",
+        "purple",
+        "business purple",
+        "quarterly review"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "visual_tokens",
+        "background_policy"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "theme-blue-green-duotone",
+      "file": "theme-blue-green-duotone.md",
+      "category": "visual-theme",
+      "module_type": "style_family",
+      "intent": "蓝绿撞色双主色主题,正反/亮点短板/问题改进分区表达",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 808,
+      "triggers": [
+        "蓝绿",
+        "撞色",
+        "双主色",
+        "蓝绿撞色",
+        "正反对比",
+        "亮点短板",
+        "问题改进",
+        "双色分区",
+        "blue green",
+        "duotone",
+        "dual accent",
+        "contrast panel"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "visual_tokens"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "style-literary-documentary-cn",
+      "file": "style-literary-documentary-cn.md",
+      "category": "visual-theme",
+      "module_type": "style_family",
+      "intent": "中文读书分享、人文主题、人物命运、文学/纪录片叙事 deck 的双极视觉风格",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "materials",
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "《命运》",
+        "命运",
+        "读书分享",
+        "文学",
+        "文学纪录片",
+        "纪录片叙事",
+        "人文",
+        "人物命运",
+        "Noto Serif SC",
+        "衬线",
+        "深色影像",
+        "浅色纸张",
+        "金棕",
+        "literary_documentary_cn"
+      ],
+      "outputs": [
+        "visual_tokens",
+        "background_policy",
+        "layout_family_hints",
+        "image_request_hints"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "theme-background-policy",
+      "file": "theme-background-policy.md",
+      "category": "visual-theme",
+      "intent": "每页独立判断并处理背景，deck 默认仅作兜底；在图片背景、纯色 solid、低干扰抽象 svg、暗色影像 photo_dark、纸纹 paper_light 之间选型，并处理受控图片复用、单页 override、缺图补位与整页背景 owner 边界",
+      "page_roles": [
+        "cover",
+        "agenda",
+        "content",
+        "section_divider",
+        "summary",
+        "closing"
+      ],
+      "tokens": 1500,
+      "triggers": [
+        "整页背景",
+        "逐页背景决策",
+        "每页独立背景",
+        "单页背景override",
+        "deck默认兜底",
+        "背景图",
+        "全局背景图候选",
+        "背景图替换",
+        "背景图入池",
+        "use_case background",
+        "换背景",
+        "缺背景图",
+        "背景占位",
+        "补背景图",
+        "暗色影像背景",
+        "高级感背景",
+        "场景感",
+        "沉浸感",
+        "叙事感",
+        "主题宣讲",
+        "课堂宣讲",
+        "科普",
+        "品牌发布",
+        "产品发布",
+        "文旅",
+        "城市推介",
+        "企业文化",
+        "招商园区",
+        "纸纹底",
+        "底纹",
+        "纹理背景",
+        "程序化底纹",
+        "背景纹理",
+        "background pattern"
+      ],
+      "outputs": [
+        "background_policy",
+        "background_image_binding"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout/swiss_svg_drawingml",
+      "file": "layout-swiss-svg-drawingml.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "Swiss / 瑞士风 / 高密度信息设计 / 强网格页面的 SVG DrawingML 主路线",
+      "page_roles": [
+        "cover",
+        "agenda",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "swiss",
+        "Swiss",
+        "swiss_svg_drawingml",
+        "瑞士风",
+        "瑞士信息设计",
+        "信息设计",
+        "强网格",
+        "高密度",
+        "IKB",
+        "政策科技汇报",
+        "目录网格",
+        "六格定义",
+        "单句陈述",
+        "Swiss layout",
+        "纵向时间轴",
+        "指标时间轴",
+        "版本演化",
+        "论点递进",
+        "为什么是现在",
+        "三重驱动",
+        "指标账单",
+        "KPI账单",
+        "经营指标盘点",
+        "收束页",
+        "收尾要点",
+        "结论要点页"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "validate_svg_drawingml",
+        "render_svg_drawingml_slide"
+      ],
+      "outputs": [
+        "swiss_information_grid",
+        "svg_layout",
+        "layout_contract",
+        "validation_gate"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-swiss-core-grid",
+      "file": "layout-swiss-core-grid.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "Swiss 安全区、12/16 列网格、标题/主体/来源区和密度容量合同",
+      "page_roles": [
+        "cover",
+        "agenda",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 700,
+      "triggers": [
+        "Swiss 网格",
+        "瑞士网格",
+        "强网格",
+        "安全区",
+        "12列",
+        "16列",
+        "高密度",
+        "内容密度"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "validate_svg_drawingml",
+        "render_svg_drawingml_slide"
+      ],
+      "outputs": [
+        "swiss_grid_contract",
+        "svg_layout"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-swiss-standard-structures",
+      "file": "layout-swiss-standard-structures.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "Swiss 封面、目录、陈述、四卡、六格、三支撑、横向时间线结构",
+      "page_roles": [
+        "cover",
+        "agenda",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 720,
+      "triggers": [
+        "swiss cover",
+        "swiss toc",
+        "Swiss 目录",
+        "Swiss 四卡",
+        "Swiss 六格",
+        "Swiss 三支撑",
+        "Swiss 时间线",
+        "swiss_svg_timeline"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "validate_svg_drawingml",
+        "render_svg_drawingml_slide"
+      ],
+      "outputs": [
+        "swiss_standard_structures",
+        "svg_layout"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-swiss-metric-structures",
+      "file": "layout-swiss-metric-structures.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "Swiss 指标时间轴、三列指标论点、KPI 账单和收束要点结构",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 780,
+      "triggers": [
+        "纵向指标时间轴",
+        "指标时间轴",
+        "论点递进",
+        "三列指标",
+        "KPI账单",
+        "经营指标盘点",
+        "收束要点",
+        "closing takeaways"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "validate_svg_drawingml",
+        "render_svg_drawingml_slide"
+      ],
+      "outputs": [
+        "swiss_metric_structures",
+        "svg_layout"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-kpi-strip",
+      "file": "layout-kpi-strip.md",
+      "category": "layout",
+      "intent": "水平多联指标带:一行 3-6 个折角/切角 KPI 卡(开篇摘要/结尾收束/成果陈列)",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 998,
+      "triggers": [
+        "水平指标带",
+        "横向KPI",
+        "一排大数字",
+        "指标卡一行",
+        "KPI摘要",
+        "指标收束",
+        "成果陈列",
+        "折角卡",
+        "切角卡",
+        "kpi strip",
+        "metric strip",
+        "kpi row",
+        "dog-ear card"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "kpi_strip_structures"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-left-claim-right-evidence",
+      "file": "layout-left-claim-right-evidence.md",
+      "category": "layout",
+      "intent": "一个主判断配 2-4 条证据/案例/指标",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 660,
+      "triggers": [
+        "主判断",
+        "证据",
+        "左观点右证据",
+        "论证",
+        "案例",
+        "指标"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-hero-metric-left-rail",
+      "file": "layout-hero-metric-left-rail.md",
+      "category": "layout",
+      "intent": "左侧深色 hero 巨数英雄栏(统领巨数+一句总结,视觉最重)+右侧 2-4 指标块(可含环形 gauge),左深右浅分区",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 1290,
+      "triggers": [
+        "左边深色大数字总结",
+        "左侧英雄栏巨数",
+        "深色总结栏配右侧指标块",
+        "英雄数字栏",
+        "左深色hero右侧看板",
+        "环形进度配大数字",
+        "左栏一个大数右栏几块",
+        "hero metric rail",
+        "hero metric left rail",
+        "深色栏",
+        "指标块",
+        "左侧大数字",
+        "左大数右卡",
+        "大数字统领"
+      ],
+      "outputs": [
+        "svg_layout",
+        "hero_metric_rail_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-three-cards-action-bar",
+      "file": "layout-three-cards-action-bar.md",
+      "category": "layout",
+      "intent": "三个信息组 + 底部结论/行动/风险收口",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 660,
+      "triggers": [
+        "三卡",
+        "三个",
+        "三项",
+        "行动收口",
+        "底部结论"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-phased-action-columns",
+      "file": "layout-phased-action-columns.md",
+      "category": "layout",
+      "intent": "分期举措三栏:按期次(月/季/阶段)分三等宽栏,每栏房形chevron期次表头+落地举措子项清单,顶部可内嵌kpi摘要(非贯穿时间轴、非通用三信息卡)",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 960,
+      "triggers": [
+        "分期举措",
+        "按月份分阶段",
+        "三个阶段工作安排",
+        "分月推进计划",
+        "三栏分期任务",
+        "阶段举措分栏",
+        "一季度二季度三季度举措",
+        "月度分期清单",
+        "phased actions",
+        "phase columns",
+        "落地举措",
+        "子任务清单",
+        "分阶段举措",
+        "阶段举措",
+        "分阶段推进"
+      ],
+      "outputs": [
+        "svg_layout",
+        "phased_action_columns_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-four-cards-grid",
+      "file": "layout-four-cards-grid.md",
+      "category": "layout",
+      "intent": "四项机制/策略/问题/能力模块",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "四卡",
+        "四卡片",
+        "四个",
+        "四项",
+        "四类",
+        "四宫格",
+        "四张卡片",
+        "网格",
+        "grid",
+        "并列对比",
+        "卡片并列",
+        "卡片对比"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-quad-cards-core-cluster",
+      "file": "layout-quad-cards-core-cluster.md",
+      "category": "layout",
+      "intent": "恰四组要点:中心四关键词圆簇(四位一体)提炼主线 + 四角详情卡分述具体工作/取得成果;卡为主、圆为关键词代理",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1074,
+      "triggers": [
+        "四大亮点",
+        "四大板块",
+        "中心关键词",
+        "四角详情",
+        "圆形关键词",
+        "四位一体",
+        "亮点矩阵",
+        "quad cluster",
+        "four highlights",
+        "工作亮点",
+        "四个关键词",
+        "具体工作",
+        "取得成果"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "quad_cards_core_cluster_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-problem-solution-benefit",
+      "file": "layout-problem-solution-benefit.md",
+      "category": "layout",
+      "intent": "问题-方案-收益 或 原因-措施-结果",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 680,
+      "triggers": [
+        "问题方案",
+        "方案收益",
+        "原因措施",
+        "前后因果",
+        "痛点"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-mirror-compare",
+      "file": "layout-mirror-compare.md",
+      "category": "layout",
+      "intent": "同一主体正反两面镜像对照(亮点/短板、成果/不足、优势/风险),两侧对仗且各带量化",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 998,
+      "triggers": [
+        "镜像对照",
+        "正反两面",
+        "亮点短板",
+        "优劣对照",
+        "成果与不足",
+        "优势与风险",
+        "mirror compare",
+        "pros and cons",
+        "strengths and weaknesses"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "mirror_compare_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-versus-duel",
+      "file": "layout-versus-duel.md",
+      "category": "layout",
+      "intent": "两个对象/两个时点的 VS 对决式对碰(我方 vs 竞品、目标 vs 达成、本期 vs 上期)",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 996,
+      "triggers": [
+        "VS对决",
+        "对碰对比",
+        "甲方乙方",
+        "我方竞品",
+        "目标与达成",
+        "本期与上期",
+        "自研与采购",
+        "versus",
+        "duel",
+        "head to head",
+        "VS 对决",
+        "this vs that"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "versus_duel_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-problem-improve-bilateral",
+      "file": "layout-problem-improve-bilateral.md",
+      "category": "layout",
+      "intent": "问题↔改进双侧对照:痛点与对策一一对应的复盘整改页(维恩转化锚 3+3 / 循环锚 2+2),强调从问题域到改进域的转化",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 987,
+      "triggers": [
+        "问题改进对照",
+        "痛点对策",
+        "症结整改",
+        "问题域改进域",
+        "双侧转化",
+        "问题到改进",
+        "左问题右改进",
+        "problem improvement",
+        "problem to improvement"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "problem_improve_bilateral_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-problem-improve-value-rail",
+      "file": "layout-problem-improve-value-rail.md",
+      "category": "layout",
+      "intent": "问题-改进-价值 非对称双撞色面板+价值轨:问题域(平铺警示、无编号)与改进域(编号+子bullet)内部结构不同、条数可不等的复盘整改页,最右一条窄价值轨(恰3白卡)收束成效;非三等列、非一一对应对称",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1071,
+      "triggers": [
+        "不足与改进",
+        "存在问题",
+        "改进措施",
+        "价值收益",
+        "价值轨",
+        "整改承诺",
+        "非对称双面板",
+        "撞色面板",
+        "问题改进价值",
+        "problem improve value",
+        "value rail"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "problem_improve_value_rail_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-diagonal-duo-panels",
+      "file": "layout-diagonal-duo-panels.md",
+      "category": "layout",
+      "intent": "对角折带分隔的双栏并置:左右两大独立主题各自成体系(复盘 vs 规划、现状 vs 目标),每栏 4KPI+要素相加公式链+环形进度,两栏对仗且无逐条对应",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 995,
+      "triggers": [
+        "对角分隔",
+        "双栏并置",
+        "两大板块并置",
+        "复盘规划",
+        "左右两大板块",
+        "现状与目标",
+        "diagonal split",
+        "duo panels",
+        "side-by-side panels",
+        "工作复盘",
+        "下步规划",
+        "斜线分开",
+        "两大板块"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "diagonal_duo_panels_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-process-flow",
+      "file": "layout-process-flow.md",
+      "category": "layout",
+      "intent": "实施路径、责任链路、闭环机制、审批流转、端到端交付路径",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "流程",
+        "流程图",
+        "实施路径",
+        "责任链路",
+        "闭环机制",
+        "审批链",
+        "流转",
+        "治理机制",
+        "端到端",
+        "步骤链"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-arrow-ribbon-metrics",
+      "file": "layout-arrow-ribbon-metrics.md",
+      "category": "layout",
+      "intent": "方向性成果陈列带:多段板块/条线成果横向串成箭头带,chevron 相扣+每段切角成果卡+增长徽标,表并列成果的方向性陈列(非时间递进、非纯并列KPI)",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 1210,
+      "triggers": [
+        "成果陈列",
+        "逐项成果",
+        "工作成效展示",
+        "分段成果",
+        "成果箭头带",
+        "箭头串联成果",
+        "板块成果陈列",
+        "分段指标带",
+        "achievement ribbon",
+        "arrow ribbon metrics",
+        "陈列带",
+        "箭头串成",
+        "成果带",
+        "一条带子",
+        "箭头陈列"
+      ],
+      "outputs": [
+        "svg_layout",
+        "arrow_ribbon_metrics_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-pyramid-hierarchy",
+      "file": "layout-pyramid-hierarchy.md",
+      "category": "layout",
+      "intent": "金字塔、战略分层、能力层级、优先级递进",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "金字塔",
+        "分层",
+        "层级",
+        "优先级",
+        "递进",
+        "pyramid",
+        "组织架构"
+      ],
+      "outputs": [
+        "svg_layout",
+        "pyramid_layers"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-retrospect-outlook-pyramid",
+      "file": "layout-retrospect-outlook-pyramid.md",
+      "category": "layout",
+      "intent": "回顾-成果-展望三时段叙事栏+中央三层递进金字塔串联;金字塔是递进装置非静态层级主体",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 1250,
+      "triggers": [
+        "回顾成果展望三栏",
+        "复盘成果规划三段",
+        "过去现在未来三栏",
+        "中央金字塔串起三段",
+        "递进金字塔配三栏叙事",
+        "三时段递进金字塔",
+        "retro outcome outlook pyramid",
+        "回顾展望",
+        "复盘展望"
+      ],
+      "outputs": [
+        "svg_layout",
+        "retrospect_outlook_pyramid_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-funnel-stage-stack",
+      "file": "layout-funnel-stage-stack.md",
+      "category": "layout",
+      "intent": "转化漏斗分层:N 层梯形自上而下单调收窄,逐层递减巨数+层间转化率,表筛选/转化/流失的动态流转",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1116,
+      "triggers": [
+        "漏斗",
+        "转化漏斗",
+        "逐层转化",
+        "层层筛选",
+        "流失",
+        "收窄",
+        "线索到成交",
+        "转化率",
+        "funnel",
+        "conversion funnel"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "funnel_stage_structure"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-timeline-horizontal",
+      "file": "layout-timeline-horizontal.md",
+      "category": "layout",
+      "intent": "项目计划、阶段复盘、发展历程、里程碑",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "时间线",
+        "里程碑",
+        "阶段",
+        "历程",
+        "时序",
+        "timeline",
+        "计划表",
+        "甘特图",
+        "gantt",
+        "普通时间线",
+        "横向时间线",
+        "没有递进关系的时间线",
+        "不需要分组的时间线",
+        "简单里程碑"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-timeline-ascending-steps",
+      "file": "layout-timeline-ascending-steps.md",
+      "category": "layout",
+      "intent": "按期次递增的阶梯式增长时间轴,逐期巨数+底部方向箭头强调增长动能走强",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 994,
+      "triggers": [
+        "递进阶梯",
+        "阶梯式增长",
+        "逐月走高",
+        "逐季走高",
+        "增长动能",
+        "阶梯图",
+        "步步走高",
+        "ascending steps",
+        "growth staircase",
+        "step timeline"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "ascending_steps_layout_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-timeline-anchored-columns",
+      "file": "layout-timeline-anchored-columns.md",
+      "category": "layout",
+      "intent": "时间轴锚定的逐期目标/行动计划/结果评估三槽详情卡,当前节点实心高亮",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 993,
+      "triggers": [
+        "时间轴详情卡",
+        "目标行动评估",
+        "锚定时间轴",
+        "执行节奏",
+        "月度目标行动",
+        "每月复盘",
+        "timeline columns",
+        "anchored timeline",
+        "action plan timeline",
+        "行动计划",
+        "结果评估",
+        "节点卡片"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "anchored_columns_layout_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-timeline-zigzag-groups",
+      "file": "layout-timeline-zigzag-groups.md",
+      "category": "layout",
+      "intent": "6 期两组交错(zigzag)时间轴 + 右侧总结栏,高密度季度/阶段回顾并提炼结论",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1089,
+      "triggers": [
+        "交错时间轴",
+        "分组时间轴",
+        "季度分组",
+        "上下交错",
+        "事件回顾",
+        "之字形时间轴",
+        "大事记",
+        "半年复盘",
+        "zigzag timeline",
+        "grouped timeline",
+        "quarterly review timeline",
+        "timeline with summary panel"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "svg_layout",
+        "zigzag_groups_layout_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-cycle-loop",
+      "file": "layout-cycle-loop.md",
+      "category": "layout",
+      "intent": "循环、闭环机制、PDCA、增长飞轮",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "循环",
+        "闭环",
+        "PDCA",
+        "飞轮",
+        "迭代",
+        "loop"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-matrix-quadrant",
+      "file": "layout-matrix-quadrant.md",
+      "category": "layout",
+      "intent": "象限图、2x2 positioning matrix、SWOT、优先级、竞品定位、能力成熟度、二维定位",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 980,
+      "triggers": [
+        "矩阵",
+        "四象限",
+        "象限图",
+        "二维定位",
+        "定位图",
+        "定位矩阵",
+        "对比矩阵",
+        "痛点对比矩阵",
+        "表格矩阵",
+        "2x2",
+        "2×2",
+        "positioning matrix",
+        "竞品定位",
+        "市场定位",
+        "能力成熟度",
+        "成熟度",
+        "优先级矩阵",
+        "散点定位",
+        "趋势箭头",
+        "matrix",
+        "quadrant"
+      ],
+      "outputs": [
+        "svg_layout",
+        "axis_semantics",
+        "quadrant_labels",
+        "position_points"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-center-radial",
+      "file": "layout-center-radial.md",
+      "category": "layout",
+      "intent": "能力模型、战略抓手、中心目标与卫星模块",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "中心辐射",
+        "能力模型",
+        "战略抓手",
+        "环绕",
+        "卫星模块",
+        "radial"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-screenshot-proof",
+      "file": "layout-screenshot-proof.md",
+      "category": "layout",
+      "intent": "截图证明、系统记录、案例证据、材料截图占位",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "截图",
+        "系统记录",
+        "案例证据",
+        "材料截图",
+        "证据占位",
+        "后台截图",
+        "产品截图",
+        "有没有截图",
+        "证明做过",
+        "系统页面",
+        "操作记录",
+        "案例展示",
+        "dashboard截图"
+      ],
+      "outputs": [
+        "svg_layout",
+        "evidence_asset_slots"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-native-chart-slot",
+      "file": "layout-native-chart-slot.md",
+      "category": "layout",
+      "intent": "柱线饼等 PowerPoint 原生图表，或逐单元格 PowerPoint 原生表格",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 880,
+      "triggers": [
+        "图表",
+        "柱状",
+        "折线",
+        "饼图",
+        "原生图表",
+        "chart",
+        "数据图",
+        "表格",
+        "原生表格",
+        "对比表",
+        "评估表",
+        "矩阵表",
+        "台账",
+        "table",
+        "瀑布图",
+        "waterfall"
+      ],
+      "outputs": [
+        "svg_layout",
+        "native_chart_slots",
+        "native_table_slots"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "chart-bar-comparison",
+      "file": "chart-bar-comparison.md",
+      "category": "layout",
+      "intent": "柱状/条形/排名/类别对比/分组对比的原生 bar chart 分型规则",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "柱状",
+        "柱状图",
+        "条形",
+        "bar",
+        "column",
+        "排名",
+        "类别对比",
+        "分组对比",
+        "渠道对比",
+        "阶段对比",
+        "趋势对比",
+        "渠道转化排名",
+        "转化排名"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "native_chart_slot"
+      ],
+      "outputs": [
+        "chart_type_decision",
+        "native_chart_slots",
+        "bar_chart_layout_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "chart-line-trend",
+      "file": "chart-line-trend.md",
+      "category": "layout",
+      "intent": "折线/趋势/走势/时间序列/同比环比变化的原生 line chart 分型规则",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "折线",
+        "趋势",
+        "line",
+        "trend",
+        "走势",
+        "时间序列",
+        "同比",
+        "环比",
+        "增长曲线"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "native_chart_slot"
+      ],
+      "outputs": [
+        "chart_type_decision",
+        "native_chart_slots",
+        "line_chart_layout_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "chart-pie-composition",
+      "file": "chart-pie-composition.md",
+      "category": "layout",
+      "intent": "饼图/环形图/份额/占比/结构构成的原生 pie chart 分型规则",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "饼图",
+        "环形图",
+        "pie",
+        "占比",
+        "份额",
+        "构成",
+        "结构",
+        "composition"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "native_chart_slot"
+      ],
+      "outputs": [
+        "chart_type_decision",
+        "native_chart_slots",
+        "pie_chart_layout_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "chart-combo-dashboard",
+      "file": "chart-combo-dashboard.md",
+      "category": "layout",
+      "intent": "组合图/双轴/多指标经营看板的拆分策略；当前不使用原生 combo chart",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 700,
+      "triggers": [
+        "组合图",
+        "双轴",
+        "combo",
+        "dashboard",
+        "看板",
+        "多指标",
+        "经营看板",
+        "KPI看板"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "native_chart_slot",
+        "metric_cards"
+      ],
+      "outputs": [
+        "chart_type_decision",
+        "dashboard_layout_rules",
+        "fallback_rendering_strategy"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "chart-waterfall",
+      "file": "chart-waterfall.md",
+      "category": "layout",
+      "intent": "瀑布/桥接/利润桥/营收桥/现金流构成/归因拆解的原生 waterfall chart 分型规则；落原生 COLUMN_STACKED 浮动柱",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 660,
+      "triggers": [
+        "瀑布",
+        "瀑布图",
+        "桥接图",
+        "利润桥",
+        "营收桥",
+        "现金流桥",
+        "waterfall",
+        "bridge",
+        "归因拆解",
+        "增减拆解",
+        "变化归因"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "native_chart_slot"
+      ],
+      "outputs": [
+        "chart_type_decision",
+        "native_chart_slots",
+        "waterfall_layout_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "chart-sankey",
+      "file": "chart-sankey.md",
+      "category": "layout",
+      "intent": "桑基/流向/资金流向/预算分流/多对多流转的确定性几何缎带；走独立 native-sankey-slot（非 chart slot）",
+      "page_roles": [
+        "content",
+        "relationship"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 720,
+      "triggers": [
+        "桑基",
+        "桑基图",
+        "sankey",
+        "流向",
+        "流向图",
+        "资金流向",
+        "预算流向",
+        "分流",
+        "多对多流转",
+        "生态流向"
+      ],
+      "supports": [
+        "svg_drawingml",
+        "native_sankey_slot"
+      ],
+      "outputs": [
+        "chart_type_decision",
+        "native_sankey_slots",
+        "sankey_layout_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-native-image-slot",
+      "file": "layout-native-image-slot.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "SVG DrawingML 正文局部嵌入用户上传图片、上传文件剥离图片、书封/人物/证据图;缺图时先发占位卡再决定补图或替代生成",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "native_image_slot",
+        "image_assets",
+        "用户上传图片",
+        "上传文件图片",
+        "剥离图片",
+        "书封图片",
+        "人物图",
+        "证据图",
+        "正文嵌图",
+        "图片slot",
+        "局部图片",
+        "左右图文",
+        "图文配图",
+        "图文混排",
+        "配图版式",
+        "正文配图",
+        "文中配图",
+        "图片占位",
+        "缺配图",
+        "补图片"
+      ],
+      "outputs": [
+        "svg_layout",
+        "native_image_slots",
+        "native_data_images",
+        "image_asset_binding"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-dark-photo-interlude",
+      "file": "layout-dark-photo-interlude.md",
+      "category": "layout",
+      "intent": "封面、章节过渡、情绪高潮或收尾页的深色影像背景与衬线标题内容层",
+      "page_roles": [
+        "cover",
+        "section_divider",
+        "closing"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "深色影像",
+        "photo_dark",
+        "章节过渡",
+        "情绪高潮",
+        "收尾页",
+        "纪录片章节",
+        "封面影像",
+        "白字标题"
+      ],
+      "outputs": [
+        "svg_layout",
+        "background_variant_hints",
+        "title_safe_region",
+        "photo_dark_serif_fixed_spec"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-editorial-image-panel",
+      "file": "layout-editorial-image-panel.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "正文页左文右图/左图右文的图文配图 editorial 面板;图片作叙事锚点、文字仍是主角(含文学/人文场景)",
+      "page_roles": [
+        "content"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 720,
+      "triggers": [
+        "左文右图",
+        "左图右文",
+        "左右图文",
+        "editorial",
+        "图文并置",
+        "图文配图",
+        "图文混排",
+        "图文并排",
+        "配图版式",
+        "正文配图",
+        "正文锚点图",
+        "书封图片",
+        "人物图",
+        "浅色纸张",
+        "文学正文"
+      ],
+      "supports": [
+        "merge_slide_picture_binding",
+        "artifacts.picture_bindings",
+        "native_image_slot"
+      ],
+      "outputs": [
+        "svg_layout",
+        "image_slot_plan",
+        "narrative_blocks"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-story-cards-two-up",
+      "file": "layout-story-cards-two-up.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "文学/人文主题的两个并列叙事块或两种选择对照",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 600,
+      "triggers": [
+        "两栏叙事",
+        "双栏",
+        "2up",
+        "两个观点",
+        "两种选择",
+        "两类命运",
+        "story cards",
+        "narrative cards"
+      ],
+      "outputs": [
+        "svg_layout",
+        "narrative_cards"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-story-cards-three-up",
+      "file": "layout-story-cards-three-up.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "文学/纪录片叙事的三段递进、三个人物阶段或三种主题解释",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "三栏叙事",
+        "三段递进",
+        "三个阶段",
+        "三种解释",
+        "3up",
+        "story cards",
+        "narrative cards"
+      ],
+      "outputs": [
+        "svg_layout",
+        "narrative_cards"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-book-compare-quote",
+      "file": "layout-book-compare-quote.md",
+      "category": "layout",
+      "module_type": "layout_family",
+      "intent": "书籍、作者、人物或主题判断对比，并用引语/金句收束",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 660,
+      "triggers": [
+        "书籍对比",
+        "作者对比",
+        "人物对比",
+        "金句",
+        "引语",
+        "quote",
+        "书封",
+        "book compare",
+        "book_compare_quote"
+      ],
+      "outputs": [
+        "svg_layout",
+        "compare_blocks",
+        "quote_panel",
+        "image_slot_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-section-divider",
+      "file": "layout-section-divider.md",
+      "category": "layout",
+      "intent": "章节页、过渡页、问题引入页",
+      "page_roles": [
+        "section_divider"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "章节页",
+        "过渡页",
+        "引入页",
+        "divider",
+        "分隔页"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "layout-summary-action-matrix",
+      "file": "layout-summary-action-matrix.md",
+      "category": "layout",
+      "intent": "总结页、行动计划、责任闭环、风险收口",
+      "page_roles": [
+        "summary"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "总结页",
+        "行动计划",
+        "责任闭环",
+        "风险收口",
+        "行动矩阵"
+      ],
+      "outputs": [
+        "svg_layout"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "content-pyramid-claim-evidence-action",
+      "file": "content-pyramid-claim-evidence-action.md",
+      "category": "content-structure",
+      "intent": "结论先行、三证据、行动收口",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 640,
+      "triggers": [
+        "结论先行",
+        "三证据",
+        "行动收口",
+        "金字塔结构",
+        "claim",
+        "论点"
+      ],
+      "outputs": [
+        "content_slots"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "content-prep",
+      "file": "content-prep.md",
+      "category": "content-structure",
+      "intent": "观点-理由-案例-重申",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 600,
+      "triggers": [
+        "观点理由",
+        "PREP",
+        "案例重申",
+        "理由案例"
+      ],
+      "outputs": [
+        "content_slots"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "content-scqa",
+      "file": "content-scqa.md",
+      "category": "content-structure",
+      "intent": "背景-冲突-问题-答案故事链",
+      "page_roles": [
+        "content",
+        "section_divider"
+      ],
+      "tokens": 620,
+      "triggers": [
+        "背景冲突",
+        "SCQA",
+        "故事链",
+        "冲突问题",
+        "情景"
+      ],
+      "outputs": [
+        "content_slots"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "content-literary-documentary-narrative",
+      "file": "content-literary-documentary-narrative.md",
+      "category": "content-structure",
+      "intent": "文学/纪录片式论述、主题意象、人物命运、读书分享观点页",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 680,
+      "triggers": [
+        "《命运》",
+        "命运",
+        "读书分享",
+        "文学纪录片",
+        "纪录片叙事",
+        "主题意象",
+        "人物命运",
+        "金句",
+        "共鸣",
+        "narrative",
+        "story_spine"
+      ],
+      "outputs": [
+        "narrative_blocks",
+        "page_intent",
+        "quote_plan",
+        "compression_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "narrative-swiss-copywriting",
+      "file": "narrative-swiss-copywriting.md",
+      "category": "content-structure",
+      "intent": "Swiss/瑞士风文案的叙事方法：标题句式、kicker 小标签、宣言断句、巨数配文、对比/递进骨架、收束语气、商务与营销口径边界",
+      "page_roles": [
+        "cover",
+        "section_divider",
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 1200,
+      "triggers": [
+        "文案怎么写",
+        "标题不够有力",
+        "大字标语",
+        "宣言式",
+        "宣言页",
+        "口号",
+        "文案风格",
+        "叙事风格",
+        "数字怎么配文",
+        "巨数配文",
+        "kicker",
+        "小标签",
+        "标题句式",
+        "收束语气",
+        "瑞士风文案",
+        "swiss 文案"
+      ],
+      "outputs": [
+        "title_patterns",
+        "kicker_rules",
+        "metric_captioning",
+        "manifesto_breaks",
+        "closing_voice",
+        "tone_boundary"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "content-comparison",
+      "file": "content-comparison.md",
+      "category": "content-structure",
+      "intent": "前后/竞品/预期实际对比、差距分析",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 600,
+      "triggers": [
+        "对比维度还没想清楚",
+        "先列对比点",
+        "内容层面的对比",
+        "不确定用哪种对比版式"
+      ],
+      "outputs": [
+        "content_slots"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "content-swot-3c-pest",
+      "file": "content-swot-3c-pest.md",
+      "category": "content-structure",
+      "intent": "SWOT/3C/PEST 分析、宏观市场竞品判断",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 640,
+      "triggers": [
+        "SWOT",
+        "3C",
+        "PEST",
+        "宏观分析",
+        "市场分析",
+        "竞品分析"
+      ],
+      "outputs": [
+        "content_slots"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "content-title-rewriting",
+      "file": "content-title-rewriting.md",
+      "category": "content-structure",
+      "intent": "标题是名词/口号/短标签，需要改成判断句",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "标题",
+        "名词标题",
+        "口号标题",
+        "判断句",
+        "改标题",
+        "观点句"
+      ],
+      "outputs": [
+        "title_patterns"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "content-evidence-gap-labeling",
+      "file": "content-evidence-gap-labeling.md",
+      "category": "content-structure",
+      "intent": "缺数据/缺案例/缺来源、素材不足",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 540,
+      "triggers": [
+        "缺数据",
+        "缺案例",
+        "缺来源",
+        "素材不足",
+        "证据缺口",
+        "待补",
+        "口径脚注",
+        "内部测算口径",
+        "厂商口径",
+        "能力示意",
+        "预测值"
+      ],
+      "outputs": [
+        "gap_labels",
+        "caliber_footnote_rules"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-annual-summary",
+      "file": "scenario-annual-summary.md",
+      "category": "scenario-template",
+      "intent": "年终总结、年度复盘、述职、经营总结、KPI、来年计划",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 700,
+      "triggers": [
+        "年终总结",
+        "年度复盘",
+        "述职",
+        "经营总结",
+        "KPI",
+        "来年计划"
+      ],
+      "outputs": [
+        "page_outline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-annual-summary-gold-pages",
+      "file": "scenario-annual-summary-gold-pages.md",
+      "category": "scenario-template",
+      "intent": "复现年度经营总结截图级三页、可照抄 SVG 骨架",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 820,
+      "triggers": [
+        "年度金标",
+        "经营总结金标",
+        "复现年度",
+        "照抄年度骨架"
+      ],
+      "outputs": [
+        "gold_page_recipe",
+        "svg_regions",
+        "qa_checklist"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-project-report",
+      "file": "scenario-project-report.md",
+      "category": "scenario-template",
+      "intent": "项目汇报、周报、里程碑、风险、资源、交付",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 680,
+      "triggers": [
+        "项目汇报",
+        "周报",
+        "里程碑",
+        "项目风险",
+        "交付",
+        "资源"
+      ],
+      "outputs": [
+        "page_outline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-project-report-gold-pages",
+      "file": "scenario-project-report-gold-pages.md",
+      "category": "scenario-template",
+      "intent": "复现项目汇报截图级两页、可照抄 SVG 骨架",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 780,
+      "triggers": [
+        "项目汇报金标",
+        "复现项目汇报",
+        "照抄项目骨架"
+      ],
+      "outputs": [
+        "gold_page_recipe",
+        "svg_regions",
+        "qa_checklist"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-financing-roadshow",
+      "file": "scenario-financing-roadshow.md",
+      "category": "scenario-template",
+      "intent": "BP、融资、商业模式、市场规模、增长、壁垒",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 700,
+      "triggers": [
+        "BP",
+        "融资",
+        "路演",
+        "商业模式",
+        "市场规模",
+        "壁垒",
+        "投资人"
+      ],
+      "outputs": [
+        "page_outline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-product-launch",
+      "file": "scenario-product-launch.md",
+      "category": "scenario-template",
+      "intent": "产品发布、新品、用户价值、功能亮点、发布会",
+      "page_roles": [
+        "content",
+        "section_divider"
+      ],
+      "tokens": 660,
+      "triggers": [
+        "产品发布",
+        "新品",
+        "用户价值",
+        "功能亮点",
+        "发布会"
+      ],
+      "outputs": [
+        "page_outline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-academic-defense",
+      "file": "scenario-academic-defense.md",
+      "category": "scenario-template",
+      "intent": "学术答辩、论文、研究、实验、模型、创新点",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 660,
+      "triggers": [
+        "学术答辩",
+        "论文",
+        "研究",
+        "实验",
+        "创新点",
+        "答辩"
+      ],
+      "outputs": [
+        "page_outline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-government-study",
+      "file": "scenario-government-study.md",
+      "category": "scenario-template",
+      "intent": "党政学习、政策宣贯、党建、学习贯彻、落实",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "tokens": 690,
+      "triggers": [
+        "党政学习",
+        "政策宣贯",
+        "党建",
+        "学习贯彻",
+        "落实"
+      ],
+      "outputs": [
+        "page_outline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-training-course",
+      "file": "scenario-training-course.md",
+      "category": "scenario-template",
+      "intent": "培训、课程、方法论、案例、练习、SOP",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 640,
+      "triggers": [
+        "培训课件",
+        "课程",
+        "方法论课",
+        "练习",
+        "培训SOP"
+      ],
+      "outputs": [
+        "page_outline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "scenario-book-deep-analysis",
+      "file": "scenario-book-deep-analysis.md",
+      "category": "scenario-template",
+      "intent": "书籍深度解析、读书分享、文学作品串讲、人物命运主题演讲",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "materials",
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 700,
+      "triggers": [
+        "《命运》",
+        "命运",
+        "书籍深度解析",
+        "读书分享",
+        "文学作品",
+        "人物命运",
+        "作品深读",
+        "book_deep_analysis",
+        "book analysis"
+      ],
+      "outputs": [
+        "story_spine",
+        "page_intents",
+        "narrative_arc",
+        "image_requests"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "scenario-background-image-premium",
+      "file": "scenario-background-image-premium.md",
+      "category": "scenario-template",
+      "intent": "逐页判断图片背景是否能提升高级感、场景感和叙事质感，并在不适合铺图时退回纯色、纸纹或低干扰抽象 SVG",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary",
+        "closing"
+      ],
+      "stage_tags": [
+        "materials",
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 820,
+      "triggers": [
+        "高级感",
+        "背景图高级",
+        "图片背景优先",
+        "每页处理背景图",
+        "逐页背景图",
+        "视觉质感",
+        "场景感",
+        "沉浸感",
+        "叙事感",
+        "课堂宣讲",
+        "科普",
+        "品牌发布",
+        "产品发布",
+        "文旅",
+        "城市推介",
+        "人物故事",
+        "招商",
+        "生态环保",
+        "校园宣讲",
+        "premium background",
+        "image background first"
+      ],
+      "outputs": [
+        "background_priority_decision",
+        "background_image_requests",
+        "avoid_background_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "scenario-educational-pop-science",
+      "file": "scenario-educational-pop-science.md",
+      "category": "scenario-template",
+      "intent": "课堂宣讲、公开课、科普讲座、科学传播和校园宣讲类 deck 的叙事结构与背景图片优先规则",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary",
+        "closing"
+      ],
+      "stage_tags": [
+        "materials",
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 780,
+      "triggers": [
+        "课堂宣讲",
+        "课堂讲授",
+        "课程宣讲",
+        "科普",
+        "科普PPT",
+        "科普讲座",
+        "科学传播",
+        "校园宣讲",
+        "公开课",
+        "主题教育",
+        "popular science",
+        "science communication",
+        "educational outreach",
+        "lecture deck",
+        "背景图优先"
+      ],
+      "outputs": [
+        "education_outline",
+        "background_image_requests",
+        "page_style_contract"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "scenario-public-image-visual-assets",
+      "file": "scenario-public-image-visual-assets.md",
+      "category": "asset-reference",
+      "intent": "判断景点、城市、场馆、产品、人物、案例、活动现场等公共图片适合放在哪些 PPT 页，并决定背景/普通 picture/native slot 的 owner",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary",
+        "closing"
+      ],
+      "stage_tags": [
+        "materials",
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 820,
+      "triggers": [
+        "公共图片",
+        "公开图片",
+        "景点宣传",
+        "景区宣传",
+        "文旅宣传",
+        "城市推介",
+        "场馆展示",
+        "园区展示",
+        "产品展示",
+        "案例图片",
+        "人物介绍",
+        "讲师介绍",
+        "校园图片",
+        "活动现场",
+        "展览图片",
+        "证据图片",
+        "配图提升视觉",
+        "public image",
+        "destination promotion",
+        "scenic spot",
+        "tourism promotion",
+        "venue photo",
+        "product photo",
+        "case photo"
+      ],
+      "outputs": [
+        "public_image_page_candidates",
+        "image_requests",
+        "picture_binding_plan",
+        "avoid_image_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "gold-page-patterns",
+      "file": "gold-page-patterns.md",
+      "category": "scenario-template",
+      "intent": "把示例里的金标经验迁移到当前页",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 680,
+      "triggers": [
+        "金标迁移",
+        "金标经验",
+        "示例迁移",
+        "金标参考"
+      ],
+      "outputs": [
+        "gold_layout_patterns",
+        "density_slots",
+        "visual_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "gold-structure-composition",
+      "file": "gold-structure-composition.md",
+      "category": "composition-system",
+      "intent": "从金标示例抽象可组合结构，避免每页固定三卡/四卡",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 820,
+      "triggers": [
+        "可组合结构",
+        "组合模式",
+        "避免固定模板",
+        "结构组合",
+        "页面单调"
+      ],
+      "outputs": [
+        "composition_patterns",
+        "page_spec_layout_choice",
+        "svg_groups"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-business-report-argument-cascade",
+      "file": "composition-business-report-argument-cascade.md",
+      "category": "composition-system",
+      "intent": "中国式业务汇报正文页的整页论证装配：从可验证的 action claim 出发，在 baseline/问题/方法/架构/流程中选择一条主链，将机制、数据或案例证据、洞察、行动与来源组合成同页闭环，并校验标题数字、目标和实际结果的口径一致性",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1500,
+      "triggers": [
+        "业务汇报论证链",
+        "整页论证装配",
+        "观点机制证据洞察",
+        "机制与结果同页",
+        "标题数字回指",
+        "目标和实际结果",
+        "基线举措结果经验",
+        "现象根因方案洞察",
+        "方法指标案例价值",
+        "架构能力价值证明",
+        "流程机制结果",
+        "压力瓶颈转型定位",
+        "claim mechanism proof insight action"
+      ],
+      "outputs": [
+        "report_argument_spine",
+        "page_composition_plan",
+        "svg_group_plan",
+        "evidence_alignment_checks"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-case-impact-chain",
+      "file": "composition-case-impact-chain.md",
+      "category": "composition-branch",
+      "intent": "有真实基线、实施举措和量化结果时，将案例装成 baseline→intervention→outcomes→lesson 的可验证成效链，并检查标题指标、单位、周期、来源和因果口径",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 480,
+      "triggers": [
+        "案例成效证据链",
+        "基线举措结果经验",
+        "改造前后成果",
+        "项目案例ROI",
+        "干预动作和量化结果",
+        "case impact chain"
+      ],
+      "outputs": [
+        "case_impact_page_spec",
+        "evidence_alignment_checks",
+        "svg_group_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-diagnostic-insight-grid",
+      "file": "composition-diagnostic-insight-grid.md",
+      "category": "composition-branch",
+      "intent": "并列诊断 2-4 个问题，每个问题共享现象→根因→方案→洞察 schema，并按是否一一对应选择诊断网格、对称转化或非对称问题改进面板",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 430,
+      "triggers": [
+        "问题诊断网格",
+        "现象根因方案洞察",
+        "多个卡点逐一分析",
+        "表层现象深层根因",
+        "对症改进",
+        "diagnostic insight grid"
+      ],
+      "outputs": [
+        "diagnostic_grid_spec",
+        "semantic_row_schema",
+        "svg_group_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-metric-system-with-case",
+      "file": "composition-metric-system-with-case.md",
+      "category": "composition-branch",
+      "intent": "先定义 2-3 类指标体系，再按证据形态选择单值结果卡、四段改善案例或原生趋势图，解释指标如何驱动业务结果",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 450,
+      "triggers": [
+        "指标体系加案例",
+        "指标分类和成效",
+        "先定义指标再展示结果",
+        "双指标体系",
+        "指标洞察案例链",
+        "metric system with case"
+      ],
+      "outputs": [
+        "metric_taxonomy_spec",
+        "result_or_case_spec",
+        "evidence_alignment_checks"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-architecture-value-proof",
+      "file": "composition-architecture-value-proof.md",
+      "category": "composition-branch",
+      "intent": "把平台、层级、模块或能力架构与共性能力和业务结果建立映射，形成 architecture→common capability→value proof，而不是只画系统盒子",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 470,
+      "triggers": [
+        "架构能力价值证明",
+        "平台架构和业务价值",
+        "一库多平台",
+        "分层能力和结果",
+        "架构不是结果",
+        "architecture value proof"
+      ],
+      "outputs": [
+        "architecture_value_spec",
+        "capability_value_mapping",
+        "svg_group_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-stage-mechanism-scorecard",
+      "file": "composition-stage-mechanism-scorecard.md",
+      "category": "composition-branch",
+      "intent": "同时表达 3-7 个阶段、1-2 个机制有效性解释和 2-4 个结果指标，形成 stage flow→mechanism proof→result scorecard",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 460,
+      "triggers": [
+        "阶段机制结果",
+        "流程为什么有效",
+        "门径流程和成效",
+        "阶段流程加结果指标",
+        "三个阶段的流程机制同页用KPI证明结果",
+        "七阶门径",
+        "stage mechanism scorecard"
+      ],
+      "outputs": [
+        "stage_mechanism_scorecard_spec",
+        "flow_capacity_decision",
+        "svg_group_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-pressure-bottleneck-positioning",
+      "file": "composition-pressure-bottleneck-positioning.md",
+      "category": "composition-branch",
+      "intent": "转型 Why 页从外部压力和冲突证据推进到 3-4 个内部瓶颈，再用一句体系定位回答，形成 pressure→bottleneck→positioning",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 430,
+      "triggers": [
+        "压力瓶颈转型定位",
+        "为什么必须转型",
+        "市场变化和内部瓶颈",
+        "传统模式不适配",
+        "体系升级定位",
+        "pressure bottleneck positioning"
+      ],
+      "outputs": [
+        "scqa_positioning_spec",
+        "evidence_alignment_checks",
+        "svg_group_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "composition-operating-model-blueprint",
+      "file": "composition-operating-model-blueprint.md",
+      "category": "composition-branch",
+      "intent": "用一个北极星、两个互补 enabler、3-5 层能力、1-2 条横向协同和 3-5 项价值结果组合 operating model 总蓝图；只提供参数化合同，不固化单一屋顶造型",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "operating model总蓝图",
+        "北极星双轮分层协同",
+        "一核两翼多层",
+        "目标体系总蓝图",
+        "纵向层级横向协同",
+        "operating model blueprint"
+      ],
+      "outputs": [
+        "operating_model_spec",
+        "hierarchy_collaboration_mapping",
+        "svg_group_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "anti-pattern-dark-background-black-text",
+      "file": "anti-pattern-dark-background-black-text.md",
+      "category": "anti-pattern-qa",
+      "intent": "深色背景黑字、未设 fill、深灰正文、低对比线条",
+      "page_roles": [
+        "content",
+        "section_divider"
+      ],
+      "tokens": 500,
+      "triggers": [
+        "深色背景黑字",
+        "黑字",
+        "未设fill",
+        "低对比",
+        "看不清",
+        "深灰正文"
+      ],
+      "outputs": [
+        "fix_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "anti-pattern-empty-cards",
+      "file": "anti-pattern-empty-cards.md",
+      "category": "anti-pattern-qa",
+      "intent": "卡片大片空白、只有编号标题和一行说明",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "卡片空白",
+        "空卡",
+        "一行说明",
+        "卡片空洞"
+      ],
+      "outputs": [
+        "fix_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "anti-pattern-chapter-marker-dominates",
+      "file": "anti-pattern-chapter-marker-dominates.md",
+      "category": "anti-pattern-qa",
+      "intent": "章节编号、PART、页码、装饰标签抢主标题",
+      "page_roles": [
+        "content",
+        "section_divider"
+      ],
+      "tokens": 500,
+      "triggers": [
+        "章节号抢标题",
+        "PART太大",
+        "页码抢位",
+        "编号抢标题",
+        "装饰标签"
+      ],
+      "outputs": [
+        "fix_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "anti-pattern-low-density-slogan",
+      "file": "anti-pattern-low-density-slogan.md",
+      "category": "anti-pattern-qa",
+      "intent": "页面只有口号、泛标签、缺证据、缺行动",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "只有口号",
+        "泛标签",
+        "缺证据",
+        "缺行动",
+        "标语化"
+      ],
+      "outputs": [
+        "fix_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "anti-pattern-layout-overflow",
+      "file": "anti-pattern-layout-overflow.md",
+      "category": "anti-pattern-qa",
+      "intent": "元素越界、重叠、第四卡超出画布、文字被遮挡",
+      "page_roles": [
+        "content"
+      ],
+      "tokens": 500,
+      "triggers": [
+        "越界",
+        "重叠",
+        "超出画布",
+        "溢出",
+        "文字被遮挡",
+        "overflow"
+      ],
+      "outputs": [
+        "fix_rules"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "anti-pattern-fixed-template-monotony",
+      "file": "anti-pattern-fixed-template-monotony.md",
+      "category": "anti-pattern-qa",
+      "intent": "多页看起来都是同一种三卡/四卡/指标条模板",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "模板感",
+        "多页相似",
+        "都是三卡",
+        "单调",
+        "千篇一律"
+      ],
+      "outputs": [
+        "fix_rules",
+        "composition_variation_checklist"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "anti-pattern-ai-flavor",
+      "file": "anti-pattern-ai-flavor.md",
+      "category": "anti-pattern-qa",
+      "intent": "页面视觉与文案呈现典型 AI 生成味：彩虹渐变卡片、装饰符号列表、均质模板脸、空洞对仗口号、热词堆砌、「不是A而是B」句式",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 900,
+      "triggers": [
+        "AI味",
+        "AI 感",
+        "太像AI写的",
+        "去AI化",
+        "模板感",
+        "口号空洞",
+        "彩虹卡片",
+        "并列模块不同颜色",
+        "每个模块一种颜色",
+        "多色模块",
+        "逐卡换色",
+        "渐变边框",
+        "装饰太多",
+        "emoji 图标",
+        "文案套路",
+        "热词堆砌"
+      ],
+      "outputs": [
+        "fix_rules",
+        "ai_flavor_checklist",
+        "positive_reference"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "anti-pattern-rainbow-parallel-modules",
+      "file": "anti-pattern-rainbow-parallel-modules.md",
+      "category": "anti-pattern-qa",
+      "intent": "汇报型 PPT 并列痛点、能力、举措或同级模块每个模块一种颜色、四个痛点四种颜色、逐卡换色和彩虹卡片的专门修复合同",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 520,
+      "triggers": [
+        "并列模块不同颜色",
+        "每个模块一种颜色",
+        "四个痛点四种颜色",
+        "多色卡片",
+        "多色模块",
+        "逐卡换色",
+        "彩虹卡片",
+        "统一主色",
+        "主色贯穿全册",
+        "局部功能色"
+      ],
+      "outputs": [
+        "recolor_rules",
+        "parallel_module_color_checklist"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "anti-pattern-over-businessified-literary-slides",
+      "file": "anti-pattern-over-businessified-literary-slides.md",
+      "category": "anti-pattern-qa",
+      "intent": "读书分享、人文主题、文学/纪录片叙事页被误写成 business gold、指标页或行动台账",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 540,
+      "triggers": [
+        "过度业务化",
+        "business gold",
+        "指标页",
+        "行动台账",
+        "读书分享",
+        "文学叙事",
+        "人文主题",
+        "误写成业务汇报"
+      ],
+      "outputs": [
+        "fix_rules",
+        "route_correction"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "icon-library",
+      "file": "icon-library.md",
+      "category": "asset-reference",
+      "intent": "当前页需要业务图标或图标槽位",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 600,
+      "triggers": [
+        "图标库",
+        "图标查询",
+        "icon库",
+        "业务图标"
+      ],
+      "outputs": [
+        "icon_query_rules",
+        "icon_slot_contract"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "image-sourcing-commercial-or-generated",
+      "file": "image-sourcing-commercial-or-generated.md",
+      "category": "asset-reference",
+      "intent": "为背景图、正文锚点图、书封/人物图、证据图选择受控来源，并在绑定失败时保留相同图片 ID 修复或替换，禁止删除合适图片后用手绘 SVG 模仿",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "materials",
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 790,
+      "triggers": [
+        "可商用图片",
+        "公开图片",
+        "生图",
+        "生成图片",
+        "图片来源",
+        "图片授权",
+        "license",
+        "commercial_ok",
+        "书封图片",
+        "背景图",
+        "背景图优先",
+        "高级感背景",
+        "场景感",
+        "背景图入池",
+        "全局背景素材",
+        "早期背景图素材",
+        "use_case background",
+        "materialize background",
+        "整页背景",
+        "公共图片",
+        "景点宣传",
+        "景区宣传",
+        "文旅宣传",
+        "城市推介",
+        "场馆展示",
+        "园区展示",
+        "产品展示",
+        "人物介绍",
+        "讲师介绍",
+        "案例图片",
+        "活动现场",
+        "展览图片",
+        "证据图片",
+        "图片owner",
+        "用户上传图片",
+        "上传文件图片",
+        "剥离图片",
+        "图片素材",
+        "图片绑定修复",
+        "保留合适图片",
+        "禁止手绘SVG替代图片",
+        "image_assets",
+        "uploaded_image",
+        "embedded_image",
+        "native_image_slot",
+        "缺图",
+        "补图",
+        "占位卡",
+        "图片占位",
+        "ask_user 上传图片"
+      ],
+      "supports": [
+        "ask_user",
+        "slide_image_generator",
+        "merge_slide_background_binding",
+        "deck_framework.background",
+        "merge_slide_picture_binding",
+        "artifacts.picture_bindings",
+        "native_image_slot",
+        "native_data_image"
+      ],
+      "outputs": [
+        "image_requests",
+        "material_metadata",
+        "license_checklist",
+        "selected_image_bindings"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "svg-shape-patterns",
+      "file": "svg-shape-patterns.md",
+      "category": "shape-patterns",
+      "intent": "SVG 基础形状与业务组合组件写法：流程节点、指标卡、语义行栈、分区页签、单指标变化卡、洞察侧栏、结论带和风险/动作条",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "tokens": 1200,
+      "triggers": [
+        "基础形状",
+        "形状片段",
+        "流程节点写法",
+        "指标卡写法",
+        "svg片段",
+        "增长徽标",
+        "上升箭头徽标",
+        "环形进度",
+        "甜甜圈弧",
+        "gauge",
+        "房形题头",
+        "chevron题头",
+        "六边形",
+        "六边形徽标",
+        "序号徽标",
+        "hex badge",
+        "分区页签",
+        "section tab frame",
+        "语义行栈",
+        "semantic row stack",
+        "单指标变化卡",
+        "metric delta card",
+        "洞察侧栏",
+        "insight rail",
+        "高对比结论带",
+        "conclusion band"
+      ],
+      "outputs": [
+        "copyable_svg_fragments"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "svg-effect-glow-shadow",
+      "file": "svg-effect-glow-shadow.md",
+      "category": "shape-patterns",
+      "intent": "给强调卡/徽标/标题加外发光、柔和投影或毛玻璃近似:单 filter(feGaussianBlur+feFlood / feDropShadow)映射 a:glow/a:outerShdw 的技法与纪律",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 920,
+      "triggers": [
+        "发光",
+        "外发光",
+        "光晕",
+        "霓虹",
+        "投影",
+        "柔和阴影",
+        "卡片阴影",
+        "毛玻璃",
+        "磨砂质感",
+        "半透明面板",
+        "glow",
+        "drop shadow",
+        "frosted glass"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "copyable_svg_fragments",
+        "glow_shadow_discipline"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "svg-shape-3d-isometric",
+      "file": "svg-shape-3d-isometric.md",
+      "category": "shape-patterns",
+      "intent": "假三维等距技法:多面 polygon+每面 linearGradient 拼等距立方/分层立体金字塔/阶梯棱柱,三面明暗(顶亮/侧中/背暗)制造体积",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1178,
+      "triggers": [
+        "3D",
+        "立体",
+        "等距",
+        "轴测",
+        "立方体",
+        "阶梯柱",
+        "立体金字塔",
+        "体积感",
+        "明暗渐变",
+        "isometric",
+        "faux 3d",
+        "真3D",
+        "sp3d",
+        "bevel",
+        "浮雕",
+        "挤出",
+        "拟物立体",
+        "data-effect-3d",
+        "立体卡片",
+        "立体徽标",
+        "3D 凸起"
+      ],
+      "supports": [
+        "svg_drawingml"
+      ],
+      "outputs": [
+        "copyable_svg_fragments",
+        "isometric_shape_rules"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "contract-font-portability",
+      "file": "contract-font-portability.md",
+      "category": "execution-contract",
+      "intent": "SVG 字体名跨宿主可移植性契约:编写/预览字体锚定渲染主机、交付字体锚定观看主机(默认 Windows PowerPoint),靠导出期 typeface 映射连接;白名单纪律、font_availability 降级非失败、数字质感西文优先栈",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary",
+        "cover"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 980,
+      "triggers": [
+        "字体",
+        "字体名",
+        "font-family",
+        "中文字体",
+        "衬线",
+        "无衬线",
+        "宋体",
+        "字体不显示",
+        "字体回退",
+        "字体缺失",
+        "导出后字体变了",
+        "换台电脑字体不对",
+        "字体白名单",
+        "Microsoft YaHei",
+        "Noto Serif CJK"
+      ],
+      "outputs": [
+        "font_policy",
+        "font_whitelist_rules"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "contract-reference-image-benchmarking",
+      "file": "contract-reference-image-benchmarking.md",
+      "category": "execution-contract",
+      "intent": "deck 级设计契约提炼法与参考图对标:提炼色彩token/版式骨架/组件语汇/密度口径/技法克制/技术边界六件套;学结构不抄配色、深浅节奏、跨页风格漂移检查",
+      "page_roles": [
+        "cover",
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "materials",
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 840,
+      "triggers": [
+        "参考图",
+        "效果图",
+        "照着这个风格",
+        "对标",
+        "这个感觉",
+        "视觉基准",
+        "参考这张图",
+        "竞品截图",
+        "学习这个模板",
+        "风格对标",
+        "设计契约",
+        "deck级视觉",
+        "整册统一",
+        "风格漂移",
+        "组件语汇"
+      ],
+      "outputs": [
+        "deck_design_contract",
+        "component_fragment_library"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "contract-review-baseline-discipline",
+      "file": "contract-review-baseline-discipline.md",
+      "category": "anti-pattern-qa",
+      "intent": "他审基准防通胀:固定参考图/设计契约/已确认页作打分锚点、机器门禁先行、硬阈值打回+修复清单、视觉/内容双审分跑、语义复核5条、修复循环上限与页标识归因",
+      "page_roles": [
+        "content",
+        "section_divider",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 790,
+      "triggers": [
+        "打分",
+        "评分",
+        "视觉打分",
+        "是否合格",
+        "自评",
+        "复核",
+        "双审核",
+        "打回",
+        "通过标准",
+        "分数虚高",
+        "打分通胀",
+        "审核基准",
+        "语义复核",
+        "编号错序",
+        "改写失义"
+      ],
+      "outputs": [
+        "review_baseline_rules",
+        "semantic_review_checklist"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "svg-component-library-method",
+      "file": "svg-component-library-method.md",
+      "category": "shape-patterns",
+      "intent": "从参考图/设计契约提炼可复制 <g> 组件片段并归档的方法:先查重再落笔(复用 svg-shape-patterns)、{{token}} 占位、片段是跨页一致性核心、同组件跨页参数漂移即违约",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 720,
+      "triggers": [
+        "组件库",
+        "组件片段",
+        "提取组件",
+        "图形片段怎么写",
+        "复用片段",
+        "卡片怎么画",
+        "徽标怎么画",
+        "六边形怎么画",
+        "别再画一遍",
+        "片段归档",
+        "查重",
+        "跨页一致"
+      ],
+      "outputs": [
+        "component_fragment_library",
+        "fragment_extraction_method"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "layout-sectioned-evidence-dashboard",
+      "file": "layout-sectioned-evidence-dashboard.md",
+      "category": "composition-system",
+      "module_type": "component_assembly_recipe",
+      "intent": "仅在用户明确要求复数结构时，由外围模板系列分配 1-2 个分区、3-6 个重复子区域和一条可选底部收口 region；只负责页面内容区编排，单卡或单流程请求禁止选择",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 980,
+      "triggers": [
+        "大卡套多张小卡",
+        "大分区里面放小卡",
+        "分区式证据仪表板",
+        "两个分区六张指标卡",
+        "两个分区放六张图表洞察卡底部加一条根因整改流程",
+        "效率和质量两个大分区各三张图表文字卡底部追加满宽整改流程",
+        "六张小图",
+        "多卡加底部流程",
+        "效率质量双指标",
+        "指标体系总览",
+        "sectioned evidence dashboard",
+        "nested evidence cards"
+      ],
+      "requires": [
+        "contract-visual-token-core",
+        "contract-content-density",
+        "layout-chart-insight-card",
+        "layout-full-width-rect-step-flow"
+      ],
+      "pairs_with": [
+        "composition-metric-system-with-case",
+        "template-series-composite-builder",
+        "theme-light-business-blue"
+      ],
+      "conflicts_with": [
+        "anti-pattern-empty-cards",
+        "anti-pattern-fixed-template-monotony"
+      ],
+      "outputs": [
+        "sectioned_evidence_dashboard_assembly_plan",
+        "chart_insight_card_regions",
+        "rect_step_flow_region"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "composition-chart-insight-rail",
+      "file": "composition-chart-insight-rail.md",
+      "category": "composition-branch",
+      "module_type": "component_assembly_recipe",
+      "intent": "以一张原生折线图或柱状图作为页面主体，在右侧纵向编排 2-3 张文字洞察卡，形成 action title、数据证据、原因/风险/行动解释和来源口径闭环",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1080,
+      "triggers": [
+        "左侧折线图右侧卡片",
+        "左侧柱状图右侧文字",
+        "左图右文",
+        "左边图表右边说明",
+        "图表加洞察侧栏",
+        "主图加解释卡",
+        "chart insight rail",
+        "chart with insight cards",
+        "chart with annotation rail"
+      ],
+      "requires": [
+        "composition-business-report-argument-cascade",
+        "template-series-composite-builder",
+        "layout-native-chart-panel",
+        "layout-insight-text-card"
+      ],
+      "pairs_with": [
+        "chart-line-trend",
+        "chart-bar-comparison",
+        "layout-native-chart-slot",
+        "theme-light-business-blue"
+      ],
+      "conflicts_with": [
+        "anti-pattern-empty-cards",
+        "anti-pattern-low-density-slogan"
+      ],
+      "outputs": [
+        "chart_insight_rail_assembly_plan",
+        "primary_chart_region",
+        "insight_card_regions",
+        "chart_story_checks"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-native-chart-panel",
+      "file": "layout-native-chart-panel.md",
+      "category": "shape-component-library",
+      "module_type": "data_driven_svg_component",
+      "intent": "一次生成一个占主体区域的原生 bar/line 图表面板，稳定声明大尺寸 chart slot，并由结构化数据确定性产出 native-data sidecar",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "左侧折线图",
+        "左侧柱状图",
+        "左边主图表",
+        "大折线图右侧说明",
+        "大柱状图右侧洞察",
+        "主图表",
+        "图表主体区",
+        "native chart panel",
+        "primary chart panel"
+      ],
+      "requires": [
+        "template-series-composite-builder",
+        "layout-native-chart-slot"
+      ],
+      "pairs_with": [
+        "composition-chart-insight-rail",
+        "layout-insight-text-card",
+        "chart-line-trend",
+        "chart-bar-comparison"
+      ],
+      "conflicts_with": [
+        "anti-pattern-empty-cards"
+      ],
+      "outputs": [
+        "native_chart_panel_spec",
+        "grouped_editable_svg",
+        "one_primary_native_chart_slot",
+        "native_data_sidecar"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-insight-text-card",
+      "file": "layout-insight-text-card.md",
+      "category": "shape-component-library",
+      "module_type": "data_driven_svg_component",
+      "intent": "一次生成一张用于解释同页主图表的文字洞察卡，承载结论、原因、风险或行动中的一个职责，并限制为 1-3 条可回指证据的短说明",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 560,
+      "triggers": [
+        "图表右侧文字卡",
+        "右侧洞察卡",
+        "图表说明卡",
+        "趋势解读卡",
+        "原因卡",
+        "风险卡",
+        "行动卡",
+        "insight text card",
+        "chart annotation card"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "composition-chart-insight-rail",
+        "layout-native-chart-panel"
+      ],
+      "conflicts_with": [
+        "anti-pattern-empty-cards"
+      ],
+      "outputs": [
+        "insight_text_card_spec",
+        "grouped_editable_svg",
+        "evidence_backed_text_card"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-chart-insight-card",
+      "file": "layout-chart-insight-card.md",
+      "category": "shape-component-library",
+      "module_type": "data_driven_svg_component",
+      "intent": "一次只生成一张内容区证据卡，将子观点标题、唯一高亮值、一句意义、单一原生微图/微表或事实和洞察页脚组合为可替换数据的稳定 SVG group",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 720,
+      "triggers": [
+        "图表文字组合卡",
+        "图表加文字的指标卡",
+        "单独一张图表卡",
+        "图表加结论卡",
+        "单指标证据卡",
+        "数字趋势洞察卡",
+        "柱图文字卡",
+        "微图表洞察卡",
+        "KPI图表卡",
+        "chart insight card"
+      ],
+      "requires": [
+        "contract-visual-token-core",
+        "contract-content-density",
+        "layout-native-chart-slot"
+      ],
+      "pairs_with": [
+        "template-series-composite-builder",
+        "layout-sectioned-evidence-dashboard"
+      ],
+      "conflicts_with": [
+        "anti-pattern-empty-cards"
+      ],
+      "outputs": [
+        "chart_insight_card_spec",
+        "grouped_editable_svg",
+        "one_native_slot",
+        "native_data_sidecar"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "layout-full-width-rect-step-flow",
+      "file": "layout-full-width-rect-step-flow.md",
+      "category": "shape-component-library",
+      "module_type": "data_driven_svg_component",
+      "intent": "一次只生成一条填满调用方 region 的横向流程带，用 3-6 个等宽矩形步骤、方向箭头和可选末端行动块表达阶段、根因、整改或验收关系",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 640,
+      "triggers": [
+        "横向满宽流程图",
+        "矩形块流程",
+        "根因链",
+        "阶段矩形带",
+        "整改闭环流程",
+        "full width rect flow"
+      ],
+      "requires": [
+        "contract-visual-token-core",
+        "contract-content-density",
+        "layout-process-flow"
+      ],
+      "pairs_with": [
+        "template-series-composite-builder",
+        "layout-sectioned-evidence-dashboard"
+      ],
+      "conflicts_with": [
+        "anti-pattern-fixed-template-monotony"
+      ],
+      "outputs": [
+        "full_width_rect_step_flow_spec",
+        "grouped_editable_svg",
+        "stable_step_groups"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "template-series-composite-builder",
+      "file": "template-series-composite-builder.md",
+      "category": "shape-component-library",
+      "module_type": "data_driven_svg_composite",
+      "intent": "在选定整页模板系列与论证分支后，用结构化数据一次生成一个 region-local、分组、可编辑的 SVG 复杂组件；页面背景、action title、页眉页脚和多组件装配由上层负责",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1450,
+      "triggers": [
+        "复杂组合形状",
+        "组合形状脚本",
+        "数据驱动SVG",
+        "替换内容直接复用",
+        "提供基础数据生成组件",
+        "模板组合组件",
+        "系列组件库",
+        "阶段矩阵",
+        "诊断洞察网格",
+        "共享源平台价值",
+        "门径机制结果",
+        "operating model蓝图",
+        "回顾成果展望金字塔",
+        "蓝绿问题改进",
+        "跨月事件日历",
+        "目标行动时间线",
+        "北极星KPI屋顶",
+        "成果箭头带",
+        "四主题中心簇",
+        "图表文字组合卡",
+        "指标小卡微图",
+        "横向满宽流程图",
+        "矩形块流程"
+      ],
+      "requires": [
+        "drawingml-svg-authoring",
+        "contract-visual-token-core",
+        "contract-content-density"
+      ],
+      "pairs_with": [
+        "composition-business-report-argument-cascade",
+        "layout-sectioned-evidence-dashboard",
+        "layout-chart-insight-card",
+        "layout-full-width-rect-step-flow"
+      ],
+      "conflicts_with": [
+        "anti-pattern-fixed-template-monotony"
+      ],
+      "outputs": [
+        "series_composite_spec",
+        "grouped_editable_svg",
+        "stable_group_ids",
+        "capacity_errors",
+        "reusable_component_examples",
+        "native_data_sidecar"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "template-series-rd-efficiency-blue",
+      "file": "template-series-rd-efficiency-blue.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用汇报模板 p1-p15 的浅底蓝白高密业务汇报系列：用分带、机制、证据、洞察和结果构成完整页面展示系统，并在整册形成 Why-Diagnosis-What-How-Proof-Closure 节奏",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 1250,
+      "triggers": [
+        "汇报模板系列",
+        "浅底蓝白高密汇报",
+        "研发效能业务汇报",
+        "能力转型闭环",
+        "机制与结果同页",
+        "结论证据洞察",
+        "阶段路线矩阵",
+        "问题诊断网格",
+        "平台架构价值",
+        "门径治理",
+        "一核两翼四层"
+      ],
+      "requires": [
+        "composition-business-report-argument-cascade",
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "theme-light-business-blue",
+        "svg-shape-patterns"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "deck_narrative_rhythm",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "template-series-blue-summary-pyramid",
+      "file": "template-series-blue-summary-pyramid.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt1 的蓝白递进经营总结系列，用回顾-成果-展望、阶梯、成长轨迹和金字塔形成向上向前的页面展示语言",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 850,
+      "triggers": [
+        "ppt1系列",
+        "蓝白递进经营总结",
+        "回顾成果展望",
+        "半年复盘金字塔",
+        "向上阶梯",
+        "成长轨迹",
+        "蓝色经营总结",
+        "成果金字塔"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-retrospect-outlook-pyramid",
+        "layout-timeline-ascending-steps",
+        "layout-hero-metric-left-rail"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "template-series-blue-green-diagnostic",
+      "file": "template-series-blue-green-diagnostic.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt2 的蓝绿问题改进系列，以稳定的双语义色、镜像或非对称双面板、中心转化锚表达问题-改进、亮点-短板或复盘-规划",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 850,
+      "triggers": [
+        "ppt2系列",
+        "蓝绿问题改进",
+        "亮点短板复盘",
+        "问题改进双侧",
+        "复盘规划对角",
+        "双语义配色",
+        "相交圆转化",
+        "U形箭头对照"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-problem-improve-value-rail",
+        "layout-problem-improve-bilateral",
+        "layout-diagonal-duo-panels"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "template-series-violet-quarterly-overview",
+      "file": "template-series-violet-quarterly-overview.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt3 的紫色经营总结宽系列，以 KPI、季度/月度事实、North-star、成果带、四主题簇和总结 rail 组合季度半年年度汇报",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 900,
+      "triggers": [
+        "ppt3系列",
+        "紫色经营总结总览",
+        "季度KPI行动列",
+        "半年事件总结",
+        "年度north star",
+        "成果箭头带",
+        "四主题中心簇",
+        "季度半年年度规划"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-kpi-strip",
+        "layout-phased-action-columns",
+        "layout-arrow-ribbon-metrics"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "template-series-violet-calendar",
+      "file": "template-series-violet-calendar.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt4 的紫色季度三栏和半年事件日历窄系列，用月份刻度、跨度卡和右侧总结 rail 展示时间事实与管理结论",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 800,
+      "triggers": [
+        "ppt4系列",
+        "紫色季度三栏",
+        "半年事件日历",
+        "跨月项目复盘",
+        "六个月跨月事件网格项目条跨月并配总结侧栏",
+        "月份跨度卡",
+        "事件总结侧栏",
+        "季度时间复盘"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-phased-action-columns",
+        "layout-timeline-zigzag-groups",
+        "layout-kpi-strip"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "template-series-violet-planning-5w1h",
+      "file": "template-series-violet-planning-5w1h.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt5 的紫色计划与 5W1H 系列，用目标-行动-评估时间轴、策略分解和验收收口组织计划型页面",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 780,
+      "triggers": [
+        "ppt5系列",
+        "紫色计划5W1H",
+        "目标行动评估",
+        "月度行动时间线",
+        "计划策略分解",
+        "目标验收收口"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-timeline-horizontal",
+        "layout-summary-action-matrix"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "template-series-violet-improvement",
+      "file": "template-series-violet-improvement.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt6 的紫色不足改进系列，用双侧语义列、中心转化锚和底部原则/行动带突出问题到改进的映射",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "ppt6系列",
+        "紫色不足改进",
+        "问题措施映射",
+        "双侧改进页",
+        "中心转化锚",
+        "改进行动收口"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-problem-improve-bilateral",
+        "layout-problem-improve-value-rail"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "template-series-violet-performance",
+      "file": "template-series-violet-performance.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt7 的紫色绩效与目标达成系列，用 North-star 屋顶、管理语义条、KPI strip 和目标达成对照突出经营判断",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "ppt7系列",
+        "紫色绩效汇报",
+        "north star KPI",
+        "年度关键指标屋顶",
+        "目标达成对照",
+        "经营绩效总览"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-kpi-strip",
+        "layout-pyramid-hierarchy",
+        "layout-versus-duel"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "template-series-violet-achievements",
+      "file": "template-series-violet-achievements.md",
+      "category": "template-series",
+      "module_type": "deck_visual_system",
+      "intent": "复用 ppt8 的紫色成果展示系列，用连续成果箭头带或四主题中心簇建立方向性、汇聚感和指标证据层级",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 760,
+      "triggers": [
+        "ppt8系列",
+        "紫色成果展示",
+        "成果箭头带",
+        "四主题亮点",
+        "中心圆簇",
+        "年度工作成果",
+        "方向性成果陈列"
+      ],
+      "requires": [
+        "template-series-composite-builder"
+      ],
+      "pairs_with": [
+        "layout-arrow-ribbon-metrics",
+        "layout-quad-cards-core-cluster"
+      ],
+      "outputs": [
+        "series_visual_contract",
+        "page_archetype_menu",
+        "shape_composition_grammar",
+        "composite_resource_plan"
+      ],
+      "priority": "P1"
+    }
+  ]
+}

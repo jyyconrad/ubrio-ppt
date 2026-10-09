@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="gAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E4FCC"/><stop offset="1" stop-color="#4A8CFF"/>
+    </linearGradient>
+    <linearGradient id="gRibbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E6BDF"/><stop offset="1" stop-color="#123A8C"/>
+    </linearGradient>
+    <linearGradient id="gDeep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14386E"/><stop offset="1" stop-color="#0A1E45"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#123A8C" flood-opacity="0.16"/>
+    </filter>
+    <filter id="pillShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0E2A66" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+
+  <!-- 离线预览底色：仅供 rsvg 预览。运行时整页背景由 deck_framework.background 承载；
+       提交 render_svg_drawingml_slide 的内容层 SVG 不要照抄这行整页 rect，
+       否则触发 SVG_FULL_PAGE_BACKGROUND_FORBIDDEN。 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FC"/>
+
+  <!-- 标题区 -->
+  <rect x="64" y="50" width="10" height="40" rx="4" fill="url(#gAccent)"/>
+  <text x="90" y="86" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="800">创新成果转化 · 四阶段推进时间线</text>
+  <rect x="64" y="102" width="204" height="5" rx="2.5" fill="url(#gAccent)"/>
+  <rect x="276" y="103.5" width="940" height="2" fill="#C9D9F2"/>
+  <text x="64" y="130" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="16">创新型智能体靠平台治理链路，把员工创意转成可审核、可上架、可复用的资产。</text>
+
+  <!-- KPI 带 -->
+  <g filter="url(#softShadow)">
+    <rect x="64" y="144" width="360" height="86" rx="12" fill="#FFFFFF"/>
+  </g>
+  <text x="86" y="174" fill="#33445C" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600">创新链路</text>
+  <text x="86" y="205" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="32" font-weight="800">4步</text>
+  <text x="158" y="200" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">机制化创新管道</text>
+  <text x="86" y="226" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11.5">员工创新 → 平台辅导 → 上架共享 → 全集团推广</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="452" y="144" width="360" height="86" rx="12" fill="#FFFFFF"/>
+  </g>
+  <text x="474" y="174" fill="#33445C" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600">上架审核时效</text>
+  <text x="474" y="205" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="26" font-weight="800">1个工作日</text>
+  <text x="474" y="226" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11.5">平台上架审核标准时效</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="840" y="144" width="360" height="86" rx="12" fill="#FFFFFF"/>
+  </g>
+  <text x="862" y="174" fill="#33445C" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600">价值定位</text>
+  <text x="862" y="205" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="800">平台飞轮</text>
+  <text x="862" y="226" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11.5">创新 → 沉淀 → 复用，自我生长</text>
+
+  <!-- 四阶段节点卡（时间线里程碑，自左向右时序推进） -->
+  <g filter="url(#softShadow)">
+    <rect x="64" y="250" width="272" height="150" rx="12" fill="#FFFFFF"/>
+  </g>
+  <polygon points="98,267 112.72,275.5 112.72,292.5 98,301 83.28,292.5 83.28,275.5" fill="url(#gAccent)"/>
+  <text x="98" y="290" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800" text-anchor="middle">01</text>
+  <text x="126" y="290" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">业务一线自主创建</text>
+  <line x1="84" y1="312" x2="316" y2="312" stroke="#E2EAF7" stroke-width="1"/>
+  <rect x="84" y="335" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="98" y="342" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">基于业务痛点提出创意</text>
+  <rect x="84" y="363" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="98" y="370" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">不依赖 IT 集中开发</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="352" y="250" width="272" height="150" rx="12" fill="#FFFFFF"/>
+  </g>
+  <polygon points="386,267 400.72,275.5 400.72,292.5 386,301 371.28,292.5 371.28,275.5" fill="url(#gAccent)"/>
+  <text x="386" y="290" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800" text-anchor="middle">02</text>
+  <text x="414" y="290" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">平台全流程技术辅导</text>
+  <line x1="372" y1="312" x2="604" y2="312" stroke="#E2EAF7" stroke-width="1"/>
+  <rect x="372" y="335" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="386" y="342" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">技术支持 · 效果验证</text>
+  <rect x="372" y="363" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="386" y="370" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">应用优化持续迭代</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="640" y="250" width="272" height="150" rx="12" fill="#FFFFFF"/>
+  </g>
+  <polygon points="674,267 688.72,275.5 688.72,292.5 674,301 659.28,292.5 659.28,275.5" fill="url(#gAccent)"/>
+  <text x="674" y="290" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800" text-anchor="middle">03</text>
+  <text x="702" y="290" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">有效果的智能体上架</text>
+  <line x1="660" y1="312" x2="892" y2="312" stroke="#E2EAF7" stroke-width="1"/>
+  <rect x="660" y="335" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="674" y="342" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">本部门免费 · 他部门订阅</text>
+  <rect x="660" y="363" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="674" y="370" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">须经平台运营审核后上架</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="928" y="250" width="272" height="150" rx="12" fill="#FFFFFF"/>
+  </g>
+  <polygon points="962,267 976.72,275.5 976.72,292.5 962,301 947.28,292.5 947.28,275.5" fill="url(#gAccent)"/>
+  <text x="962" y="290" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800" text-anchor="middle">04</text>
+  <text x="990" y="290" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">优秀成果全集团推广</text>
+  <line x1="948" y1="312" x2="1180" y2="312" stroke="#E2EAF7" stroke-width="1"/>
+  <rect x="948" y="335" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="962" y="342" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">推广表彰、比学赶超</text>
+  <rect x="948" y="363" width="6" height="6" rx="1" fill="#1D6FFF"/>
+  <text x="962" y="370" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">平台主动推广优质应用</text>
+
+  <!-- 卡间时序 chevron -->
+  <path d="M 340 328 L 350 336 L 340 344" fill="none" stroke="#1D6FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+  <path d="M 628 328 L 638 336 L 628 344" fill="none" stroke="#1D6FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+  <path d="M 916 328 L 926 336 L 916 344" fill="none" stroke="#1D6FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+
+  <!-- 里程碑到大箭头的连接线 -->
+  <line x1="200" y1="400" x2="200" y2="440" stroke="#4A8CFF" stroke-width="2"/>
+  <line x1="488" y1="400" x2="488" y2="440" stroke="#4A8CFF" stroke-width="2"/>
+  <line x1="1064" y1="400" x2="1064" y2="440" stroke="#4A8CFF" stroke-width="2"/>
+
+  <!-- 时效徽章：挂在上架（03）节点 -->
+  <g filter="url(#pillShadow)">
+    <rect x="700" y="406" width="152" height="27" rx="13.5" fill="url(#gAccent)"/>
+  </g>
+  <circle cx="720" cy="419.5" r="7.5" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 720 415 L 720 419.5 L 723.5 422" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="736" y="424" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="12.5" font-weight="700">1个工作日内完成审核</text>
+  <line x1="776" y1="400" x2="776" y2="406" stroke="#4A8CFF" stroke-width="2"/>
+  <line x1="776" y1="433" x2="776" y2="440" stroke="#4A8CFF" stroke-width="2"/>
+
+  <!-- 时间线大箭头 ribbon（四里程碑自左向右推进） -->
+  <path d="M 64 440 H 1150 L 1190 462 L 1150 484 H 64 Z" fill="url(#gRibbon)"/>
+  <line x1="352" y1="442" x2="352" y2="482" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.35"/>
+  <line x1="640" y1="442" x2="640" y2="482" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.35"/>
+  <line x1="928" y1="442" x2="928" y2="482" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.35"/>
+  <circle cx="200" cy="440" r="6" fill="#FFFFFF"/>
+  <circle cx="488" cy="440" r="6" fill="#FFFFFF"/>
+  <circle cx="776" cy="440" r="6" fill="#FFFFFF"/>
+  <circle cx="1064" cy="440" r="6" fill="#FFFFFF"/>
+  <text x="200" y="467" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">员工创新</text>
+  <text x="488" y="467" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">平台辅导</text>
+  <text x="776" y="467" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">上架共享</text>
+  <text x="1064" y="467" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">全集团推广</text>
+
+  <!-- 审核与沉淀门禁：深蓝横条 -->
+  <g filter="url(#softShadow)">
+    <rect x="64" y="504" width="1152" height="84" rx="12" fill="url(#gDeep)"/>
+  </g>
+  <rect x="64" y="504" width="6" height="84" rx="3" fill="#38BDF8"/>
+  <text x="88" y="536" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">审核门禁 · 上架治理</text>
+  <text x="88" y="560" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12.5">发布到平台需经运营人员审核，通常 1 个工作日内完成。</text>
+  <text x="88" y="580" fill="#9FBCE8" font-family="Microsoft YaHei, Arial" font-size="12.5">发布为 API / MCP Server 等接口形态可免上架审核。</text>
+  <line x1="636" y1="522" x2="636" y2="570" stroke="#2B4C7E" stroke-width="1.5"/>
+  <text x="664" y="536" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800">知识回流 · 知识工程</text>
+  <text x="664" y="560" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12.5">创新成果经知识工程团队沉淀为可复用知识资产。</text>
+  <text x="664" y="580" fill="#9FBCE8" font-family="Microsoft YaHei, Arial" font-size="12.5">回流「精品知识库」供全集团订阅复用。</text>
+
+  <!-- 激励机制说明 -->
+  <rect x="64" y="603" width="8" height="16" rx="2" fill="#F59E0B"/>
+  <text x="82" y="616" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="12.5"><tspan fill="#33445C" font-weight="700">激励机制边界：</tspan>为业务创新提供免费资源包；智能体上架后本部门免费使用，优质应用由平台主动推广，不承诺额外商业分成。</text>
+
+  <!-- 底部结论带 -->
+  <rect x="64" y="644" width="1152" height="44" rx="10" fill="url(#gAccent)"/>
+  <text x="640" y="671" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="middle">创新不是额外模块，而是平台通过审核、沉淀与推广不断自我生长的机制 —— 创新 → 沉淀 → 复用，形成平台增长飞轮。</text>
+
+  <!-- 结构参考标注 -->
+  <text x="64" y="709" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11.5">示例数据 · 仅供 layout-timeline-horizontal 结构参考（横向时间线大箭头），真实生成需替换为用户证据。</text>
+</svg>

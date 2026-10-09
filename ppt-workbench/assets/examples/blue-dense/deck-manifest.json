@@ -1,0 +1,20 @@
+{
+  "thesis": "四项运营指标均改善，继续固化作业机制并单独验证行动与结果的关系",
+  "audience_decision": "继续执行三项机制并补齐分层复盘记录",
+  "evidence_ladder": ["internal_observation", "proposal", "to_validate"],
+  "canonical_metrics": ["订单准时交付率", "单单拣货时长", "退货错发率", "跨区调拨等待"],
+  "canonical_products": ["仓储订单运营（合成演示）"],
+  "canonical_artifacts": ["库位清单", "扫描异常记录", "调拨申请"],
+  "canonical_stages": ["库位调整", "扫描复核", "调拨复盘"],
+  "canonical_owners": ["仓储负责人", "调拨负责人"],
+  "reference_assets": ["assets/visual-references/blue-dense/result-p4.jpg"],
+  "visual_system": {
+    "style_profile": "白底深蓝的高密度运营汇报，多区证据围绕一个判断",
+    "typography": "Hiragino Sans GB；标题32px，区域21px，正文15–16px，指标26px",
+    "palette": "白底、深蓝#0A2F61、主蓝#0B4E9B、浅蓝#EFF5FB、正文#183A61",
+    "spacing": "边距54px，局部4px圆角，证据区沿同一列线",
+    "icon_style": "简明编号与可编辑结构示意，无照片",
+    "chart_style": "前后数值对比标记，真实图表按native slot表达",
+    "surface": "浅蓝证据面、细描边、无投影"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "charts": [
+    {
+      "slot_id": "line-slot-1",
+      "kind": "line",
+      "title": "MAU 与付费用户趋势",
+      "labels": ["1月", "2月", "3月", "4月", "5月", "6月"],
+      "series": [
+        {"name": "MAU", "values": [118, 112, 108, 110, 124, 138], "color": "#2563EB"},
+        {"name": "付费用户", "values": [24, 23, 22, 23, 26, 31], "color": "#16A34A"}
+      ],
+      "colors": ["#2563EB", "#16A34A"],
+      "source": "产品数据仓库，2026 年 1-6 月",
+      "insight": "5 月开始恢复增长，付费用户增速滞后于活跃用户。",
+      "style": {
+        "title_text_color": "#111827",
+        "axis_text_color": "#374151",
+        "legend_text_color": "#374151",
+        "grid_color": "#D1D5DB"
+      },
+      "options": {"legend": true, "value_axis": {"format": "0"}}
+    }
+  ],
+  "tables": []
+}

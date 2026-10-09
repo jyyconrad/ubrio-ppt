@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="72" y="120" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="900" text-anchor="start">第一部分：用户问题与场景断点</text>
+  <text x="72" y="169.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="500" text-anchor="start">先讲用户为什么需要，再讲产品怎么解决。</text>
+  <line x1="72" y1="216" x2="1208" y2="216" stroke="#1A3A6B" stroke-width="4.8" />
+  <rect x="120" y="304" width="448" height="168" rx="19.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="148.8" y="353.6" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">问题</text>
+  <text x="148.8" y="400" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20.8" font-weight="900" text-anchor="start">核心问题</text>
+  <text x="148.8" y="438.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">协同事项跨系统、跨部门、跨周期</text>
+  <text x="148.8" y="473.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 责任链和结果链断裂</text>
+  <rect x="640" y="304" width="448" height="168" rx="19.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="668.8" y="353.6" fill="#1A3A6B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">方法</text>
+  <text x="668.8" y="400" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="20.8" font-weight="900" text-anchor="start">表达方式</text>
+  <text x="668.8" y="438.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">旅程图 + 前后对比 + 案例</text>
+  <text x="668.8" y="473.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 功能必须映射收益</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：产品发布 / 03-section-user / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

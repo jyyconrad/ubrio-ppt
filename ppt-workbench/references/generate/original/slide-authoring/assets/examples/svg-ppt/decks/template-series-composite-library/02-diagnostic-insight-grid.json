@@ -1,0 +1,15 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "diagnostic_insight_grid",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "四类断点共同造成交付效率与价值实现偏差",
+  "data": {
+    "issues": [
+      {"title": "流程断点", "symptoms": ["跨环节等待"], "causes": ["责任边界不清"], "responses": ["建立端到端门径"], "insight": "先治理交接再提速"},
+      {"title": "重复建设", "symptoms": ["同类能力重复开发"], "causes": ["资产缺少分层"], "responses": ["建设共享能力库"], "insight": "复用率决定规模效应"},
+      {"title": "度量单一", "symptoms": ["只看进度结果"], "causes": ["过程数据缺失"], "responses": ["补齐质量与价值指标"], "insight": "指标必须指导行动"},
+      {"title": "需求失真", "symptoms": ["交付偏离用户目标"], "causes": ["反馈链路过长"], "responses": ["建立需求闭环"], "insight": "缩短价值传递路径"}
+    ]
+  }
+}

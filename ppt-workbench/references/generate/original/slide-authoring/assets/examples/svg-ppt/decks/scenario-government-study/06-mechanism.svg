@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#8A1538" />
+  <text x="72" y="70.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">党政学习 / content</text>
+  <text x="72" y="113.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">落实机制：学习、查摆、整改、复盘形成闭环</text>
+  <text x="72" y="155.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">机制页必须有节点和产物。</text>
+  <line x1="120" y1="376" x2="1160" y2="376" stroke="#D4A843" stroke-width="4.8" />
+  <circle cx="137.6" cy="376" r="20.8" fill="#F8D98A" />
+  <text x="137.6" y="383.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="middle">1</text>
+  <rect x="104" y="228" width="240" height="148" rx="14.4" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="123.2" y="264.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">集中学习</text>
+  <text x="123.2" y="296" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">统一政策理解</text>
+  <text x="123.2" y="326.4" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="400" text-anchor="start">- 领学 + 研讨</text>
+  <text x="123.2" y="348.8" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="400" text-anchor="start">- 形成学习纪要</text>
+  <circle cx="405.6" cy="376" r="20.8" fill="#F8D98A" />
+  <text x="405.6" y="383.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="middle">2</text>
+  <rect x="372" y="432" width="240" height="148" rx="14.4" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="391.2" y="468.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">问题查摆</text>
+  <text x="391.2" y="500" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">对照岗位找差距</text>
+  <text x="391.2" y="530.4" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="400" text-anchor="start">- 列问题清单</text>
+  <text x="391.2" y="552.8" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="400" text-anchor="start">- 明确责任主体</text>
+  <circle cx="673.6" cy="376" r="20.8" fill="#F8D98A" />
+  <text x="673.6" y="383.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="middle">3</text>
+  <rect x="640" y="228" width="240" height="148" rx="14.4" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="659.2" y="264.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">整改落实</text>
+  <text x="659.2" y="296" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">把问题转为任务</text>
+  <text x="659.2" y="326.4" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="400" text-anchor="start">- 节点、标准、负责人</text>
+  <circle cx="941.6" cy="376" r="20.8" fill="#F8D98A" />
+  <text x="941.6" y="383.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="middle">4</text>
+  <rect x="908" y="432" width="240" height="148" rx="14.4" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="927.2" y="468.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">复盘评价</text>
+  <text x="927.2" y="500" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">对未闭环事项督办</text>
+  <text x="927.2" y="530.4" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="400" text-anchor="start">- 月度通报</text>
+  <text x="927.2" y="552.8" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="400" text-anchor="start">- 评价反馈</text>
+  <text x="72" y="684.8" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：党政学习 / 04-mechanism / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

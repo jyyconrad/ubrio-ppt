@@ -1,0 +1,1148 @@
+{
+  "version": 1,
+  "note": "ppt-workbench 内置图片库；来源与许可见 source 字段。CC BY / CC BY-SA 图片在对外交付时保留署名信息。",
+  "images": [
+    {
+      "image_id": "business-cooperation-01",
+      "file": "business-cooperation/business-cooperation-01.jpg",
+      "title": "正式会面握手",
+      "category": "business-cooperation",
+      "category_label": "合作与签约",
+      "tags": [
+        "正文配图",
+        "合作",
+        "握手",
+        "签约",
+        "会面",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1566,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；合作、签约、客户对接场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Andy Gardiner and Steve Crisafulli greet each other with a congratulatory handshake.jpg",
+        "creator": "Florida House of Representatives",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Andy_Gardiner_and_Steve_Crisafulli_greet_each_other_with_a_congratulatory_handshake.jpg"
+      }
+    },
+    {
+      "image_id": "business-cooperation-02",
+      "file": "business-cooperation/business-cooperation-02.jpg",
+      "title": "咖啡馆握手",
+      "category": "business-cooperation",
+      "category_label": "合作与签约",
+      "tags": [
+        "正文配图",
+        "合作",
+        "握手",
+        "签约",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1285,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；合作、签约、客户对接场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Business agreement handshake at coffee shop.jpg",
+        "creator": "rawpixel.com",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Business_agreement_handshake_at_coffee_shop.jpg"
+      }
+    },
+    {
+      "image_id": "business-cooperation-03",
+      "file": "business-cooperation/business-cooperation-03.jpg",
+      "title": "合同签署",
+      "category": "business-cooperation",
+      "category_label": "合作与签约",
+      "tags": [
+        "正文配图",
+        "合作",
+        "握手",
+        "签约",
+        "合同",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 768,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；合作、签约、客户对接场景",
+      "source": {
+        "site": "Openverse",
+        "title": "Man signing contract",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "business-cooperation-04",
+      "file": "business-cooperation/business-cooperation-04.jpg",
+      "title": "桌前握手",
+      "category": "business-cooperation",
+      "category_label": "合作与签约",
+      "tags": [
+        "正文配图",
+        "合作",
+        "握手",
+        "签约",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 683,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；合作、签约、客户对接场景",
+      "source": {
+        "site": "Openverse/rawpixel",
+        "title": "Free hand shaking business meeting",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "business-cooperation-05",
+      "file": "business-cooperation/business-cooperation-05.jpg",
+      "title": "商务握手",
+      "category": "business-cooperation",
+      "category_label": "合作与签约",
+      "tags": [
+        "正文配图",
+        "合作",
+        "握手",
+        "签约",
+        "business",
+        "presentation"
+      ],
+      "width": 960,
+      "height": 640,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；合作、签约、客户对接场景",
+      "source": {
+        "site": "Openverse/stocksnap",
+        "title": "Work Business",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "business-meeting-01",
+      "file": "business-meeting/business-meeting-01.jpg",
+      "title": "商务洽谈",
+      "category": "business-meeting",
+      "category_label": "商务会议",
+      "tags": [
+        "正文配图",
+        "会议",
+        "沟通",
+        "团队",
+        "洽谈",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 680,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图（native-image-slot 或 native.cjs image()）；通用场景图，不得冒充用户真实证据",
+      "source": {
+        "site": "Openverse/rawpixel",
+        "title": "Free business meeting image",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "business-meeting-02",
+      "file": "business-meeting/business-meeting-02.jpg",
+      "title": "咖啡馆洽谈笔记",
+      "category": "business-meeting",
+      "category_label": "商务会议",
+      "tags": [
+        "正文配图",
+        "会议",
+        "沟通",
+        "团队",
+        "洽谈",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 684,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图（native-image-slot 或 native.cjs image()）；通用场景图，不得冒充用户真实证据",
+      "source": {
+        "site": "Openverse/rawpixel",
+        "title": "Free business meeting cafe coffee",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "business-meeting-03",
+      "file": "business-meeting/business-meeting-03.jpg",
+      "title": "团队会议",
+      "category": "business-meeting",
+      "category_label": "商务会议",
+      "tags": [
+        "正文配图",
+        "会议",
+        "沟通",
+        "团队",
+        "business",
+        "presentation"
+      ],
+      "width": 960,
+      "height": 640,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图（native-image-slot 或 native.cjs image()）；通用场景图，不得冒充用户真实证据",
+      "source": {
+        "site": "Openverse/stocksnap",
+        "title": "Business Meeting",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "business-meeting-04",
+      "file": "business-meeting/business-meeting-04.jpg",
+      "title": "团队讨论",
+      "category": "business-meeting",
+      "category_label": "商务会议",
+      "tags": [
+        "正文配图",
+        "会议",
+        "沟通",
+        "团队",
+        "business",
+        "presentation"
+      ],
+      "width": 960,
+      "height": 640,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图（native-image-slot 或 native.cjs image()）；通用场景图，不得冒充用户真实证据",
+      "source": {
+        "site": "Openverse/stocksnap",
+        "title": "Team Meeting",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "business-meeting-05",
+      "file": "business-meeting/business-meeting-05.jpg",
+      "title": "协作评审",
+      "category": "business-meeting",
+      "category_label": "商务会议",
+      "tags": [
+        "正文配图",
+        "会议",
+        "沟通",
+        "团队",
+        "评审",
+        "business",
+        "presentation"
+      ],
+      "width": 960,
+      "height": 641,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图（native-image-slot 或 native.cjs image()）；通用场景图，不得冒充用户真实证据",
+      "source": {
+        "site": "Openverse/stocksnap",
+        "title": "Writing Papers",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "cover-abstract-01",
+      "file": "cover-abstract/cover-abstract-01.jpg",
+      "title": "机场夜色光轨",
+      "category": "cover-abstract",
+      "category_label": "抽象夜景光轨",
+      "tags": [
+        "封面底板",
+        "抽象",
+        "光轨",
+        "夜色",
+        "科技感",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "封面/章节页底板；光轨纹理不干扰标题文字",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Airside F at Tampa International Airport nighttime long exposure.jpg",
+        "creator": "Andrew Heneen",
+        "license": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Airside_F_at_Tampa_International_Airport_nighttime_long_exposure.jpg"
+      }
+    },
+    {
+      "image_id": "cover-abstract-02",
+      "file": "cover-abstract/cover-abstract-02.jpg",
+      "title": "桥梁光束夜景",
+      "category": "cover-abstract",
+      "category_label": "抽象夜景光轨",
+      "tags": [
+        "封面底板",
+        "抽象",
+        "光轨",
+        "夜色",
+        "科技感",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1186,
+      "orientation": "landscape",
+      "recommended_usage": "封面/章节页底板；光轨纹理不干扰标题文字",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Beams On A Bridge (128612741).jpeg",
+        "creator": "Tom Mrazek",
+        "license": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Beams_On_A_Bridge_(128612741).jpeg"
+      }
+    },
+    {
+      "image_id": "cover-abstract-03",
+      "file": "cover-abstract/cover-abstract-03.jpg",
+      "title": "城市立交光轨",
+      "category": "cover-abstract",
+      "category_label": "抽象夜景光轨",
+      "tags": [
+        "封面底板",
+        "抽象",
+        "光轨",
+        "夜色",
+        "科技感",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "封面/章节页底板；光轨纹理不干扰标题文字",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "DSCF1058 Nighttime long-exposure captures streaking headlights as cars speed through an empty urban interchange beneath glowing streetlights.jpg",
+        "creator": "PattayaPatrol",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:DSCF1058_Nighttime_long-exposure_captures_streaking_headlights_as_cars_speed_through_an_empty_urban_interchange_beneath_glowing_streetlights.jpg"
+      }
+    },
+    {
+      "image_id": "cover-abstract-04",
+      "file": "cover-abstract/cover-abstract-04.jpg",
+      "title": "山间公路夜色光轨",
+      "category": "cover-abstract",
+      "category_label": "抽象夜景光轨",
+      "tags": [
+        "封面底板",
+        "抽象",
+        "光轨",
+        "夜色",
+        "科技感",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "封面/章节页底板；光轨纹理不干扰标题文字",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Great Smoky Mountains Expressway beneath BRP through Balsam Gap.jpg",
+        "creator": "Andrew Heneen",
+        "license": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Great_Smoky_Mountains_Expressway_beneath_BRP_through_Balsam_Gap.jpg"
+      }
+    },
+    {
+      "image_id": "cover-city-01",
+      "file": "cover-city/cover-city-01.jpg",
+      "title": "上海陆家嘴天际线夜景",
+      "category": "cover-city",
+      "category_label": "城市天际线夜景",
+      "tags": [
+        "封面底板",
+        "城市",
+        "夜景",
+        "天际线",
+        "上海",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "整页底板（deck-framework background photo_dark）或章节页底板；深色图片压暗后上浅色标题",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Lujiazui Skyline (Night).jpg",
+        "creator": "Phlizz",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lujiazui_Skyline_(Night).jpg"
+      }
+    },
+    {
+      "image_id": "cover-city-02",
+      "file": "cover-city/cover-city-02.jpg",
+      "title": "上海陆家嘴全景夜景",
+      "category": "cover-city",
+      "category_label": "城市天际线夜景",
+      "tags": [
+        "封面底板",
+        "城市",
+        "夜景",
+        "天际线",
+        "上海",
+        "全景",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 960,
+      "orientation": "landscape",
+      "recommended_usage": "整页底板（deck-framework background photo_dark）或章节页底板；深色图片压暗后上浅色标题",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Pudong Shanghai November 2017 HDR panorama.jpg",
+        "creator": "King of Hearts",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_HDR_panorama.jpg"
+      }
+    },
+    {
+      "image_id": "cover-city-03",
+      "file": "cover-city/cover-city-03.jpg",
+      "title": "香港维多利亚港夜景",
+      "category": "cover-city",
+      "category_label": "城市天际线夜景",
+      "tags": [
+        "封面底板",
+        "城市",
+        "夜景",
+        "天际线",
+        "香港",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1122,
+      "orientation": "landscape",
+      "recommended_usage": "整页底板（deck-framework background photo_dark）或章节页底板；深色图片压暗后上浅色标题",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "International Commerce Centre on Victoria Harbour.jpg",
+        "creator": "Wilfredor",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:International_Commerce_Centre_on_Victoria_Harbour.jpg"
+      }
+    },
+    {
+      "image_id": "cover-city-04",
+      "file": "cover-city/cover-city-04.jpg",
+      "title": "北京CBD黄昏天际线",
+      "category": "cover-city",
+      "category_label": "城市天际线夜景",
+      "tags": [
+        "封面底板",
+        "城市",
+        "夜景",
+        "天际线",
+        "北京",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1122,
+      "orientation": "landscape",
+      "recommended_usage": "整页底板（deck-framework background photo_dark）或章节页底板；深色图片压暗后上浅色标题",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Beijing skyline (cropped).jpg",
+        "creator": "Picrazy2",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Beijing_skyline_(cropped).jpg"
+      }
+    },
+    {
+      "image_id": "cover-city-05",
+      "file": "cover-city/cover-city-05.jpg",
+      "title": "北京天际线日落",
+      "category": "cover-city",
+      "category_label": "城市天际线夜景",
+      "tags": [
+        "封面底板",
+        "城市",
+        "夜景",
+        "天际线",
+        "北京",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1284,
+      "orientation": "landscape",
+      "recommended_usage": "整页底板（deck-framework background photo_dark）或章节页底板；深色图片压暗后上浅色标题",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Beijing skyline from northeast 4th ring road (cropped).jpg",
+        "creator": "Picrazy2",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Beijing_skyline_from_northeast_4th_ring_road_(cropped).jpg"
+      }
+    },
+    {
+      "image_id": "cover-city-06",
+      "file": "cover-city/cover-city-06.jpg",
+      "title": "重庆渝中半岛夜景",
+      "category": "cover-city",
+      "category_label": "城市天际线夜景",
+      "tags": [
+        "封面底板",
+        "城市",
+        "夜景",
+        "天际线",
+        "重庆",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "整页底板（deck-framework background photo_dark）或章节页底板；深色图片压暗后上浅色标题",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Chongqing Night Yuzhong.jpg",
+        "creator": "Jonipoon",
+        "license": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Chongqing_Night_Yuzhong.jpg"
+      }
+    },
+    {
+      "image_id": "industry-factory-01",
+      "file": "industry-factory/industry-factory-01.jpg",
+      "title": "现代工厂生产线",
+      "category": "industry-factory",
+      "category_label": "工厂制造",
+      "tags": [
+        "正文配图",
+        "工厂",
+        "制造",
+        "生产",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1282,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；制造、生产、现场交付场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Industrial production line operating in a large modern factory.jpg",
+        "creator": "Shixart1985",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Industrial_production_line_operating_in_a_large_modern_factory.jpg"
+      }
+    },
+    {
+      "image_id": "industry-factory-02",
+      "file": "industry-factory/industry-factory-02.jpg",
+      "title": "工人装配作业",
+      "category": "industry-factory",
+      "category_label": "工厂制造",
+      "tags": [
+        "正文配图",
+        "工厂",
+        "制造",
+        "生产",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；制造、生产、现场交付场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Worker uses machinery to assemble parts in a factory setting.jpg",
+        "creator": "Shixart1985",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Worker_uses_machinery_to_assemble_parts_in_a_factory_setting.jpg"
+      }
+    },
+    {
+      "image_id": "industry-factory-03",
+      "file": "industry-factory/industry-factory-03.jpg",
+      "title": "汽车总装线",
+      "category": "industry-factory",
+      "category_label": "工厂制造",
+      "tags": [
+        "正文配图",
+        "工厂",
+        "制造",
+        "生产",
+        "汽车",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；制造、生产、现场交付场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "001 Car factory assembly line - Opel factory in Gliwice, Poland.jpg",
+        "creator": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+        "license": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:001_Car_factory_assembly_line_-_Opel_factory_in_Gliwice,_Poland.jpg"
+      }
+    },
+    {
+      "image_id": "industry-factory-04",
+      "file": "industry-factory/industry-factory-04.jpg",
+      "title": "焊接作业",
+      "category": "industry-factory",
+      "category_label": "工厂制造",
+      "tags": [
+        "正文配图",
+        "工厂",
+        "制造",
+        "生产",
+        "焊接",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 683,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；制造、生产、现场交付场景",
+      "source": {
+        "site": "Openverse",
+        "title": "Welder Sparks",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "industry-factory-05",
+      "file": "industry-factory/industry-factory-05.jpg",
+      "title": "工厂夜景",
+      "category": "industry-factory",
+      "category_label": "工厂制造",
+      "tags": [
+        "正文配图",
+        "工厂",
+        "制造",
+        "生产",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 665,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；制造、生产、现场交付场景",
+      "source": {
+        "site": "Openverse",
+        "title": "Factory, industrial site night view",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "logistics-port-01",
+      "file": "logistics-port/logistics-port-01.jpg",
+      "title": "集装箱港口航拍",
+      "category": "logistics-port",
+      "category_label": "港口物流",
+      "tags": [
+        "正文配图",
+        "物流",
+        "港口",
+        "供应链",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；物流、供应链、贸易场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Aerial view of shipping containers, and big container cranes at Tacoma's container port -a.jpg",
+        "creator": "Brian Harris",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_shipping_containers,_and_big_container_cranes_at_Tacoma%27s_container_port_-a.jpg"
+      }
+    },
+    {
+      "image_id": "logistics-port-02",
+      "file": "logistics-port/logistics-port-02.jpg",
+      "title": "休斯顿集装箱码头航拍",
+      "category": "logistics-port",
+      "category_label": "港口物流",
+      "tags": [
+        "正文配图",
+        "物流",
+        "港口",
+        "供应链",
+        "休斯顿",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；物流、供应链、贸易场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Bayport Container Terminal Aerial - Near Houston (43373625235).jpg",
+        "creator": "formulanone",
+        "license": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bayport_Container_Terminal_Aerial_-_Near_Houston_(43373625235).jpg"
+      }
+    },
+    {
+      "image_id": "logistics-port-03",
+      "file": "logistics-port/logistics-port-03.jpg",
+      "title": "宿务港集装箱码头",
+      "category": "logistics-port",
+      "category_label": "港口物流",
+      "tags": [
+        "正文配图",
+        "物流",
+        "港口",
+        "供应链",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1440,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；物流、供应链、贸易场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Cebu Port Pier 6 cranes, containers drone (Cebu City; 01-20-2026).jpg",
+        "creator": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cebu_Port_Pier_6_cranes,_containers_drone_(Cebu_City;_01-20-2026).jpg"
+      }
+    },
+    {
+      "image_id": "logistics-port-04",
+      "file": "logistics-port/logistics-port-04.jpg",
+      "title": "汉堡港集装箱岸桥",
+      "category": "logistics-port",
+      "category_label": "港口物流",
+      "tags": [
+        "正文配图",
+        "物流",
+        "港口",
+        "供应链",
+        "汉堡",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1275,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；物流、供应链、贸易场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Container Terminal Tollerort (Hamburg-Steinwerder).1.phb.ajb.jpg",
+        "creator": "Ajepbah",
+        "license": "CC BY-SA 3.0 de",
+        "page": "https://commons.wikimedia.org/wiki/File:Container_Terminal_Tollerort_(Hamburg-Steinwerder).1.phb.ajb.jpg"
+      }
+    },
+    {
+      "image_id": "logistics-port-05",
+      "file": "logistics-port/logistics-port-05.jpg",
+      "title": "汉堡港集装箱堆场",
+      "category": "logistics-port",
+      "category_label": "港口物流",
+      "tags": [
+        "正文配图",
+        "物流",
+        "港口",
+        "供应链",
+        "汉堡",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1275,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；物流、供应链、贸易场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Container Terminal Tollerort (Hamburg-Steinwerder).3.phb.ajb.jpg",
+        "creator": "Ajepbah",
+        "license": "CC BY-SA 3.0 de",
+        "page": "https://commons.wikimedia.org/wiki/File:Container_Terminal_Tollerort_(Hamburg-Steinwerder).3.phb.ajb.jpg"
+      }
+    },
+    {
+      "image_id": "logistics-port-06",
+      "file": "logistics-port/logistics-port-06.jpg",
+      "title": "汉堡港集装箱码头全景",
+      "category": "logistics-port",
+      "category_label": "港口物流",
+      "tags": [
+        "正文配图",
+        "物流",
+        "港口",
+        "供应链",
+        "汉堡",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 960,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；物流、供应链、贸易场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Container Terminal Tollerort (Hamburg-Steinwerder).4.phb.ajb.jpg",
+        "creator": "Ajepbah",
+        "license": "CC BY-SA 3.0 de",
+        "page": "https://commons.wikimedia.org/wiki/File:Container_Terminal_Tollerort_(Hamburg-Steinwerder).4.phb.ajb.jpg"
+      }
+    },
+    {
+      "image_id": "nature-milestone-01",
+      "file": "nature-milestone/nature-milestone-01.jpg",
+      "title": "山顶黎明",
+      "category": "nature-milestone",
+      "category_label": "山峰与日出",
+      "tags": [
+        "章节页底板",
+        "山峰",
+        "日出",
+        "里程碑",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1231,
+      "orientation": "landscape",
+      "recommended_usage": "章节页/收尾页底板或氛围图；寓意里程碑、收官、开局",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Awaiting Matariki Sunrise (52177996268).jpg",
+        "creator": "Geoff McKay from Palmerston North, New Zealand",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Awaiting_Matariki_Sunrise_(52177996268).jpg"
+      }
+    },
+    {
+      "image_id": "nature-milestone-02",
+      "file": "nature-milestone/nature-milestone-02.jpg",
+      "title": "山顶剪影",
+      "category": "nature-milestone",
+      "category_label": "山峰与日出",
+      "tags": [
+        "章节页底板",
+        "山峰",
+        "日出",
+        "里程碑",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1420,
+      "orientation": "landscape",
+      "recommended_usage": "章节页/收尾页底板或氛围图；寓意里程碑、收官、开局",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Before sunrise at Piz Languard 1.jpg",
+        "creator": "Capricorn4049",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Before_sunrise_at_Piz_Languard_1.jpg"
+      }
+    },
+    {
+      "image_id": "nature-milestone-03",
+      "file": "nature-milestone/nature-milestone-03.jpg",
+      "title": "云海日出",
+      "category": "nature-milestone",
+      "category_label": "山峰与日出",
+      "tags": [
+        "章节页底板",
+        "山峰",
+        "日出",
+        "里程碑",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1280,
+      "orientation": "landscape",
+      "recommended_usage": "章节页/收尾页底板或氛围图；寓意里程碑、收官、开局",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Bieszczady - sunrise from Chatka Puchatka (1).jpg",
+        "creator": "Pudelek",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bieszczady_-_sunrise_from_Chatka_Puchatka_(1).jpg"
+      }
+    },
+    {
+      "image_id": "nature-milestone-04",
+      "file": "nature-milestone/nature-milestone-04.jpg",
+      "title": "山顶日出人群",
+      "category": "nature-milestone",
+      "category_label": "山峰与日出",
+      "tags": [
+        "章节页底板",
+        "山峰",
+        "日出",
+        "里程碑",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1287,
+      "orientation": "landscape",
+      "recommended_usage": "章节页/收尾页底板或氛围图；寓意里程碑、收官、开局",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Bieszczady - sunrise from Chatka Puchatka (4).jpg",
+        "creator": "Pudelek",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bieszczady_-_sunrise_from_Chatka_Puchatka_(4).jpg"
+      }
+    },
+    {
+      "image_id": "nature-milestone-05",
+      "file": "nature-milestone/nature-milestone-05.jpg",
+      "title": "火山日出",
+      "category": "nature-milestone",
+      "category_label": "山峰与日出",
+      "tags": [
+        "章节页底板",
+        "山峰",
+        "日出",
+        "里程碑",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1543,
+      "orientation": "landscape",
+      "recommended_usage": "章节页/收尾页底板或氛围图；寓意里程碑、收官、开局",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Bromo Semeru View - Sunrise Moment at Penanjakan.jpg",
+        "creator": "Sryita Kembaren",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bromo_Semeru_View_-_Sunrise_Moment_at_Penanjakan.jpg"
+      }
+    },
+    {
+      "image_id": "office-work-01",
+      "file": "office-work/office-work-01.jpg",
+      "title": "现代办公桌前记录",
+      "category": "office-work",
+      "category_label": "办公场景",
+      "tags": [
+        "正文配图",
+        "办公",
+        "职场",
+        "培训",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1282,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；办公、培训、职场场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Business professional engages in note-taking during a meeting at a modern office desk.jpg",
+        "creator": "Shixart1985",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Business_professional_engages_in_note-taking_during_a_meeting_at_a_modern_office_desk.jpg"
+      }
+    },
+    {
+      "image_id": "office-work-02",
+      "file": "office-work/office-work-02.jpg",
+      "title": "办公桌面静物",
+      "category": "office-work",
+      "category_label": "办公场景",
+      "tags": [
+        "正文配图",
+        "办公",
+        "职场",
+        "培训",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 683,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；办公、培训、职场场景",
+      "source": {
+        "site": "Openverse/stocksnap",
+        "title": "Office Workspace Keyboard iPhone",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "office-work-03",
+      "file": "office-work/office-work-03.jpg",
+      "title": "双屏办公工位",
+      "category": "office-work",
+      "category_label": "办公场景",
+      "tags": [
+        "正文配图",
+        "办公",
+        "职场",
+        "培训",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 683,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；办公、培训、职场场景",
+      "source": {
+        "site": "Openverse/stocksnap",
+        "title": "Office workspace laptop desktop screen",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "office-work-04",
+      "file": "office-work/office-work-04.jpg",
+      "title": "培训教室",
+      "category": "office-work",
+      "category_label": "办公场景",
+      "tags": [
+        "正文配图",
+        "办公",
+        "职场",
+        "培训",
+        "business",
+        "presentation"
+      ],
+      "width": 1024,
+      "height": 683,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；办公、培训、职场场景",
+      "source": {
+        "site": "Openverse/stocksnap",
+        "title": "Office Desk Computer",
+        "creator": "",
+        "license": "CC0",
+        "page": ""
+      }
+    },
+    {
+      "image_id": "tech-data-01",
+      "file": "tech-data/tech-data-01.jpg",
+      "title": "数据中心机柜走廊",
+      "category": "tech-data",
+      "category_label": "数据中心与科技",
+      "tags": [
+        "正文配图",
+        "数据中心",
+        "服务器",
+        "科技",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1275,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；IT、数据、系统场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "BalticServers data center.jpg",
+        "creator": "BalticServers.com",
+        "license": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
+      }
+    },
+    {
+      "image_id": "tech-data-02",
+      "file": "tech-data/tech-data-02.jpg",
+      "title": "机房运维作业",
+      "category": "tech-data",
+      "category_label": "数据中心与科技",
+      "tags": [
+        "正文配图",
+        "数据中心",
+        "服务器",
+        "科技",
+        "运维",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1278,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；IT、数据、系统场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Data Center của CMC Telecom (2).jpg",
+        "creator": "Daoducquan",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Data_Center_c%E1%BB%A7a_CMC_Telecom_(2).jpg"
+      }
+    },
+    {
+      "image_id": "tech-data-03",
+      "file": "tech-data/tech-data-03.jpg",
+      "title": "蓝光机柜列",
+      "category": "tech-data",
+      "category_label": "数据中心与科技",
+      "tags": [
+        "正文配图",
+        "数据中心",
+        "服务器",
+        "科技",
+        "算力",
+        "business",
+        "presentation"
+      ],
+      "width": 1920,
+      "height": 1441,
+      "orientation": "landscape",
+      "recommended_usage": "正文配图；IT、数据、系统场景",
+      "source": {
+        "site": "Wikimedia Commons",
+        "title": "Cable racks at grid computing center, Fermilab with blue lights.jpg",
+        "creator": "ENERGY.GOV",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Cable_racks_at_grid_computing_center,_Fermilab_with_blue_lights.jpg"
+      }
+    }
+  ]
+}

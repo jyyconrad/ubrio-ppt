@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">培训课程 / summary</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">课后迁移：一周内完成一次真实管理闭环</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">培训总结页给作业、验收标准和反馈机制。</text>
+  <rect x="72" y="216" width="1136" height="400" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="104" y="259.2" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">事项</text>
+  <text x="376" y="259.2" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">责任/判断</text>
+  <text x="640" y="259.2" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">关键动作</text>
+  <text x="1056" y="259.2" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">标签</text>
+  <line x1="96" y1="271.2" x2="1184" y2="271.2" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="300" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">选题</text>
+  <text x="376" y="300" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">学员本人</text>
+  <text x="640" y="300" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">选择一个真实班组问题；周一前提交问题卡</text>
+  <text x="1056" y="300" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">Day1</text>
+  <line x1="96" y1="341.6" x2="1184" y2="341.6" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="370.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">执行</text>
+  <text x="376" y="370.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">学员 + 主管</text>
+  <text x="640" y="370.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">按行动清单推进；遇阻升级</text>
+  <text x="1056" y="370.4" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">Day2-5</text>
+  <line x1="96" y1="412" x2="1184" y2="412" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="440.8" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">复盘</text>
+  <text x="376" y="440.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">培训组织者</text>
+  <text x="640" y="440.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">收集模板和结果；给出改进建议</text>
+  <text x="1056" y="440.8" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">Day6</text>
+  <line x1="96" y1="482.4" x2="1184" y2="482.4" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="511.2" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">沉淀</text>
+  <text x="376" y="511.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">部门负责人</text>
+  <text x="640" y="511.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">优秀案例进入 SOP；纳入月度分享</text>
+  <text x="1056" y="511.2" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">Day7</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：培训课程 / 06-transfer / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

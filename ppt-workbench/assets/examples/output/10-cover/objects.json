@@ -1,0 +1,41 @@
+{
+  "file": "10-cover.pptx",
+  "sha256": "4efba7fc4a7807e3d55d8f20ee80b168935005fb288b9d16f71e96cf4f08f2a6",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "三季度经营分析",
+        "管理层讨论稿 / 合成数据",
+        "合成测试资料；无真实公司、客户或商业承诺",
+        "1",
+        "议题：增长质量与交付进展",
+        "讨论范围：收入、回款、项目状态",
+        "本材料仅用于技能制作与编辑验证"
+      ],
+      "tables": [],
+      "charts": [],
+      "native_shapes": 6,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 封面文字、形状可编辑，主标题识别清晰",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

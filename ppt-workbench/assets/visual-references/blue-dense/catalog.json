@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "scope": "32 reference images, 31 main compositions and one cropped view",
+  "classes": {
+    "C1": "战略价值与环境变化",
+    "C2": "举措与成效复盘",
+    "C3": "指标诊断与问题闭环",
+    "C4": "阶段路线与逆向规划",
+    "C5": "平台架构与系统联动",
+    "C6": "组织责任与能力机制",
+    "C7": "决策分类与执行承诺",
+    "C8": "客户闭环与学习表达"
+  },
+  "items": [
+    {
+      "id": "R01",
+      "file": "汇报模板-p1.jpg",
+      "category": "战略价值",
+      "topic": "T2",
+      "page": 1,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "为什么持续投入，短中长期价值怎样递进？",
+      "signals": [
+        "三期价值",
+        "外部趋势",
+        "长期能力"
+      ],
+      "class_id": "C1"
+    },
+    {
+      "id": "R02",
+      "file": "汇报模板-p2.jpg",
+      "category": "组织机制",
+      "topic": "T5",
+      "page": 1,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "业务、方法、技术怎样由激励和人才机制共同推进？",
+      "signals": [
+        "铁三角",
+        "三类激励",
+        "三类能力"
+      ],
+      "class_id": "C6"
+    },
+    {
+      "id": "R03",
+      "file": "汇报模板-p3.jpg",
+      "category": "阶段路线",
+      "topic": "T2",
+      "page": 4,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "三个阶段分别完成哪些目标、动作、产出和风险控制？",
+      "signals": [
+        "三阶段",
+        "退出条件",
+        "十八个月"
+      ],
+      "class_id": "C4"
+    },
+    {
+      "id": "R04",
+      "file": "汇报模板-p4.jpg",
+      "category": "举措成效",
+      "topic": "T1",
+      "page": 1,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "项目背景下四项举措与五项结果如何相互解释？",
+      "signals": [
+        "四项举措",
+        "五项结果",
+        "年度复盘"
+      ],
+      "class_id": "C2"
+    },
+    {
+      "id": "R05",
+      "file": "汇报模板-p5.jpg",
+      "category": "问题诊断",
+      "topic": "T2",
+      "page": 3,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "四类卡点各有哪些现象、根因假设和应对？",
+      "signals": [
+        "四类卡点",
+        "现象根因应对",
+        "洞察"
+      ],
+      "class_id": "C3"
+    },
+    {
+      "id": "R06",
+      "file": "汇报模板-p6.jpg",
+      "category": "举措成效",
+      "topic": "T1",
+      "page": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "三类九项度量怎样解释三项工具升级成效？",
+      "signals": [
+        "三类指标",
+        "九项指标",
+        "三项工具"
+      ],
+      "class_id": "C2"
+    },
+    {
+      "id": "R07",
+      "file": "汇报模板-p7.jpg",
+      "category": "指标诊断",
+      "topic": "T1",
+      "page": 5,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "两组度量体系怎样接到四步案例验证？",
+      "signals": [
+        "两组指标",
+        "案例闭环",
+        "现象根因动作成效"
+      ],
+      "class_id": "C3"
+    },
+    {
+      "id": "R08",
+      "file": "汇报模板-p8.jpg",
+      "category": "举措成效",
+      "topic": "T1",
+      "page": 3,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "设计降本的四种方法、三项度量和实践案例怎样互证？",
+      "signals": [
+        "设计降本",
+        "四种方法",
+        "投入产出"
+      ],
+      "class_id": "C2"
+    },
+    {
+      "id": "R09",
+      "file": "汇报模板-p9.jpg",
+      "category": "平台架构",
+      "topic": "T3",
+      "page": 1,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "一库三平台怎样交换工件，带来哪三类实践价值？",
+      "signals": [
+        "一库三平台",
+        "双向接口",
+        "协同价值"
+      ],
+      "class_id": "C5"
+    },
+    {
+      "id": "R10",
+      "file": "汇报模板-p10.jpg",
+      "category": "指标诊断",
+      "topic": "T1",
+      "page": 6,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "六项效率质量趋势怎样接到五层根因和整改闭环？",
+      "signals": [
+        "六项趋势",
+        "效率质量",
+        "五层根因"
+      ],
+      "class_id": "C3"
+    },
+    {
+      "id": "R11",
+      "file": "汇报模板-p11.jpg",
+      "category": "举措成效",
+      "topic": "T1",
+      "page": 4,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "四种功能怎样改变旧模式，并由右侧案例验证？",
+      "signals": [
+        "需求闭环",
+        "传统模式",
+        "实践指标"
+      ],
+      "class_id": "C2"
+    },
+    {
+      "id": "R12",
+      "file": "汇报模板-p12.jpg",
+      "category": "指标诊断",
+      "topic": "T3",
+      "page": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "三级模块架构的复用障碍怎样由治理举措和实战数据回答？",
+      "signals": [
+        "模块复用",
+        "三级架构",
+        "根因举措"
+      ],
+      "class_id": "C3"
+    },
+    {
+      "id": "R13",
+      "file": "汇报模板-p13.jpg",
+      "category": "阶段路线",
+      "topic": "T2",
+      "page": 5,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "七环节门径怎样通过并行与前置验证改善结果？",
+      "signals": [
+        "七阶段",
+        "并行串行",
+        "变更成本"
+      ],
+      "class_id": "C4"
+    },
+    {
+      "id": "R14",
+      "file": "汇报模板-p14.jpg",
+      "category": "战略价值",
+      "topic": "T2",
+      "page": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "外部窗口变化暴露哪些内部瓶颈和升级方向？",
+      "signals": [
+        "环境变化",
+        "四瓶颈",
+        "升级定位"
+      ],
+      "class_id": "C1"
+    },
+    {
+      "id": "R15",
+      "file": "汇报模板-p15.jpg",
+      "category": "平台架构",
+      "topic": "T3",
+      "page": 3,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "用户价值如何通过两翼四层和横向协同落地？",
+      "signals": [
+        "一核两翼四层",
+        "研发市场制造",
+        "用户价值"
+      ],
+      "class_id": "C5"
+    },
+    {
+      "id": "R16",
+      "file": "4d37d5950db6394b58249ca139ee7671.jpg",
+      "category": "战略价值",
+      "topic": "T4",
+      "page": 1,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "健康经营模型、衰退路径、防御和预警怎样对照？",
+      "signals": [
+        "组织活力",
+        "衰退链",
+        "防御预警"
+      ],
+      "class_id": "C1"
+    },
+    {
+      "id": "R17",
+      "file": "cb60135b821a1345ea3611bc9958af31.jpg",
+      "category": "客户学习",
+      "topic": "T4",
+      "page": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "六步客户闭环怎样连接思维对照、五维体验差距和行动？",
+      "signals": [
+        "客户闭环",
+        "五维评价",
+        "倾听洞察行动"
+      ],
+      "class_id": "C8"
+    },
+    {
+      "id": "R18",
+      "file": "675710157f7258defb244c76cd6f8f43.jpg",
+      "category": "阶段路线",
+      "topic": "T4",
+      "page": 3,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "如何从客户结果逆推方案，用中心文档和六道门控制投入？",
+      "signals": [
+        "逆向工作",
+        "结果说明",
+        "PR FAQ",
+        "六道门"
+      ],
+      "class_id": "C4"
+    },
+    {
+      "id": "R19",
+      "file": "f656aa5bb806ee5294cfa3baaea696ee.jpg",
+      "category": "系统联动",
+      "topic": "T4",
+      "page": 4,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "八节点飞轮、两条反馈回路和四个杠杆怎样联动？",
+      "signals": [
+        "飞轮",
+        "八节点",
+        "反馈回路"
+      ],
+      "class_id": "C5"
+    },
+    {
+      "id": "R20",
+      "file": "0cbd58e8373d3e1a337d78823af4be53.jpg",
+      "category": "决策机制",
+      "topic": "T6",
+      "page": 1,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "可逆性与影响怎样决定审批、证据、时间和复盘？",
+      "signals": [
+        "可逆性",
+        "影响程度",
+        "四类决策"
+      ],
+      "class_id": "C7"
+    },
+    {
+      "id": "R21",
+      "file": "8097dff59c5baa7cf026c2bc44f422a6.jpg",
+      "category": "决策机制",
+      "topic": "T6",
+      "page": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "批准关口怎样区分决策前讨论与决策后承诺？",
+      "signals": [
+        "异议承诺",
+        "决策关口",
+        "执行路径"
+      ],
+      "class_id": "C7"
+    },
+    {
+      "id": "R22",
+      "file": "435dba3b6a48b4e7c41fc358d8faaf47.jpg",
+      "category": "组织机制",
+      "topic": "T5",
+      "page": 2,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "单一负责人怎样闭合六段责任链，区别于分散责任？",
+      "signals": [
+        "责任链",
+        "单一Owner",
+        "双泳道",
+        "权责"
+      ],
+      "class_id": "C6"
+    },
+    {
+      "id": "R23",
+      "file": "80d8b187f535a51c66376d0eedabdf25.jpg",
+      "category": "组织机制",
+      "topic": "T5",
+      "page": 3,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "8人与20人的协作网络怎样解释六项团队设计？",
+      "signals": [
+        "小团队",
+        "沟通关系",
+        "团队画布"
+      ],
+      "class_id": "C6"
+    },
+    {
+      "id": "R24",
+      "file": "7cd6f82e58c3480f4c5adc24c30e9a7e.jpg",
+      "category": "组织机制",
+      "topic": "T5",
+      "page": 4,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "责任范围怎样超出任务，落到五维行为对照与成长路径？",
+      "signals": [
+        "责任范围",
+        "担当",
+        "长期价值",
+        "决策清单"
+      ],
+      "class_id": "C6"
+    },
+    {
+      "id": "R25",
+      "file": "794e0e5acad8e7e8b69cd9c8452985ff.jpg",
+      "category": "系统联动",
+      "topic": "T3",
+      "page": 4,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "输入到体验、行为、业务、财务的多对多假设如何管理？",
+      "signals": [
+        "指标网络",
+        "输入结果",
+        "多对多",
+        "Owner"
+      ],
+      "class_id": "C5"
+    },
+    {
+      "id": "R26",
+      "file": "8fc1b61757871f78a8050c6672839260.jpg",
+      "category": "客户学习",
+      "topic": "T4",
+      "page": 5,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "实验组合、六步学习、判断分支与护栏怎样闭合？",
+      "signals": [
+        "实验组合",
+        "学习循环",
+        "放大终止",
+        "护栏"
+      ],
+      "class_id": "C8"
+    },
+    {
+      "id": "R27",
+      "file": "3e551817872add4a60b0e41ec2126af4.jpg",
+      "category": "指标诊断",
+      "topic": "T1",
+      "page": 7,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "六周趋势、偏差、根因树、责任与动作怎样支撑周复盘？",
+      "signals": [
+        "WBR",
+        "周经营复盘",
+        "六周趋势",
+        "阈值"
+      ],
+      "class_id": "C3"
+    },
+    {
+      "id": "R28",
+      "file": "7a85caa65ba7670bbb6ae6a31cece740.jpg",
+      "category": "客户学习",
+      "topic": "T6",
+      "page": 4,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "六段备忘录怎样让共同事实进入高质量会议决策？",
+      "signals": [
+        "叙事备忘录",
+        "共同事实",
+        "静读澄清讨论决策"
+      ],
+      "class_id": "C8"
+    },
+    {
+      "id": "R29",
+      "file": "遗憾最小化.jpg",
+      "category": "决策机制",
+      "topic": "T6",
+      "page": 3,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "长期取舍怎样由遗憾矩阵、评分与概率路径解释？",
+      "signals": [
+        "长期取舍",
+        "遗憾矩阵",
+        "情景树",
+        "未来回望"
+      ],
+      "class_id": "C7"
+    },
+    {
+      "id": "R30",
+      "file": "Leadership Principles.jpg",
+      "category": "组织机制",
+      "topic": "T5",
+      "page": 5,
+      "canvas": [
+        1280,
+        720
+      ],
+      "question": "原则怎样经行为、反例、机制和人才生命周期落地？",
+      "signals": [
+        "原则网络",
+        "行为反例机制",
+        "人才生命周期"
+      ],
+      "class_id": "C6"
+    },
+    {
+      "id": "R31",
+      "file": "evidence-dashboard-nested-cards.png",
+      "category": "指标诊断",
+      "topic": "T1",
+      "page": 8,
+      "canvas": [
+        1280,
+        640
+      ],
+      "question": "如何放大核对同一六指标看板的细节？",
+      "signals": [
+        "看板放大",
+        "同源裁切"
+      ],
+      "derived_from": "R10",
+      "class_id": "C3"
+    },
+    {
+      "id": "R32",
+      "file": "9d769739199a68d55256362f6c55f011.jpg",
+      "category": "技术架构",
+      "topic": "T3",
+      "page": 5,
+      "canvas": [
+        1080,
+        720
+      ],
+      "question": "输入抽取、三层记忆和可追溯决策链怎样组成知识架构？",
+      "signals": [
+        "三层记忆",
+        "实体抽取",
+        "Context Graph",
+        "知识治理"
+      ],
+      "class_id": "C5"
+    }
+  ]
+}

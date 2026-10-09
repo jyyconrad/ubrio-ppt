@@ -1,0 +1,23 @@
+{
+  "catalog_variant": {
+    "schema_version": "layout-decision.v1",
+    "mode": "catalog_variant",
+    "layout_id": "two_column_text",
+    "composition_family_id": "content_list",
+    "structure_summary": "左右两栏分别承载现状证据与行动建议",
+    "rationale": "内容天然分成两个互斥主题，条目数量在目录容量内",
+    "reference_module_ids": []
+  },
+  "custom_composition": {
+    "schema_version": "layout-decision.v1",
+    "mode": "custom_composition",
+    "layout_id": null,
+    "composition_family_id": "parallel_cards",
+    "structure_summary": "顶部主判断，下方三条证据链，底部用行动条收口",
+    "rationale": "三组证据同级且都需要事实、解释和行动，现有候选没有同时满足这些槽位",
+    "reference_module_ids": [
+      "layout-intelligence:layout-routing-method",
+      "layout-intelligence:evidence-layout-contract"
+    ]
+  }
+}

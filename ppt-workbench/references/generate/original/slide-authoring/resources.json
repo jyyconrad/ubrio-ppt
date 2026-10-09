@@ -1,0 +1,331 @@
+{
+  "version": "skill-resources.v1",
+  "resources": [
+    {
+      "id": "build-fixed-svg-page",
+      "kind": "script",
+      "path": "scripts/build_fixed_svg_page.py",
+      "media_type": "text/x-python",
+      "stages": ["slide_generation"],
+      "execution_policy": "sandboxed",
+      "input_contract": "fixed_svg_page/v1 JSON in workspace",
+      "output_contract": "one SVG DrawingML source artifact",
+      "execution": {
+        "runner": "python",
+        "protocol": "fixed-argv.v1",
+        "isolation_profile": "trusted_builtin_subprocess",
+        "timeout_seconds": 10,
+        "max_output_bytes": 65536,
+        "inputs": [
+          {
+            "id": "spec",
+            "flag": "--spec",
+            "required": true,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 1048576
+          }
+        ],
+        "outputs": [
+          {
+            "id": "svg",
+            "flag": "--output",
+            "required": true,
+            "media_type": "image/svg+xml",
+            "suffixes": [".svg"],
+            "max_bytes": 4194304
+          }
+        ],
+        "parameters": []
+      }
+    },
+    {
+      "id": "validate-gold-page-spec",
+      "kind": "validator",
+      "path": "scripts/build_gold_svg_page.py",
+      "media_type": "text/x-python",
+      "stages": ["slide_generation"],
+      "execution_policy": "sandboxed",
+      "input_contract": "gold_page_spec/v1 JSON and optional repair patch in workspace",
+      "output_contract": "quality result plus optional normalized/repair/fill-plan JSON artifacts",
+      "execution": {
+        "runner": "python",
+        "protocol": "fixed-argv.v1",
+        "isolation_profile": "trusted_builtin_subprocess",
+        "timeout_seconds": 15,
+        "max_output_bytes": 65536,
+        "inputs": [
+          {
+            "id": "spec",
+            "flag": "--spec",
+            "required": true,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          },
+          {
+            "id": "patch",
+            "flag": "--patch",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 1048576
+          }
+        ],
+        "outputs": [
+          {
+            "id": "normalized_spec",
+            "flag": "--write-normalized",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          },
+          {
+            "id": "repair_patch",
+            "flag": "--write-repair-patch",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 1048576
+          },
+          {
+            "id": "fill_plan",
+            "flag": "--write-fill-plan",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 1048576
+          }
+        ],
+        "parameters": [
+          {
+            "id": "validate_only",
+            "flag": "--validate-only",
+            "type": "boolean",
+            "required": true,
+            "choices": ["True"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "build-gold-svg-page",
+      "kind": "script",
+      "path": "scripts/build_gold_svg_page.py",
+      "media_type": "text/x-python",
+      "stages": ["slide_generation"],
+      "execution_policy": "sandboxed",
+      "input_contract": "gold_page_spec/v1 JSON and optional repair patch in workspace",
+      "output_contract": "SVG plus optional normalized/repair/fill-plan JSON artifacts",
+      "execution": {
+        "runner": "python",
+        "protocol": "fixed-argv.v1",
+        "isolation_profile": "trusted_builtin_subprocess",
+        "timeout_seconds": 15,
+        "max_output_bytes": 65536,
+        "inputs": [
+          {
+            "id": "spec",
+            "flag": "--spec",
+            "required": true,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          },
+          {
+            "id": "patch",
+            "flag": "--patch",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 1048576
+          }
+        ],
+        "outputs": [
+          {
+            "id": "svg",
+            "flag": "--output",
+            "required": true,
+            "media_type": "image/svg+xml",
+            "suffixes": [".svg"],
+            "max_bytes": 4194304
+          },
+          {
+            "id": "normalized_spec",
+            "flag": "--write-normalized",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          },
+          {
+            "id": "repair_patch",
+            "flag": "--write-repair-patch",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 1048576
+          },
+          {
+            "id": "fill_plan",
+            "flag": "--write-fill-plan",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 1048576
+          }
+        ],
+        "parameters": []
+      }
+    },
+    {
+      "id": "build-editorial-svg-page",
+      "kind": "script",
+      "path": "scripts/build_editorial_svg_page.py",
+      "media_type": "text/x-python",
+      "stages": ["slide_generation"],
+      "execution_policy": "sandboxed",
+      "input_contract": "editorial page spec JSON in workspace",
+      "output_contract": "SVG and optional native-data JSON artifacts",
+      "execution": {
+        "runner": "python",
+        "protocol": "fixed-argv.v1",
+        "isolation_profile": "trusted_builtin_subprocess",
+        "timeout_seconds": 10,
+        "max_output_bytes": 65536,
+        "inputs": [
+          {
+            "id": "spec",
+            "flag": "--spec",
+            "required": true,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          }
+        ],
+        "outputs": [
+          {
+            "id": "svg",
+            "flag": "--output",
+            "required": true,
+            "media_type": "image/svg+xml",
+            "suffixes": [".svg"],
+            "max_bytes": 4194304
+          },
+          {
+            "id": "native_data",
+            "flag": "--native-output",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          }
+        ],
+        "parameters": []
+      }
+    },
+    {
+      "id": "validate-series-composite-svg-spec",
+      "kind": "validator",
+      "path": "scripts/build_series_composite_svg.py",
+      "media_type": "text/x-python",
+      "stages": ["slide_generation"],
+      "execution_policy": "sandboxed",
+      "input_contract": "series_composite_svg/v1 JSON in workspace",
+      "output_contract": "validated and normalized region-local complex SVG component spec; never a full-slide contract",
+      "execution": {
+        "runner": "python",
+        "protocol": "fixed-argv.v1",
+        "isolation_profile": "trusted_builtin_subprocess",
+        "timeout_seconds": 10,
+        "max_output_bytes": 65536,
+        "inputs": [
+          {
+            "id": "spec",
+            "flag": "--spec",
+            "required": true,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          }
+        ],
+        "outputs": [
+          {
+            "id": "normalized_spec",
+            "flag": "--write-normalized",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          }
+        ],
+        "parameters": [
+          {
+            "id": "validate_only",
+            "flag": "--validate-only",
+            "type": "boolean",
+            "required": true,
+            "choices": ["True"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "build-series-composite-svg",
+      "kind": "script",
+      "path": "scripts/build_series_composite_svg.py",
+      "media_type": "text/x-python",
+      "stages": ["slide_generation"],
+      "execution_policy": "sandboxed",
+      "input_contract": "series_composite_svg/v1 JSON in workspace",
+      "output_contract": "one grouped editable content-region SVG component, not a full slide, plus optional native-data sidecar and normalized spec",
+      "execution": {
+        "runner": "python",
+        "protocol": "fixed-argv.v1",
+        "isolation_profile": "trusted_builtin_subprocess",
+        "timeout_seconds": 10,
+        "max_output_bytes": 65536,
+        "inputs": [
+          {
+            "id": "spec",
+            "flag": "--spec",
+            "required": true,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          }
+        ],
+        "outputs": [
+          {
+            "id": "svg",
+            "flag": "--output",
+            "required": true,
+            "media_type": "image/svg+xml",
+            "suffixes": [".svg"],
+            "max_bytes": 4194304
+          },
+          {
+            "id": "normalized_spec",
+            "flag": "--write-normalized",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [".json"],
+            "max_bytes": 2097152
+          },
+          {
+            "id": "native_data",
+            "flag": "--native-output",
+            "required": false,
+            "media_type": "application/json",
+            "suffixes": [
+              ".json"
+            ],
+            "max_bytes": 2097152
+          }
+        ],
+        "parameters": []
+      }
+    }
+  ]
+}

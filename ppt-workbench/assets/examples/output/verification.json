@@ -1,0 +1,115 @@
+{
+  "kind": "deterministic_tool_smoke",
+  "model_independent_repeats": "not_performed",
+  "powerpoint_roundtrip": "not_performed",
+  "results": [
+    {
+      "case": "01-kpi",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "19fe6ab15bdcaef34b07f7b07d99bfb82cca0feb56a30876ff9252d7d52bfa34",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.003,
+      "visual_review": "pending"
+    },
+    {
+      "case": "02-trend",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "d4f31128e04da077c86697a833ace08b67c1a23353dbe36d32785c80264b5815",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "03-target",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "9df328d6599797a4b01ae748a421e3a073b04fc3eadf57085d01850b5b1577f3",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "04-multiseries",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "67d9ad65add98800cca1503d9dc569036e44340e34769c0741f20ced8ed16c5b",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "05-table",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "d44b8f52d872a9c351d302c114205e26e2b4f7750f39624afbafa5634581a59e",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.004,
+      "visual_review": "pending"
+    },
+    {
+      "case": "06-process",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "eb449e95f3bfca66e8d71ef6d696a2a1694af4825405efae726e598e33be5d69",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "07-matrix",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "f3ab3167d311222ccd2a956d00526b249169f903c93480102d3405dda7ecd35f",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "08-structure",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "c8c790893fa416c203198cceaaf952c8dda9953e07fe9fb2df4003a4f65573fe",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "09-evidence",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "3a11a11a6d6bd495666b1ce7c398717976b6c7c4d88b414b3957b423e7a4e762",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "10-cover",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "4efba7fc4a7807e3d55d8f20ee80b168935005fb288b9d16f71e96cf4f08f2a6",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    },
+    {
+      "case": "11-dense",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "90db69999552eb73d678795c6b631e0b7c36b044d47103fc44e829a6575ce123",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.003,
+      "visual_review": "pending"
+    },
+    {
+      "case": "12-style",
+      "structure": "pass",
+      "render": "pass",
+      "sha256": "90d4f11b83be1188947a982fa662841fc6fffadeebbaea99d78b6e4a25bd2472",
+      "renderer": "LibreOffice 26.2.2.2 1f77d10d6938fd34972958f64b2bcfa54f8b1ba5",
+      "seconds": 0.002,
+      "visual_review": "pending"
+    }
+  ]
+}

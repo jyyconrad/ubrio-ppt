@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-layout-family="story_cards_2up">
+  <g id="story_cards_2up" data-layout-family="story_cards_2up">
+  <g id="editorial-title-block">
+  <rect x="80" y="82" width="72" height="5" rx="0" fill="#A16207"/>
+  <text x="80" y="126" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="34" font-weight="900">两个阶段，解释命运如何从外部压力变成内部叙事</text>
+  <text x="82" y="158" fill="#6B7280" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500">2up 页面用来承载大段对照判断：一边讲处境，一边讲回应。</text>
+  </g>
+  <g id="story-card-1" data-role="narrative-card">
+  <rect x="80" y="190" width="546" height="342" rx="20" fill="#FFFCF6" stroke="#D6C8B8" opacity="0.78"/>
+  <text x="108" y="232" fill="#A16207" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="800">阶段一</text>
+  <rect x="108" y="250" width="54" height="4" rx="0" fill="#A16207"/>
+  <text x="108" y="298" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="21" font-weight="800">被处境命名</text>
+  <text x="108" y="374" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="15" font-weight="500">人物先被家庭、时代、性别和身体经验命名；讲述时要把这些外</text>
+  <text x="108" y="396" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="15" font-weight="500">部约束说清楚。</text>
+  <text x="108" y="504" fill="#6B7280" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="12" font-weight="500">外部结构</text>
+  </g>
+  <g id="story-card-2" data-role="narrative-card">
+  <rect x="654" y="190" width="546" height="342" rx="20" fill="#FFFCF6" stroke="#D6C8B8" opacity="0.78"/>
+  <text x="682" y="232" fill="#A16207" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="800">阶段二</text>
+  <rect x="682" y="250" width="54" height="4" rx="0" fill="#A16207"/>
+  <text x="682" y="298" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="21" font-weight="800">重新命名自己</text>
+  <text x="682" y="374" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="15" font-weight="500">当人物开始解释自己的痛苦、欲望和选择，命运就从压迫转成一</text>
+  <text x="682" y="396" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="15" font-weight="500">种可被重写的叙事。</text>
+  <text x="682" y="504" fill="#6B7280" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="12" font-weight="500">内部回应</text>
+  </g>
+  <rect x="80" y="562" width="1120" height="74" rx="18" fill="#F7F0E5" stroke="#D6C8B8" opacity="0.68"/>
+  <text x="112" y="604" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="18" font-weight="700">这一页验证 story_cards_2up：大段文字必须仍然可读，不能退化成低密度海报。</text>
+  </g>
+  <text x="80" y="674" fill="#7C6F64" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="11" font-weight="500">来源：content-literary-documentary-narrative.md</text>
+  </svg>

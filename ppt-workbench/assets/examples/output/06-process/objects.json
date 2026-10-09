@@ -1,0 +1,47 @@
+{
+  "file": "06-process.pptx",
+  "sha256": "eb449e95f3bfca66e8d71ef6d696a2a1694af4825405efae726e598e33be5d69",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "试点验证后再推广，先明确验收条件",
+        "建议方案 / 合成场景 / 不代表已批准计划",
+        "方法示例；节点及责任仅作建议",
+        "1",
+        "01",
+        "定义范围",
+        "业务负责人确认对象与验收标准。",
+        "02",
+        "小范围试点",
+        "采集效果与异常，记录口径。",
+        "03",
+        "评估与推广",
+        "按验收结果决定继续或调整。"
+      ],
+      "tables": [],
+      "charts": [],
+      "native_shapes": 18,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 顺序明确、连接符原生；正文不越界",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

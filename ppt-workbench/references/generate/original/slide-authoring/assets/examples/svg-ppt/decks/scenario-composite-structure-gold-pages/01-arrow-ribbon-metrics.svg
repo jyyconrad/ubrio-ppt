@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+<text x="48" y="52" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="26" font-weight="700">某事业部年度四大成果陈列</text>
+<rect x="48" y="64" width="56" height="4" rx="2" fill="#2F80ED"/>
+<text x="1232" y="50" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="13" text-anchor="end">报告期：2024 年度</text>
+<text x="48" y="94" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="14">客户增长 / 交付提效 / 成本优化 / 口碑跃升 —— 四段箭头串成一条成果主线，每段自带成果巨数</text>
+<polygon points="48,135 311,135 329,167 311,199 48,199" fill="#6BA5EE"/>
+<text x="185" y="173" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" text-anchor="middle">客户增长</text>
+<polygon points="349,135 612,135 630,167 612,199 349,199 367,167" fill="#4E90E9"/>
+<text x="488" y="173" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" text-anchor="middle">交付提效</text>
+<polygon points="650,135 913,135 931,167 913,199 650,199 668,167" fill="#337FE3"/>
+<text x="789" y="173" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" text-anchor="middle">成本优化</text>
+<polygon points="951,135 1214,135 1232,167 1214,199 951,199 969,167" fill="#1F6FD8"/>
+<text x="1090" y="173" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" text-anchor="middle">口碑跃升</text>
+<polygon points="64,225 313,225 329,241 329,479 313,495 64,495 48,479 48,241" fill="#FFFFFF" stroke="#D7DEE8" stroke-width="1.5"/>
+<text x="68" y="262" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="13">客户增长 · Customer Growth</text>
+<text x="68" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="42" font-weight="800">1240</text>
+<text x="178" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">家</text>
+<polygon points="68,356 75,344 82,356" fill="#12996B"/>
+<text x="90" y="356" fill="#12996B" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">同比 +38%</text>
+<line x1="68" y1="378" x2="309" y2="378" stroke="#E6ECF3" stroke-width="1"/>
+<text x="68" y="412" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="15">新签客户创三年新高</text>
+<rect x="68" y="432" width="82" height="26" rx="13" fill="#EAF2FD"/>
+<text x="109" y="450" fill="#1C63C4" font-family="Microsoft YaHei, Arial" font-size="12.5" text-anchor="middle">年度新签</text>
+<text x="68" y="484" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12">达成率 106% · 超额</text>
+<polygon points="365,225 614,225 630,241 630,479 614,495 365,495 349,479 349,241" fill="#FFFFFF" stroke="#D7DEE8" stroke-width="1.5"/>
+<text x="369" y="262" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="13">交付提效 · Delivery Cycle</text>
+<text x="369" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="42" font-weight="800">22</text>
+<text x="429" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">天</text>
+<polygon points="369,344 383,344 376,356" fill="#12996B"/>
+<text x="391" y="356" fill="#12996B" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">较年初 -34%</text>
+<line x1="369" y1="378" x2="610" y2="378" stroke="#E6ECF3" stroke-width="1"/>
+<text x="369" y="412" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="15">标准交付周期大幅压缩</text>
+<rect x="369" y="432" width="82" height="26" rx="13" fill="#EAF2FD"/>
+<text x="410" y="450" fill="#1C63C4" font-family="Microsoft YaHei, Arial" font-size="12.5" text-anchor="middle">周期均值</text>
+<text x="369" y="484" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12">较目标 -3 天 · 达标</text>
+<polygon points="666,225 915,225 931,241 931,479 915,495 666,495 650,479 650,241" fill="#FFFFFF" stroke="#D7DEE8" stroke-width="1.5"/>
+<text x="670" y="262" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="13">成本优化 · Cost Down</text>
+<text x="670" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="42" font-weight="800">-1870</text>
+<text x="790" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">万</text>
+<polygon points="670,344 684,344 677,356" fill="#12996B"/>
+<text x="692" y="356" fill="#12996B" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">同比 -14%</text>
+<line x1="670" y1="378" x2="911" y2="378" stroke="#E6ECF3" stroke-width="1"/>
+<text x="670" y="412" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="15">综合运营成本持续下降</text>
+<rect x="670" y="432" width="82" height="26" rx="13" fill="#EAF2FD"/>
+<text x="711" y="450" fill="#1C63C4" font-family="Microsoft YaHei, Arial" font-size="12.5" text-anchor="middle">全年累计</text>
+<text x="670" y="484" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12">节支目标达成 112%</text>
+<polygon points="967,225 1216,225 1232,241 1232,479 1216,495 967,495 951,479 951,241" fill="#FFFFFF" stroke="#D7DEE8" stroke-width="1.5"/>
+<text x="971" y="262" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="13">口碑跃升 · NPS Score</text>
+<text x="971" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="42" font-weight="800">92</text>
+<text x="1031" y="320" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">分</text>
+<polygon points="971,356 978,344 985,356" fill="#12996B"/>
+<text x="993" y="356" fill="#12996B" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">同比 +9 分</text>
+<line x1="971" y1="378" x2="1213" y2="378" stroke="#E6ECF3" stroke-width="1"/>
+<text x="971" y="412" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="15">客户满意度重回高位</text>
+<rect x="971" y="432" width="82" height="26" rx="13" fill="#EAF2FD"/>
+<text x="1012" y="450" fill="#1C63C4" font-family="Microsoft YaHei, Arial" font-size="12.5" text-anchor="middle">年末实测</text>
+<text x="971" y="484" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12">创近三年最高分</text>
+<rect x="48" y="620" width="1184" height="60" rx="14" fill="#003D79"/>
+<text x="72" y="656" fill="#9CC2F2" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700">年度成效</text>
+<text x="172" y="656" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15">四大成果均达成或超额年度目标，逐项挂责任人、沉淀为可复制打法</text>
+<text x="1208" y="656" fill="#9CC2F2" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="end">全员协同</text>
+</svg>

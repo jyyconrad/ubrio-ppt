@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#07111F" />
+  <text x="72" y="120" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="900" text-anchor="start">第一部分：市场机会与切入窗口</text>
+  <text x="72" y="169.6" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="500" text-anchor="start">先说明为什么是现在，再说明为什么是我们。</text>
+  <line x1="72" y1="216" x2="1208" y2="216" stroke="#45D1FF" stroke-width="4.8" />
+  <rect x="120" y="304" width="448" height="168" rx="19.2" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="148.8" y="353.6" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">Q1</text>
+  <text x="148.8" y="400" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20.8" font-weight="900" text-anchor="start">投资人问题</text>
+  <text x="148.8" y="438.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">市场是否足够大？</text>
+  <text x="148.8" y="473.6" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 预算、刚需、替代方案</text>
+  <rect x="640" y="304" width="448" height="168" rx="19.2" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="668.8" y="353.6" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">Method</text>
+  <text x="668.8" y="400" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20.8" font-weight="900" text-anchor="start">回答方式</text>
+  <text x="668.8" y="438.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">漏斗 + 数据缺口 + 切入场景</text>
+  <text x="668.8" y="473.6" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">- 不讲纯愿景</text>
+  <text x="72" y="684.8" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：融资路演 / 03-section-market / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

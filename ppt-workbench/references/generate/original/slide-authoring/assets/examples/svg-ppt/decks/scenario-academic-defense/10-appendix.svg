@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">学术答辩 / appendix</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">附录：实验设置与论文补充材料</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">答辩附录用于准备老师追问。</text>
+  <rect x="88" y="232" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="113.6" y="270.4" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">数据</text>
+  <text x="113.6" y="302.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">数据集</text>
+  <text x="113.6" y="331.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">样本来源 / 标注规则</text>
+  <text x="113.6" y="353.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">规模、字段、脱敏说明</text>
+  <rect x="648" y="232" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="673.6" y="270.4" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">指标</text>
+  <text x="673.6" y="302.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">评价指标</text>
+  <text x="673.6" y="331.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">准确率 / 召回率 / F1</text>
+  <text x="673.6" y="353.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">定义和计算公式</text>
+  <rect x="88" y="416" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="113.6" y="454.4" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">基线</text>
+  <text x="113.6" y="486.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">基线模型</text>
+  <text x="113.6" y="515.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">规则、统计、语义匹配</text>
+  <text x="113.6" y="537.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">参数和实现说明</text>
+  <rect x="648" y="416" width="496" height="140" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="673.6" y="454.4" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">消融</text>
+  <text x="673.6" y="486.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">消融实验</text>
+  <text x="673.6" y="515.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">去除规则 / 去除复核</text>
+  <text x="673.6" y="537.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">验证模块贡献</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：学术答辩 / 10-appendix / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

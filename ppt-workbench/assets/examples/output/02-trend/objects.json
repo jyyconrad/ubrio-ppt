@@ -1,0 +1,75 @@
+{
+  "file": "02-trend.pptx",
+  "sha256": "d4f31128e04da077c86697a833ace08b67c1a23353dbe36d32785c80264b5815",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "月度收入逐月增长，六月达到180万元",
+        "一至六月收入 / 合成数据",
+        "合成月度收入；单位：万元",
+        "1",
+        "六月较一月增加80万元；序列仅说明观察期内的变化。"
+      ],
+      "tables": [],
+      "charts": [
+        {
+          "part": "ppt/charts/chart1.xml",
+          "series": [
+            {
+              "name": "收入",
+              "labels": [
+                "一月",
+                "二月",
+                "三月",
+                "四月",
+                "五月",
+                "六月"
+              ],
+              "category_levels": [
+                [
+                  "一月",
+                  "二月",
+                  "三月",
+                  "四月",
+                  "五月",
+                  "六月"
+                ]
+              ],
+              "values": [
+                "100",
+                "110",
+                "125",
+                "140",
+                "155",
+                "180"
+              ]
+            }
+          ],
+          "embedded_workbook": true
+        }
+      ],
+      "native_shapes": 5,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 原生折线图；保留六个类别和全部数值，不推断趋势原因",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

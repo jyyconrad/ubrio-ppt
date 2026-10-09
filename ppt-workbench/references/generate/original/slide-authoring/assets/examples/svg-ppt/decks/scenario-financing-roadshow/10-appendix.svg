@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#07111F" />
+  <text x="72" y="70.4" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">融资路演 / appendix</text>
+  <text x="72" y="113.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">附录：投资人尽调材料清单</text>
+  <text x="72" y="155.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">路演附录页要覆盖可被追问的底层材料。</text>
+  <rect x="88" y="232" width="496" height="140" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="113.6" y="270.4" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">市场</text>
+  <text x="113.6" y="302.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">市场材料</text>
+  <text x="113.6" y="331.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">第三方报告 / 行业预算</text>
+  <text x="113.6" y="353.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">TAM/SAM/SOM 口径</text>
+  <rect x="648" y="232" width="496" height="140" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="673.6" y="270.4" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">客户</text>
+  <text x="673.6" y="302.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">客户材料</text>
+  <text x="673.6" y="331.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">合同 / 案例 / 证言</text>
+  <text x="673.6" y="353.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">标杆客户可披露范围</text>
+  <rect x="88" y="416" width="496" height="140" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="113.6" y="454.4" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">财务</text>
+  <text x="113.6" y="486.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">财务材料</text>
+  <text x="113.6" y="515.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">收入 / 毛利 / 回款</text>
+  <text x="113.6" y="537.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">模型假设说明</text>
+  <rect x="648" y="416" width="496" height="140" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="673.6" y="454.4" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">产品</text>
+  <text x="673.6" y="486.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">产品材料</text>
+  <text x="673.6" y="515.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">Demo / Roadmap</text>
+  <text x="673.6" y="537.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">安全合规与部署能力</text>
+  <text x="72" y="684.8" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：融资路演 / 10-appendix / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

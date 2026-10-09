@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT 工作台"
+  short_description: "一体化整理汇报素材、编排大纲、制作可编辑PPT并合并导出"
+  default_prompt: "使用 $ppt-workbench 根据我提供的材料，先核对事实和页面目标，再按金标 authoring 逐页生成 source.svg 和可编辑 PPTX，检查高密度中国式汇报结构并交付；保留来源和证据边界，多页批次按宿主工作流安排。"

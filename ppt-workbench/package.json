@@ -1,0 +1,12 @@
+{
+  "name": "ppt-workbench",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Integrated standalone PPT workbench helpers",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "fontkit": "2.0.4",
+    "pptx-automizer": "0.9.3",
+    "pptxgenjs": "4.0.1"
+  }
+}

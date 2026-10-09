@@ -1,0 +1,17 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "violet_planning_5w1h",
+  "pattern": "target_action_timeline",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "六个月计划按目标、行动和验收逐期闭环",
+  "data": {
+    "periods": [
+      {"label": "1月", "goal": "统一目标", "actions": ["确认范围", "明确责任"], "result": "计划基线", "emphasis": false},
+      {"label": "2月", "goal": "完成设计", "actions": ["方案评审", "资源排期"], "result": "方案冻结", "emphasis": false},
+      {"label": "3月", "goal": "试点验证", "actions": ["核心上线", "数据跟踪"], "result": "试点验收", "emphasis": true},
+      {"label": "4月", "goal": "扩大覆盖", "actions": ["复制推广", "辅导一线"], "result": "覆盖三场景", "emphasis": false},
+      {"label": "5月", "goal": "优化效率", "actions": ["分析瓶颈", "调整机制"], "result": "周期改善", "emphasis": false},
+      {"label": "6月", "goal": "价值复盘", "actions": ["核验结果", "沉淀方法"], "result": "形成闭环", "emphasis": true}
+    ]
+  }
+}

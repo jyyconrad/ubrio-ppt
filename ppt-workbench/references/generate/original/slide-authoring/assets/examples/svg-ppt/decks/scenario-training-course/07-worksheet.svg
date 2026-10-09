@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">培训课程 / content</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">课堂练习：用真实问题完成一张执行闭环表</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">练习页给填写框架，不用只写“请讨论”。</text>
+  <rect x="72" y="216" width="544" height="152" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="97.6" y="254.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">问题描述</text>
+  <text x="97.6" y="286.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">对象 / 时间 / 影响</text>
+  <text x="97.6" y="318.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 写 1 句话问题</text>
+  <text x="97.6" y="342.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 补充影响范围</text>
+  <rect x="656" y="216" width="544" height="152" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="681.6" y="254.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">原因判断</text>
+  <text x="681.6" y="286.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">现象 / 原因 / 后果</text>
+  <text x="681.6" y="318.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 至少 2 条原因</text>
+  <text x="681.6" y="342.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 标出证据来源</text>
+  <rect x="72" y="412" width="544" height="152" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="97.6" y="450.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">行动拆解</text>
+  <text x="97.6" y="482.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">责任人 / 节点 / 标准</text>
+  <text x="97.6" y="514.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 不少于 3 项动作</text>
+  <text x="97.6" y="538.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 每项有完成标准</text>
+  <rect x="656" y="412" width="544" height="152" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="681.6" y="450.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="800" text-anchor="start">复盘指标</text>
+  <text x="681.6" y="482.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">结果 / 偏差 / 改进</text>
+  <text x="681.6" y="514.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 选择 1 个量化指标</text>
+  <text x="681.6" y="538.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="400" text-anchor="start">□ 写下一轮优化</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：培训课程 / 05-worksheet / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

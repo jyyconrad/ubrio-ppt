@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 离线预览底色：仅供 rsvg 预览。运行时整页背景由 deck_framework.background 承载；
+       提交 render_svg_drawingml_slide 的内容层 SVG 不要照抄这行整页 rect，
+       否则触发 SVG_FULL_PAGE_BACKGROUND_FORBIDDEN。 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#0B1220"/>
+  <rect x="48" y="40" width="1184" height="640" rx="0" fill="#0A1E45" stroke="#334155" stroke-width="2"/>
+
+  <!-- 标题 -->
+  <text x="84" y="84" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">让平台应用可见、可比、可推动</text>
+  <text x="84" y="112" fill="#9DBBE0" font-family="Microsoft YaHei, Arial" font-size="15">应用看板 · 高密度深色驾驶舱 · 组合诉求拆为相邻 native chart slot</text>
+
+  <!-- 大数字 KPI 带（4 联，深色分色底 + 亮色数字） -->
+  <rect x="84" y="136" width="268" height="76" rx="0" fill="#172554" stroke="#3B82F6"/>
+  <text x="104" y="164" fill="#BFDBFE" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">月均交互</text>
+  <text x="104" y="196" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="26" font-weight="700">42,000</text>
+  <rect x="364" y="136" width="268" height="76" rx="0" fill="#14532D" stroke="#22C55E"/>
+  <text x="384" y="164" fill="#BBF7D0" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">接入数据源</text>
+  <text x="384" y="196" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="26" font-weight="700">18+</text>
+  <rect x="644" y="136" width="268" height="76" rx="0" fill="#312E81" stroke="#818CF8"/>
+  <text x="664" y="164" fill="#C7D2FE" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">关键指标</text>
+  <text x="664" y="196" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="26" font-weight="700">500+</text>
+  <rect x="924" y="136" width="268" height="76" rx="0" fill="#431407" stroke="#F97316"/>
+  <text x="944" y="164" fill="#FED7AA" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700">覆盖部门</text>
+  <text x="944" y="196" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="26" font-weight="700">45</text>
+
+  <!-- 左侧：两个相邻 native chart slot（组合诉求拆成 bar + line，不写 kind=combo） -->
+  <g id="cockpit-bar-slot" data-role="native-chart-slot" data-native-chart="true"
+     data-x="84" data-y="228" data-w="330" data-h="320">
+    <rect x="84" y="228" width="330" height="320" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <text x="112" y="266" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">分部门应用热度排名</text>
+    <text x="112" y="298" fill="#CBD5E1" font-family="Microsoft YaHei, Arial" font-size="13">数据助手与报表生成位居前列。</text>
+    <text x="112" y="330" fill="#7FA8DC" font-family="Microsoft YaHei, Arial" font-size="12.5">bar slot：真实柱状图由 native chart 生成，数据写入 charts[]。</text>
+  </g>
+  <g id="cockpit-line-slot" data-role="native-chart-slot" data-native-chart="true"
+     data-x="430" data-y="228" data-w="330" data-h="320">
+    <rect x="430" y="228" width="330" height="320" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <text x="458" y="266" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">月均交互趋势</text>
+    <text x="458" y="298" fill="#CBD5E1" font-family="Microsoft YaHei, Arial" font-size="13">近半年稳步上行，季度环比转正。</text>
+    <text x="458" y="330" fill="#7FA8DC" font-family="Microsoft YaHei, Arial" font-size="12.5">line slot：单指标趋势拆为独立 native slot。</text>
+  </g>
+
+  <!-- 右侧：四张管理动作洞察卡（纯文本，不手绘图表） -->
+  <rect x="784" y="228" width="408" height="74" rx="10" fill="#0E2647" stroke="#1E3A6E"/>
+  <rect x="784" y="228" width="6" height="74" rx="3" fill="#38BDF8"/>
+  <text x="808" y="258" fill="#9DBBE0" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">现状摸底</text>
+  <text x="808" y="284" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12.5">摸清各部门智能体类型与岗位覆盖，建立清晰台账。</text>
+
+  <rect x="784" y="310" width="408" height="74" rx="10" fill="#0E2647" stroke="#1E3A6E"/>
+  <rect x="784" y="310" width="6" height="74" rx="3" fill="#38BDF8"/>
+  <text x="808" y="340" fill="#9DBBE0" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">接入进度</text>
+  <text x="808" y="366" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12.5">接入进度按月更新，掌控整体推进节奏。</text>
+
+  <rect x="784" y="392" width="408" height="74" rx="10" fill="#0E2647" stroke="#1E3A6E"/>
+  <rect x="784" y="392" width="6" height="74" rx="3" fill="#38BDF8"/>
+  <text x="808" y="422" fill="#9DBBE0" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">红黑榜公示</text>
+  <text x="808" y="448" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12.5">定期公示标杆与滞后名单，示范与倒逼并举。</text>
+
+  <rect x="784" y="474" width="408" height="74" rx="10" fill="#0E2647" stroke="#1E3A6E"/>
+  <rect x="784" y="474" width="6" height="74" rx="3" fill="#38BDF8"/>
+  <text x="808" y="504" fill="#9DBBE0" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">提效追踪</text>
+  <text x="808" y="530" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="12.5">聚焦标杆场景，量化追踪应用提效成果。</text>
+
+  <!-- 结论带 -->
+  <rect x="84" y="566" width="1108" height="44" rx="8" fill="#1F2937" stroke="#475569"/>
+  <text x="112" y="594" fill="#E5E7EB" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="600">只有让应用可见、可比、可追踪，平台推广才会从“倡导”走向“管理动作”。</text>
+
+  <!-- 结构参考标注 -->
+  <text x="84" y="646" fill="#7FA8DC" font-family="Microsoft YaHei, Arial" font-size="11.5">示例数据 · 仅供 chart-combo-dashboard 结构参考（高密度深色场景）；组合诉求拆成相邻 native chart slot，不写 kind=combo。</text>
+</svg>

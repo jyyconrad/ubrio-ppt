@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="70.4" y="19.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">年度经营总结 / 经营复盘 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="92.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">附录：经营数据口径与待补素材清单</text>
+  <text x="70.4" y="128" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">附录页用于说明真实生成时还需要哪些证据。</text>
+  <rect x="70.4" y="148.8" width="1139.2" height="33.6" rx="14.4" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="92.8" y="170.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：年度总结必须同时写结果、差距、原因、证据口径和来年动作；缺数据时标缺口，不删问题。</text>
+  <g id="annual-appendix-material-index">
+  <rect x="70.4" y="200" width="1139.2" height="284.8" rx="12.8" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="94.4" y="233.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">素材</text>
+  <text x="315.2" y="233.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">material_id</text>
+  <text x="529.6" y="233.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">用于页面</text>
+  <text x="684.8" y="233.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">关键字段</text>
+  <text x="900.8" y="233.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">待补口径</text>
+  <text x="1107.2" y="233.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">Owner</text>
+  <line x1="84.8" y1="240" x2="1192" y2="240" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="267.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">年度财务月报</text>
+  <text x="315.2" y="267.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">finance-monthly-report</text>
+  <text x="529.6" y="267.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">04驾驶舱/08证据表</text>
+  <text x="684.8" y="267.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">收入、毛利、回款、行业结构</text>
+  <text x="900.8" y="267.2" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">按行业毛利/回款周期</text>
+  <text x="1107.2" y="267.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">财经</text>
+  <text x="94.4" y="284.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="500" text-anchor="start">记录收入、毛利、回款、行业结构和月度波动。</text>
+  <line x1="84.8" y1="291.2" x2="1192" y2="291.2" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="318.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">CRM 商机与合同清单</text>
+  <text x="315.2" y="318.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">crm-contract-ledger</text>
+  <text x="529.6" y="318.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">04驾驶舱/05矩阵</text>
+  <text x="684.8" y="318.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">客户、合同金额、区域、行业</text>
+  <text x="900.8" y="318.4" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">客户名单/区域对比</text>
+  <text x="1107.2" y="318.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">销售</text>
+  <text x="94.4" y="336" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="500" text-anchor="start">记录重点行业客户、合同金额、区域归属和复制线索。</text>
+  <line x1="84.8" y1="342.4" x2="1192" y2="342.4" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="369.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">交付 PMO 台账</text>
+  <text x="315.2" y="369.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">delivery-pmo-ledger</text>
+  <text x="529.6" y="369.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">04驾驶舱/06原因/07计划</text>
+  <text x="684.8" y="369.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">周期、返工率、验收节点</text>
+  <text x="900.8" y="369.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">平均周期/返工率趋势</text>
+  <text x="1107.2" y="369.6" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">PMO</text>
+  <text x="94.4" y="387.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="500" text-anchor="start">记录项目周期、返工率、验收节点和交付责任人。</text>
+  <line x1="84.8" y1="393.6" x2="1192" y2="393.6" stroke="#D9E2EC" stroke-width="0.8" />
+  <text x="94.4" y="420.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">客户成功复购台账</text>
+  <text x="315.2" y="420.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">customer-success-renewal</text>
+  <text x="529.6" y="420.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">04驾驶舱/08证据表/09行动</text>
+  <text x="684.8" y="420.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">分层、续约、复购、风险客户</text>
+  <text x="900.8" y="420.8" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">复购率/续约金额</text>
+  <text x="1107.2" y="420.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">客成</text>
+  <text x="94.4" y="438.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="500" text-anchor="start">记录 A/B/C 客户分层、续约金额、复购率和风险客户。</text>
+  </g>
+  <g id="annual-appendix-usage-contract">
+  <rect x="70.4" y="505.6" width="256" height="62.4" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="84.8" y="528" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">读取顺序</text>
+  <text x="84.8" y="547.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">materials/index.md -&gt; 当前页引用素材 -&gt; 原始表格/截图</text>
+  <text x="84.8" y="563.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="600" text-anchor="start">避免反复全盘检索</text>
+  <rect x="355.2" y="505.6" width="256" height="62.4" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="369.6" y="528" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">入页方式</text>
+  <text x="369.6" y="547.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">先写经营判断，再把来源塞进证据槽</text>
+  <text x="369.6" y="563.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="600" text-anchor="start">不要只在附录堆清单</text>
+  <rect x="640" y="505.6" width="256" height="62.4" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="654.4" y="528" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">缺口标注</text>
+  <text x="654.4" y="547.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">缺数据写待补口径、Owner、截止日</text>
+  <text x="654.4" y="563.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="600" text-anchor="start">不能删除不利信息</text>
+  <rect x="924.8" y="505.6" width="256" height="62.4" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="939.2" y="528" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">复盘追踪</text>
+  <text x="939.2" y="547.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">同一字段进入月度经营会</text>
+  <text x="939.2" y="563.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="600" text-anchor="start">保证下次复盘可比较</text>
+  </g>
+  <rect x="70.4" y="588.8" width="1139.2" height="43.2" rx="12.8" fill="#FFF7ED" stroke="#F59E0B" />
+  <text x="94.4" y="616" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="900" text-anchor="start">附录使用方式</text>
+  <text x="208" y="616" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">附录不是素材坟场，而是告诉模型哪些页面引用哪些素材、缺什么口径、由谁补齐。</text>
+  <rect x="70.4" y="643.2" width="1139.2" height="22.4" rx="11.2" fill="#0F3B73" stroke="#0F3B73" />
+  <text x="94.4" y="659.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">示例路径：materials/index.md -&gt; finance-monthly-report.xlsx -&gt; crm-contract-ledger.xlsx -&gt; delivery-pmo-ledger.xlsx -&gt; customer-success-renewal.xlsx</text>
+  <text x="70.4" y="676.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：年度财务月报 / CRM 商机与合同清单 / 交付 PMO 台账 / 客户成功复购台账</text>
+  <text x="992" y="676.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">年度经营总结 / 10-appendix</text>
+  </svg>

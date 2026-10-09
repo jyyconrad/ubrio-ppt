@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "charts": [
+    {
+      "slot_id": "bar-slot-1",
+      "kind": "bar",
+      "title": "渠道转化对比",
+      "labels": ["公域投放", "私域触达", "老客转介"],
+      "series": [
+        {"name": "转化率", "values": [18, 31, 42], "color": "#2563EB"}
+      ],
+      "colors": ["#2563EB"],
+      "source": "CRM 线索转化统计，2026 Q2",
+      "insight": "私域触达与老客转介贡献更高，公域投放需优化筛选。",
+      "style": {
+        "title_text_color": "#0F172A",
+        "axis_text_color": "#334155",
+        "legend_text_color": "#334155",
+        "grid_color": "#CBD5E1"
+      },
+      "options": {"legend": false, "value_axis": {"format": "0%"}}
+    }
+  ],
+  "tables": []
+}

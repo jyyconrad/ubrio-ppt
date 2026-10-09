@@ -1,0 +1,76 @@
+{
+  "output": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/01-cover.pptx",
+  "slide_count": 1,
+  "slides": [
+    {
+      "slide_num": 1,
+      "svg": "/Users/jiangyayun/develop/code/ppt/ppt-agent-v3/code/backend/app/skills/slide-authoring/assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/01-cover.svg",
+      "summary": {
+        "converted": 1,
+        "skipped": 0,
+        "media_files": 0,
+        "relationships": 0,
+        "animation_targets": 1
+      },
+      "preprocess": [],
+      "events": [
+        {
+          "tag": "rect",
+          "decision": "native",
+          "shape_id": 2,
+          "bounds_emu": [
+            5534025,
+            1962150,
+            6657975,
+            2000250
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 3,
+          "bounds_emu": [
+            5408676,
+            2232660,
+            6783324,
+            2476500
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 4,
+          "bounds_emu": [
+            2690836,
+            2692718,
+            9501163,
+            3576638
+          ]
+        },
+        {
+          "tag": "text",
+          "decision": "native",
+          "shape_id": 5,
+          "bounds_emu": [
+            2444591,
+            3879532,
+            9747409,
+            4214812
+          ]
+        },
+        {
+          "tag": "g",
+          "decision": "native",
+          "id": "fixed-photo-dark-content",
+          "shape_id": 6,
+          "bounds_emu": [
+            2444591,
+            1962150,
+            9747409,
+            4214812
+          ]
+        }
+      ]
+    }
+  ]
+}

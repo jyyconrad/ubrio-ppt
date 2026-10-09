@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#8A1538" />
+  <text x="72" y="70.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">党政学习 / content</text>
+  <text x="72" y="113.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">支部行动台账：每项学习成果都要落到责任主体</text>
+  <text x="72" y="155.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">国企/政务汇报要体现责任、时限和检查方式。</text>
+  <rect x="72" y="216" width="1136" height="400" rx="14.4" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="104" y="259.2" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">事项</text>
+  <text x="376" y="259.2" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">责任/判断</text>
+  <text x="640" y="259.2" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">关键动作</text>
+  <text x="1056" y="259.2" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="800" text-anchor="start">标签</text>
+  <line x1="96" y1="271.2" x2="1184" y2="271.2" stroke="#D4A843" stroke-width="0.8" />
+  <text x="104" y="300" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">服务窗口优化</text>
+  <text x="376" y="300" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">第一党小组</text>
+  <text x="640" y="300" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">梳理群众高频问题；月底提交优化清单</text>
+  <text x="1056" y="300" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">服务</text>
+  <line x1="96" y1="341.6" x2="1184" y2="341.6" stroke="#D4A843" stroke-width="0.8" />
+  <text x="104" y="370.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">安全生产排查</text>
+  <text x="376" y="370.4" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">第二党小组</text>
+  <text x="640" y="370.4" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">重点岗位风险复核；形成整改闭环</text>
+  <text x="1056" y="370.4" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">安全</text>
+  <line x1="96" y1="412" x2="1184" y2="412" stroke="#D4A843" stroke-width="0.8" />
+  <text x="104" y="440.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">降本增效专项</text>
+  <text x="376" y="440.8" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">第三党小组</text>
+  <text x="640" y="440.8" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">梳理流程堵点；提出 3 项优化建议</text>
+  <text x="1056" y="440.8" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">经营</text>
+  <line x1="96" y1="482.4" x2="1184" y2="482.4" stroke="#D4A843" stroke-width="0.8" />
+  <text x="104" y="511.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">青年党员攻关</text>
+  <text x="376" y="511.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">团青小组</text>
+  <text x="640" y="511.2" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">参与重点项目；每月交流成果</text>
+  <text x="1056" y="511.2" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">队伍</text>
+  <text x="72" y="684.8" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：党政学习 / 05-branch-actions / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="main-title-block">
+  <text x="70.0" y="94.0" fill="#0F172A" font-family="Hiragino Sans GB" font-size="40" font-weight="700" text-anchor="start">四项运营指标均改善，下一步将三项机制固化到日常作业</text>
+  <text x="70.0" y="133.0" fill="#334155" font-family="Hiragino Sans GB" font-size="18" font-weight="500" text-anchor="start">演示期当前值相较起点均向目标方向变化；本页只陈述同期变化，不把三项行动写成指标改善的原因。</text>
+  </g>
+  <g id="metrics-panel">
+  <rect x="70.0" y="192.0" width="262.0" height="90.0" rx="12" fill="#FFFFFF" stroke="#D9E2EC"/>
+  <text x="88.0" y="219.0" fill="#64748B" font-family="Hiragino Sans GB" font-size="15" font-weight="600" text-anchor="start">订单准时交付率</text>
+  <text x="88.0" y="254.0" fill="#2563EB" font-family="Hiragino Sans GB" font-size="24" font-weight="800" text-anchor="start">82% → 94%</text>
+  <g id="kicker-metric-note">
+  <text x="201.0" y="235.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start">演示期起点 82%</text>
+  <text x="201.0" y="251.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start">，演示期当前…</text>
+  </g>
+  <rect x="350.0" y="192.0" width="262.0" height="90.0" rx="12" fill="#FFFFFF" stroke="#D9E2EC"/>
+  <text x="368.0" y="219.0" fill="#64748B" font-family="Hiragino Sans GB" font-size="15" font-weight="600" text-anchor="start">单单拣货时长</text>
+  <text x="368.0" y="254.0" fill="#2563EB" font-family="Hiragino Sans GB" font-size="24" font-weight="800" text-anchor="start">14 → 11 分钟</text>
+  <g id="kicker-metric-note">
+  <text x="481.0" y="235.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start">演示期起点 14 </text>
+  <text x="481.0" y="251.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start">分钟，演示期…</text>
+  </g>
+  <rect x="630.0" y="192.0" width="262.0" height="90.0" rx="12" fill="#FFFFFF" stroke="#D9E2EC"/>
+  <text x="648.0" y="219.0" fill="#64748B" font-family="Hiragino Sans GB" font-size="15" font-weight="600" text-anchor="start">退货错发率</text>
+  <text x="648.0" y="254.0" fill="#2563EB" font-family="Hiragino Sans GB" font-size="24" font-weight="800" text-anchor="start">1.6% → 0.9%</text>
+  <g id="kicker-metric-note">
+  <text x="761.0" y="235.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start">演示期起点 1.6</text>
+  <text x="761.0" y="251.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start">%，演示期当…</text>
+  </g>
+  <rect x="910.0" y="192.0" width="262.0" height="90.0" rx="12" fill="#FFFFFF" stroke="#D9E2EC"/>
+  <text x="928.0" y="219.0" fill="#64748B" font-family="Hiragino Sans GB" font-size="15" font-weight="600" text-anchor="start">跨区调拨等待</text>
+  <text x="928.0" y="254.0" fill="#2563EB" font-family="Hiragino Sans GB" font-size="24" font-weight="800" text-anchor="start">2.5 → 1.4 天</text>
+  <g id="kicker-metric-note">
+  <text x="1041.0" y="235.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start">演示期起点 2.5</text>
+  <text x="1041.0" y="251.0" fill="#334155" font-family="Hiragino Sans GB" font-size="11" font-weight="400" text-anchor="start"> 天，演示期…</text>
+  </g>
+  </g>
+  <rect x="70.0" y="298.0" width="1139.0" height="336.0" rx="16" fill="#FFFFFF" stroke="#D9E2EC" opacity="0.36"/>
+  <g id="main-content">
+  <g id="content-group-1">
+  <rect x="70.0" y="306.0" width="552.0" height="152.0" rx="12" fill="#FFFFFF" stroke="#D9E2EC"/>
+  <text x="89.0" y="333.0" fill="#0F172A" font-family="Hiragino Sans GB" font-size="19" font-weight="700" text-anchor="start">库位重排</text>
+  <text x="89.0" y="359.0" fill="#334155" font-family="Hiragino Sans GB" font-size="16" font-weight="600" text-anchor="start">按动销级别调整库位，并保留每周变更记录。</text>
+  <text x="94.0" y="398.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 行动记录：高频货品优先靠近拣选路径</text>
+  <text x="94.0" y="418.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 观察指标：单单拣货时长由 14 分钟变为 11 分钟</text>
+  <text x="94.0" y="438.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 两者在同一演示期内并列出现，尚未控制订单结构等因素。</text>
+  <text x="603.0" y="444.0" fill="#2563EB" font-family="Hiragino Sans GB" font-size="15" font-weight="700" text-anchor="end">下一轮按动销级别与订单行数分层复盘拣货时长。</text>
+  </g>
+  <g id="content-group-2">
+  <rect x="657.0" y="306.0" width="552.0" height="152.0" rx="12" fill="#FFFFFF" stroke="#D9E2EC"/>
+  <text x="676.0" y="333.0" fill="#0F172A" font-family="Hiragino Sans GB" font-size="19" font-weight="700" text-anchor="start">扫描校验</text>
+  <text x="676.0" y="359.0" fill="#334155" font-family="Hiragino Sans GB" font-size="16" font-weight="600" text-anchor="start">出库与退货均扫描复核，异常进入班次记录。</text>
+  <text x="681.0" y="398.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 行动记录：出库与退货环节均设置扫描复核</text>
+  <text x="681.0" y="418.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 观察指标：退货错发率由 1.6% 变为 0.9%</text>
+  <text x="681.0" y="438.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 同期变化只能提示需要继续观察，不能证明扫描校验造成下降。</text>
+  <text x="1190.0" y="444.0" fill="#2563EB" font-family="Hiragino Sans GB" font-size="15" font-weight="700" text-anchor="end">下一轮补充漏扫、复核异常与错发分类的对应记录。</text>
+  </g>
+  <g id="content-group-3">
+  <rect x="70.0" y="480.0" width="552.0" height="152.0" rx="12" fill="#FFFFFF" stroke="#D9E2EC"/>
+  <text x="89.0" y="507.0" fill="#0F172A" font-family="Hiragino Sans GB" font-size="19" font-weight="700" text-anchor="start">调拨规则统一</text>
+  <text x="89.0" y="533.0" fill="#334155" font-family="Hiragino Sans GB" font-size="16" font-weight="600" text-anchor="start">跨区申请采用统一优先级字段和登记口径。</text>
+  <text x="94.0" y="572.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 行动记录：缺货、加急与跨区条件统一登记</text>
+  <text x="94.0" y="592.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 观察指标：跨区调拨等待由 2.5 天变为 1.4 天</text>
+  <text x="94.0" y="612.0" fill="#334155" font-family="Hiragino Sans GB" font-size="15" font-weight="500" text-anchor="start">• 申请类型和供给条件尚未分层，当前结果不能支持因果归因。</text>
+  <text x="603.0" y="618.0" fill="#2563EB" font-family="Hiragino Sans GB" font-size="15" font-weight="700" text-anchor="end">下一轮按申请类型分别复盘等待时长。</text>
+  </g>
+  </g>
+  <g id="source-note">
+  <rect x="70.0" y="658.0" width="1139.0" height="27.0" rx="8" fill="#FFFFFF" stroke="#D9E2EC" opacity="0.82"/>
+  <text x="86.0" y="675.0" fill="#64748B" font-family="Hiragino Sans GB" font-size="11" font-weight="500" text-anchor="start">合成演示数据集：仓储订单运营四项起点与当前值；仅用于技能示例，不代表真实企业数据。</text>
+  </g>
+  </svg>

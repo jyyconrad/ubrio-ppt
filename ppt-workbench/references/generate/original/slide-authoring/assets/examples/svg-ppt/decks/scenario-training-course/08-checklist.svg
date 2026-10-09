@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">培训课程 / content</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">检查清单：一张执行闭环表必须包含四类信息</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">检查表页让弱模型学会做可填的培训材料。</text>
+  <rect x="72" y="212" width="1136" height="408" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="104" y="256" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">证据项</text>
+  <text x="364" y="256" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">来源/口径</text>
+  <text x="624" y="256" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">必须补齐的信息</text>
+  <text x="1068" y="256" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">类型</text>
+  <line x1="96" y1="271.2" x2="1184" y2="271.2" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="301.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">问题</text>
+  <text x="364" y="301.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">对象、时间、影响</text>
+  <text x="624" y="301.6" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">一句话描述；证据来源</text>
+  <text x="1068" y="301.6" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">输入</text>
+  <line x1="96" y1="344.8" x2="1184" y2="344.8" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="375.2" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">动作</text>
+  <text x="364" y="375.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">责任人、节点、标准</text>
+  <text x="624" y="375.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">不少于 3 项动作；标出依赖</text>
+  <text x="1068" y="375.2" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">执行</text>
+  <line x1="96" y1="418.4" x2="1184" y2="418.4" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="448.8" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">风险</text>
+  <text x="364" y="448.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">阻塞、升级、预案</text>
+  <text x="624" y="448.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">触发条件；升级路径</text>
+  <text x="1068" y="448.8" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">风险</text>
+  <line x1="96" y1="492" x2="1184" y2="492" stroke="#E2E8F0" stroke-width="0.8" />
+  <text x="104" y="522.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="800" text-anchor="start">复盘</text>
+  <text x="364" y="522.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="500" text-anchor="start">结果、偏差、改进</text>
+  <text x="624" y="522.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">量化指标；下一轮标准</text>
+  <text x="1068" y="522.4" fill="#F59E0B" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="800" text-anchor="start">复盘</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：培训课程 / 08-checklist / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

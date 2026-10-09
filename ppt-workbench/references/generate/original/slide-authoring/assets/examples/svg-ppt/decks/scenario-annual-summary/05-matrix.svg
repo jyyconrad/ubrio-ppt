@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F8FB" />
+  <text x="70.4" y="19.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">年度经营总结 / 经营复盘 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="92.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">差距诊断：问题集中在效率、协同和客户运营</text>
+  <text x="70.4" y="128" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">用二维矩阵区分立即整改与机制优化。</text>
+  <rect x="70.4" y="148.8" width="1139.2" height="33.6" rx="14.4" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="92.8" y="170.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：年度总结必须同时写结果、差距、原因、证据口径和来年动作；缺数据时标缺口，不删问题。</text>
+  <g id="annual-gap-metrics">
+  <rect x="70.4" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="86.4" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">优先整改</text>
+  <text x="86.4" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">2</text>
+  <text x="158.4" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">标杆复制/客户分层</text>
+  <rect x="355.2" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="371.2" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">机制优化</text>
+  <text x="371.2" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">2</text>
+  <text x="443.2" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">周报口径/跨部门排期</text>
+  <rect x="640" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="656" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">关键Owner</text>
+  <text x="656" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">4</text>
+  <text x="728" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">销售/客成/运营/PMO</text>
+  <rect x="924.8" y="198.4" width="256" height="59.2" rx="11.2" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="940.8" y="220.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="700" text-anchor="start">复盘频率</text>
+  <text x="940.8" y="244.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="18.4" font-weight="900" text-anchor="start">月度</text>
+  <text x="1012.8" y="243.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">进入经营会</text>
+  </g>
+  <g id="annual-gap-matrix">
+  <rect x="70.4" y="281.6" width="376" height="129.6" rx="12.8" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="91.2" y="308.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">高影响/易推进</text>
+  <text x="91.2" y="339.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">标杆项目复制</text>
+  <text x="91.2" y="364.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="700" text-anchor="start">沉淀行业打法包</text>
+  <text x="91.2" y="387.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">来源：CRM合同清单</text>
+  <text x="345.6" y="387.2" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">销售战区</text>
+  <text x="91.2" y="403.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">检查口径：影响等级 + 推进难度 + 复盘节奏</text>
+  <rect x="268.8" y="297.6" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#2563EB" />
+  <text x="280" y="311.2" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">Owner</text>
+  <rect x="358.4" y="297.6" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#2563EB" />
+  <text x="369.6" y="311.2" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">验收</text>
+  <rect x="489.6" y="281.6" width="376" height="129.6" rx="12.8" fill="#FEF2F2" stroke="#B91C1C" />
+  <text x="510.4" y="308.8" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">高影响/难推进</text>
+  <text x="510.4" y="339.2" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">客户分层运营</text>
+  <text x="510.4" y="364.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="700" text-anchor="start">补A/B/C客户台账</text>
+  <text x="510.4" y="387.2" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">来源：客户成功台账</text>
+  <text x="764.8" y="387.2" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">客户成功</text>
+  <text x="510.4" y="403.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">检查口径：影响等级 + 推进难度 + 复盘节奏</text>
+  <rect x="688" y="297.6" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#B91C1C" />
+  <text x="699.2" y="311.2" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">Owner</text>
+  <rect x="777.6" y="297.6" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#B91C1C" />
+  <text x="788.8" y="311.2" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">验收</text>
+  <rect x="70.4" y="451.2" width="376" height="129.6" rx="12.8" fill="#FFFFFF" stroke="#D9E2EC" />
+  <text x="91.2" y="478.4" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">低影响/易推进</text>
+  <text x="91.2" y="508.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">周报口径统一</text>
+  <text x="91.2" y="534.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="700" text-anchor="start">统一收入/毛利/回款字段</text>
+  <text x="91.2" y="556.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">来源：经营会纪要</text>
+  <text x="345.6" y="556.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">运营</text>
+  <text x="91.2" y="572.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">检查口径：影响等级 + 推进难度 + 复盘节奏</text>
+  <rect x="268.8" y="467.2" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#2563EB" />
+  <text x="280" y="480.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">Owner</text>
+  <rect x="358.4" y="467.2" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#2563EB" />
+  <text x="369.6" y="480.8" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">验收</text>
+  <rect x="489.6" y="451.2" width="376" height="129.6" rx="12.8" fill="#FFF7ED" stroke="#B45309" />
+  <text x="510.4" y="478.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">低影响/难推进</text>
+  <text x="510.4" y="508.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">跨部门排期</text>
+  <text x="510.4" y="534.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="700" text-anchor="start">建立月度经营协调会</text>
+  <text x="510.4" y="556.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="600" text-anchor="start">来源：PMO项目台账</text>
+  <text x="764.8" y="556.8" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">PMO</text>
+  <text x="510.4" y="572.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">检查口径：影响等级 + 推进难度 + 复盘节奏</text>
+  <rect x="688" y="467.2" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#B45309" />
+  <text x="699.2" y="480.8" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">Owner</text>
+  <rect x="777.6" y="467.2" width="83.2" height="19.2" rx="9.6" fill="#FFFFFF" stroke="#B45309" />
+  <text x="788.8" y="480.8" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">验收</text>
+  </g>
+  <g id="annual-gap-principle">
+  <rect x="904" y="281.6" width="305.6" height="299.2" rx="14.4" fill="#0F3B73" stroke="#0F3B73" />
+  <text x="928" y="315.2" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16.8" font-weight="900" text-anchor="start">诊断页写法</text>
+  <text x="928" y="355.2" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">1. 每个问题必须有影响等级。</text>
+  <text x="928" y="385.6" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">2. 每个差距必须写来源或口径。</text>
+  <text x="928" y="416" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">3. 每个动作必须绑定Owner。</text>
+  <text x="928" y="446.4" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">4. 不写“继续加强、持续推进”。</text>
+  <text x="928" y="476.8" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">5. 低优先问题也要说明复盘节奏。</text>
+  <rect x="928" y="528" width="241.6" height="32" rx="14.4" fill="#F59E0B" stroke="#F59E0B" />
+  <text x="947.2" y="548.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">矩阵不是装饰，是整改优先级</text>
+  <text x="928" y="564.8" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="800" text-anchor="start">本周输出</text>
+  <text x="1003.2" y="564.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">整改台账</text>
+  <text x="928" y="585.6" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="800" text-anchor="start">月度检查</text>
+  <text x="1003.2" y="585.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">经营会</text>
+  <text x="928" y="606.4" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="800" text-anchor="start">失败信号</text>
+  <text x="1003.2" y="606.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="900" text-anchor="start">口径缺失</text>
+  </g>
+  <g id="annual-gap-ledger">
+  <rect x="70.4" y="593.6" width="808" height="62.4" rx="11.2" fill="#EFF6FF" stroke="#B8D8FF" />
+  <text x="92.8" y="609.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="900" text-anchor="start">整改项</text>
+  <text x="240" y="609.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="900" text-anchor="start">Owner</text>
+  <text x="416" y="609.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="900" text-anchor="start">本月动作</text>
+  <text x="624" y="609.6" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="900" text-anchor="start">验收标准</text>
+  <text x="92.8" y="624" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">客户分层</text>
+  <text x="240" y="624" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">客成</text>
+  <text x="416" y="624" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">补A/B/C台账</text>
+  <text x="624" y="624" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">续约金额入表</text>
+  <text x="92.8" y="638.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">标杆复制</text>
+  <text x="240" y="638.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">销售</text>
+  <text x="416" y="638.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">三类打法包</text>
+  <text x="624" y="638.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">区域可复用</text>
+  <text x="92.8" y="652.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">数据口径</text>
+  <text x="240" y="652.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">运营</text>
+  <text x="416" y="652.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">字段统一</text>
+  <text x="624" y="652.8" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8" font-weight="700" text-anchor="start">月会同表</text>
+  <rect x="904" y="593.6" width="305.6" height="62.4" rx="11.2" fill="#FFF7ED" stroke="#F59E0B" />
+  <text x="924.8" y="616" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">复盘节奏</text>
+  <text x="1000" y="616" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">月度经营会 / 季度专题复盘</text>
+  <text x="924.8" y="638.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">缺口处理</text>
+  <text x="1000" y="638.4" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="800" text-anchor="start">待补数据必须写Owner，不许删</text>
+  <rect x="928" y="649.6" width="118.4" height="16" rx="8" fill="#FFFFFF" stroke="#F59E0B" />
+  <text x="937.6" y="660.8" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="7.2" font-weight="900" text-anchor="start">检查标准入台账</text>
+  <rect x="1056" y="649.6" width="118.4" height="16" rx="8" fill="#FFFFFF" stroke="#F59E0B" />
+  <text x="1065.6" y="660.8" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="7.2" font-weight="900" text-anchor="start">下月复盘同口径</text>
+  </g>
+  <text x="70.4" y="676.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：年度财务月报 / CRM 商机与合同清单 / 交付 PMO 台账 / 客户成功复购台账</text>
+  <text x="992" y="676.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">年度经营总结 / 05-matrix</text>
+  </svg>

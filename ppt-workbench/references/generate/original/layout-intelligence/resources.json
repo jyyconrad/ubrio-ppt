@@ -1,0 +1,23 @@
+{
+  "version": "skill-resources.v1",
+  "resources": [
+    {
+      "id": "layout-decision-catalog-and-custom",
+      "kind": "example",
+      "path": "assets/examples/layout-decisions/catalog-and-custom.json",
+      "media_type": "application/json",
+      "stages": ["slide_generation"],
+      "execution_policy": "read_only"
+    },
+    {
+      "id": "validate-layout-decision-example",
+      "kind": "validator",
+      "path": "scripts/validate_layout_decision_example.py",
+      "media_type": "text/x-python",
+      "stages": ["slide_generation"],
+      "execution_policy": "development_only",
+      "input_contract": "one layout-decision example JSON file",
+      "output_contract": "per-example production validation result"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <text x="70.4" y="19.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">市级数据治理项目 / 阶段汇报 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="94.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">风险热力图：数据口径和资源排期是主要阻塞</text>
+  <text x="70.4" y="129.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">风险页必须写清影响、触发条件、责任人和升级动作。</text>
+  <rect x="70.4" y="150.4" width="1139.2" height="33.6" rx="14.4" fill="#EAF3FF" stroke="#B8D8FF" />
+  <text x="92.8" y="172" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：观点 + 证据 + 解释 + 影响 + 行动/风险，所有正文页必须有责任人、时限或来源。</text>
+  <text x="81.6" y="222.4" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="800" text-anchor="start">影响高</text>
+  <text x="81.6" y="596.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">影响低</text>
+  <text x="272" y="622.4" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">概率低</text>
+  <text x="952" y="622.4" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="800" text-anchor="start">概率高</text>
+  <line x1="152" y1="584" x2="1136" y2="584" stroke="#D7DEE8" stroke-width="1.6" />
+  <line x1="152" y1="216" x2="152" y2="584" stroke="#D7DEE8" stroke-width="1.6" />
+  <line x1="644" y1="240" x2="644" y2="584" stroke="#D7DEE8" stroke-width="0.8" />
+  <line x1="152" y1="412" x2="1136" y2="412" stroke="#D7DEE8" stroke-width="0.8" />
+  <rect x="182.4" y="257.6" width="424" height="123.2" rx="14.4" fill="#FEF2F2" stroke="#B91C1C" />
+  <text x="203.2" y="288" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">数据口径未统一</text>
+  <text x="203.2" y="313.6" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">触发：三类指标周期不同</text>
+  <text x="203.2" y="334.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">影响：验收材料口径冲突</text>
+  <text x="203.2" y="355.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">Owner：业务处室A / 截止：6月10日</text>
+  <text x="435.2" y="355.2" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">升级：周三前书面确认</text>
+  <rect x="686.4" y="257.6" width="424" height="123.2" rx="14.4" fill="#FEF2F2" stroke="#B91C1C" />
+  <text x="707.2" y="288" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">资源排期冲突</text>
+  <text x="707.2" y="313.6" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">触发：供应商与区县窗口重叠</text>
+  <text x="707.2" y="334.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">影响：驻场验收无法展开</text>
+  <text x="707.2" y="355.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">Owner：PMO B / 截止：6月11日</text>
+  <text x="939.2" y="355.2" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">升级：PMO统一排期</text>
+  <rect x="182.4" y="448" width="424" height="123.2" rx="14.4" fill="#FFF7ED" stroke="#B45309" />
+  <text x="203.2" y="478.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">异常数据回流</text>
+  <text x="203.2" y="504" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">触发：3项问题关闭截图缺失</text>
+  <text x="203.2" y="524.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">影响：稳定性说明不完整</text>
+  <text x="203.2" y="545.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">Owner：技术C / 截止：每日18点</text>
+  <text x="435.2" y="545.6" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">动作：日清单+回归截图</text>
+  <rect x="686.4" y="448" width="424" height="123.2" rx="14.4" fill="#ECFDF5" stroke="#15803D" />
+  <text x="707.2" y="478.4" fill="#15803D" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">培训覆盖不足</text>
+  <text x="707.2" y="504" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">触发：两家单位未完成操作演练</text>
+  <text x="707.2" y="524.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">影响：上线使用率波动</text>
+  <text x="707.2" y="545.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="600" text-anchor="start">Owner：运营D / 截止：6月13日</text>
+  <text x="939.2" y="545.6" fill="#15803D" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">动作：补课+FAQ归档</text>
+  <text x="70.4" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：项目周报台账 / 联调问题清单 / PMO 验收排期表 / 验收证据包目录</text>
+  <text x="992" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">项目阶段汇报 / 05-risk</text>
+  </svg>

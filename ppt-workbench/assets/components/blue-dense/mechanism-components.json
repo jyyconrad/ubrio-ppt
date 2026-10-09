@@ -1,0 +1,1554 @@
+{
+  "schema_version": 1,
+  "components": [
+    {
+      "id": "mech-customer-vitality-cycle",
+      "name": "客户驱动四项活力循环",
+      "family": "closed_cycle",
+      "reference_id": "R16",
+      "box": [
+        18,
+        108,
+        548,
+        248
+      ],
+      "fields": [
+        "cycle_title",
+        "cycle_center",
+        "cycle"
+      ],
+      "business_question": "组织如何围绕客户价值形成持续学习与改进循环？",
+      "layout_reason": "四个行动节点环绕中心价值模型，并以首尾闭合箭头表达持续运行，而非一次性线性流程。",
+      "required_relations": [
+        "固定四个外部节点",
+        "中心价值位于圆心",
+        "四条箭头首尾闭合",
+        "每个节点保留动作说明"
+      ],
+      "capacity": {
+        "nodes": 4,
+        "actions_per_node": 3,
+        "center_lines": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "quadrant_dividers": 2,
+        "enlarged_icons": 4
+      },
+      "native_objects": [],
+      "variants": [
+        "R19",
+        "R26"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-vitality-defense-signal-panel",
+      "name": "组织活力防线曲线与预警信号组",
+      "family": "diagnostic_triptych",
+      "reference_id": "R16",
+      "box": [
+        18,
+        372,
+        1244,
+        323
+      ],
+      "fields": [
+        "defense_title",
+        "defenses",
+        "curve_title",
+        "curve_growth",
+        "curve_decline",
+        "curve_signals",
+        "signals_title",
+        "signals"
+      ],
+      "business_question": "组织应建立哪些防线，并从哪些信号判断活力可能转向迟缓？",
+      "layout_reason": "左侧防线、中部活力曲线、右侧信号来源三栏并置，把预防机制、趋势判断和复核入口放在同一证据区。",
+      "required_relations": [
+        "左防线中曲线右信号",
+        "防线固定四项",
+        "曲线区分活力扩张与守成衰退",
+        "六个信号与来源成对"
+      ],
+      "capacity": {
+        "defenses": 4,
+        "defense_evidence_lines": 3,
+        "signals": 6,
+        "signal_evidence_lines": 2,
+        "curve_phases": 2,
+        "curve_drivers_per_phase": 4,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "curve_axes": 2,
+        "defense_icon_variants": 4
+      },
+      "native_objects": [],
+      "variants": [
+        "R27"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-voc-six-step-loop",
+      "name": "客户声音六步转化回路",
+      "family": "feedback_process",
+      "reference_id": "R17",
+      "box": [
+        25,
+        108,
+        1232,
+        142
+      ],
+      "fields": [
+        "steps"
+      ],
+      "business_question": "客户声音如何经过六步转成可验证的体验改进？",
+      "layout_reason": "六个编号节点横向展开，底部回路线将第六步反馈重新接回第一步，强调连续学习。",
+      "required_relations": [
+        "固定六步从左到右",
+        "每步保留图标和说明",
+        "第六步必须用箭头回到第一步",
+        "编号连续"
+      ],
+      "capacity": {
+        "steps": 6,
+        "note_lines_per_step": 2,
+        "return_edges": 1,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "continuous_cells": 6,
+        "vertical_dividers": 5
+      },
+      "native_objects": [],
+      "variants": [
+        "R18",
+        "R22"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-radar-action-loop",
+      "name": "三序列雷达与改进行动回流",
+      "family": "radar_action_composite",
+      "reference_id": "R17",
+      "box": [
+        646,
+        270,
+        616,
+        438
+      ],
+      "fields": [
+        "radar_title",
+        "radar",
+        "radar_note",
+        "action_title",
+        "actions",
+        "result_title",
+        "result_lines"
+      ],
+      "business_question": "体验差距如何量化，并转成三项行动后回流客户价值？",
+      "layout_reason": "上部原生雷达同时比较理想、当前和样本方案，下部三行动串联并回流客户价值，形成测量到行动的闭环。",
+      "required_relations": [
+        "雷达固定三组序列",
+        "雷达维度顺序保持",
+        "五个维度均保留中英文名称与可替换业务解释",
+        "三组序列名称只在外置图例出现一次",
+        "下部三行动依次连接",
+        "第三项行动正向连接客户价值",
+        "客户价值虚线回流第一项行动"
+      ],
+      "capacity": {
+        "radar_series": 3,
+        "radar_scale_min": 0,
+        "radar_scale_max": 5,
+        "dimension_notes": 5,
+        "external_series_legend": 3,
+        "native_category_labels": false,
+        "actions": 3,
+        "lines_per_action": 4,
+        "action_forward_edges": 3,
+        "action_return_edges": 1,
+        "result_title_lines": 1,
+        "result_title_max_chars": 6,
+        "result_lines": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "radar_width_min_px": 240,
+        "radar_composite_width_px": 616,
+        "action_headers": 3,
+        "action_body_icons": 12,
+        "user_result_icons": 1
+      },
+      "native_objects": [
+        {
+          "type": "chart",
+          "count": 1,
+          "slot_ids": [
+            "r17-radar"
+          ]
+        }
+      ],
+      "variants": [
+        "R26"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-five-dimension-inside-outside-comparison",
+      "name": "五维内向外向双列对照",
+      "family": "paired_comparison",
+      "reference_id": "R17",
+      "box": [
+        24,
+        270,
+        600,
+        420
+      ],
+      "fields": [
+        "compare_title",
+        "comparison"
+      ],
+      "business_question": "五个体验维度的内部视角与客户外部视角分别如何表述？",
+      "layout_reason": "五行在左右两块连续面板中逐项对照，中央单一组级 VS 表达两个系统之间的比较；灰蓝内部列与深蓝外部列建立稳定语义。",
+      "required_relations": [
+        "固定五行",
+        "内部视角在左且外部视角在右",
+        "两列中间仅保留一个组级VS节点",
+        "左右内容必须逐行对应",
+        "每行左右各保留语义图标"
+      ],
+      "capacity": {
+        "rows": 5,
+        "columns": 2,
+        "text_lines_per_cell": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "global_vs": 1,
+        "row_icons": 10,
+        "continuous_columns": 2
+      },
+      "native_objects": [],
+      "variants": [
+        "R11"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-outcome-backward-seven-steps",
+      "name": "结果逆推七步链",
+      "family": "reverse_timeline",
+      "reference_id": "R18",
+      "box": [
+        36,
+        96,
+        1208,
+        156
+      ],
+      "fields": [
+        "steps"
+      ],
+      "business_question": "投入开发前应如何从客户结果逆推到前置条件？",
+      "layout_reason": "七个节点按反向箭头连接，强制从结果和证据出发逆推投入，而非沿习惯顺序直接开发。",
+      "required_relations": [
+        "固定七步",
+        "箭头方向保持逆推",
+        "每步保留图标与说明",
+        "节点间距一致"
+      ],
+      "capacity": {
+        "steps": 7,
+        "questions_per_step": 3,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "reverse_flow": true
+      },
+      "native_objects": [],
+      "variants": [
+        "R17",
+        "R22"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-reverse-planning-document-gates",
+      "name": "正反推演文档与六道决策门",
+      "family": "planning_document",
+      "reference_id": "R18",
+      "box": [
+        20,
+        255,
+        1240,
+        465
+      ],
+      "fields": [
+        "forward",
+        "document",
+        "backward",
+        "gates"
+      ],
+      "business_question": "正向事实和逆向目标如何汇入同一文档，并经过哪些批准门？",
+      "layout_reason": "左右推演箭头汇入中央宽文档，文档下方六个菱形关口按顺序连接，将事实、问题和批准规则绑定。",
+      "required_relations": [
+        "左右箭头均指向中央文档",
+        "中央文档宽于两侧面板",
+        "事实与问题分列",
+        "六道关口顺序不可变"
+      ],
+      "capacity": {
+        "forward_nodes": 4,
+        "backward_nodes": 4,
+        "node_explanation_lines": 3,
+        "document_facts": 5,
+        "document_questions": 5,
+        "gates": 6,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "dashed_system_frames": 2,
+        "document_papers": 1,
+        "continuous_gate_tracks": 1,
+        "system_summary_strips": 2
+      },
+      "native_objects": [],
+      "variants": [
+        "R21"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-eight-node-value-flywheel",
+      "name": "八节点客户价值飞轮",
+      "family": "flywheel",
+      "reference_id": "R19",
+      "box": [
+        330,
+        105,
+        640,
+        502
+      ],
+      "fields": [
+        "flywheel",
+        "center",
+        "inner_loops"
+      ],
+      "business_question": "客户价值、规模与成本如何形成持续增强的循环？",
+      "layout_reason": "八个节点沿圆周首尾相接，中心承载共同目标，两条虚线小回路突出局部反馈机制。",
+      "required_relations": [
+        "固定八节点首尾闭合",
+        "中心目标保持居中",
+        "节点名称与驱动说明成对",
+        "顶部节点说明不得与外环交叠",
+        "两条虚线反馈回路保留"
+      ],
+      "capacity": {
+        "nodes": 8,
+        "driver_lines_per_node": 2,
+        "top_driver_lines": 2,
+        "center_lines": 2,
+        "inner_loops": 2,
+        "inner_loop_explanation_lines": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "flywheel_arcs": 8,
+        "flywheel_arc_stroke_min_px": 4,
+        "continuous_comparison_rows": 3
+      },
+      "native_objects": [],
+      "variants": [
+        "R16",
+        "R26"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-controllable-lever-stack",
+      "name": "四项可控杠杆假设栈",
+      "family": "lever_stack",
+      "reference_id": "R19",
+      "box": [
+        980,
+        105,
+        282,
+        500
+      ],
+      "fields": [
+        "levers_title",
+        "levers"
+      ],
+      "business_question": "团队能够直接调整哪些杠杆，其影响和待验证假设是什么？",
+      "layout_reason": "四张纵向堆叠卡把杠杆、影响和待验假设放在同一单元，避免把相关性写成确定性因果。",
+      "required_relations": [
+        "固定四项纵向堆叠",
+        "每项同时保留影响和假设",
+        "假设必须标为待验",
+        "四卡同宽"
+      ],
+      "capacity": {
+        "levers": 4,
+        "effects_per_lever": 3,
+        "hypotheses_per_lever": 1,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "continuous_rows": 4,
+        "continuous_lever_rows": 4
+      },
+      "native_objects": [],
+      "variants": [
+        "R26"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-impact-reversibility-matrix",
+      "name": "影响与可逆性四格审批矩阵",
+      "family": "decision_matrix",
+      "reference_id": "R20",
+      "box": [
+        42,
+        213,
+        1203,
+        501
+      ],
+      "fields": [
+        "quadrants"
+      ],
+      "business_question": "不同影响程度和可逆性的决策应匹配什么审批、证据与复盘成本？",
+      "layout_reason": "纵轴编码影响高低、横轴编码可逆性，四个原生表格各保留决策字段与建议，使审批强度随风险变化。",
+      "required_relations": [
+        "影响轴高低方向完整",
+        "可逆轴左右方向完整",
+        "四个原生表共享一套中心十字轴",
+        "固定四象限",
+        "每格保留原生表格和五项字段"
+      ],
+      "capacity": {
+        "quadrants": 4,
+        "rows_per_quadrant": 5,
+        "table_columns": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "shared_axes": 2,
+        "process_step_icons": 5
+      },
+      "native_objects": [
+        {
+          "type": "table",
+          "count": 4,
+          "slot_ids": [
+            "r20-q1",
+            "r20-q2",
+            "r20-q3",
+            "r20-q4"
+          ]
+        }
+      ],
+      "variants": [
+        "R26",
+        "R29"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-debate-commit-gate",
+      "name": "争论到执行中央决策关口",
+      "family": "gate_comparison",
+      "reference_id": "R21",
+      "box": [
+        26,
+        120,
+        1228,
+        270
+      ],
+      "fields": [
+        "before_title",
+        "after_title",
+        "before",
+        "after"
+      ],
+      "business_question": "充分争论如何经过证据关口转成稳定执行？",
+      "layout_reason": "左右四步流程由中央沙漏形关口连接，左侧表达决策前探索，右侧表达决策后执行，形成清晰分界。",
+      "required_relations": [
+        "左右各固定四步",
+        "中央关口位于两流程之间",
+        "左侧在前右侧在后",
+        "关口强调证据授权"
+      ],
+      "capacity": {
+        "before_steps": 4,
+        "after_steps": 4,
+        "evidence_lines_per_step": 4,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "stage_icons": 8
+      },
+      "native_objects": [],
+      "variants": [
+        "R18"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-bad-good-path-rules",
+      "name": "错误正确路径与四项行为规则",
+      "family": "path_rule_composite",
+      "reference_id": "R21",
+      "box": [
+        26,
+        396,
+        1228,
+        318
+      ],
+      "fields": [
+        "bad_path",
+        "good_path",
+        "rules",
+        "closing"
+      ],
+      "business_question": "执行阶段应避免什么路径、采用什么路径，并遵守哪些规则？",
+      "layout_reason": "上下先用灰蓝双路径对照错误与正确做法，再用四项规则和底部行为口号收口。",
+      "required_relations": [
+        "错误路径在左且使用灰色",
+        "正确路径在右且使用蓝色",
+        "两路径同层对照",
+        "四项规则横排",
+        "底部口号全宽收口"
+      ],
+      "capacity": {
+        "paths": 2,
+        "nodes_per_path": 4,
+        "rules": 4,
+        "lines_per_rule": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "path_panels": 8,
+        "rule_lines": 8,
+        "arrow_closing_bands": 1
+      },
+      "native_objects": [],
+      "variants": [
+        "R22"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-single-owner-six-stage-chain",
+      "name": "单一负责人六阶段责任链",
+      "family": "ownership_chain",
+      "reference_id": "R22",
+      "box": [
+        24,
+        110,
+        1238,
+        302
+      ],
+      "fields": [
+        "chain"
+      ],
+      "business_question": "一个跨部门结果如何由单一负责人沿六阶段闭合？",
+      "layout_reason": "上部六张工件责任卡与下部单线程实线共用横坐标，阶段结果在同一节点垂直对齐。当前作者仍微调，本记录需在冻结后复核box/fields。",
+      "required_relations": [
+        "固定六阶段",
+        "上卡与下节点横坐标对齐",
+        "单线程实线连续",
+        "每阶段保留工件、Owner和结果"
+      ],
+      "capacity": {
+        "stages": 6,
+        "artifacts_per_stage": 1,
+        "owners_per_stage": 1,
+        "result_lines_per_stage": 3,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "continuous_swimlanes": 1,
+        "swimlane_dividers": 5
+      },
+      "native_objects": [],
+      "variants": [
+        "R18",
+        "R21"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-matrix-drift-charter",
+      "name": "矩阵漂移泳道与权责章程",
+      "family": "swimlane_charter",
+      "reference_id": "R22",
+      "box": [
+        24,
+        426,
+        1238,
+        281
+      ],
+      "fields": [
+        "chain",
+        "charter_title",
+        "charter",
+        "closing"
+      ],
+      "business_question": "矩阵组织如何产生责任漂移，权责章程应怎样修复？",
+      "layout_reason": "上部灰色泳道用交叉虚线表现责任漂移，下部五项章程并列说明能做与不能做，底栏给结论。",
+      "required_relations": [
+        "漂移节点与六阶段横坐标对应",
+        "交叉虚线必须保留且只经过节点间路由通道",
+        "章程固定五项",
+        "结论位于底部连续带"
+      ],
+      "capacity": {
+        "drift_stages": 6,
+        "drift_lines_per_stage": 3,
+        "cross_routes_per_transition": 2,
+        "charter_items": 5,
+        "lines_per_charter": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "continuous_swimlanes": 1,
+        "swimlane_dividers": 5,
+        "charter_columns": 5
+      },
+      "native_objects": [],
+      "variants": [
+        "R21"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-team-communication-network",
+      "name": "团队规模沟通网络对比",
+      "family": "network_comparison",
+      "reference_id": "R23",
+      "box": [
+        438,
+        104,
+        360,
+        334
+      ],
+      "fields": [
+        "network_title",
+        "networks"
+      ],
+      "business_question": "团队规模增大时，沟通关系数量和复杂度如何变化？",
+      "layout_reason": "两个全连接节点网络并置，用相同半径和不同节点数直接呈现关系密度差异，并保留关系数标签。",
+      "required_relations": [
+        "固定两个网络并置",
+        "每个网络内部保持全连接",
+        "节点数来自数据",
+        "网络标签包含关系数量"
+      ],
+      "capacity": {
+        "networks": 2,
+        "node_count_from_data": true,
+        "labels_per_network": 1,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "network_headers": 2,
+        "explanation_slots": 2
+      },
+      "native_objects": [],
+      "variants": [
+        "R25",
+        "R30"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-column-team-canvas",
+      "name": "六列小团队设计画布",
+      "family": "design_canvas",
+      "reference_id": "R23",
+      "box": [
+        18,
+        452,
+        1244,
+        268
+      ],
+      "fields": [
+        "canvas_title",
+        "canvas",
+        "principles"
+      ],
+      "business_question": "一个小团队应如何定义使命、客户、输入、输出、机制与护栏？",
+      "layout_reason": "六列同高卡承载团队设计问题和要点，底部五条原则作为跨列约束，形成可直接填充的工作画布。",
+      "required_relations": [
+        "固定六列",
+        "每列保留问题和要点",
+        "列顺序不可变",
+        "设计原则标签与五条原则使用独立区域",
+        "五条原则位于画布底部且保留底部净空"
+      ],
+      "capacity": {
+        "columns": 6,
+        "lines_per_column": 3,
+        "principles": 5,
+        "principle_name_lines": 1,
+        "principle_note_lines": 1,
+        "principle_note_font_size_px": 11,
+        "principle_column_width": 221.6,
+        "bottom_clearance_px": 24,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "principle_icons": 5
+      },
+      "native_objects": [],
+      "variants": [
+        "R28"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-scope-mindset-comparison",
+      "name": "六层责任范围与五维心智对照",
+      "family": "scope_comparison",
+      "reference_id": "R24",
+      "box": [
+        35,
+        120,
+        1218,
+        347
+      ],
+      "fields": [
+        "scopes",
+        "mindset_columns",
+        "mindset_rows"
+      ],
+      "business_question": "管理责任应向外扩展到哪些层次，心智模式如何随之变化？",
+      "layout_reason": "左侧六层向下嵌套半椭圆表示责任范围扩展，右侧原生表格逐行对照五维心智变化。",
+      "required_relations": [
+        "固定六层嵌套",
+        "内层不得覆盖外层标签",
+        "责任边界箭头向外延伸",
+        "右侧五维表逐行对照"
+      ],
+      "capacity": {
+        "scope_levels": 6,
+        "scope_name_fields": 2,
+        "scope_explanation_lines": 1,
+        "mindset_rows": 5,
+        "mindset_columns": 3,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "nested_scope_levels": 6,
+        "mindset_row_icons": 5
+      },
+      "native_objects": [
+        {
+          "type": "table",
+          "count": 1,
+          "slot_ids": [
+            "r24-mindset"
+          ]
+        }
+      ],
+      "variants": [
+        "R30",
+        "R32"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-step-journey-checklist",
+      "name": "六步成长路线与五项检查清单",
+      "family": "journey_checklist",
+      "reference_id": "R24",
+      "box": [
+        20,
+        490,
+        1233,
+        205
+      ],
+      "fields": [
+        "journey_title",
+        "journey",
+        "checklist_title",
+        "checklist",
+        "checklist_note"
+      ],
+      "business_question": "管理者如何分步扩展责任，并在行动前检查授权边界？",
+      "layout_reason": "左侧六个箭头步骤给成长顺序，右侧五项复选清单给执行前核对，两者并排连接发展与治理。",
+      "required_relations": [
+        "左侧固定六步顺序",
+        "每步保留行动条目",
+        "右侧固定五项复选",
+        "检查说明置于清单底部"
+      ],
+      "capacity": {
+        "journey_steps": 6,
+        "actions_per_step": 2,
+        "checklist_items": 5,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "journey_icons": 6,
+        "direction_bands": 1
+      },
+      "native_objects": [],
+      "variants": [
+        "R18"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-five-column-causal-network",
+      "name": "投入到财务结果五列因果网络",
+      "family": "causal_network",
+      "reference_id": "R25",
+      "box": [
+        25,
+        100,
+        1225,
+        310
+      ],
+      "fields": [
+        "input_factors",
+        "owners",
+        "experience",
+        "behavior",
+        "output",
+        "financial",
+        "network_edges"
+      ],
+      "business_question": "哪些可控投入通过体验与行为连接业务产出和财务结果？",
+      "layout_reason": "投入与Owner合并为第一阶段，随后按体验、行为、业务产出、财务结果五列推进，实虚线区分直接与间接关系。当前作者仍微调，本记录需在冻结后复核box/fields。",
+      "required_relations": [
+        "五阶段顺序固定",
+        "投入与Owner在首阶段并列",
+        "体验与行为各五项",
+        "业务和财务各四项",
+        "实线和虚线语义不同"
+      ],
+      "capacity": {
+        "input_factors": 6,
+        "owners": 6,
+        "experience": 5,
+        "behavior": 5,
+        "output": 4,
+        "financial": 4,
+        "edges": 41,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "input_arrow_nodes": 6
+      },
+      "native_objects": [],
+      "variants": [
+        "R23",
+        "R30"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-causal-metrics-table",
+      "name": "因果网络指标口径主表",
+      "family": "metrics_table",
+      "reference_id": "R25",
+      "box": [
+        25,
+        430,
+        1226,
+        290
+      ],
+      "fields": [
+        "table_columns",
+        "table_rows",
+        "footnote"
+      ],
+      "business_question": "五列因果网络对应哪些指标、口径、Owner与复核频率？",
+      "layout_reason": "七列原生表格承载指标治理字段，底部脚注明确数据边界。当前作者仍微调，本记录需在冻结后复核box/fields。",
+      "required_relations": [
+        "固定七列",
+        "第一列保持深色强调",
+        "表格行来自数据",
+        "脚注位于表格下方"
+      ],
+      "capacity": {
+        "table_columns": 7,
+        "table_rows": 3,
+        "footnote_lines": 1,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "native_tables": 1
+      },
+      "native_objects": [
+        {
+          "type": "table",
+          "count": 1,
+          "slot_ids": [
+            "r25-metrics"
+          ]
+        }
+      ],
+      "variants": [
+        "R27"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-value-uncertainty-matrix",
+      "name": "客户价值与不确定性实验矩阵",
+      "family": "experiment_matrix",
+      "reference_id": "R26",
+      "box": [
+        10,
+        98,
+        392,
+        484
+      ],
+      "fields": [
+        "matrix_title",
+        "quadrants",
+        "matrix_note"
+      ],
+      "business_question": "不同客户价值和方案不确定性的机会应采用何种实验策略？",
+      "layout_reason": "双轴四象限将机会分组，每格保留名称和执行说明，底部注记限定矩阵解释边界。",
+      "required_relations": [
+        "客户价值轴方向完整",
+        "方案不确定性轴方向完整",
+        "固定四象限",
+        "矩阵注记保留"
+      ],
+      "capacity": {
+        "quadrants": 4,
+        "lines_per_quadrant": 3,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "strong_quadrant_icons": 4
+      },
+      "native_objects": [],
+      "variants": [
+        "R20",
+        "R29"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-step-experiment-loop-metrics",
+      "name": "六步实验循环与四项学习指标",
+      "family": "experiment_loop",
+      "reference_id": "R26",
+      "box": [
+        420,
+        100,
+        835,
+        480
+      ],
+      "fields": [
+        "cycle_title",
+        "cycle",
+        "decision",
+        "metrics_title",
+        "metrics"
+      ],
+      "business_question": "实验如何循环迭代，并用哪些指标决定放大或回流？",
+      "layout_reason": "中部六步环绕决策菱形，达标与未达标分支明确；右侧四项指标按基线到样本纵向排列。",
+      "required_relations": [
+        "六步必须闭环",
+        "中心保留决策菱形",
+        "达标指向放大且未达指向回流",
+        "右侧固定四项指标"
+      ],
+      "capacity": {
+        "cycle_steps": 6,
+        "explanation_lines_per_step": 2,
+        "decision_branches": 2,
+        "metrics": 4,
+        "metric_values_per_item": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "cycle_arrows": 6,
+        "decision_nodes": 1
+      },
+      "native_objects": [],
+      "variants": [
+        "R16",
+        "R17"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-wbr-main-table-trends",
+      "name": "WBR主表与五行微趋势复合",
+      "family": "wbr_dashboard",
+      "reference_id": "R27",
+      "box": [
+        18,
+        99,
+        1244,
+        427
+      ],
+      "fields": [
+        "flow",
+        "table_columns",
+        "rows",
+        "mechanism_title",
+        "mechanisms"
+      ],
+      "business_question": "WBR如何把目标、指标、趋势、偏差、原因、Owner、行动和复盘串成主链？",
+      "layout_reason": "八段流程标题与八列表格严格对齐，五行趋势以原生微图嵌入表格，右侧六项机制独立说明。",
+      "required_relations": [
+        "八段双语流程与八列表格对齐",
+        "固定五行指标",
+        "每行对应一个保留六周分类和真实值的原生sparkline",
+        "Owner、行动和复盘日期不得缺失",
+        "右侧六项机制使用编号、说明和右侧大图标"
+      ],
+      "capacity": {
+        "flow_columns": 8,
+        "flow_label_lines": 2,
+        "rows": 5,
+        "trend_points_per_row": 6,
+        "mechanisms": 6,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "native_sparklines": 5,
+        "sparkline_categories": 6,
+        "mechanism_right_icons": 6
+      },
+      "native_objects": [
+        {
+          "type": "table",
+          "count": 1,
+          "slot_ids": [
+            "r27-wbr-main"
+          ]
+        },
+        {
+          "type": "chart",
+          "count": 5,
+          "slot_ids": [
+            "r27-trend-1",
+            "r27-trend-2",
+            "r27-trend-3",
+            "r27-trend-4",
+            "r27-trend-5"
+          ]
+        }
+      ],
+      "variants": [
+        "R25"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-wbr-anomaly-root-threshold",
+      "name": "异常表根因树与阈值表复合",
+      "family": "root_cause_composite",
+      "reference_id": "R27",
+      "box": [
+        18,
+        512,
+        1244,
+        208
+      ],
+      "fields": [
+        "anomaly_columns",
+        "anomalies",
+        "root_title",
+        "root_nodes",
+        "root_edges",
+        "threshold_columns",
+        "thresholds",
+        "footnote"
+      ],
+      "business_question": "WBR发现异常后如何登记、展开根因并判断升级阈值？",
+      "layout_reason": "左异常原生表、中根因树、右阈值原生表形成从发现到解释再到治理的连续证据区。当前作者仍微调，本记录需在冻结后复核box/fields。",
+      "required_relations": [
+        "左异常表中根因树右阈值表",
+        "根因树固定十一节点十条边",
+        "异常与阈值保持原生表格",
+        "脚注位于复合区下方"
+      ],
+      "capacity": {
+        "anomalies": 4,
+        "root_nodes": 11,
+        "root_edges": 10,
+        "thresholds": 4,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "native_tables": 2
+      },
+      "native_objects": [
+        {
+          "type": "table",
+          "count": 2,
+          "slot_ids": [
+            "r27-anomalies",
+            "r27-thresholds"
+          ]
+        }
+      ],
+      "variants": [
+        "R10"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-section-decision-memo",
+      "name": "六段决策备忘录",
+      "family": "decision_memo",
+      "reference_id": "R28",
+      "box": [
+        25,
+        100,
+        691,
+        590
+      ],
+      "fields": [
+        "sections"
+      ],
+      "business_question": "一份决策备忘录应如何组织事实、判断、风险与问题？",
+      "layout_reason": "纸张轮廓内六段纵向排列，左侧段名、中部内容、右侧边注三列稳定，段间箭头维持阅读顺序。",
+      "required_relations": [
+        "固定六段纵向",
+        "每段含三条内容和两条边注",
+        "段间箭头连续",
+        "纸张折角轮廓保留"
+      ],
+      "capacity": {
+        "sections": 6,
+        "points_per_section": 3,
+        "questions_per_section": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "paper_folds": 2
+      },
+      "native_objects": [],
+      "variants": [
+        "R23"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-memo-compare-meeting-flow",
+      "name": "备忘录对照表与四步会议流程",
+      "family": "memo_meeting_composite",
+      "reference_id": "R28",
+      "box": [
+        740,
+        105,
+        515,
+        585
+      ],
+      "fields": [
+        "compare_columns",
+        "compare_rows",
+        "meeting_title",
+        "meeting"
+      ],
+      "business_question": "备忘录方式与传统材料有何差异，会议如何围绕决策推进？",
+      "layout_reason": "上部原生表格做逐维对照，下部四个会议节点顺序连接，形成材料机制与会议机制的组合。",
+      "required_relations": [
+        "上表下流程",
+        "对照表固定三列",
+        "会议固定四步",
+        "四步箭头从左到右"
+      ],
+      "capacity": {
+        "compare_columns": 3,
+        "compare_rows": 4,
+        "meeting_steps": 4,
+        "lines_per_step": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "meeting_panels": 4,
+        "meeting_icons": 4,
+        "compare_row_icons": 4
+      },
+      "native_objects": [
+        {
+          "type": "table",
+          "count": 1,
+          "slot_ids": [
+            "r28-compare"
+          ]
+        }
+      ],
+      "variants": [
+        "R21"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-long-term-score-probability-tree",
+      "name": "长期选择评分与概率路径树",
+      "family": "decision_tree",
+      "reference_id": "R29",
+      "box": [
+        28,
+        220,
+        1224,
+        472
+      ],
+      "fields": [
+        "matrix_title",
+        "quadrants",
+        "score_title",
+        "option_names",
+        "scores",
+        "score_note",
+        "paths"
+      ],
+      "business_question": "长期选择如何同时比较行动/不行动、评分、成功概率、失败代价和未来回望？",
+      "layout_reason": "上部矩阵与五维评分并置，下部两条路径展开互斥概率分支和未来回望，组合定性与半定量判断。",
+      "required_relations": [
+        "上部左矩阵右评分",
+        "两组选项使用相同五维评分",
+        "下部固定两条路径",
+        "每条路径保留互斥概率分支",
+        "未来回望位于最右"
+      ],
+      "capacity": {
+        "quadrants": 4,
+        "scores": 5,
+        "option_names": 2,
+        "paths": 2,
+        "branches_per_path": 2,
+        "reflection_lines": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "matrix_headers": 4,
+        "score_markers": 5,
+        "probability_branches": 4
+      },
+      "native_objects": [],
+      "variants": [
+        "R20",
+        "R26"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-long-term-action-matrix",
+      "name": "长期行动可逆性四象限",
+      "family": "decision_matrix",
+      "reference_id": "R29",
+      "box": [
+        28,
+        220,
+        585,
+        285
+      ],
+      "fields": [
+        "matrix_title",
+        "quadrants"
+      ],
+      "business_question": "行动与不行动在可逆和不可逆条件下分别意味着什么？",
+      "layout_reason": "双轴四象限单独表达行动选择与可逆性，不要求同时提供评分或概率树数据。",
+      "required_relations": [
+        "固定四象限",
+        "横轴保持可逆到不可逆",
+        "纵轴保持行动与不行动",
+        "每格保留名称和说明"
+      ],
+      "capacity": {
+        "quadrants": 4,
+        "lines_per_quadrant": 3,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "matrix_headers": 4
+      },
+      "native_objects": [],
+      "variants": [
+        "R20",
+        "R26"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-five-dimension-option-score",
+      "name": "五维方案试点扩围评分",
+      "family": "score_panel",
+      "reference_id": "R29",
+      "box": [
+        633,
+        220,
+        619,
+        285
+      ],
+      "fields": [
+        "score_title",
+        "option_names",
+        "scores",
+        "score_note"
+      ],
+      "business_question": "两个长期方案在五个共同维度上的试点与扩围评分如何比较？",
+      "layout_reason": "五条同尺度横向评分条分别显示试点值和扩围标记，独立使用时仍保留评分边界说明。",
+      "required_relations": [
+        "固定五个评分维度",
+        "两个方案名称由业务输入提供并绑定图例颜色",
+        "每个维度保留独立评估要点",
+        "试点条和扩围标记使用同一尺度",
+        "每行以两个并列数值呈现方案评分，禁止分数式标签",
+        "评分说明位于面板底部"
+      ],
+      "capacity": {
+        "score_dimensions": 5,
+        "values_per_dimension": 2,
+        "option_names": 2,
+        "criteria_per_dimension": 1,
+        "score_scale_max": 5,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "score_markers": 5,
+        "common_scale_min": 1,
+        "common_scale_max": 5
+      },
+      "native_objects": [],
+      "variants": [
+        "R17"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-dual-probability-reflection-tree",
+      "name": "双方案概率分支与未来回望",
+      "family": "probability_tree",
+      "reference_id": "R29",
+      "box": [
+        28,
+        530,
+        1224,
+        162
+      ],
+      "fields": [
+        "paths"
+      ],
+      "business_question": "两个方案的投入、互斥结果概率和未来回望如何并列比较？",
+      "layout_reason": "两条水平路径各自从选择进入投入，再分成两条互斥概率分支，最右侧用未来回望收口。",
+      "required_relations": [
+        "固定两条路径",
+        "每条路径保留选择与投入",
+        "每条路径固定两条互斥概率分支",
+        "概率分支连接结果",
+        "未来回望位于最右"
+      ],
+      "capacity": {
+        "paths": 2,
+        "branches_per_path": 2,
+        "reflection_lines_per_path": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "probability_branches": 4
+      },
+      "native_objects": [],
+      "variants": [
+        "R21"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-principle-network",
+      "name": "六项组织原则关系网络",
+      "family": "principle_network",
+      "reference_id": "R30",
+      "box": [
+        18,
+        100,
+        719,
+        480
+      ],
+      "fields": [
+        "center",
+        "principles"
+      ],
+      "business_question": "六项组织原则如何共同支撑中心目标？",
+      "layout_reason": "六项原则卡连接到双层闭合环网的六个节点，环线表达原则之间的互相约束，中心目标只承担共同方向。",
+      "required_relations": [
+        "固定六项原则",
+        "中心目标保持居中",
+        "至少两条闭合原则环",
+        "六项原则先连接六个环上节点",
+        "中心辐射线只作为次级关系",
+        "原则卡保持左右对称分布"
+      ],
+      "capacity": {
+        "principles": 6,
+        "lines_per_principle": 3,
+        "center_lines": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "principle_rings": 2,
+        "ring_nodes": 6
+      },
+      "native_objects": [],
+      "variants": [
+        "R23",
+        "R32"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-step-talent-lifecycle",
+      "name": "六步人才生命周期链",
+      "family": "talent_lifecycle",
+      "reference_id": "R30",
+      "box": [
+        22,
+        580,
+        690,
+        120
+      ],
+      "fields": [
+        "lifecycle_title",
+        "lifecycle",
+        "lifecycle_conclusion"
+      ],
+      "business_question": "组织原则如何贯穿人才进入、成长、评价与退出的六个阶段？",
+      "layout_reason": "六个编号箭头沿同一基线排列，每步保留短说明，可独立作为人才机制链使用。",
+      "required_relations": [
+        "固定六步从左到右",
+        "编号连续",
+        "每步保留阶段名、图标和说明",
+        "六步共享同一基线",
+        "底部方向带必须闭合人才链"
+      ],
+      "capacity": {
+        "steps": 6,
+        "note_lines_per_step": 2,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "step_icons": 6,
+        "direction_bands": 1,
+        "conclusion_bands": 1
+      },
+      "native_objects": [],
+      "variants": [
+        "R18",
+        "R24"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-six-row-behavior-mechanism-table",
+      "name": "六行原则行为反例机制表",
+      "family": "behavior_mechanism_table",
+      "reference_id": "R30",
+      "box": [
+        748,
+        102,
+        510,
+        588
+      ],
+      "fields": [
+        "table_columns",
+        "table_rows"
+      ],
+      "business_question": "六项原则分别对应哪些可观察行为、反例和日常机制？",
+      "layout_reason": "四列六行原生表格把原则、正向行为、反例和机制逐行绑定，支持后续只替换结构化数据。",
+      "required_relations": [
+        "固定四列",
+        "六行逐项对应六原则",
+        "行为与反例不得合并",
+        "机制列保持独立"
+      ],
+      "capacity": {
+        "table_columns": 4,
+        "table_rows": 6,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "native_tables": 1
+      },
+      "native_objects": [
+        {
+          "type": "table",
+          "count": 1,
+          "slot_ids": [
+            "r30-mechanisms"
+          ]
+        }
+      ],
+      "variants": [
+        "R25",
+        "R27"
+      ],
+      "source_kind": "reference_component"
+    },
+    {
+      "id": "mech-three-layer-agent-memory",
+      "name": "三层记忆图谱与治理链",
+      "family": "memory_architecture",
+      "reference_id": "R32",
+      "box": [
+        14,
+        92,
+        1052,
+        582
+      ],
+      "fields": [
+        "pipeline_title",
+        "inputs",
+        "pipeline",
+        "pipeline_note",
+        "graph_title",
+        "memories",
+        "relations_title",
+        "relations",
+        "governance_title",
+        "governance",
+        "protection"
+      ],
+      "business_question": "Agent如何把当前任务、长期知识和推理轨迹连接成可追溯决策链？",
+      "layout_reason": "左侧输入与七步抽取流水线，中部蓝色短期/推理记忆、青绿色长期记忆和双向关系，下部关系链，右下橙色治理区共同组成记忆架构。",
+      "required_relations": [
+        "R32保持1080×720画布",
+        "左流水线固定七步",
+        "记忆主列蓝/青绿/蓝；关系链实体与文档青绿、推理轨迹与工具调用紫，其余蓝；治理区橙",
+        "每层图标、标题和副说明使用独立区域",
+        "短期与长期、长期与推理保持双向",
+        "推理反馈回流短期",
+        "三条关系链保留关系动词",
+        "治理区保持橙色"
+      ],
+      "capacity": {
+        "inputs": 2,
+        "pipeline_steps": 7,
+        "memory_layers": 3,
+        "memory_title_lines": 1,
+        "memory_definition_lines": 2,
+        "relation_chains": 3,
+        "governance_items": 5,
+        "body_font_size_px": 15,
+        "dense_label_font_size_px": 12,
+        "source_font_size_px": 11,
+        "pipeline_mainlines": 1,
+        "memory_note_bands": 3,
+        "color_roles": 3
+      },
+      "native_objects": [],
+      "variants": [
+        "R24",
+        "R30"
+      ],
+      "source_kind": "reference_component"
+    }
+  ]
+}

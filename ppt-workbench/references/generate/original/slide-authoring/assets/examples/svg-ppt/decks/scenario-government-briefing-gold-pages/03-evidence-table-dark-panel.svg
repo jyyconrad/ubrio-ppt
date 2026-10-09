@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="gAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E4FCC"/><stop offset="1" stop-color="#4A8CFF"/>
+    </linearGradient>
+    <linearGradient id="gDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123A8C"/><stop offset="1" stop-color="#0A1E45"/>
+    </linearGradient>
+    <linearGradient id="gPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E2450"/><stop offset="1" stop-color="#0A1E45"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#123A8C" flood-opacity="0.16"/>
+    </filter>
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="9" flood-color="#0A1E45" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- 离线预览底色：仅供 rsvg 预览。运行时整页背景由 deck_framework.background 承载；
+       提交 render_svg_drawingml_slide 的内容层 SVG 不要照抄这行整页 rect，
+       否则触发 SVG_FULL_PAGE_BACKGROUND_FORBIDDEN。 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FC"/>
+
+  <!-- 标题区 -->
+  <rect x="64" y="50" width="10" height="38" rx="5" fill="url(#gAccent)"/>
+  <text x="88" y="84" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="800">按场景计价 · 一张示例账单</text>
+  <rect x="64" y="100" width="228" height="5" rx="2.5" fill="url(#gAccent)"/>
+  <line x1="300" y1="102" x2="1216" y2="102" stroke="#C9D9F2" stroke-width="2"/>
+  <text x="64" y="128" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="500">账单页的关键不是一个总价数字，而是让费用构成、计价逻辑与首年/次年差异可被反算。</text>
+
+  <!-- 左栏：三小卡 -->
+  <g filter="url(#softShadow)">
+    <rect x="64" y="150" width="198" height="72" rx="12" fill="#FFFFFF"/>
+  </g>
+  <text x="82" y="176" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="800">场景知识就绪</text>
+  <text x="82" y="203" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="800">¥5–10万</text>
+  <text x="82" y="217" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11">每场景 · 首年含保鲜 · 方案口径</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="275" y="150" width="198" height="72" rx="12" fill="#FFFFFF"/>
+  </g>
+  <text x="293" y="176" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="800">年度续保</text>
+  <text x="293" y="203" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="800">¥2–3万</text>
+  <text x="293" y="217" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11">每场景·年 · 制度跟随保鲜</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="486" y="150" width="198" height="72" rx="12" fill="url(#gDark)" stroke="#4A8CFF" stroke-width="1.5"/>
+  </g>
+  <text x="504" y="176" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="800">起订门槛</text>
+  <text x="504" y="203" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="800">2 场景起</text>
+  <text x="504" y="217" fill="#9FC7E8" font-family="Microsoft YaHei, Arial" font-size="11">按域独立计价 · 可勾选组合</text>
+
+  <!-- 测算公式条 -->
+  <rect x="64" y="234" width="620" height="36" rx="9" fill="#EDF3FE"/>
+  <rect x="64" y="234" width="5" height="36" rx="2.5" fill="url(#gAccent)"/>
+  <rect x="80" y="243" width="76" height="18" rx="9" fill="url(#gAccent)"/>
+  <text x="118" y="256" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="middle">测算公式</text>
+  <text x="168" y="257" fill="#33445C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600">席位年费 ＋ 场景一次性交付 ＋ 信源续保 ＝ 首年账单</text>
+
+  <!-- 报价表：手绘表格改写为 native table slot（逐单元格可编辑表格，行数据写入 tables[]） -->
+  <g id="quote-table-slot" data-role="native-table-slot" data-native-table="true"
+     data-x="64" data-y="290" data-w="620" data-h="294">
+    <rect x="64" y="290" width="620" height="294" rx="10" fill="#FFFFFF" stroke="#D7E3F7" stroke-width="1"/>
+    <rect x="64" y="290" width="620" height="42" rx="10" fill="#0E2A66"/>
+    <text x="84" y="317" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">五类高频场景 · 独立计价报价表</text>
+    <text x="84" y="372" fill="#123A8C" font-family="Microsoft YaHei, Arial" font-size="13.5" font-weight="700">列：场景示例 · 交付边界 · 报价</text>
+    <text x="84" y="402" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">示例行：法务合同审查 / 内部审计风控 / 供应链管理 / 公文写作</text>
+    <text x="84" y="432" fill="#4A5E7C" font-family="Microsoft YaHei, Arial" font-size="12.5">报价量级：单场景 ¥5–8 万，按域独立计价、可勾选组合。</text>
+    <text x="84" y="470" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="12.5" font-weight="700">table slot：逐单元格可编辑表格由 native table 生成，</text>
+    <text x="84" y="492" fill="#1D6FFF" font-family="Microsoft YaHei, Arial" font-size="12.5" font-weight="700">行数据写入 tables[]，SVG 只保留标题、洞察、来源与 slot 外框。</text>
+    <text x="84" y="540" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="12">洞察：审计与供应链场景单价最高，法务写作最易起量。</text>
+    <text x="84" y="562" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="12">来源：模块化方案示例定价。</text>
+  </g>
+
+  <!-- 右栏：深色账单大屏面板（证据承载，静态成品） -->
+  <g filter="url(#cardShadow)">
+    <rect x="716" y="150" width="500" height="434" rx="16" fill="url(#gPanel)" stroke="#2B4C7E" stroke-width="1.5"/>
+  </g>
+  <text x="744" y="192" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="800">典型账单 · 首年预估</text>
+  <text x="744" y="216" fill="#9FC7E8" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500">200 人规模 · 19 人付费 · 年付 9 折 · 2 场景起</text>
+  <line x1="744" y1="234" x2="1188" y2="234" stroke="#2B4C7E" stroke-width="1.2"/>
+  <text x="744" y="258" fill="#9FC7E8" font-family="Microsoft YaHei, Arial" font-size="12.5" font-weight="600">首年账单构成 · 对应测算公式三项</text>
+
+  <text x="744" y="284" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">席位年费</text>
+  <text x="744" y="303" fill="#7FA6D8" font-family="Microsoft YaHei, Arial" font-size="12">200 人规模 · 按域开通</text>
+  <text x="1188" y="291" fill="#C9DAF7" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="end">19 人付费 · 9 折</text>
+  <line x1="744" y1="316" x2="1188" y2="316" stroke="#1E3A6E" stroke-width="1"/>
+
+  <text x="744" y="340" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">场景一次性交付</text>
+  <text x="744" y="359" fill="#7FA6D8" font-family="Microsoft YaHei, Arial" font-size="12">2 场景起 · 首年含知识保鲜</text>
+  <text x="1188" y="347" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="end">¥5–10万 / 场景</text>
+  <line x1="744" y1="372" x2="1188" y2="372" stroke="#1E3A6E" stroke-width="1"/>
+
+  <text x="744" y="396" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">信源续保</text>
+  <text x="744" y="415" fill="#7FA6D8" font-family="Microsoft YaHei, Arial" font-size="12">次年结转 · 制度跟随保鲜</text>
+  <text x="1188" y="404" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="end">¥2–3万 / 场景·年</text>
+  <line x1="744" y1="428" x2="1188" y2="428" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.55"/>
+
+  <rect x="732" y="440" width="468" height="52" rx="8" fill="#38BDF8" fill-opacity="0.10"/>
+  <text x="744" y="474" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="800">首年合计</text>
+  <text x="1188" y="478" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="800" text-anchor="end">¥251,780</text>
+
+  <text x="744" y="514" fill="#9FC7E8" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500">第二年起 · 仅计续保，一次性交付已摊完</text>
+  <text x="1188" y="515" fill="#9FC7E8" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="end">¥161,780</text>
+  <line x1="744" y1="534" x2="1188" y2="534" stroke="#1E3A6E" stroke-width="1"/>
+  <text x="744" y="560" fill="#7FA6D8" font-family="Microsoft YaHei, Arial" font-size="12.5">差额来自首年一次性场景交付，次年回落至续保基线。</text>
+
+  <!-- 底部结论带 -->
+  <rect x="64" y="600" width="1152" height="40" rx="10" fill="url(#gAccent)"/>
+  <text x="640" y="625" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">账单不是为了报一个低价，而是把“平台、知识、场景、续保”四类成本边界一次说清</text>
+
+  <!-- 结构参考标注 -->
+  <text x="64" y="690" fill="#8595AB" font-family="Microsoft YaHei, Arial" font-size="11">示例数据 · 仅供 layout-native-chart-slot（表格槽）与 gold_evidence_table 结构参考，真实生成需替换为用户证据。</text>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "file": "08-structure.pptx",
+  "sha256": "c8c790893fa416c203198cceaaf952c8dda9953e07fe9fb2df4003a4f65573fe",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "业务、分析与交付分工形成单向责任链",
+        "职责关系 / 合成设计示例",
+        "职责结构示例；不对应真实组织架构",
+        "1",
+        "01",
+        "业务定义",
+        "提供目标与材料，解释业务口径。",
+        "02",
+        "内容分析",
+        "核对证据，组织结论与支撑。",
+        "03",
+        "结果交付",
+        "检查文件与编辑对象，说明限制。"
+      ],
+      "tables": [],
+      "charts": [],
+      "native_shapes": 18,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 语义是责任链，不宣称任意树图或复杂关系网已支持",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

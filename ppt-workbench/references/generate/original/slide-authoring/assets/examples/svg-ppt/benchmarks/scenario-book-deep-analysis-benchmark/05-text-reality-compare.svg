@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-layout-family="book_compare_quote_panel" data-native-data-ref="05-text-reality-compare.native-data.json">
+  <g id="editorial-title-block">
+  <rect x="80" y="82" width="72" height="5" rx="0" fill="#A16207"/>
+  <text x="80" y="126" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="34" font-weight="900">文本里的命运，与现实中的自我选择彼此照亮</text>
+  <text x="82" y="158" fill="#6B7280" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500">对照页把书中判断、现实经验和讲者观点放在同一页完成互证。</text>
+  </g>
+  <g id="destiny-cover-like-photo" data-role="native-image-slot" data-native-image="true" data-x="86.0" data-y="182.0" data-w="286.0" data-h="386.0">
+  <rect x="86" y="182" width="286" height="386" rx="20" fill="#F7F0E5" stroke="#D6C8B8" opacity="0.78"/>
+  <rect x="104" y="200" width="250" height="322" rx="16" fill="none" stroke="#E7D2A4" opacity="0.85"/>
+  <text x="112" y="540" fill="#6B7280" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="13" font-weight="500">用户上传《命运》样本中抽取的深色影像素材</text>
+  </g>
+  <rect x="430" y="174" width="760" height="82" rx="16" fill="#FFFCF6" stroke="#D6C8B8" opacity="0.74"/>
+  <text x="454" y="208" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="19" font-weight="800">文本</text>
+  <text x="598" y="205" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="14" font-weight="500">作品提供人物如何被环境塑造的细节，承担叙事证据。</text>
+  <rect x="430" y="278" width="760" height="82" rx="16" fill="#FFFCF6" stroke="#D6C8B8" opacity="0.74"/>
+  <text x="454" y="312" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="19" font-weight="800">现实</text>
+  <text x="598" y="309" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="14" font-weight="500">现实经验提供听众理解入口，避免文学解读变成自说自话。</text>
+  <rect x="430" y="382" width="760" height="82" rx="16" fill="#FFFCF6" stroke="#D6C8B8" opacity="0.74"/>
+  <text x="454" y="416" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="19" font-weight="800">观点</text>
+  <text x="598" y="413" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="14" font-weight="500">讲者需要给出判断：所谓命运，是处境与回应互相塑形的结果。</text>
+  <rect x="430" y="522" width="760" height="76" rx="18" fill="#F7F0E5" stroke="#D6C8B8" opacity="0.72"/>
+  <text x="454" y="554" fill="#A16207" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="32" font-weight="900">“</text>
+  <text x="488" y="554" fill="#374151" font-family="Noto Serif SC, Source Han Serif SC, Songti SC, Microsoft YaHei, serif" font-size="17" font-weight="700">好的读书分享不是复述情节，而是让一本书解释我们正在经历的生活。</text>
+  <text x="80" y="674" fill="#7C6F64" font-family="Noto Sans SC, Microsoft YaHei, Arial, sans-serif" font-size="11" font-weight="500">来源：用户上传样本 PPT / style-literary-documentary-cn.md</text>
+  </svg>

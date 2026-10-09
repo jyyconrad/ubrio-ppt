@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#8A1538" />
+  <text x="72" y="96" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="600" text-anchor="start">党政学习 / 国企基层党组织</text>
+  <text x="72" y="174.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="43.2" font-weight="900" text-anchor="start">将学习成果转化为岗位实践和责任闭环</text>
+  <text x="72" y="228.8" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="400" text-anchor="start">围绕精神实质、实践路径和落实机制，推动学习贯彻从“学过”走向“见效”。</text>
+  <rect x="72" y="408" width="336" height="120" rx="19.2" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="99.2" y="456" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">学习</text>
+  <text x="99.2" y="500" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">准确把握精神实质</text>
+  <rect x="448" y="408" width="336" height="120" rx="19.2" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="475.2" y="456" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">实践</text>
+  <text x="475.2" y="500" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">联系岗位任务</text>
+  <rect x="824" y="408" width="336" height="120" rx="19.2" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="851.2" y="456" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">闭环</text>
+  <text x="851.2" y="500" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">台账督导见效</text>
+  <rect x="72" y="576" width="1136" height="57.6" rx="16" fill="#FFF7ED" stroke="#D4A843" />
+  <text x="99.2" y="612" fill="#3B1F1F" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="700" text-anchor="start">示例重点：这是一套多页 deck 的封面，不作为内容页结构复用。</text>
+  <text x="72" y="684.8" fill="#F8D98A" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：党政学习 / 01-cover / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

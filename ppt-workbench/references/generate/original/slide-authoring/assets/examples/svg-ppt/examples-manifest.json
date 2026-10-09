@@ -1,0 +1,1601 @@
+{
+  "schema_version": 2,
+  "description": "slide-authoring 中国式场景多页 SVG deck 示例及已转换 PPTX。",
+  "conversion": "app.contexts.rendering.adapters.ppt_master_compat.adapter.create_native_pptx_from_svg_files",
+  "coverage": {
+    "deck_count": 7,
+    "total_pages": 70,
+    "layouts": [
+      "action_table",
+      "agenda",
+      "appendix",
+      "architecture",
+      "cards3",
+      "case_story",
+      "comparison",
+      "cover",
+      "dashboard",
+      "evidence_table",
+      "funnel",
+      "left_right",
+      "matrix",
+      "pyramid",
+      "risk_heatmap",
+      "roadmap",
+      "section",
+      "timeline",
+      "worksheet"
+    ],
+    "roles": [
+      "agenda",
+      "appendix",
+      "content",
+      "cover",
+      "section_divider",
+      "summary"
+    ]
+  },
+  "decks": [
+    {
+      "id": "scenario-annual-summary",
+      "scenario": "年度经营总结",
+      "theme": "business_blue",
+      "page_count": 10,
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "cover",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/01-cover.svg",
+          "svg_bytes": 8492,
+          "text_node_count": 42,
+          "shape_count": 12
+        },
+        {
+          "id": "02-agenda",
+          "role": "agenda",
+          "layout": "agenda",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/02-agenda.svg",
+          "svg_bytes": 10653,
+          "text_node_count": 51,
+          "shape_count": 19
+        },
+        {
+          "id": "03-section-results",
+          "role": "section_divider",
+          "layout": "section",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/03-section-results.svg",
+          "svg_bytes": 9965,
+          "text_node_count": 47,
+          "shape_count": 16
+        },
+        {
+          "id": "04-dashboard",
+          "role": "content",
+          "layout": "dashboard",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/04-dashboard.svg",
+          "svg_bytes": 13836,
+          "text_node_count": 65,
+          "shape_count": 31
+        },
+        {
+          "id": "05-matrix",
+          "role": "content",
+          "layout": "matrix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/05-matrix.svg",
+          "svg_bytes": 16412,
+          "text_node_count": 85,
+          "shape_count": 24
+        },
+        {
+          "id": "06-cause",
+          "role": "content",
+          "layout": "left_right",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/06-cause.svg",
+          "svg_bytes": 11459,
+          "text_node_count": 55,
+          "shape_count": 19
+        },
+        {
+          "id": "07-roadmap",
+          "role": "content",
+          "layout": "timeline",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/07-roadmap.svg",
+          "svg_bytes": 14876,
+          "text_node_count": 76,
+          "shape_count": 24
+        },
+        {
+          "id": "08-evidence-table",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/08-evidence-table.svg",
+          "svg_bytes": 14373,
+          "text_node_count": 72,
+          "shape_count": 23
+        },
+        {
+          "id": "09-actions",
+          "role": "summary",
+          "layout": "action_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/09-actions.svg",
+          "svg_bytes": 12250,
+          "text_node_count": 60,
+          "shape_count": 20
+        },
+        {
+          "id": "10-appendix",
+          "role": "appendix",
+          "layout": "appendix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary/10-appendix.svg",
+          "svg_bytes": 11137,
+          "text_node_count": 55,
+          "shape_count": 13
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-annual-summary.pptx",
+      "pptx_bytes": 75202,
+      "pptx_sha256": "b5fa12a75add5a3c4de15ab94912e0aa5d71ef5c9942e699c6038f0abd595ca5",
+      "trace_summary": {
+        "slide_count": 10,
+        "native_count": 837,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-project-report",
+      "scenario": "项目阶段汇报",
+      "theme": "project_blue",
+      "page_count": 10,
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "cover",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/01-cover.svg",
+          "svg_bytes": 2509,
+          "text_node_count": 11,
+          "shape_count": 5
+        },
+        {
+          "id": "02-agenda",
+          "role": "agenda",
+          "layout": "agenda",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/02-agenda.svg",
+          "svg_bytes": 3804,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "03-section-progress",
+          "role": "section_divider",
+          "layout": "section",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/03-section-progress.svg",
+          "svg_bytes": 5172,
+          "text_node_count": 23,
+          "shape_count": 8
+        },
+        {
+          "id": "04-timeline",
+          "role": "content",
+          "layout": "timeline",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/04-timeline.svg",
+          "svg_bytes": 14366,
+          "text_node_count": 66,
+          "shape_count": 37
+        },
+        {
+          "id": "05-risk",
+          "role": "content",
+          "layout": "risk_heatmap",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/05-risk.svg",
+          "svg_bytes": 6319,
+          "text_node_count": 30,
+          "shape_count": 10
+        },
+        {
+          "id": "06-decision",
+          "role": "content",
+          "layout": "left_right",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/06-decision.svg",
+          "svg_bytes": 5141,
+          "text_node_count": 22,
+          "shape_count": 8
+        },
+        {
+          "id": "07-gantt",
+          "role": "content",
+          "layout": "roadmap",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/07-gantt.svg",
+          "svg_bytes": 7575,
+          "text_node_count": 33,
+          "shape_count": 21
+        },
+        {
+          "id": "08-issue-log",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/08-issue-log.svg",
+          "svg_bytes": 17906,
+          "text_node_count": 95,
+          "shape_count": 28
+        },
+        {
+          "id": "09-actions",
+          "role": "summary",
+          "layout": "action_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/09-actions.svg",
+          "svg_bytes": 8472,
+          "text_node_count": 43,
+          "shape_count": 14
+        },
+        {
+          "id": "10-appendix",
+          "role": "appendix",
+          "layout": "appendix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report/10-appendix.svg",
+          "svg_bytes": 5849,
+          "text_node_count": 25,
+          "shape_count": 11
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-project-report.pptx",
+      "pptx_bytes": 63302,
+      "pptx_sha256": "db3dad315cce2319175683b869ccc8bab512a1ced694f554de186c102d2ba72e",
+      "trace_summary": {
+        "slide_count": 10,
+        "native_count": 515,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-financing-roadshow",
+      "scenario": "融资路演",
+      "theme": "finance_dark",
+      "page_count": 10,
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "cover",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/01-cover.svg",
+          "svg_bytes": 2517,
+          "text_node_count": 11,
+          "shape_count": 5
+        },
+        {
+          "id": "02-agenda",
+          "role": "agenda",
+          "layout": "agenda",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/02-agenda.svg",
+          "svg_bytes": 3776,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "03-section-market",
+          "role": "section_divider",
+          "layout": "section",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/03-section-market.svg",
+          "svg_bytes": 2339,
+          "text_node_count": 11,
+          "shape_count": 4
+        },
+        {
+          "id": "02-market",
+          "role": "content",
+          "layout": "funnel",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/04-market.svg",
+          "svg_bytes": 3494,
+          "text_node_count": 16,
+          "shape_count": 7
+        },
+        {
+          "id": "03-product-moat",
+          "role": "content",
+          "layout": "architecture",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/05-product-moat.svg",
+          "svg_bytes": 4048,
+          "text_node_count": 18,
+          "shape_count": 10
+        },
+        {
+          "id": "04-traction",
+          "role": "content",
+          "layout": "dashboard",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/06-traction.svg",
+          "svg_bytes": 4682,
+          "text_node_count": 20,
+          "shape_count": 15
+        },
+        {
+          "id": "05-business-model",
+          "role": "content",
+          "layout": "comparison",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/07-business-model.svg",
+          "svg_bytes": 3205,
+          "text_node_count": 16,
+          "shape_count": 4
+        },
+        {
+          "id": "08-financial-table",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/08-financial-table.svg",
+          "svg_bytes": 4502,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "06-funding-use",
+          "role": "summary",
+          "layout": "roadmap",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/09-funding-use.svg",
+          "svg_bytes": 4038,
+          "text_node_count": 21,
+          "shape_count": 5
+        },
+        {
+          "id": "10-appendix",
+          "role": "appendix",
+          "layout": "appendix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-financing-roadshow/10-appendix.svg",
+          "svg_bytes": 3846,
+          "text_node_count": 20,
+          "shape_count": 5
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-financing-roadshow.pptx",
+      "pptx_bytes": 51014,
+      "pptx_sha256": "3b70f262c8f5618d1e54e83670f3b2f878a6c68421e358a5b3d4db879e5476d0",
+      "trace_summary": {
+        "slide_count": 10,
+        "native_count": 243,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-product-launch",
+      "scenario": "产品发布",
+      "theme": "product_light",
+      "page_count": 10,
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "cover",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/01-cover.svg",
+          "svg_bytes": 2492,
+          "text_node_count": 11,
+          "shape_count": 5
+        },
+        {
+          "id": "02-agenda",
+          "role": "agenda",
+          "layout": "agenda",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/02-agenda.svg",
+          "svg_bytes": 3798,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "03-section-user",
+          "role": "section_divider",
+          "layout": "section",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/03-section-user.svg",
+          "svg_bytes": 2359,
+          "text_node_count": 11,
+          "shape_count": 4
+        },
+        {
+          "id": "02-pain-journey",
+          "role": "content",
+          "layout": "timeline",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/04-pain-journey.svg",
+          "svg_bytes": 4169,
+          "text_node_count": 20,
+          "shape_count": 10
+        },
+        {
+          "id": "03-capability",
+          "role": "content",
+          "layout": "architecture",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/05-capability.svg",
+          "svg_bytes": 4007,
+          "text_node_count": 18,
+          "shape_count": 10
+        },
+        {
+          "id": "04-comparison",
+          "role": "content",
+          "layout": "comparison",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/06-comparison.svg",
+          "svg_bytes": 3219,
+          "text_node_count": 16,
+          "shape_count": 4
+        },
+        {
+          "id": "05-case",
+          "role": "content",
+          "layout": "case_story",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/07-case.svg",
+          "svg_bytes": 3731,
+          "text_node_count": 19,
+          "shape_count": 5
+        },
+        {
+          "id": "08-release-metrics",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/08-release-metrics.svg",
+          "svg_bytes": 4503,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "06-launch-plan",
+          "role": "summary",
+          "layout": "action_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/09-launch-plan.svg",
+          "svg_bytes": 4548,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "10-appendix",
+          "role": "appendix",
+          "layout": "appendix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-product-launch/10-appendix.svg",
+          "svg_bytes": 3870,
+          "text_node_count": 20,
+          "shape_count": 5
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-product-launch.pptx",
+      "pptx_bytes": 51242,
+      "pptx_sha256": "2c7bf9f28f1c7ee8e72d101faba7b95737a173f3198c03190774828f2fa29a91",
+      "trace_summary": {
+        "slide_count": 10,
+        "native_count": 243,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-academic-defense",
+      "scenario": "学术答辩",
+      "theme": "academic_light",
+      "page_count": 10,
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "cover",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/01-cover.svg",
+          "svg_bytes": 2514,
+          "text_node_count": 11,
+          "shape_count": 5
+        },
+        {
+          "id": "02-agenda",
+          "role": "agenda",
+          "layout": "agenda",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/02-agenda.svg",
+          "svg_bytes": 3789,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "03-section-question",
+          "role": "section_divider",
+          "layout": "section",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/03-section-question.svg",
+          "svg_bytes": 2350,
+          "text_node_count": 11,
+          "shape_count": 4
+        },
+        {
+          "id": "02-background",
+          "role": "content",
+          "layout": "left_right",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/04-background.svg",
+          "svg_bytes": 3772,
+          "text_node_count": 18,
+          "shape_count": 6
+        },
+        {
+          "id": "03-method",
+          "role": "content",
+          "layout": "architecture",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/05-method.svg",
+          "svg_bytes": 4036,
+          "text_node_count": 18,
+          "shape_count": 10
+        },
+        {
+          "id": "04-experiment",
+          "role": "content",
+          "layout": "dashboard",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/06-experiment.svg",
+          "svg_bytes": 4619,
+          "text_node_count": 20,
+          "shape_count": 15
+        },
+        {
+          "id": "05-contribution",
+          "role": "content",
+          "layout": "pyramid",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/07-contribution.svg",
+          "svg_bytes": 3004,
+          "text_node_count": 14,
+          "shape_count": 5
+        },
+        {
+          "id": "08-related-work",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/08-related-work.svg",
+          "svg_bytes": 4552,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "06-limitations",
+          "role": "summary",
+          "layout": "action_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/09-limitations.svg",
+          "svg_bytes": 4540,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "10-appendix",
+          "role": "appendix",
+          "layout": "appendix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-academic-defense/10-appendix.svg",
+          "svg_bytes": 3852,
+          "text_node_count": 20,
+          "shape_count": 5
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-academic-defense.pptx",
+      "pptx_bytes": 51367,
+      "pptx_sha256": "41d3ac303904e717a063ec28992bf77e4b8bd9ea18537d7c733ffa067c487767",
+      "trace_summary": {
+        "slide_count": 10,
+        "native_count": 247,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-government-study",
+      "scenario": "党政学习",
+      "theme": "government_red",
+      "page_count": 10,
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "cover",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/01-cover.svg",
+          "svg_bytes": 2526,
+          "text_node_count": 11,
+          "shape_count": 5
+        },
+        {
+          "id": "02-agenda",
+          "role": "agenda",
+          "layout": "agenda",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/02-agenda.svg",
+          "svg_bytes": 3771,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "03-section-study",
+          "role": "section_divider",
+          "layout": "section",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/03-section-study.svg",
+          "svg_bytes": 2354,
+          "text_node_count": 11,
+          "shape_count": 4
+        },
+        {
+          "id": "02-policy",
+          "role": "content",
+          "layout": "cards3",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/04-policy.svg",
+          "svg_bytes": 4557,
+          "text_node_count": 22,
+          "shape_count": 10
+        },
+        {
+          "id": "03-pyramid",
+          "role": "content",
+          "layout": "pyramid",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/05-pyramid.svg",
+          "svg_bytes": 2957,
+          "text_node_count": 14,
+          "shape_count": 5
+        },
+        {
+          "id": "04-mechanism",
+          "role": "content",
+          "layout": "timeline",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/06-mechanism.svg",
+          "svg_bytes": 4604,
+          "text_node_count": 23,
+          "shape_count": 10
+        },
+        {
+          "id": "05-branch-actions",
+          "role": "content",
+          "layout": "action_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/07-branch-actions.svg",
+          "svg_bytes": 4594,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "08-policy-table",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/08-policy-table.svg",
+          "svg_bytes": 4583,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "06-closed-loop",
+          "role": "summary",
+          "layout": "roadmap",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/09-closed-loop.svg",
+          "svg_bytes": 3850,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "10-appendix",
+          "role": "appendix",
+          "layout": "appendix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-government-study/10-appendix.svg",
+          "svg_bytes": 3844,
+          "text_node_count": 20,
+          "shape_count": 5
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-government-study.pptx",
+      "pptx_bytes": 51222,
+      "pptx_sha256": "95583ad9ff31bf9ccac8018c34de37ed4385d59b32b29da633806cce6c5b35c2",
+      "trace_summary": {
+        "slide_count": 10,
+        "native_count": 250,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-training-course",
+      "scenario": "培训课程",
+      "theme": "training_clean",
+      "page_count": 10,
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "cover",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/01-cover.svg",
+          "svg_bytes": 2525,
+          "text_node_count": 11,
+          "shape_count": 5
+        },
+        {
+          "id": "02-agenda",
+          "role": "agenda",
+          "layout": "agenda",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/02-agenda.svg",
+          "svg_bytes": 3757,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "03-section-method",
+          "role": "section_divider",
+          "layout": "section",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/03-section-method.svg",
+          "svg_bytes": 2373,
+          "text_node_count": 11,
+          "shape_count": 4
+        },
+        {
+          "id": "02-objectives",
+          "role": "content",
+          "layout": "cards3",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/04-objectives.svg",
+          "svg_bytes": 4537,
+          "text_node_count": 22,
+          "shape_count": 10
+        },
+        {
+          "id": "03-sop",
+          "role": "content",
+          "layout": "timeline",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/05-sop.svg",
+          "svg_bytes": 4303,
+          "text_node_count": 21,
+          "shape_count": 10
+        },
+        {
+          "id": "04-case",
+          "role": "content",
+          "layout": "case_story",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/06-case.svg",
+          "svg_bytes": 3896,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "05-worksheet",
+          "role": "content",
+          "layout": "worksheet",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/07-worksheet.svg",
+          "svg_bytes": 3935,
+          "text_node_count": 20,
+          "shape_count": 5
+        },
+        {
+          "id": "08-checklist",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/08-checklist.svg",
+          "svg_bytes": 4531,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "06-transfer",
+          "role": "summary",
+          "layout": "action_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/09-transfer.svg",
+          "svg_bytes": 4519,
+          "text_node_count": 24,
+          "shape_count": 6
+        },
+        {
+          "id": "10-appendix",
+          "role": "appendix",
+          "layout": "appendix",
+          "svg": "assets/examples/svg-ppt/decks/scenario-training-course/10-appendix.svg",
+          "svg_bytes": 3811,
+          "text_node_count": 20,
+          "shape_count": 5
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-training-course.pptx",
+      "pptx_bytes": 51311,
+      "pptx_sha256": "ae440f24dcafb352198ed19f340403fc523d4ce5a67a12b9641091c0e750f9e0",
+      "trace_summary": {
+        "slide_count": 10,
+        "native_count": 254,
+        "unsupported_count": 0
+      }
+    }
+  ],
+  "gold_examples": [
+    {
+      "id": "scenario-project-report-gold-pages",
+      "scenario": "项目阶段汇报截图级两页",
+      "theme": "project_blue",
+      "page_count": 2,
+      "pages": [
+        {
+          "id": "04-timeline",
+          "role": "content",
+          "layout": "timeline",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report-gold-pages/01-04-timeline.svg",
+          "svg_bytes": 14366,
+          "text_node_count": 66,
+          "shape_count": 37
+        },
+        {
+          "id": "08-issue-log",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-project-report-gold-pages/02-08-issue-log.svg",
+          "svg_bytes": 17906,
+          "text_node_count": 95,
+          "shape_count": 28
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-project-report-gold-pages.pptx",
+      "pptx_bytes": 38887,
+      "pptx_sha256": "731809d0dc20654af5f909c6abca830fa24118fc2ea9f282fbdd5eaceba1fbee",
+      "trace_summary": {
+        "slide_count": 2,
+        "native_count": 226,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-annual-summary-gold-pages",
+      "scenario": "年度经营总结截图级三页",
+      "theme": "business_blue",
+      "page_count": 3,
+      "pages": [
+        {
+          "id": "04-dashboard",
+          "role": "content",
+          "layout": "dashboard",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary-gold-pages/01-04-dashboard.svg",
+          "svg_bytes": 13836,
+          "text_node_count": 65,
+          "shape_count": 31
+        },
+        {
+          "id": "08-evidence-table",
+          "role": "content",
+          "layout": "evidence_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary-gold-pages/02-08-evidence-table.svg",
+          "svg_bytes": 14373,
+          "text_node_count": 72,
+          "shape_count": 23
+        },
+        {
+          "id": "09-actions",
+          "role": "summary",
+          "layout": "action_table",
+          "svg": "assets/examples/svg-ppt/decks/scenario-annual-summary-gold-pages/03-09-actions.svg",
+          "svg_bytes": 12250,
+          "text_node_count": 60,
+          "shape_count": 20
+        }
+      ],
+      "pptx": "assets/examples/svg-ppt/pptx/scenario-annual-summary-gold-pages.pptx",
+      "pptx_bytes": 43037,
+      "pptx_sha256": "4c841186d18561f7284e6b56752c6801628a305678ff44d84d41b0cfead6ac1e",
+      "trace_summary": {
+        "slide_count": 3,
+        "native_count": 284,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-chart-type-gold-pages",
+      "scenario": "图表分型原生槽位金标四页",
+      "theme": "business_chart_native",
+      "purpose": "覆盖 bar、line、pie、combo dashboard 的 native chart slot 示例；只用于 load_skill_example 结构参考，不纳入主 7 套 PPTX 转换 hash 口径。",
+      "page_count": 4,
+      "coverage": {
+        "routes": [
+          "native_chart_slot"
+        ],
+        "layouts": [
+          "bar_comparison",
+          "line_trend",
+          "pie_composition",
+          "combo_dashboard"
+        ],
+        "chart_types": [
+          "bar",
+          "line",
+          "pie",
+          "combo"
+        ]
+      },
+      "pages": [
+        {
+          "id": "01-bar-comparison",
+          "role": "content",
+          "layout": "bar_comparison",
+          "chart_type": "bar",
+          "svg": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/01-bar-comparison.svg",
+          "native_data": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/01-bar-comparison.native-data.json",
+          "svg_bytes": 3096,
+          "text_node_count": 15,
+          "shape_count": 7
+        },
+        {
+          "id": "02-line-trend",
+          "role": "content",
+          "layout": "line_trend",
+          "chart_type": "line",
+          "svg": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/02-line-trend.svg",
+          "native_data": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/02-line-trend.native-data.json",
+          "svg_bytes": 2731,
+          "text_node_count": 14,
+          "shape_count": 5
+        },
+        {
+          "id": "03-pie-composition",
+          "role": "content",
+          "layout": "pie_composition",
+          "chart_type": "pie",
+          "svg": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/03-pie-composition.svg",
+          "native_data": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/03-pie-composition.native-data.json",
+          "svg_bytes": 2482,
+          "text_node_count": 11,
+          "shape_count": 6
+        },
+        {
+          "id": "04-combo-dashboard",
+          "role": "content",
+          "layout": "combo_dashboard",
+          "chart_type": "combo",
+          "svg": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/04-combo-dashboard.svg",
+          "native_data": "assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/04-combo-dashboard.native-data.json",
+          "svg_bytes": 3451,
+          "text_node_count": 15,
+          "shape_count": 9
+        }
+      ],
+      "trace_summary": {
+        "slide_count": 4,
+        "native_count": 87,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-report-structure-gold-pages",
+      "scenario": "经营汇报结构金标八页",
+      "theme": "report_structure_mixed",
+      "purpose": "经营汇报结构类新颗粒的金标示例页(每颗粒一页,结构清单见 coverage.layouts);只用于 load_skill_example 结构参考,不纳入主 7 套 PPTX 转换 hash 口径。",
+      "page_count": 8,
+      "coverage": {
+        "routes": [
+          "svg_drawingml"
+        ],
+        "layouts": [
+          "kpi_strip",
+          "mirror_compare",
+          "versus_duel",
+          "timeline_ascending_steps",
+          "timeline_anchored_columns",
+          "problem_improve_bilateral",
+          "diagonal_duo_panels",
+          "timeline_zigzag_groups"
+        ],
+        "themes": [
+          "violet_business",
+          "blue_green_duotone"
+        ]
+      },
+      "pages": [
+        {
+          "id": "01-kpi-strip",
+          "role": "content",
+          "layout": "kpi_strip",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/01-kpi-strip.svg",
+          "svg_bytes": 6173,
+          "text_node_count": 30,
+          "shape_count": 28
+        },
+        {
+          "id": "02-mirror-compare",
+          "role": "content",
+          "layout": "mirror_compare",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/02-mirror-compare.svg",
+          "svg_bytes": 7310,
+          "text_node_count": 34,
+          "shape_count": 26
+        },
+        {
+          "id": "03-versus-duel",
+          "role": "content",
+          "layout": "versus_duel",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/03-versus-duel.svg",
+          "svg_bytes": 6696,
+          "text_node_count": 39,
+          "shape_count": 14
+        },
+        {
+          "id": "04-timeline-steps",
+          "role": "content",
+          "layout": "timeline_ascending_steps",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/04-timeline-steps.svg",
+          "svg_bytes": 10226,
+          "text_node_count": 54,
+          "shape_count": 18
+        },
+        {
+          "id": "05-timeline-columns",
+          "role": "content",
+          "layout": "timeline_anchored_columns",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/05-timeline-columns.svg",
+          "svg_bytes": 13757,
+          "text_node_count": 65,
+          "shape_count": 40
+        },
+        {
+          "id": "06-problem-improve-bilateral",
+          "role": "content",
+          "layout": "problem_improve_bilateral",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/06-problem-improve-bilateral.svg",
+          "svg_bytes": 6091,
+          "text_node_count": 31,
+          "shape_count": 12
+        },
+        {
+          "id": "07-diagonal-duo-panels",
+          "role": "content",
+          "layout": "diagonal_duo_panels",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/07-diagonal-duo-panels.svg",
+          "svg_bytes": 8834,
+          "text_node_count": 50,
+          "shape_count": 29
+        },
+        {
+          "id": "08-timeline-zigzag-groups",
+          "role": "content",
+          "layout": "timeline_zigzag_groups",
+          "svg": "assets/examples/svg-ppt/decks/scenario-report-structure-gold-pages/08-timeline-zigzag-groups.svg",
+          "svg_bytes": 9844,
+          "text_node_count": 45,
+          "shape_count": 34
+        }
+      ],
+      "trace_summary": {
+        "slide_count": 8,
+        "native_count": 564,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-effects-structure-gold-pages",
+      "scenario": "渲染效果与扩展结构金标六页",
+      "theme": "effects_structure_mixed",
+      "purpose": "渲染效果解锁(假3D渐变/发光投影/维恩alpha)与扩展结构类新颗粒的金标示例页(每颗粒或技法一页,清单见 coverage.layouts);只用于 load_skill_example 结构参考,不纳入主 7 套 PPTX 转换 hash 口径。",
+      "page_count": 6,
+      "coverage": {
+        "routes": [
+          "svg_drawingml"
+        ],
+        "layouts": [
+          "isometric_3d",
+          "glow_soft_shadow",
+          "problem_improve_bilateral_alpha",
+          "funnel_stage_stack",
+          "quad_cards_core_cluster",
+          "problem_improve_value_rail"
+        ],
+        "themes": [
+          "violet_business",
+          "tech_dark_neon",
+          "blue_green_duotone"
+        ]
+      },
+      "pages": [
+        {
+          "id": "01-isometric-3d",
+          "role": "content",
+          "layout": "isometric_3d",
+          "svg": "assets/examples/svg-ppt/decks/scenario-effects-structure-gold-pages/01-isometric-3d.svg",
+          "svg_bytes": 7175,
+          "text_node_count": 31,
+          "shape_count": 21
+        },
+        {
+          "id": "02-glow-soft-shadow",
+          "role": "content",
+          "layout": "glow_soft_shadow",
+          "svg": "assets/examples/svg-ppt/decks/scenario-effects-structure-gold-pages/02-glow-soft-shadow.svg",
+          "svg_bytes": 7058,
+          "text_node_count": 32,
+          "shape_count": 12
+        },
+        {
+          "id": "03-venn-alpha-overlap",
+          "role": "content",
+          "layout": "problem_improve_bilateral_alpha",
+          "svg": "assets/examples/svg-ppt/decks/scenario-effects-structure-gold-pages/03-venn-alpha-overlap.svg",
+          "svg_bytes": 5472,
+          "text_node_count": 31,
+          "shape_count": 11
+        },
+        {
+          "id": "04-funnel-stage-stack",
+          "role": "content",
+          "layout": "funnel_stage_stack",
+          "svg": "assets/examples/svg-ppt/decks/scenario-effects-structure-gold-pages/04-funnel-stage-stack.svg",
+          "svg_bytes": 6835,
+          "text_node_count": 32,
+          "shape_count": 16
+        },
+        {
+          "id": "05-quad-cards-core-cluster",
+          "role": "content",
+          "layout": "quad_cards_core_cluster",
+          "svg": "assets/examples/svg-ppt/decks/scenario-effects-structure-gold-pages/05-quad-cards-core-cluster.svg",
+          "svg_bytes": 7421,
+          "text_node_count": 42,
+          "shape_count": 18
+        },
+        {
+          "id": "06-problem-improve-value-rail",
+          "role": "content",
+          "layout": "problem_improve_value_rail",
+          "svg": "assets/examples/svg-ppt/decks/scenario-effects-structure-gold-pages/06-problem-improve-value-rail.svg",
+          "svg_bytes": 9756,
+          "text_node_count": 50,
+          "shape_count": 38
+        }
+      ],
+      "trace_summary": {
+        "slide_count": 6,
+        "native_count": 339,
+        "unsupported_count": 0
+      }
+    },
+    {
+      "id": "scenario-composite-structure-gold-pages",
+      "scenario": "复合结构与真3D效果金标五页",
+      "theme": "composite_structure_mixed",
+      "purpose": "batch-4 摄入的四个复合结构颗粒(箭头陈列带/分期三栏/深色hero英雄栏/三时段递进金字塔)与真 3D data-effect-3d 受控预设的金标示例页;内嵌增长徽标/环形gauge/切角卡/房形chevron题头四个微motif;只用于 load_skill_example 结构参考,不纳入主 7 套 PPTX 转换 hash 口径。",
+      "page_count": 5,
+      "coverage": {
+        "routes": [
+          "svg_drawingml"
+        ],
+        "layouts": [
+          "arrow_ribbon_metrics",
+          "phased_action_columns",
+          "hero_metric_left_rail",
+          "retrospect_outlook_pyramid",
+          "effect_3d_preset"
+        ],
+        "themes": [
+          "finance_silver_blue",
+          "training_clean",
+          "dark_business_blue",
+          "cultural_green"
+        ]
+      },
+      "pages": [
+        {
+          "id": "01-arrow-ribbon-metrics",
+          "role": "content",
+          "layout": "arrow_ribbon_metrics",
+          "svg": "assets/examples/svg-ppt/decks/scenario-composite-structure-gold-pages/01-arrow-ribbon-metrics.svg",
+          "svg_bytes": 6982,
+          "text_node_count": 38,
+          "shape_count": 23
+        },
+        {
+          "id": "02-phased-action-columns",
+          "role": "content",
+          "layout": "phased_action_columns",
+          "svg": "assets/examples/svg-ppt/decks/scenario-composite-structure-gold-pages/02-phased-action-columns.svg",
+          "svg_bytes": 8013,
+          "text_node_count": 46,
+          "shape_count": 26
+        },
+        {
+          "id": "03-hero-metric-left-rail",
+          "role": "content",
+          "layout": "hero_metric_left_rail",
+          "svg": "assets/examples/svg-ppt/decks/scenario-composite-structure-gold-pages/03-hero-metric-left-rail.svg",
+          "svg_bytes": 6498,
+          "text_node_count": 31,
+          "shape_count": 20
+        },
+        {
+          "id": "04-retrospect-outlook-pyramid",
+          "role": "content",
+          "layout": "retrospect_outlook_pyramid",
+          "svg": "assets/examples/svg-ppt/decks/scenario-composite-structure-gold-pages/04-retrospect-outlook-pyramid.svg",
+          "svg_bytes": 7150,
+          "text_node_count": 32,
+          "shape_count": 20
+        },
+        {
+          "id": "05-effect-3d-preset",
+          "role": "content",
+          "layout": "effect_3d_preset",
+          "svg": "assets/examples/svg-ppt/decks/scenario-composite-structure-gold-pages/05-effect-3d-preset.svg",
+          "svg_bytes": 6849,
+          "text_node_count": 35,
+          "shape_count": 15
+        }
+      ],
+      "trace_summary": {
+        "slide_count": 5,
+        "native_count": 286,
+        "unsupported_count": 0
+      }
+    }
+  ],
+  "benchmark_examples": [
+    {
+      "id": "scenario-book-deep-analysis-benchmark",
+      "scenario": "《命运》深度解析 7 页专题基准",
+      "style_family": "literary_documentary_cn",
+      "purpose": "覆盖 photo_dark_serif、section_divider、editorial SVG 内容层、2/3up narrative cards 与 native image slot 的专题级 smoke；不纳入主 7 套 PPTX 转换 hash 口径。",
+      "requires_pptx_render": true,
+      "page_count": 7,
+      "coverage": {
+        "routes": [
+          "fixed_page_photo_dark",
+          "editorial_svg",
+          "native_image_slot"
+        ],
+        "layouts": [
+          "book_compare_quote_panel",
+          "editorial_image_panel",
+          "photo_dark_serif",
+          "story_cards_2up",
+          "story_cards_3up"
+        ],
+        "roles": [
+          "closing",
+          "content",
+          "cover",
+          "section_divider"
+        ]
+      },
+      "pages": [
+        {
+          "id": "01-cover",
+          "role": "cover",
+          "layout": "photo_dark_serif",
+          "svg": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/01-cover.svg",
+          "svg_bytes": 952,
+          "text_node_count": 3,
+          "shape_count": 1
+        },
+        {
+          "id": "02-theme-panel",
+          "role": "content",
+          "layout": "editorial_image_panel",
+          "svg": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/02-theme-panel.svg",
+          "svg_bytes": 3878,
+          "text_node_count": 15,
+          "shape_count": 5,
+          "native_data": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/02-theme-panel.native-data.json",
+          "native_image_slot_count": 1
+        },
+        {
+          "id": "03-three-questions",
+          "role": "content",
+          "layout": "story_cards_3up",
+          "svg": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/03-three-questions.svg",
+          "svg_bytes": 4716,
+          "text_node_count": 19,
+          "shape_count": 8
+        },
+        {
+          "id": "04-two-life-stages",
+          "role": "content",
+          "layout": "story_cards_2up",
+          "svg": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/04-two-life-stages.svg",
+          "svg_bytes": 3640,
+          "text_node_count": 14,
+          "shape_count": 6
+        },
+        {
+          "id": "05-text-reality-compare",
+          "role": "content",
+          "layout": "book_compare_quote_panel",
+          "svg": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/05-text-reality-compare.svg",
+          "svg_bytes": 3622,
+          "text_node_count": 12,
+          "shape_count": 7,
+          "native_data": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/05-text-reality-compare.native-data.json",
+          "native_image_slot_count": 1
+        },
+        {
+          "id": "06-section-echo",
+          "role": "section_divider",
+          "layout": "photo_dark_serif",
+          "svg": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/06-section-echo.svg",
+          "svg_bytes": 918,
+          "text_node_count": 3,
+          "shape_count": 1
+        },
+        {
+          "id": "07-closing",
+          "role": "closing",
+          "layout": "photo_dark_serif",
+          "svg": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/07-closing.svg",
+          "svg_bytes": 1198,
+          "text_node_count": 4,
+          "shape_count": 1
+        }
+      ],
+      "pptx_smoke": {
+        "mode": "single_page_pptx_with_contact_sheet",
+        "page_count": 7,
+        "image_asset": {
+          "asset_key": "materials/destiny-upload/extracted-images/cover-like-photo.png",
+          "path": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/assets/destiny-cover-like-photo.png",
+          "bytes": 20308,
+          "sha256": "4950707b973acb7f76333580ddd0113d57421f1e709b260c0abea323f72389b5"
+        },
+        "visual_envelope": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/visual-envelope.json",
+        "contact_sheet": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/contact-sheet.png",
+        "contact_sheet_bytes": 161422,
+        "contact_sheet_sha256": "6f6f7f2e2e5f8c15ee62c6c7752ff7508072b22d1267853d948d548d17f9de7a",
+        "pages": [
+          {
+            "id": "01-cover",
+            "pptx": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/01-cover.pptx",
+            "pptx_bytes": 46844,
+            "pptx_sha256": "39a419856a5bd77e4d0d5e0ce899ccaa1530b68463e1de963ce99b803cad7342",
+            "thumbnail": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/thumbnails/01-cover.png",
+            "thumbnail_bytes": 71645,
+            "thumbnail_sha256": "33b8aa3739508284f25b1c50f711aed30107bfa8757dc2b183ce6cc9e4e35f2e",
+            "trace": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/01-cover.trace.json",
+            "trace_summary": {
+              "slide_count": 1,
+              "native_count": 5,
+              "unsupported_count": 0
+            },
+            "deck_framework": {
+              "applied": true,
+              "framework_id": "literary-benchmark-smoke-framework",
+              "renderer_scope": "svg_drawingml",
+              "chrome_elements": [
+                "background"
+              ],
+              "background": {
+                "source": "benchmark_smoke",
+                "page_role": "cover",
+                "type": "photo_dark",
+                "color": "#0B0F14",
+                "image_applied": true,
+                "image_source": "benchmark_smoke_asset",
+                "image_fit": "cover",
+                "image_materialized": true,
+                "image_crop_applied": true,
+                "overlay_applied": true,
+                "overlay_color": "#0B0F14",
+                "overlay_opacity": 0.52
+              }
+            },
+            "native_image_overlay": {
+              "applied": false,
+              "image_count": 0,
+              "slots": []
+            }
+          },
+          {
+            "id": "02-theme-panel",
+            "pptx": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/02-theme-panel.pptx",
+            "pptx_bytes": 48047,
+            "pptx_sha256": "3ae0cffcded1b27dca88131118ec5d58e186519b6f2602ec18846bfde7c62a92",
+            "thumbnail": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/thumbnails/02-theme-panel.png",
+            "thumbnail_bytes": 150962,
+            "thumbnail_sha256": "ce8e81299115d80bb1b79669114e4b40e49f44cf522a7fc27ef6a3a82d78c316",
+            "trace": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/02-theme-panel.trace.json",
+            "trace_summary": {
+              "slide_count": 1,
+              "native_count": 22,
+              "unsupported_count": 0
+            },
+            "deck_framework": {
+              "applied": true,
+              "framework_id": "literary-benchmark-smoke-framework",
+              "renderer_scope": "svg_drawingml",
+              "chrome_elements": [
+                "background"
+              ],
+              "background": {
+                "source": "benchmark_smoke",
+                "page_role": "content",
+                "type": "paper_light",
+                "color": "#FFFCF6",
+                "texture_applied": true,
+                "texture_color": "#FFFFFF",
+                "texture_opacity": 0.08
+              }
+            },
+            "native_image_overlay": {
+              "applied": true,
+              "image_count": 1,
+              "slots": [
+                "destiny-cover-like-photo"
+              ],
+              "unsupported_ops": [],
+              "approximations": []
+            }
+          },
+          {
+            "id": "03-three-questions",
+            "pptx": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/03-three-questions.pptx",
+            "pptx_bytes": 30301,
+            "pptx_sha256": "719f74a83eebea2fdb4d536c9fbf4b62bf15cb5f629e21e9578293e09e1d0efe",
+            "thumbnail": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/thumbnails/03-three-questions.png",
+            "thumbnail_bytes": 114401,
+            "thumbnail_sha256": "bfccb1d61831566d16bbc483184e2b22fb99b75cabf60cbdbfea36e327ff3c6f",
+            "trace": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/03-three-questions.trace.json",
+            "trace_summary": {
+              "slide_count": 1,
+              "native_count": 32,
+              "unsupported_count": 0
+            },
+            "deck_framework": {
+              "applied": true,
+              "framework_id": "literary-benchmark-smoke-framework",
+              "renderer_scope": "svg_drawingml",
+              "chrome_elements": [
+                "background"
+              ],
+              "background": {
+                "source": "benchmark_smoke",
+                "page_role": "content",
+                "type": "paper_light",
+                "color": "#FFFCF6",
+                "texture_applied": true,
+                "texture_color": "#FFFFFF",
+                "texture_opacity": 0.08
+              }
+            },
+            "native_image_overlay": {
+              "applied": false,
+              "image_count": 0,
+              "slots": []
+            }
+          },
+          {
+            "id": "04-two-life-stages",
+            "pptx": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/04-two-life-stages.pptx",
+            "pptx_bytes": 30063,
+            "pptx_sha256": "484e4137d54a71af70015b6e0d923f0f11e37b7b82d295b52aae75abf292e5a0",
+            "thumbnail": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/thumbnails/04-two-life-stages.png",
+            "thumbnail_bytes": 116764,
+            "thumbnail_sha256": "eef7cc7527e139a9f11bf4eea7b3fcff764c658030aebc0a53cbf684a93572ab",
+            "trace": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/04-two-life-stages.trace.json",
+            "trace_summary": {
+              "slide_count": 1,
+              "native_count": 24,
+              "unsupported_count": 0
+            },
+            "deck_framework": {
+              "applied": true,
+              "framework_id": "literary-benchmark-smoke-framework",
+              "renderer_scope": "svg_drawingml",
+              "chrome_elements": [
+                "background"
+              ],
+              "background": {
+                "source": "benchmark_smoke",
+                "page_role": "content",
+                "type": "paper_light",
+                "color": "#FFFCF6",
+                "texture_applied": true,
+                "texture_color": "#FFFFFF",
+                "texture_opacity": 0.08
+              }
+            },
+            "native_image_overlay": {
+              "applied": false,
+              "image_count": 0,
+              "slots": []
+            }
+          },
+          {
+            "id": "05-text-reality-compare",
+            "pptx": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/05-text-reality-compare.pptx",
+            "pptx_bytes": 47949,
+            "pptx_sha256": "8717d92a1653a9410166e6c6eaeadef1641bc36f17a48c4575ae5efe14d54a81",
+            "thumbnail": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/thumbnails/05-text-reality-compare.png",
+            "thumbnail_bytes": 133392,
+            "thumbnail_sha256": "58cd530550f02f180274fd5ca3cb07b9ad868fd4fd9903d82c6c1f8887e9e155",
+            "trace": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/05-text-reality-compare.trace.json",
+            "trace_summary": {
+              "slide_count": 1,
+              "native_count": 21,
+              "unsupported_count": 0
+            },
+            "deck_framework": {
+              "applied": true,
+              "framework_id": "literary-benchmark-smoke-framework",
+              "renderer_scope": "svg_drawingml",
+              "chrome_elements": [
+                "background"
+              ],
+              "background": {
+                "source": "benchmark_smoke",
+                "page_role": "content",
+                "type": "paper_light",
+                "color": "#FFFCF6",
+                "texture_applied": true,
+                "texture_color": "#FFFFFF",
+                "texture_opacity": 0.08
+              }
+            },
+            "native_image_overlay": {
+              "applied": true,
+              "image_count": 1,
+              "slots": [
+                "destiny-cover-like-photo"
+              ],
+              "unsupported_ops": [],
+              "approximations": []
+            }
+          },
+          {
+            "id": "06-section-echo",
+            "pptx": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/06-section-echo.pptx",
+            "pptx_bytes": 46827,
+            "pptx_sha256": "699bb03721cd7983bcfef88f8a92284b1747514421c329b1b3ad4743d3b23f1c",
+            "thumbnail": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/thumbnails/06-section-echo.png",
+            "thumbnail_bytes": 62620,
+            "thumbnail_sha256": "87d852a537c221764e1c8e77c198d400dfacdf8eb431e8574e72661b29cec784",
+            "trace": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/06-section-echo.trace.json",
+            "trace_summary": {
+              "slide_count": 1,
+              "native_count": 5,
+              "unsupported_count": 0
+            },
+            "deck_framework": {
+              "applied": true,
+              "framework_id": "literary-benchmark-smoke-framework",
+              "renderer_scope": "svg_drawingml",
+              "chrome_elements": [
+                "background"
+              ],
+              "background": {
+                "source": "benchmark_smoke",
+                "page_role": "section_divider",
+                "type": "photo_dark",
+                "color": "#0B0F14",
+                "image_applied": true,
+                "image_source": "benchmark_smoke_asset",
+                "image_fit": "cover",
+                "image_materialized": true,
+                "image_crop_applied": true,
+                "overlay_applied": true,
+                "overlay_color": "#0B0F14",
+                "overlay_opacity": 0.52
+              }
+            },
+            "native_image_overlay": {
+              "applied": false,
+              "image_count": 0,
+              "slots": []
+            }
+          },
+          {
+            "id": "07-closing",
+            "pptx": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/07-closing.pptx",
+            "pptx_bytes": 46930,
+            "pptx_sha256": "ea3f865e06dc8adc1fd4a3df20c257c18092af04e158623902f187abac12d0ae",
+            "thumbnail": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/thumbnails/07-closing.png",
+            "thumbnail_bytes": 88585,
+            "thumbnail_sha256": "43c64e71d97b6253fb602046ee76e1a3f6a9967a5f4047c6dc1421778ae51b31",
+            "trace": "assets/examples/svg-ppt/benchmarks/scenario-book-deep-analysis-benchmark/pptx-smoke/07-closing.trace.json",
+            "trace_summary": {
+              "slide_count": 1,
+              "native_count": 6,
+              "unsupported_count": 0
+            },
+            "deck_framework": {
+              "applied": true,
+              "framework_id": "literary-benchmark-smoke-framework",
+              "renderer_scope": "svg_drawingml",
+              "chrome_elements": [
+                "background"
+              ],
+              "background": {
+                "source": "benchmark_smoke",
+                "page_role": "closing",
+                "type": "photo_dark",
+                "color": "#0B0F14",
+                "image_applied": true,
+                "image_source": "benchmark_smoke_asset",
+                "image_fit": "cover",
+                "image_materialized": true,
+                "image_crop_applied": true,
+                "overlay_applied": true,
+                "overlay_color": "#0B0F14",
+                "overlay_opacity": 0.52
+              }
+            },
+            "native_image_overlay": {
+              "applied": false,
+              "image_count": 0,
+              "slots": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#07111F" />
+  <text x="72" y="70.4" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">融资路演 / content</text>
+  <text x="72" y="113.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">商业模式：从项目制交付转向产品化订阅和服务包</text>
+  <text x="72" y="155.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">商业模式页对比当前模式与目标模式。</text>
+  <rect x="72" y="224" width="544" height="264" rx="17.6" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="100.8" y="276" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">现状</text>
+  <text x="100.8" y="318.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22.4" font-weight="900" text-anchor="start">当前模式</text>
+  <text x="100.8" y="361.6" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">项目制收入占比高</text>
+  <text x="100.8" y="406.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 定制交付重</text>
+  <text x="100.8" y="433.6" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 区域复制慢</text>
+  <rect x="664" y="224" width="544" height="264" rx="17.6" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="692.8" y="276" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">目标</text>
+  <text x="692.8" y="318.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22.4" font-weight="900" text-anchor="start">目标模式</text>
+  <text x="692.8" y="361.6" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">订阅 + 服务包组合</text>
+  <text x="692.8" y="406.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 标准产品售卖</text>
+  <text x="692.8" y="433.6" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 伙伴交付复制</text>
+  <rect x="72" y="560" width="1136" height="62.4" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="99.2" y="598.4" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="start">影响：提升毛利和可预测收入</text>
+  <text x="416" y="598.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="500" text-anchor="start">工程化降低交付成本 / 续费和增购形成 LTV</text>
+  <text x="72" y="684.8" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：融资路演 / 05-business-model / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-native-data-ref="assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/01-bar-comparison.native-data.json">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="48" y="44" width="1184" height="632" rx="0" fill="#FFFFFF" stroke="#D5E0EA" stroke-width="2"/>
+  <rect x="48" y="44" width="1184" height="84" fill="#0F2E4C"/>
+  <text x="84" y="86" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">渠道转化率对比：私域与老客转介显著领先</text>
+  <text x="84" y="114" fill="#BFD7F2" font-family="Microsoft YaHei, Arial" font-size="15">Chart gold example / bar comparison / native chart slot</text>
+  <text x="84" y="166" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">结论</text>
+  <text x="84" y="197" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="17">私域触达与老客转介的成交转化明显高于公域投放。</text>
+  <text x="84" y="229" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="17">下阶段预算应向高转化来源倾斜，同时保留公域获客。</text>
+  <rect x="84" y="278" width="238" height="86" rx="0" fill="#EAF2FF" stroke="#B9D4F8"/>
+  <text x="106" y="310" fill="#1D4ED8" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">最高转化</text>
+  <text x="106" y="345" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="700">42%</text>
+  <text x="176" y="344" fill="#475569" font-family="Microsoft YaHei, Arial" font-size="14">老客转介</text>
+  <rect x="84" y="384" width="238" height="86" rx="0" fill="#FFF7ED" stroke="#FDBA74"/>
+  <text x="106" y="416" fill="#C2410C" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">改进重点</text>
+  <text x="106" y="451" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="700">18%</text>
+  <text x="176" y="450" fill="#475569" font-family="Microsoft YaHei, Arial" font-size="14">公域投放</text>
+  <text x="390" y="166" fill="#0F172A" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">渠道转化对比</text>
+  <g id="bar-slot-1" data-role="native-chart-slot" data-native-chart="true"
+     data-x="390" data-y="178" data-w="760" data-h="346">
+    <rect x="390" y="178" width="760" height="346" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+    <text x="420" y="246" fill="#94A3B8" font-family="Microsoft YaHei, Arial" font-size="14">占位说明：此区域由 native chart slot 生成真实柱状图，本行渲染时自动移除。</text>
+  </g>
+  <rect x="390" y="548" width="760" height="70" rx="0" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <text x="420" y="578" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16">行动建议：预算复盘优先看渠道质量，而不是只看线索数量。</text>
+  <text x="420" y="605" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="13">来源：CRM 线索转化统计，2026 Q2</text>
+</svg>

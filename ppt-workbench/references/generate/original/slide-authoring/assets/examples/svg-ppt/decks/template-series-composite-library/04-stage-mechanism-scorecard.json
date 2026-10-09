@@ -1,0 +1,26 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "stage_mechanism_scorecard",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "六阶门径通过并行与前置评审缩短交付周期",
+  "data": {
+    "stages": [
+      {"title": "需求澄清", "detail": "统一目标"},
+      {"title": "概念评审", "detail": "验证方向"},
+      {"title": "方案冻结", "detail": "锁定边界"},
+      {"title": "开发验证", "detail": "并行推进"},
+      {"title": "发布评审", "detail": "质量门禁"},
+      {"title": "价值复盘", "detail": "结果回指"}
+    ],
+    "mechanisms": [
+      {"title": "并行工程", "detail": "可并行任务提前启动，压缩等待"},
+      {"title": "前置评审", "detail": "高成本问题在早期暴露并收敛"}
+    ],
+    "metrics": [
+      {"title": "交付周期", "detail": "同口径项目", "metric_label": "改善", "metric_value": "-28%"},
+      {"title": "延期率", "detail": "季度均值", "metric_label": "改善", "metric_value": "-11pp"},
+      {"title": "变更次数", "detail": "关键版本", "metric_label": "改善", "metric_value": "-35%"}
+    ]
+  }
+}

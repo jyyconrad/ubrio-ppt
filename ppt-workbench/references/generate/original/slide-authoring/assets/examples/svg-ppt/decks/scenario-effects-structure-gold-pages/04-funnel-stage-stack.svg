@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<defs>
+<linearGradient id="fn1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9E76D6"/><stop offset="1" stop-color="#835CBE"/></linearGradient>
+<linearGradient id="fn2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7E56B4"/><stop offset="1" stop-color="#65409A"/></linearGradient>
+<linearGradient id="fn3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5E3A90"/><stop offset="1" stop-color="#472B75"/></linearGradient>
+<linearGradient id="fn4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3C2568"/><stop offset="1" stop-color="#2A1852"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1280" height="720" fill="#F1EFF6"/>
+<text x="72" y="72" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600" text-anchor="start">增长复盘 / 转化漏斗</text>
+<text x="72" y="110" fill="#241238" font-family="Microsoft YaHei, Arial" font-size="32" font-weight="800" text-anchor="start">获客转化漏斗：从曝光到成交</text>
+<rect x="72" y="122" width="58" height="4" rx="2" fill="#6B2D9C"/>
+<text x="72" y="150" fill="#3B2A4D" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="500" text-anchor="start">四级转化链路，逐层收窄；每一级的流量与转化率定位流失最集中的环节。</text>
+<polygon points="250,176 790,176 736,270.5 304,270.5" fill="url(#fn1)"/>
+<polygon points="304,284.5 736,284.5 692.8,379 347.2,379" fill="url(#fn2)"/>
+<polygon points="347.2,393 692.8,393 658.24,487.5 381.76,487.5" fill="url(#fn3)"/>
+<polygon points="381.76,501.5 658.24,501.5 630.6,596 409.4,596" fill="url(#fn4)"/>
+<text x="520" y="209" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700" text-anchor="middle">曝光触达</text>
+<text x="520" y="240" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="800" text-anchor="middle">128万</text>
+<text x="520" y="261" fill="#E7DAF5" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="middle">全渠道广告曝光</text>
+<text x="520" y="318" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="middle">有效点击</text>
+<text x="520" y="348" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="27" font-weight="800" text-anchor="middle">32.5万</text>
+<text x="520" y="369" fill="#E7DAF5" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="middle">点击进入落地页</text>
+<text x="520" y="426" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">留资线索</text>
+<text x="520" y="454" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="800" text-anchor="middle">6.8万</text>
+<text x="520" y="475" fill="#E7DAF5" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="middle">留资 / 加微 / 试用</text>
+<text x="520" y="535" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="700" text-anchor="middle">成交转化</text>
+<text x="520" y="562" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="800" text-anchor="middle">1.02万</text>
+<text x="520" y="582" fill="#E7DAF5" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="middle">签约付费成交</text>
+<polygon points="744,266 758,266 751,278" fill="#E08A2B"/>
+<text x="832" y="275" fill="#6B2D9C" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="800" text-anchor="end">25.4%</text>
+<text x="832" y="292" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="end">点击转化率</text>
+<polygon points="722,375 736,375 729,387" fill="#E08A2B"/>
+<text x="832" y="384" fill="#6B2D9C" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="800" text-anchor="end">20.9%</text>
+<text x="832" y="401" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="end">留资转化率</text>
+<polygon points="700,483 714,483 707,495" fill="#E08A2B"/>
+<text x="832" y="492" fill="#6B2D9C" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="800" text-anchor="end">15.0%</text>
+<text x="832" y="509" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="end">成交转化率</text>
+<rect x="840" y="176" width="360" height="420" rx="14" fill="#FFFFFF" stroke="#D8CCEA" stroke-width="1.2"/>
+<text x="872" y="214" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600" text-anchor="start">漏斗诊断</text>
+<text x="872" y="248" fill="#241238" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">留资环节流失最集中</text>
+<rect x="1082" y="228" width="90" height="26" rx="13" fill="#FBEEDD"/>
+<text x="1127" y="246" fill="#B26B12" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="middle">环比 -2pt</text>
+<circle cx="880" cy="301" r="4" fill="#6B2D9C"/>
+<text x="896" y="306" fill="#3B2A4D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">曝光→点击 25.4%，渠道质量稳定</text>
+<circle cx="880" cy="343" r="4" fill="#6B2D9C"/>
+<text x="896" y="348" fill="#3B2A4D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">点击→留资 20.9%，落地页待优化</text>
+<circle cx="880" cy="385" r="4" fill="#6B2D9C"/>
+<text x="896" y="390" fill="#3B2A4D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">留资→成交 15.0%，跟进转化偏低</text>
+<circle cx="880" cy="427" r="4" fill="#6B2D9C"/>
+<text x="896" y="432" fill="#3B2A4D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">整体 128万 → 1.02万，逐层聚焦</text>
+<text x="872" y="486" fill="#6B7280" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">曝光到成交整体转化率</text>
+<text x="872" y="528" fill="#6B2D9C" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="800" text-anchor="start">0.80%</text>
+<rect x="872" y="548" width="300" height="34" rx="8" fill="#FBEEDD"/>
+<text x="888" y="570" fill="#B26B12" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="start">留资→成交为重点优化环节</text>
+<text x="72" y="690" fill="#9B8AAE" font-family="Microsoft YaHei, Arial" font-size="11" font-weight="500" text-anchor="start">示例数据 · 仅供 layout-funnel-stage-stack 结构参考，真实生成需替换为用户证据</text>
+</svg>

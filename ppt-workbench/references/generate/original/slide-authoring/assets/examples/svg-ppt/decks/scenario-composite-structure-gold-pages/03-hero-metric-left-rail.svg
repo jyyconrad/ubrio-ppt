@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="#0B1A30"/>
+<text x="70" y="64" fill="#8FA8CC" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600" text-anchor="start">经营分析 / 季度经营总览</text>
+<text x="70" y="104" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="32" font-weight="800" text-anchor="start">Q2 核心营收再创新高，四项经营指标全面向好</text>
+<rect x="70" y="120" width="56" height="4" rx="2" fill="#45D1FF"/>
+<rect x="1050" y="58" width="160" height="34" rx="17" fill="#102A43" stroke="#2B4C7E" stroke-width="1"/>
+<text x="1130" y="80" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="middle">2026 年 Q2</text>
+<rect x="70" y="150" width="420" height="500" rx="16" fill="#102A43" stroke="#2B4C7E" stroke-width="1.2"/>
+<text x="110" y="212" fill="#8FA8CC" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="600" text-anchor="start">Q2 核心营收（亿元）</text>
+<text x="110" y="302" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="76" font-weight="800" text-anchor="start">8.64</text>
+<polygon points="300,296 310,280 320,296" fill="#4ADE80"/>
+<text x="328" y="296" fill="#4ADE80" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="800" text-anchor="start">+18.3%</text>
+<text x="110" y="338" fill="#8FA8CC" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">同比增速，增长质量与规模同步改善</text>
+<line x1="110" y1="372" x2="450" y2="372" stroke="#2B4C7E" stroke-width="1.2"/>
+<text x="110" y="414" fill="#D6E4FF" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="700" text-anchor="start">结构优化带动核心业务连续三季走高</text>
+<text x="110" y="450" fill="#D6E4FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="500" text-anchor="start">高毛利产品收入占比提升至 57%</text>
+<rect x="110" y="560" width="240" height="40" rx="20" fill="#0B1A30" stroke="#2B4C7E" stroke-width="1"/>
+<text x="230" y="586" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700" text-anchor="middle">连续 3 季环比正增长</text>
+<rect x="530" y="150" width="330" height="240" rx="14" fill="#F5F8FF"/>
+<text x="554" y="192" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="start">新签合同额</text>
+<text x="554" y="254" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="800" text-anchor="start">3.2 亿</text>
+<polygon points="700,248 709,234 718,248" fill="#15803D"/>
+<text x="726" y="248" fill="#15803D" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="800" text-anchor="start">+12.6%</text>
+<text x="554" y="322" fill="#4A6480" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">大客户续约率保持 92%</text>
+<rect x="554" y="340" width="96" height="26" rx="13" fill="#E3EDF9"/>
+<text x="602" y="358" fill="#175A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">同比口径</text>
+<rect x="880" y="150" width="330" height="240" rx="14" fill="#F5F8FF"/>
+<text x="904" y="192" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="start">年度目标达成率</text>
+<circle cx="988" cy="282" r="58" fill="none" stroke="#DCE7F3" stroke-width="16"/>
+<path d="M 988 216 A 66 66 0 1 1 939.9 236.8 L 951.6 247.8 A 50 50 0 1 0 988 232 Z" fill="#0E7DB8"/>
+<text x="988" y="292" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="800" text-anchor="middle">87%</text>
+<text x="1070" y="268" fill="#4A6480" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">全年目标 12.0 亿</text>
+<text x="1070" y="294" fill="#4A6480" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">已完成 10.4 亿</text>
+<rect x="1070" y="340" width="96" height="26" rx="13" fill="#E3EDF9"/>
+<text x="1118" y="358" fill="#175A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">累计口径</text>
+<rect x="530" y="410" width="330" height="240" rx="14" fill="#F5F8FF"/>
+<text x="554" y="452" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="start">综合毛利率</text>
+<text x="554" y="514" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="800" text-anchor="start">41.8%</text>
+<polygon points="712,508 721,494 730,508" fill="#15803D"/>
+<text x="738" y="508" fill="#15803D" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="800" text-anchor="start">+2.4pt</text>
+<text x="554" y="582" fill="#4A6480" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">高毛利产品放量带动结构改善</text>
+<rect x="554" y="600" width="96" height="26" rx="13" fill="#E3EDF9"/>
+<text x="602" y="618" fill="#175A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">同比口径</text>
+<rect x="880" y="410" width="330" height="240" rx="14" fill="#F5F8FF"/>
+<text x="904" y="452" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="start">合同回款率</text>
+<text x="904" y="514" fill="#102A43" font-family="Microsoft YaHei, Arial" font-size="40" font-weight="800" text-anchor="start">96.5%</text>
+<polygon points="1074,508 1083,494 1092,508" fill="#15803D"/>
+<text x="1100" y="508" fill="#15803D" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="800" text-anchor="start">+1.2pt</text>
+<text x="904" y="582" fill="#4A6480" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">平均回款周期缩短至 38 天</text>
+<rect x="904" y="600" width="108" height="26" rx="13" fill="#E3EDF9"/>
+<text x="958" y="618" fill="#175A8C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">连续 6 季达标</text>
+<text x="70" y="698" fill="#8FA8CC" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">数据口径：经营分析系统 2026Q2 快报；同比 = 较上年同期，达成率 = 累计完成 / 全年目标</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <!-- 有色外发光:feGaussianBlur 定模糊半径 + feFlood 定发光颜色/浓度(无 feFlood 则默认黑色 0.3,深底近乎不可见) -->
+    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+      <feFlood flood-color="#22D3EE" flood-opacity="0.9"/>
+    </filter>
+    <filter id="glow-violet" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+      <feFlood flood-color="#A78BFA" flood-opacity="0.9"/>
+    </filter>
+    <!-- 柔和投影:feDropShadow 一处写全 dx/dy/模糊/颜色/浓度,有偏移即判定为投影 -->
+    <filter id="soft-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="6" dy="8" stdDeviation="7" flood-color="#050B18" flood-opacity="0.5"/>
+    </filter>
+    <!-- 文字发光:挂在 text 上、无 feOffset,转换为 run 级 glow -->
+    <filter id="title-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+      <feFlood flood-color="#38BDF8" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <!-- 首行整页背景 rect:仅离线预览底色,运行时整页背景由 deck_framework.background 承载,内容层勿照抄 -->
+  <rect x="0" y="0" width="1280" height="720" fill="#07111F"/>
+
+  <g id="main-title-block">
+    <rect x="64" y="58" width="120" height="30" rx="15" fill="#0F2438" stroke="#1D4ED8" stroke-opacity="0.6"/>
+    <text x="82" y="78" fill="#7DD3FC" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">运营简报</text>
+    <text x="1216" y="78" text-anchor="end" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="15">2025 Q2 · 运营中心</text>
+    <text x="64" y="140" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="44" font-weight="800" filter="url(#title-glow)">智能监控平台上线成效</text>
+    <text x="64" y="180" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="18">上线三个月,告警更快、覆盖更全、故障更少</text>
+  </g>
+
+  <text x="64" y="214" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">核心指标</text>
+  <text x="1216" y="214" text-anchor="end" fill="#5E7599" font-family="Microsoft YaHei, Arial" font-size="13">上线后 90 天均值</text>
+
+  <g id="content-group-1">
+    <rect x="64" y="230" width="360" height="172" rx="18" fill="#0F2438" stroke="#22D3EE" stroke-opacity="0.5" filter="url(#glow-cyan)"/>
+    <text x="88" y="268" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="16">告警响应时长</text>
+    <text x="88" y="330" fill="#22D3EE" font-family="Microsoft YaHei, Arial" font-size="50" font-weight="800">-63%</text>
+    <text x="88" y="366" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="16">P1 告警平均 8.4→3.1 分钟</text>
+    <rect x="88" y="376" width="104" height="22" rx="11" fill="#22D3EE" fill-opacity="0.16"/>
+    <text x="104" y="391" fill="#7DD3FC" font-family="Microsoft YaHei, Arial" font-size="13">环比 Q1 ▼</text>
+  </g>
+
+  <g id="content-group-2">
+    <rect x="460" y="230" width="360" height="172" rx="18" fill="#F5F8FF" filter="url(#soft-shadow)"/>
+    <text x="484" y="268" fill="#5A6B86" font-family="Microsoft YaHei, Arial" font-size="16">监控覆盖率</text>
+    <text x="484" y="330" fill="#0B2A4A" font-family="Microsoft YaHei, Arial" font-size="50" font-weight="800">98.6%</text>
+    <text x="484" y="366" fill="#31414F" font-family="Microsoft YaHei, Arial" font-size="16">接入服务 312 个,全链路可观测</text>
+    <rect x="484" y="376" width="116" height="22" rx="11" fill="#2456C8" fill-opacity="0.12"/>
+    <text x="500" y="391" fill="#2456C8" font-family="Microsoft YaHei, Arial" font-size="13">目标 95% ▲</text>
+  </g>
+
+  <g id="content-group-3">
+    <rect x="856" y="230" width="360" height="172" rx="18" fill="#0F2438" stroke="#A78BFA" stroke-opacity="0.5" filter="url(#glow-violet)"/>
+    <text x="880" y="268" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="16">故障自愈次数</text>
+    <text x="880" y="330" fill="#A78BFA" font-family="Microsoft YaHei, Arial" font-size="50" font-weight="800">1,240</text>
+    <text x="1074" y="330" fill="#C4B5FD" font-family="Microsoft YaHei, Arial" font-size="18">次/月</text>
+    <text x="880" y="366" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="16">自动预案覆盖 76% 常见故障</text>
+    <rect x="880" y="376" width="116" height="22" rx="11" fill="#A78BFA" fill-opacity="0.16"/>
+    <text x="896" y="391" fill="#C4B5FD" font-family="Microsoft YaHei, Arial" font-size="13">人工干预 ▼</text>
+  </g>
+
+  <text x="64" y="436" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="700">落地举措</text>
+  <text x="1216" y="436" text-anchor="end" fill="#5E7599" font-family="Microsoft YaHei, Arial" font-size="13">三线协同支撑成效</text>
+
+  <g id="content-group-4">
+    <!-- 毛玻璃近似:白底低透明 fill-opacity + 浅描边,深底上观感接近磨砂玻璃(不承诺背景模糊) -->
+    <rect x="64" y="452" width="1152" height="170" rx="18" fill="#FFFFFF" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.35"/>
+    <text x="92" y="490" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700">三条主线支撑成效落地</text>
+
+    <rect x="92" y="512" width="6" height="92" rx="3" fill="#38BDF8"/>
+    <text x="114" y="540" fill="#7DD3FC" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700">统一告警中枢</text>
+    <text x="114" y="570" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="15">多源告警去重合并,压制无效噪声</text>
+    <text x="114" y="600" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800">噪声 -58%</text>
+
+    <rect x="470" y="512" width="6" height="92" rx="3" fill="#38BDF8"/>
+    <text x="492" y="540" fill="#7DD3FC" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700">智能根因定位</text>
+    <text x="492" y="570" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="15">拓扑关联自动定位,收敛排障路径</text>
+    <text x="492" y="600" fill="#38BDF8" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800">MTTR -42%</text>
+
+    <rect x="848" y="512" width="6" height="92" rx="3" fill="#A78BFA"/>
+    <text x="870" y="540" fill="#C4B5FD" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700">自愈预案编排</text>
+    <text x="870" y="570" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="15">高频故障一键自愈,夜间值守减压</text>
+    <text x="870" y="600" fill="#A78BFA" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800">自愈率 76%</text>
+  </g>
+
+  <text x="64" y="642" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="12">来源:平台运营月报 / 2025 年 4-6 月</text>
+</svg>

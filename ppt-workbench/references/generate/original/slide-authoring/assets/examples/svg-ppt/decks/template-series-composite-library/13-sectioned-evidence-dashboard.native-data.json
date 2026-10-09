@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "charts": [
+    {
+      "slot_id": "delivery-rate-chart",
+      "kind": "bar",
+      "title": "项目按期交付率",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "series": [
+        {
+          "name": "按期交付率",
+          "values": [
+            0.68,
+            0.73,
+            0.78,
+            0.83
+          ],
+          "color": "#155A9C"
+        }
+      ],
+      "colors": [
+        "#155A9C"
+      ],
+      "source": "项目组合经营台账，2026 Q1-Q4",
+      "insight": "承诺兑现能力逐季增强",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": false,
+        "show_title": false,
+        "value_axis": {
+          "format": "0%"
+        }
+      }
+    },
+    {
+      "slot_id": "cycle-ratio-chart",
+      "kind": "line",
+      "title": "研发周期达成率",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "series": [
+        {
+          "name": "周期比",
+          "values": [
+            1.2,
+            1.08,
+            0.95,
+            0.92
+          ],
+          "color": "#155A9C"
+        }
+      ],
+      "colors": [
+        "#155A9C"
+      ],
+      "source": "项目组合经营台账，2026 Q1-Q4",
+      "insight": "计划与实际偏差持续收窄",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": false,
+        "show_title": false,
+        "value_axis": {
+          "format": "0.00"
+        }
+      }
+    },
+    {
+      "slot_id": "change-rate-chart",
+      "kind": "line",
+      "title": "需求变更率",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "series": [
+        {
+          "name": "变更率",
+          "values": [
+            0.18,
+            0.165,
+            0.142,
+            0.128
+          ],
+          "color": "#155A9C"
+        }
+      ],
+      "colors": [
+        "#155A9C"
+      ],
+      "source": "需求治理台账，2026 Q1-Q4",
+      "insight": "需求澄清前置开始见效",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": false,
+        "show_title": false,
+        "value_axis": {
+          "format": "0.0%"
+        }
+      }
+    },
+    {
+      "slot_id": "validation-pass-chart",
+      "kind": "bar",
+      "title": "样机验证通过率",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "series": [
+        {
+          "name": "验证通过率",
+          "values": [
+            0.72,
+            0.78,
+            0.84,
+            0.88
+          ],
+          "color": "#155A9C"
+        }
+      ],
+      "colors": [
+        "#155A9C"
+      ],
+      "source": "工程验证台账，2026 Q1-Q4",
+      "insight": "前置验证减少后期返工",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": false,
+        "show_title": false,
+        "value_axis": {
+          "format": "0%"
+        }
+      }
+    },
+    {
+      "slot_id": "code-defect-chart",
+      "kind": "bar",
+      "title": "千行代码缺陷率",
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "series": [
+        {
+          "name": "缺陷率",
+          "values": [
+            1.8,
+            1.6,
+            1.3,
+            1.2
+          ],
+          "color": "#155A9C"
+        }
+      ],
+      "colors": [
+        "#155A9C"
+      ],
+      "source": "研发质量平台，2026 Q1-Q4",
+      "insight": "关键模块缺陷密度明显下降",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": false,
+        "show_title": false,
+        "value_axis": {
+          "format": "0.0"
+        }
+      }
+    },
+    {
+      "slot_id": "early-defect-chart",
+      "kind": "line",
+      "title": "量产初期不良率",
+      "labels": [
+        "第1月",
+        "第2月",
+        "第3月"
+      ],
+      "series": [
+        {
+          "name": "不良率",
+          "values": [
+            0.021,
+            0.016,
+            0.011
+          ],
+          "color": "#155A9C"
+        }
+      ],
+      "colors": [
+        "#155A9C"
+      ],
+      "source": "量产质量台账，最近三个月",
+      "insight": "研发与制造质量口径已贯通",
+      "style": {
+        "axis_text_color": "#627D98",
+        "legend_text_color": "#627D98",
+        "grid_color": "#C9D8E6"
+      },
+      "options": {
+        "legend": false,
+        "show_title": false,
+        "value_axis": {
+          "format": "0.0%"
+        }
+      }
+    }
+  ],
+  "tables": []
+}

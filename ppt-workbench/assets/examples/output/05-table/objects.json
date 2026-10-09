@@ -1,0 +1,81 @@
+{
+  "file": "05-table.pptx",
+  "sha256": "d44b8f52d872a9c351d302c114205e26e2b4f7750f39624afbafa5634581a59e",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "三项项目中两项按期，一项等待验收",
+        "项目交付状态 / 合成示例",
+        "合成项目记录；日期不是外部承诺",
+        "1",
+        "项目",
+        "计划日期",
+        "当前状态",
+        "待办",
+        "华东项目",
+        "9月10日",
+        "按期",
+        "提交交付清单",
+        "华北项目",
+        "9月15日",
+        "按期",
+        "确认培训时间",
+        "华南项目",
+        "9月18日",
+        "待验收",
+        "确认验收安排"
+      ],
+      "tables": [
+        [
+          [
+            "项目",
+            "计划日期",
+            "当前状态",
+            "待办"
+          ],
+          [
+            "华东项目",
+            "9月10日",
+            "按期",
+            "提交交付清单"
+          ],
+          [
+            "华北项目",
+            "9月15日",
+            "按期",
+            "确认培训时间"
+          ],
+          [
+            "华南项目",
+            "9月18日",
+            "待验收",
+            "确认验收安排"
+          ]
+        ]
+      ],
+      "charts": [],
+      "native_shapes": 4,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 真实单元格；中文换行和状态区分清晰",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

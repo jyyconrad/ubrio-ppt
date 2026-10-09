@@ -1,0 +1,45 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "full_width_rect_step_flow",
+  "region": {
+    "x": 72,
+    "y": 245,
+    "w": 1136,
+    "h": 230
+  },
+  "data": {
+    "title": "偏差根因拆解：关键里程碑延期 21 天",
+    "steps": [
+      {
+        "title": "现象层",
+        "icon_label": "现",
+        "detail": "关键验证未按计划完成"
+      },
+      {
+        "title": "执行层",
+        "icon_label": "执",
+        "detail": "方案验证覆盖不足"
+      },
+      {
+        "title": "流程层",
+        "icon_label": "流",
+        "detail": "关键关口设置偏后"
+      },
+      {
+        "title": "机制层",
+        "icon_label": "机",
+        "detail": "跨域评审触发不足"
+      },
+      {
+        "title": "根因层",
+        "icon_label": "因",
+        "detail": "统一验收口径缺失"
+      }
+    ],
+    "action": {
+      "title": "整改闭环",
+      "detail": "统一口径、前置验证并按月复盘"
+    }
+  }
+}

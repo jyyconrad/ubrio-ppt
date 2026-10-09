@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <text x="72" y="70.4" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">项目阶段汇报 / agenda</text>
+  <text x="72" y="113.6" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">汇报目录：进度、风险、决策诉求和下周闭环</text>
+  <text x="72" y="155.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">项目 deck 必须让领导快速看到是否需要决策。</text>
+  <rect x="96" y="220" width="1088" height="70.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="128" y="264.8" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="900" text-anchor="start">01</text>
+  <text x="208" y="253.6" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">总体进度</text>
+  <text x="208" y="277.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">里程碑、完成率、验收窗口</text>
+  <text x="1088" y="264.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="700" text-anchor="start">进度</text>
+  <rect x="96" y="314.4" width="1088" height="70.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="128" y="359.2" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="900" text-anchor="start">02</text>
+  <text x="208" y="348" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">风险阻塞</text>
+  <text x="208" y="372" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">口径、排期、异常回流</text>
+  <text x="1088" y="359.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="700" text-anchor="start">风险</text>
+  <rect x="96" y="408.8" width="1088" height="70.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="128" y="453.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="900" text-anchor="start">03</text>
+  <text x="208" y="442.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">决策诉求</text>
+  <text x="208" y="466.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">责任边界、资源协调</text>
+  <text x="1088" y="453.6" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="700" text-anchor="start">诉求</text>
+  <rect x="96" y="503.2" width="1088" height="70.4" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="128" y="548" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="900" text-anchor="start">04</text>
+  <text x="208" y="536.8" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">行动台账</text>
+  <text x="208" y="560.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">负责人、时限、验收材料</text>
+  <text x="1088" y="548" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="700" text-anchor="start">闭环</text>
+  <text x="72" y="684.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：项目阶段汇报 / 02-agenda / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <text x="72" y="96" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="600" text-anchor="start">市级数据治理项目 / 阶段汇报</text>
+  <text x="72" y="174.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="43.2" font-weight="900" text-anchor="start">总体进度可控，两项风险需要本周升级处理</text>
+  <text x="72" y="228.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="400" text-anchor="start">当前已完成核心系统联调，风险集中在数据口径和资源排期。</text>
+  <rect x="72" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="99.2" y="456" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">进度</text>
+  <text x="99.2" y="500" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">82% 核心任务完成</text>
+  <rect x="448" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="475.2" y="456" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">风险</text>
+  <text x="475.2" y="500" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">2 项需升级</text>
+  <rect x="824" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="851.2" y="456" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">诉求</text>
+  <text x="851.2" y="500" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">PMO 本周决策</text>
+  <rect x="72" y="576" width="1136" height="57.6" rx="16" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="99.2" y="612" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="700" text-anchor="start">示例重点：这是一套多页 deck 的封面，不作为内容页结构复用。</text>
+  <text x="72" y="684.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：项目阶段汇报 / 01-cover / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

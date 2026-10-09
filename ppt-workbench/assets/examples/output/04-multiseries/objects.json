@@ -1,0 +1,92 @@
+{
+  "file": "04-multiseries.pptx",
+  "sha256": "67d9ad65add98800cca1503d9dc569036e44340e34769c0741f20ced8ed16c5b",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "线上收入增长快于门店，渠道差距逐季收窄",
+        "季度渠道收入 / 合成数据 / 单位：万元",
+        "合成渠道数据；线上全年625，门店全年940",
+        "1",
+        "门店减线上差额：期初120万元，期末40万元；尚无原因证据。"
+      ],
+      "tables": [],
+      "charts": [
+        {
+          "part": "ppt/charts/chart1.xml",
+          "series": [
+            {
+              "name": "线上",
+              "labels": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "category_levels": [
+                [
+                  "Q1",
+                  "Q2",
+                  "Q3",
+                  "Q4"
+                ]
+              ],
+              "values": [
+                "100",
+                "140",
+                "175",
+                "210"
+              ]
+            },
+            {
+              "name": "门店",
+              "labels": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "category_levels": [
+                [
+                  "Q1",
+                  "Q2",
+                  "Q3",
+                  "Q4"
+                ]
+              ],
+              "values": [
+                "220",
+                "230",
+                "240",
+                "250"
+              ]
+            }
+          ],
+          "embedded_workbook": true
+        }
+      ],
+      "native_shapes": 5,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 两条序列可区分，图例与数据一致；坐标轴不误导",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

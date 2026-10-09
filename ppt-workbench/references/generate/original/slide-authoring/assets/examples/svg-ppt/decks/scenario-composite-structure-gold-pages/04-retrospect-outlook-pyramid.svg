@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="#F7F2E8"/>
+<defs>
+<linearGradient id="iso-top" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#57A88F"/><stop offset="1" stop-color="#2E7D6B"/></linearGradient>
+<linearGradient id="iso-left" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2E7D6B"/><stop offset="1" stop-color="#1E5A4C"/></linearGradient>
+<linearGradient id="iso-right" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A4F43"/><stop offset="1" stop-color="#0F3A31"/></linearGradient>
+</defs>
+<text x="70" y="60" fill="#6B6258" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600" text-anchor="start">年度经营复盘 / 2026 规划</text>
+<text x="70" y="100" fill="#1F2933" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="800" text-anchor="start">三年筑基当期跃升，锚定 2026 行业领先</text>
+<rect x="70" y="116" width="56" height="4" rx="2" fill="#2E7D6B"/>
+<rect x="1020" y="56" width="190" height="34" rx="17" fill="#FFFFFF" stroke="#D8D0C3" stroke-width="1"/>
+<text x="1115" y="78" fill="#2E7D6B" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="middle">主线：筑基→跃升→领先</text>
+<polygon points="640,300 795,372 640,444 485,372" fill="url(#iso-top)"/>
+<polygon points="485,372 640,444 640,494 485,422" fill="url(#iso-left)"/>
+<polygon points="640,444 795,372 795,422 640,494" fill="url(#iso-right)"/>
+<polygon points="640,228 750,280 640,332 530,280" fill="url(#iso-top)"/>
+<polygon points="530,280 640,332 640,378 530,326" fill="url(#iso-left)"/>
+<polygon points="640,332 750,280 750,326 640,378" fill="url(#iso-right)"/>
+<polygon points="640,172 708,206 640,240 572,206" fill="url(#iso-top)"/>
+<polygon points="572,206 640,240 640,282 572,248" fill="url(#iso-left)"/>
+<polygon points="640,240 708,206 708,248 640,282" fill="url(#iso-right)"/>
+<text x="640" y="478" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="800" text-anchor="middle">①回顾筑基</text>
+<text x="640" y="364" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="800" text-anchor="middle">②成果跃升</text>
+<text x="640" y="270" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="800" text-anchor="middle">③展望领先</text>
+<rect x="100" y="252" width="4" height="44" rx="2" fill="#2E7D6B"/>
+<text x="118" y="268" fill="#1F2933" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="start">自下而上层层垫高</text>
+<text x="118" y="294" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">三年筑基托举当期全面跃升</text>
+<rect x="880" y="252" width="4" height="44" rx="2" fill="#B91C1C"/>
+<text x="898" y="268" fill="#1F2933" font-family="Microsoft YaHei, Arial" font-size="17" font-weight="700" text-anchor="start">以成果蓄势聚能</text>
+<text x="898" y="294" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">2026 迈入行业领先新阶段</text>
+<rect x="70" y="460" width="356" height="210" rx="14" fill="#FFFFFF" stroke="#D8D0C3" stroke-width="1.2"/>
+<circle cx="104" cy="506" r="16" fill="#6B6258"/>
+<text x="104" y="512" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800" text-anchor="middle">1</text>
+<text x="132" y="500" fill="#6B6258" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="start">回顾 · 2023-2024</text>
+<text x="132" y="524" fill="#1F2933" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="800" text-anchor="start">三年深耕筑基</text>
+<text x="94" y="576" fill="#6B6258" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="800" text-anchor="start">61%</text>
+<text x="170" y="574" fill="#6B6258" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">品牌认知度（2024 年末）</text>
+<text x="94" y="612" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">· 完成县域渠道全覆盖</text>
+<text x="94" y="640" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">· 沉淀非遗联名产品线 3 条</text>
+<rect x="462" y="460" width="356" height="210" rx="14" fill="#FFFFFF" stroke="#D8D0C3" stroke-width="1.2"/>
+<circle cx="496" cy="506" r="16" fill="#2E7D6B"/>
+<text x="496" y="512" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800" text-anchor="middle">2</text>
+<text x="524" y="500" fill="#2E7D6B" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="start">成果 · 2025</text>
+<text x="524" y="524" fill="#1F2933" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="800" text-anchor="start">当期全面跃升</text>
+<text x="486" y="576" fill="#2E7D6B" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="800" text-anchor="start">4.2 亿</text>
+<text x="592" y="574" fill="#6B6258" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">全年营收，同比 +26%</text>
+<text x="486" y="612" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">· 会员复购率提升至 48%</text>
+<text x="486" y="640" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">· 获评省级文化消费品牌</text>
+<rect x="854" y="460" width="356" height="210" rx="14" fill="#FFFFFF" stroke="#D8D0C3" stroke-width="1.2"/>
+<circle cx="888" cy="506" r="16" fill="#B91C1C"/>
+<text x="888" y="512" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="800" text-anchor="middle">3</text>
+<text x="916" y="500" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="700" text-anchor="start">展望 · 2026</text>
+<text x="916" y="524" fill="#1F2933" font-family="Microsoft YaHei, Arial" font-size="19" font-weight="800" text-anchor="start">锚定行业领先</text>
+<text x="878" y="576" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="800" text-anchor="start">5.5 亿</text>
+<text x="984" y="574" fill="#6B6258" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">2026 年营收目标</text>
+<text x="878" y="612" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">· 启动三城文化旗舰空间</text>
+<text x="878" y="640" fill="#2F3A3D" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">· 联名产品线扩展至 8 条</text>
+<text x="70" y="706" fill="#6B6258" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="500" text-anchor="start">数据口径：2023-2025 为年度复盘实绩，2026 为规划目标；营收含线上线下全渠道</text>
+</svg>

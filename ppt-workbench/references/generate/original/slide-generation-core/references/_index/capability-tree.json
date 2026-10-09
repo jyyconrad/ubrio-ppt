@@ -1,0 +1,66 @@
+{
+  "description": "slide-generation-core 的 machine-readable 业务方法树，用于按页面表达、对象建模、质量缺口和批次决策选择必要方法。",
+  "always_read": [],
+  "default_gold_path": [
+    {
+      "file": "page-expression.md",
+      "reason": "当前页首先要明确表达结构和结论先行原则。"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "skill-section/pre-render-gate",
+      "file": "pre-render-gate.md",
+      "category": "execution-contract",
+      "module_type": "skill_section",
+      "runtime_scope": "controlled_extension",
+      "intent": "兼容 SVG 页面在渲染前的检查与局部修复方法；PageMethod v2 由执行器实施门禁",
+      "page_roles": ["content", "summary"],
+      "triggers": ["预渲染门禁", "validate_svg_drawingml", "repair_ops", "局部修复"],
+      "priority": "P0"
+    },
+    {
+      "id": "skill-section/page-expression",
+      "file": "page-expression.md",
+      "category": "content-structure",
+      "intent": "定义当前页的结论先行表达结构和阅读路径",
+      "page_roles": ["content", "summary"],
+      "tokens": 180,
+      "triggers": ["结论先行", "一页一义", "多块举证", "阅读路径", "高密度信息"],
+      "priority": "P0"
+    },
+    {
+      "id": "skill-section/layout-modeling",
+      "file": "layout-modeling.md",
+      "category": "composition-system",
+      "intent": "定义原生对象建模和版面结构承载方式",
+      "page_roles": ["content", "summary"],
+      "tokens": 170,
+      "triggers": ["原生对象建模", "卡片", "图表", "表格", "标题层级", "视觉锚点"],
+      "priority": "P1"
+    },
+    {
+      "id": "skill-section/turbo-batch-planning",
+      "file": "turbo-batch-planning.md",
+      "category": "batch-orchestration-method",
+      "module_type": "skill_section",
+      "runtime_scope": "controlled_extension",
+      "intent": "极速模式的全册顺序分批与每批唯一 SubAgent 整批多页编写、审核方法",
+      "page_roles": ["content", "summary"],
+      "stage_tags": ["slide_generation"],
+      "tokens": 420,
+      "triggers": ["极速模式", "批量编写", "分批规划", "批次失败", "后续批次", "重启当前批次", "批次SubAgent", "一次写多页"],
+      "priority": "P1"
+    },
+    {
+      "id": "current-slide-quality-scope",
+      "file": "current-slide-quality-scope.md",
+      "category": "quality-scope",
+      "intent": "定义当前页质量覆盖范围和自检边界",
+      "page_roles": ["content", "section_divider", "summary"],
+      "tokens": 220,
+      "triggers": ["缺证据", "信息密度高", "视觉不稳", "渲染前自检", "quality scope"],
+      "priority": "P1"
+    }
+  ]
+}

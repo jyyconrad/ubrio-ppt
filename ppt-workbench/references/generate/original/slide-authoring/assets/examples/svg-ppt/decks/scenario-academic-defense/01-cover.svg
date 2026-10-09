@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="96" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="600" text-anchor="start">硕士论文答辩 / 智慧城市数据治理</text>
+  <text x="72" y="174.4" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="43.2" font-weight="900" text-anchor="start">面向多源数据口径一致性的识别方法研究</text>
+  <text x="72" y="228.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="19.2" font-weight="400" text-anchor="start">以城市治理数据为对象，构建可解释、可复核的半自动识别流程。</text>
+  <rect x="72" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="99.2" y="456" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">问题</text>
+  <text x="99.2" y="500" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">口径不一致</text>
+  <rect x="448" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="475.2" y="456" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">方法</text>
+  <text x="475.2" y="500" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">规则 + 语义匹配</text>
+  <rect x="824" y="408" width="336" height="120" rx="19.2" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="851.2" y="456" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="800" text-anchor="start">验证</text>
+  <text x="851.2" y="500" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">实验指标待补</text>
+  <rect x="72" y="576" width="1136" height="57.6" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="99.2" y="612" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="15.2" font-weight="700" text-anchor="start">示例重点：这是一套多页 deck 的封面，不作为内容页结构复用。</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：学术答辩 / 01-cover / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

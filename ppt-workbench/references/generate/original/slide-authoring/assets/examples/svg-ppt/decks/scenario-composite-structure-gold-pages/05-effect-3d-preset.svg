@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="#F2F6FC"/>
+<text x="70" y="64" fill="#5B7191" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="600" text-anchor="start">客户成功 / 服务方案评审</text>
+<text x="70" y="104" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="32" font-weight="800" text-anchor="start">三档服务套餐对比：进阶版综合价值最优</text>
+<rect x="70" y="120" width="56" height="4" rx="2" fill="#2456C8"/>
+<rect x="1050" y="58" width="160" height="34" rx="17" fill="#FFFFFF" stroke="#C9D8EE" stroke-width="1"/>
+<text x="1130" y="80" fill="#2456C8" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="middle">2026 年 7 月</text>
+<rect x="80" y="180" width="340" height="380" rx="16" fill="#FFFFFF" stroke="#D7E2F0" stroke-width="1.2"/>
+<text x="112" y="232" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700" text-anchor="start">基础版</text>
+<text x="112" y="296" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="44" font-weight="800" text-anchor="start">¥3,800</text>
+<text x="316" y="296" fill="#5B7191" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="500" text-anchor="start">/ 月</text>
+<line x1="112" y1="324" x2="388" y2="324" stroke="#E2EAF5" stroke-width="1.2"/>
+<text x="112" y="360" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">工单响应 8 小时内</text>
+<text x="112" y="392" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">标准知识库与自助排障</text>
+<text x="112" y="424" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">季度巡检 1 次</text>
+<text x="112" y="472" fill="#5B7191" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">高频服务诉求覆盖</text>
+<text x="112" y="504" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="800" text-anchor="start">62%</text>
+<rect x="112" y="520" width="128" height="26" rx="13" fill="#EDF3FB"/>
+<text x="176" y="538" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600" text-anchor="middle">适合初创团队</text>
+<rect x="470" y="160" width="340" height="400" rx="16" fill="#2456C8" data-effect-3d='{"preset":"block-extruded","depth":1,"contour_color":"#183D8F"}'/>
+<text x="502" y="216" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700" text-anchor="start">进阶版</text>
+<text x="502" y="282" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="44" font-weight="800" text-anchor="start">¥6,400</text>
+<text x="706" y="282" fill="#C9D9F7" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="500" text-anchor="start">/ 月</text>
+<line x1="502" y1="310" x2="778" y2="310" stroke="#3E6AD6" stroke-width="1.2"/>
+<text x="502" y="346" fill="#DDE7FA" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">专属客服 2 小时响应</text>
+<text x="502" y="378" fill="#DDE7FA" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">行业方案库与最佳实践</text>
+<text x="502" y="410" fill="#DDE7FA" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">月度巡检与运营报告</text>
+<text x="502" y="442" fill="#DDE7FA" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">故障演练每季 1 次</text>
+<text x="502" y="480" fill="#C9D9F7" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">高频服务诉求覆盖</text>
+<text x="502" y="512" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="800" text-anchor="start">87%</text>
+<rect x="502" y="524" width="140" height="26" rx="13" fill="#183D8F"/>
+<text x="572" y="542" fill="#DDE7FA" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600" text-anchor="middle">适合成长期业务</text>
+<circle cx="810" cy="168" r="34" fill="#F59E0B" data-effect-3d='{"preset":"button-soft"}'/>
+<text x="810" y="177" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="800" text-anchor="middle">荐</text>
+<rect x="860" y="180" width="340" height="380" rx="16" fill="#FFFFFF" stroke="#D7E2F0" stroke-width="1.2"/>
+<text x="892" y="232" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700" text-anchor="start">旗舰版</text>
+<text x="892" y="296" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="44" font-weight="800" text-anchor="start">¥12,000</text>
+<text x="1122" y="296" fill="#5B7191" font-family="Microsoft YaHei, Arial" font-size="15" font-weight="500" text-anchor="start">/ 月</text>
+<line x1="892" y1="324" x2="1168" y2="324" stroke="#E2EAF5" stroke-width="1.2"/>
+<text x="892" y="360" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">7×24 驻场支持</text>
+<text x="892" y="392" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">定制集成与专项开发</text>
+<text x="892" y="424" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="500" text-anchor="start">双周深度运营复盘</text>
+<text x="892" y="472" fill="#5B7191" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="start">高频服务诉求覆盖</text>
+<text x="892" y="504" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="800" text-anchor="start">96%</text>
+<rect x="892" y="520" width="128" height="26" rx="13" fill="#EDF3FB"/>
+<text x="956" y="538" fill="#3D5271" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="600" text-anchor="middle">适合集团客户</text>
+<rect x="80" y="592" width="1120" height="64" rx="12" fill="#FFFFFF" data-effect-3d='{"preset":"card-raised"}'/>
+<rect x="104" y="608" width="64" height="32" rx="8" fill="#2456C8"/>
+<text x="136" y="629" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700" text-anchor="middle">结论</text>
+<text x="192" y="631" fill="#14243D" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="600" text-anchor="start">进阶版月费较基础版 +68%，高频诉求覆盖提升至 87%，综合性价比指数 1.42 为三档最优。</text>
+<text x="1176" y="631" fill="#5B7191" font-family="Microsoft YaHei, Arial" font-size="13" font-weight="500" text-anchor="end">数据口径：近 12 个月服务工单抽样</text>
+</svg>

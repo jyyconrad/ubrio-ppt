@@ -1,0 +1,253 @@
+{
+  "version": "1.0",
+  "description": "layout-intelligence 能力树：选版方法(role→pattern→composition→variant)与消费 shortlist 的方法节点。具体版式候选由代码 router 的 shortlist 返回，本树只登记方法 reference 的路由与触发词。",
+  "always_read": [],
+  "nodes": [
+    {
+      "id": "layout-routing-method",
+      "file": "layout-routing-method.md",
+      "category": "capability",
+      "intent": "选版方法骨架：从业务问题逐层收窄到 page role → business pattern → data shape → 消费代码返回的 shortlist → 按 slot/容量填充 → blocking 时降级/拆页",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 950,
+      "triggers": [
+        "选版式",
+        "怎么选布局",
+        "用哪种结构",
+        "版式路由",
+        "选哪个 layout",
+        "从业务问题到版式",
+        "消费 shortlist",
+        "候选版式",
+        "路由指纹",
+        "选信息结构"
+      ],
+      "outputs": [
+        "routing_method",
+        "shortlist_consumption",
+        "fallback_decision"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "page-role-disambiguation",
+      "file": "page-role-disambiguation.md",
+      "category": "content-structure",
+      "intent": "判断当前页属于 20 类稳定 page role 的哪一类，区分相邻角色，并把视觉形态(image/ambient/data_dominant)从业务职责里分离出来",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 900,
+      "triggers": [
+        "这页是什么角色",
+        "page role",
+        "页面角色",
+        "区分角色",
+        "这页算 metrics 还是 trend",
+        "背景页还是主张页",
+        "视觉形态还是业务角色",
+        "20 类角色",
+        "页面职责",
+        "context 还是 statement"
+      ],
+      "outputs": [
+        "page_role_selection",
+        "visual_mode_separation"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "business-pattern-selection",
+      "file": "business-pattern-selection.md",
+      "category": "content-structure",
+      "intent": "确认 page role 后选具体业务分析/论证模型，按维度集合与 data_shape 判别 SWOT/PESTEL/五力/3C/BCG/价值链与桑基/漏斗/瀑布/树状图等",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "outline",
+        "slide_generation"
+      ],
+      "tokens": 1000,
+      "triggers": [
+        "选业务模型",
+        "SWOT 还是 PESTEL",
+        "用哪个分析框架",
+        "business pattern",
+        "选五力还是SWOT",
+        "桑基还是漏斗",
+        "分析模型",
+        "该用什么模型",
+        "选甘特还是路线图",
+        "选业务分析模型"
+      ],
+      "outputs": [
+        "business_pattern_selection",
+        "framework_discriminator"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "capacity-and-fallback",
+      "file": "capacity-and-fallback.md",
+      "category": "execution-contract",
+      "intent": "容量核对与 blocking 时的固定降级顺序：压缩 → 换更高容量结构 → 拆页 → 询问用户；含 PESTEL/流程步骤/指标海报/表格等容量红线",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 850,
+      "triggers": [
+        "装不下",
+        "内容太多放不下",
+        "容量超了",
+        "拆页还是压缩",
+        "版式装不下",
+        "8个步骤放不下",
+        "PESTEL四维塞不进三卡",
+        "blocking 了怎么办",
+        "降级换结构",
+        "容量核对"
+      ],
+      "outputs": [
+        "capacity_check",
+        "fallback_or_split_decision"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "theme-structure-separation",
+      "file": "theme-structure-separation.md",
+      "category": "capability",
+      "intent": "主题与信息结构正交：不用主题名选版式、不按主题复制结构、极性硬约束、一册一主色；主题 token 真源在 manifest/renderer 不在 layout",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 800,
+      "triggers": [
+        "主题和结构",
+        "用主题名选版式",
+        "深色风就套某版式",
+        "主题不是版式父目录",
+        "极性冲突",
+        "一册一主色",
+        "换全局背景换色板",
+        "主题结构正交",
+        "深色禁浅底"
+      ],
+      "outputs": [
+        "theme_structure_orthogonality",
+        "polarity_contract"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "evidence-layout-contract",
+      "file": "evidence-layout-contract.md",
+      "category": "execution-contract",
+      "intent": "证据-版式合同：证据型版式选前核对每维度事实/推理与来源，缺口时先补齐再锁版；哪些角色需要证据、证据项最小形态与缺口动作",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 850,
+      "triggers": [
+        "证据够不够",
+        "每维度要不要来源",
+        "证据型版式",
+        "缺证据先补还是先渲染",
+        "证据合同",
+        "空槽占位",
+        "维度只有名词没内容",
+        "证据形态",
+        "先补证据再锁版"
+      ],
+      "outputs": [
+        "evidence_layout_contract",
+        "evidence_gap_action"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "anti-pattern-layout-by-title-only",
+      "file": "anti-pattern-layout-by-title-only.md",
+      "category": "anti-pattern-qa",
+      "intent": "反模式：只凭标题关键词套版式而不核对真实内容的 role/pattern/data_shape/条目数；含标题陷阱清单与内容优先纠偏方法",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 800,
+      "triggers": [
+        "只看标题选版式",
+        "标题带对比就四象限",
+        "标题带流程就步骤条",
+        "凭标题套结构",
+        "标题不等于结构",
+        "三大优势不是对比",
+        "内容优先选版",
+        "标题陷阱"
+      ],
+      "outputs": [
+        "title_trap_checklist",
+        "content_first_routing"
+      ],
+      "priority": "P2"
+    },
+    {
+      "id": "layout-decision-and-custom-composition",
+      "file": "layout-decision-and-custom-composition.md",
+      "category": "execution-contract",
+      "intent": "区分 Router Recommendation 与模型实际 LayoutDecision：可采用可验证 catalog variant，也可基于 SOP/example 设计 custom composition；custom 不得冒用 catalog layout_id，二者都过 validator/renderer/QA",
+      "page_roles": [
+        "content",
+        "summary"
+      ],
+      "stage_tags": [
+        "slide_generation"
+      ],
+      "tokens": 850,
+      "triggers": [
+        "候选版式都不适合",
+        "自定义 composition",
+        "shortlist 不是固定答案",
+        "实际采用什么结构",
+        "layout decision",
+        "shortlist 外版式",
+        "不要冒用 layout id",
+        "推荐和实际不同"
+      ],
+      "outputs": [
+        "layout_decision",
+        "custom_composition_contract",
+        "recommendation_alignment"
+      ],
+      "priority": "P1"
+    }
+  ]
+}

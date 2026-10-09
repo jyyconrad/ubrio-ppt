@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC" />
+  <text x="72" y="70.4" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">学术答辩 / content</text>
+  <text x="72" y="113.6" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">实验结果：关键指标优于规则基线，但泛化仍需验证</text>
+  <text x="72" y="155.2" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">实验页必须写基线、指标和结论。</text>
+  <rect x="72" y="208" width="252" height="104" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="94.4" y="249.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">准确率</text>
+  <text x="94.4" y="288" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">待补</text>
+  <rect x="208" y="272" width="84" height="9.6" rx="4.8" fill="#E2E8F0" />
+  <rect x="208" y="272" width="38.4" height="9.6" rx="4.8" fill="#2563EB" />
+  <rect x="356" y="208" width="252" height="104" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="378.4" y="249.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">召回率</text>
+  <text x="378.4" y="288" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">待补</text>
+  <rect x="492" y="272" width="84" height="9.6" rx="4.8" fill="#E2E8F0" />
+  <rect x="492" y="272" width="35.2" height="9.6" rx="4.8" fill="#2563EB" />
+  <rect x="640" y="208" width="252" height="104" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="662.4" y="249.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">F1</text>
+  <text x="662.4" y="288" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">待补</text>
+  <rect x="776" y="272" width="84" height="9.6" rx="4.8" fill="#E2E8F0" />
+  <rect x="776" y="272" width="32" height="9.6" rx="4.8" fill="#2563EB" />
+  <rect x="924" y="208" width="252" height="104" rx="14.4" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="946.4" y="249.6" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">样本量</text>
+  <text x="946.4" y="288" fill="#1E293B" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">待补</text>
+  <rect x="1060" y="272" width="84" height="9.6" rx="4.8" fill="#E2E8F0" />
+  <rect x="1060" y="272" width="28.8" height="9.6" rx="4.8" fill="#2563EB" />
+  <rect x="72" y="368" width="536" height="168" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="99.2" y="416" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">实验设计</text>
+  <text x="99.2" y="454.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">与规则基线进行对比</text>
+  <text x="99.2" y="492.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 需补数据集规模</text>
+  <text x="99.2" y="518.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 需补训练/测试划分</text>
+  <rect x="648" y="368" width="536" height="168" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="675.2" y="416" fill="#2563EB" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">实验结论</text>
+  <text x="675.2" y="454.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">方法提升方向成立</text>
+  <text x="675.2" y="492.8" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 指标数值待补</text>
+  <text x="675.2" y="518.4" fill="#334155" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 跨城市泛化待验证</text>
+  <text x="72" y="684.8" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：学术答辩 / 04-experiment / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

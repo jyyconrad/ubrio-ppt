@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "components": [
+    {
+      "id": "fishbone-six-causes",
+      "name": "六类原因鱼骨图",
+      "family": "cause_analysis",
+      "reference_id": "R27",
+      "source_kind": "adjacent_variant",
+      "box": [0, 0, 1180, 400],
+      "fields": ["effect", "categories", "boundary"],
+      "business_question": "一个异常可能受哪些原因类别影响，应逐项验证什么？",
+      "layout_reason": "主干汇聚到同一问题，上下六根主骨区分原因类别，支骨承载待验证解释。",
+      "required_relations": ["六类原因指向同一异常", "每类三条原因", "原因假设与观察事实分开"],
+      "capacity": "6类×3条短原因；1个异常；1条证据边界",
+      "native_objects": [],
+      "variants": ["R10", "R27"],
+      "source_note": "32图可见五层诊断链和根因树，没有完整标准鱼骨；本组件为用户明确要求的相邻新增型，不宣称直接复刻。",
+      "example_data": {
+        "effect": "接口验证延期",
+        "categories": [
+          {"label": "责任", "causes": ["验收人待明确", "批准链待核对", "异常Owner待核对"]},
+          {"label": "流程", "causes": ["评审时点待核对", "返工记录待补", "签收入口待统一"]},
+          {"label": "输入", "causes": ["契约版本待核对", "边界条件待补", "器件证书待补"]},
+          {"label": "工具", "causes": ["测试覆盖待核对", "日志关联待补", "环境差异待核对"]},
+          {"label": "度量", "causes": ["延期口径待统一", "样本分层待补", "关闭条件待核对"]},
+          {"label": "协同", "causes": ["工艺参与待核对", "资源窗口待核对", "升级时限待明确"]}
+        ],
+        "boundary": "授权合成案例；全部原因是待验证假设，不是已经证明的因果结论。"
+      }
+    }
+  ]
+}

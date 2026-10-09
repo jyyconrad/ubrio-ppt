@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-native-data-ref="assets/examples/svg-ppt/decks/scenario-chart-type-gold-pages/04-combo-dashboard.native-data.json">
+  <rect x="0" y="0" width="1280" height="720" fill="#0B1220"/>
+  <rect x="48" y="40" width="1184" height="640" rx="0" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="84" y="86" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">经营看板：收入恢复，但成本效率仍需压降</text>
+  <text x="84" y="116" fill="#CBD5E1" font-family="Microsoft YaHei, Arial" font-size="15">Chart gold example / combo dashboard / split native chart slots</text>
+  <rect x="84" y="152" width="238" height="82" rx="0" fill="#172554" stroke="#3B82F6"/>
+  <text x="108" y="183" fill="#BFDBFE" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">收入</text>
+  <text x="108" y="217" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">3,860 万</text>
+  <rect x="346" y="152" width="238" height="82" rx="0" fill="#14532D" stroke="#22C55E"/>
+  <text x="370" y="183" fill="#BBF7D0" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">毛利率</text>
+  <text x="370" y="217" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">46%</text>
+  <rect x="608" y="152" width="238" height="82" rx="0" fill="#431407" stroke="#F97316"/>
+  <text x="632" y="183" fill="#FED7AA" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">获客成本</text>
+  <text x="632" y="217" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">-8%</text>
+  <rect x="870" y="152" width="238" height="82" rx="0" fill="#312E81" stroke="#818CF8"/>
+  <text x="894" y="183" fill="#C7D2FE" font-family="Microsoft YaHei, Arial" font-size="14" font-weight="700">续费率</text>
+  <text x="894" y="217" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">82%</text>
+  <text x="84" y="264" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">分渠道收入</text>
+  <text x="622" y="264" fill="#F8FAFC" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700">收入与成本效率趋势</text>
+  <g id="combo-bar-slot" data-role="native-chart-slot" data-native-chart="true"
+     data-x="84" data-y="276" data-w="510" data-h="280">
+    <rect x="84" y="276" width="510" height="280" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <text x="112" y="346" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14">占位说明：真实柱状图由 native chart 生成，本行渲染时自动移除。</text>
+  </g>
+  <g id="combo-line-slot" data-role="native-chart-slot" data-native-chart="true"
+     data-x="622" data-y="276" data-w="486" data-h="280">
+    <rect x="622" y="276" width="486" height="280" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <text x="650" y="346" fill="#64748B" font-family="Microsoft YaHei, Arial" font-size="14">占位说明：双轴诉求拆为趋势图，本行渲染时自动移除。</text>
+  </g>
+  <rect x="84" y="586" width="1024" height="48" fill="#1F2937" stroke="#475569"/>
+  <text x="112" y="617" fill="#E5E7EB" font-family="Microsoft YaHei, Arial" font-size="15">来源：经营日报，2026 Q2；组合图不写 kind=combo，拆成多个 native chart slot。</text>
+</svg>

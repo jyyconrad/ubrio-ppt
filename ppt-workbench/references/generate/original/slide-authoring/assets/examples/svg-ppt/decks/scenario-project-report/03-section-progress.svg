@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <text x="70.4" y="19.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">市级数据治理项目 / 阶段汇报 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="94.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">第一部分：项目进度与验收窗口</text>
+  <text x="70.4" y="129.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">用进度和验收倒排解释为什么本周必须处理风险。</text>
+  <rect x="70.4" y="150.4" width="1139.2" height="33.6" rx="14.4" fill="#EAF3FF" stroke="#B8D8FF" />
+  <text x="92.8" y="172" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：观点 + 证据 + 解释 + 影响 + 行动/风险，所有正文页必须有责任人、时限或来源。</text>
+  <rect x="70.4" y="200" width="416" height="312" rx="22.4" fill="#003D79" stroke="#003D79" />
+  <text x="102.4" y="254.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="17.6" font-weight="900" text-anchor="start">本章节回答什么</text>
+  <text x="102.4" y="297.6" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="700" text-anchor="start">1. 进度是否真实可控？</text>
+  <text x="102.4" y="331.2" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="700" text-anchor="start">2. 哪些风险会影响月底验收？</text>
+  <text x="102.4" y="364.8" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="700" text-anchor="start">3. 需要领导本周拍板什么？</text>
+  <text x="102.4" y="398.4" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="700" text-anchor="start">4. 下周闭环如何追踪？</text>
+  <rect x="102.4" y="457.6" width="304" height="33.6" rx="16.8" fill="#F59E0B" stroke="#F59E0B" />
+  <text x="123.2" y="480" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="900" text-anchor="start">结论先行：可控但必须升级两项风险</text>
+  <rect x="528" y="206.4" width="680" height="81.6" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="556.8" y="236.8" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">进度证据</text>
+  <text x="556.8" y="262.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">核心任务完成 82%，主流程通过 12/14</text>
+  <text x="832" y="262.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">来源：项目周报台账；缺口：异常回流截图</text>
+  <rect x="528" y="308.8" width="680" height="81.6" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="556.8" y="339.2" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">风险证据</text>
+  <text x="556.8" y="364.8" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">口径差异、驻场排期两项为红色风险</text>
+  <text x="832" y="364.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">来源：联调问题清单、PMO 排期表</text>
+  <rect x="528" y="411.2" width="680" height="81.6" rx="14.4" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="556.8" y="441.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">决策证据</text>
+  <text x="556.8" y="467.2" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">月底验收窗口不可后移，跨部门事项需授权</text>
+  <text x="832" y="467.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="500" text-anchor="start">输出：本周三口径确认 + 周五排期锁定</text>
+  <rect x="528" y="531.2" width="680" height="70.4" rx="14.4" fill="#FFF7ED" stroke="#F59E0B" />
+  <text x="556.8" y="560" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="900" text-anchor="start">章节输出</text>
+  <text x="656" y="560" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="13.6" font-weight="800" text-anchor="start">形成“里程碑-风险-决策-行动”闭环，避免只汇报动作、不暴露阻塞。</text>
+  <text x="70.4" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：项目周报台账 / 联调问题清单 / PMO 验收排期表 / 验收证据包目录</text>
+  <text x="992" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">项目阶段汇报 / 03-section-progress</text>
+  </svg>

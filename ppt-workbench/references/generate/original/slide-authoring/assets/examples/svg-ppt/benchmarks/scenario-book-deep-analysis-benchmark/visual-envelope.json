@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "coordinate_system": {
+    "canvas": [1280, 720],
+    "source": "svg_authoring_coordinates"
+  },
+  "checks": [
+    {
+      "page_id": "02-theme-panel",
+      "kind": "native_image_inner",
+      "region": [868, 184, 314, 348],
+      "assertions": {
+        "max_average": 80,
+        "min_stddev": 8,
+        "min_dark_ratio": 0.82,
+        "mean_rgb_order": "r>g>b",
+        "min_green_minus_blue": 6
+      }
+    },
+    {
+      "page_id": "02-theme-panel",
+      "kind": "paper_region",
+      "region": [78, 164, 706, 430],
+      "assertions": {
+        "min_average": 200,
+        "min_bright_ratio": 0.75
+      }
+    },
+    {
+      "page_id": "02-theme-panel",
+      "kind": "contrast_pair",
+      "subject": "paper_region",
+      "reference": "native_image_inner",
+      "assertions": {
+        "min_average_delta": 130
+      }
+    },
+    {
+      "page_id": "03-three-questions",
+      "kind": "layout_gutter",
+      "region": [440, 190, 20, 330],
+      "assertions": {
+        "min_bright_ratio": 0.995,
+        "max_stddev": 4
+      }
+    },
+    {
+      "page_id": "04-two-life-stages",
+      "kind": "layout_gutter",
+      "region": [626, 190, 28, 342],
+      "assertions": {
+        "min_bright_ratio": 0.98,
+        "max_stddev": 10
+      }
+    },
+    {
+      "page_id": "05-text-reality-compare",
+      "kind": "native_image_inner",
+      "region": [104, 200, 250, 322],
+      "assertions": {
+        "max_average": 80,
+        "min_stddev": 8,
+        "min_dark_ratio": 0.82,
+        "mean_rgb_order": "r>g>b",
+        "min_green_minus_blue": 6
+      }
+    },
+    {
+      "page_id": "05-text-reality-compare",
+      "kind": "paper_region",
+      "region": [430, 174, 760, 424],
+      "assertions": {
+        "min_average": 200,
+        "min_bright_ratio": 0.75
+      }
+    },
+    {
+      "page_id": "05-text-reality-compare",
+      "kind": "contrast_pair",
+      "subject": "paper_region",
+      "reference": "native_image_inner",
+      "assertions": {
+        "min_average_delta": 130
+      }
+    }
+  ]
+}

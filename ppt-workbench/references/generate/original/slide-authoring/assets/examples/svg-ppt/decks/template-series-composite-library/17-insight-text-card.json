@@ -1,0 +1,27 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "rd_efficiency_blue",
+  "pattern": "insight_text_card",
+  "region": {
+    "x": 820,
+    "y": 150,
+    "w": 380,
+    "h": 200
+  },
+  "data": {
+    "card": {
+      "title": "最新判断",
+      "icon_label": "结",
+      "tone": "insight",
+      "metric": {
+        "value": "-2",
+        "label": "百万元目标差距"
+      },
+      "bullets": [
+        "实际收入已连续两个季度增长",
+        "最新季度增速放缓，尚未完全追平目标"
+      ],
+      "footer": "回指左侧实际收入与目标收入两条序列"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "file": "07-matrix.pptx",
+  "sha256": "f3ab3167d311222ccd2a956d00526b249169f903c93480102d3405dda7ecd35f",
+  "page_count": 1,
+  "size_inches": [
+    13.333333333333334,
+    7.5
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "part": "ppt/slides/slide1.xml",
+      "texts": [
+        "优先处理高影响且近期可完成的事项",
+        "行动优先级矩阵 / 合成示例",
+        "合成方法场景；优先级需结合实际验证",
+        "1",
+        "高影响 / 近期",
+        "先确认验收口径，减少重复返工。",
+        "高影响 / 后续",
+        "跨部门数据治理需要共同排期。",
+        "低影响 / 近期",
+        "统一常用资料命名与归档。",
+        "低影响 / 后续",
+        "评估辅助功能，暂不抢占主线资源。"
+      ],
+      "tables": [],
+      "charts": [],
+      "native_shapes": 16,
+      "pictures": 0,
+      "fonts": [
+        "Arial Unicode MS"
+      ],
+      "notes": [
+        "Synthetic input. Review: 四象限轴义明确，不将定性分类冒充量化评分",
+        "1"
+      ]
+    }
+  ],
+  "external_relationships": [],
+  "errors": [],
+  "warnings": [],
+  "structure_passed": true,
+  "visual_review": "not_performed",
+  "powerpoint_roundtrip": "not_performed"
+}

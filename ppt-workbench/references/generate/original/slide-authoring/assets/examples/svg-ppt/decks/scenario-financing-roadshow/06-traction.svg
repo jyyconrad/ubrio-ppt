@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#07111F" />
+  <text x="72" y="70.4" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">融资路演 / content</text>
+  <text x="72" y="113.6" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="33.6" font-weight="800" text-anchor="start">增长验证：标杆客户证明复制方向，但财务指标需补齐</text>
+  <text x="72" y="155.2" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="400" text-anchor="start">融资页必须主动标注证据和缺口。</text>
+  <rect x="72" y="208" width="252" height="104" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="94.4" y="249.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">试点客户</text>
+  <text x="94.4" y="288" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">N 家</text>
+  <rect x="208" y="272" width="84" height="9.6" rx="4.8" fill="#2B4C7E" />
+  <rect x="208" y="272" width="41.6" height="9.6" rx="4.8" fill="#45D1FF" />
+  <rect x="356" y="208" width="252" height="104" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="378.4" y="249.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">ARR</text>
+  <text x="378.4" y="288" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">待补</text>
+  <rect x="492" y="272" width="84" height="9.6" rx="4.8" fill="#2B4C7E" />
+  <rect x="492" y="272" width="27.2" height="9.6" rx="4.8" fill="#45D1FF" />
+  <rect x="640" y="208" width="252" height="104" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="662.4" y="249.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">留存</text>
+  <text x="662.4" y="288" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">待补</text>
+  <rect x="776" y="272" width="84" height="9.6" rx="4.8" fill="#2B4C7E" />
+  <rect x="776" y="272" width="22.4" height="9.6" rx="4.8" fill="#45D1FF" />
+  <rect x="924" y="208" width="252" height="104" rx="14.4" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="946.4" y="249.6" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="600" text-anchor="start">回款周期</text>
+  <text x="946.4" y="288" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="27.2" font-weight="900" text-anchor="start">待补</text>
+  <rect x="1060" y="272" width="84" height="9.6" rx="4.8" fill="#2B4C7E" />
+  <rect x="1060" y="272" width="19.2" height="9.6" rx="4.8" fill="#45D1FF" />
+  <rect x="72" y="368" width="536" height="168" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="99.2" y="416" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">已有证据</text>
+  <text x="99.2" y="454.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">客户痛点和试点价值成立</text>
+  <text x="99.2" y="492.8" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 政企会议、督办、项目协同高频</text>
+  <text x="99.2" y="518.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 管理视图减少人工汇总</text>
+  <rect x="648" y="368" width="536" height="168" rx="16" fill="#0F2438" stroke="#2B4C7E" />
+  <text x="675.2" y="416" fill="#45D1FF" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="800" text-anchor="start">证据缺口</text>
+  <text x="675.2" y="454.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">投资人会追问财务质量</text>
+  <text x="675.2" y="492.8" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 需补 ARR、毛利、留存、回款</text>
+  <text x="675.2" y="518.4" fill="#D8E7FF" font-family="Microsoft YaHei, Arial" font-size="12.8" font-weight="400" text-anchor="start">- 需补客户合同截图</text>
+  <text x="72" y="684.8" fill="#8CA3C7" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="400" text-anchor="start">示例：融资路演 / 04-traction / 来源：模拟业务素材，真实生成时需替换为用户证据</text>
+  </svg>

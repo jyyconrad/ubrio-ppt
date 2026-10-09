@@ -1,0 +1,16 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "blue_summary_pyramid",
+  "pattern": "retrospect_outlook_pyramid",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "上半年夯实能力基础，下半年转向规模增长",
+  "data": {
+    "periods": [
+      {"title": "上半年回顾", "metric": "82%", "bullets": ["核心计划按期落地", "关键流程完成打通"]},
+      {"title": "核心成果", "metric": "128项", "bullets": ["形成可复制能力", "重点场景实现突破"]},
+      {"title": "下半年展望", "metric": "6项", "bullets": ["扩大业务覆盖", "完善价值度量"]}
+    ],
+    "pyramid_layers": ["业务结果", "关键能力", "基础治理"],
+    "conclusion": "以能力建设支撑持续增长"
+  }
+}

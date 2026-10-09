@@ -1,0 +1,17 @@
+{
+  "schema_version": "series_composite_svg/v1",
+  "series_id": "violet_achievements",
+  "pattern": "arrow_ribbon_metrics",
+  "region": {"x": 72, "y": 112, "w": 1136, "h": 520},
+  "title": "六类重点成果沿经营主线持续向前推进",
+  "data": {
+    "items": [
+      {"title": "市场突破", "detail": "进入两个重点区域", "metric_label": "新增", "metric_value": "2城"},
+      {"title": "客户增长", "detail": "高价值客户持续增加", "metric_label": "增长", "metric_value": "+35%"},
+      {"title": "产品升级", "detail": "核心能力完成迭代", "metric_label": "发布", "metric_value": "4项"},
+      {"title": "交付提速", "detail": "关键流程并行推进", "metric_label": "周期", "metric_value": "-20%"},
+      {"title": "质量改善", "detail": "缺陷前置识别", "metric_label": "下降", "metric_value": "-32%"},
+      {"title": "能力沉淀", "detail": "形成标准化方法", "metric_label": "沉淀", "metric_value": "8套"}
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <text x="70.4" y="19.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="600" text-anchor="start">市级数据治理项目 / 阶段汇报 / SVG-PPT 高密度示例</text>
+  <text x="70.4" y="94.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="30.4" font-weight="900" text-anchor="start">问题清单：每项阻塞都要有来源、影响和下一步</text>
+  <text x="70.4" y="129.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="14.4" font-weight="500" text-anchor="start">真实项目汇报需要可追踪 issue log。</text>
+  <rect x="70.4" y="150.4" width="1139.2" height="33.6" rx="14.4" fill="#EAF3FF" stroke="#B8D8FF" />
+  <text x="92.8" y="172" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="12" font-weight="700" text-anchor="start">页面合同：观点 + 证据 + 解释 + 影响 + 行动/风险，所有正文页必须有责任人、时限或来源。</text>
+  <rect x="70.4" y="195.2" width="174.4" height="65.6" rx="11.2" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="86.4" y="219.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">红色阻塞</text>
+  <text x="86.4" y="246.4" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">2</text>
+  <text x="132.8" y="245.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">必须升级</text>
+  <rect x="265.6" y="195.2" width="174.4" height="65.6" rx="11.2" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="281.6" y="219.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">待关闭问题</text>
+  <text x="281.6" y="246.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">3</text>
+  <text x="328" y="245.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">日清跟踪</text>
+  <rect x="460.8" y="195.2" width="174.4" height="65.6" rx="11.2" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="476.8" y="219.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">需补证据</text>
+  <text x="476.8" y="246.4" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">4</text>
+  <text x="523.2" y="245.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">入证据包</text>
+  <rect x="656" y="195.2" width="174.4" height="65.6" rx="11.2" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="672" y="219.2" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="600" text-anchor="start">本周动作</text>
+  <text x="672" y="246.4" fill="#15803D" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="900" text-anchor="start">6</text>
+  <text x="718.4" y="245.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">责任到人</text>
+  <rect x="888" y="195.2" width="321.6" height="65.6" rx="11.2" fill="#003D79" stroke="#003D79" />
+  <text x="910.4" y="220.8" fill="#EAF3FF" font-family="Microsoft YaHei, Arial" font-size="11.2" font-weight="800" text-anchor="start">本页结论</text>
+  <text x="910.4" y="244.8" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">问题不是罗列事项，而是推动跨部门闭环的证据台账。</text>
+  <rect x="70.4" y="280" width="776" height="292.8" rx="12.8" fill="#FFFFFF" stroke="#D7DEE8" />
+  <text x="92.8" y="313.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">编号</text>
+  <text x="147.2" y="313.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">问题</text>
+  <text x="268.8" y="313.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">来源/证据</text>
+  <text x="428.8" y="313.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">影响</text>
+  <text x="563.2" y="313.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">Owner</text>
+  <text x="649.6" y="313.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">时限</text>
+  <text x="724.8" y="313.6" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">状态</text>
+  <line x1="84.8" y1="324.8" x2="827.2" y2="324.8" stroke="#D7DEE8" stroke-width="0.8" />
+  <text x="92.8" y="345.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">R1</text>
+  <text x="147.2" y="345.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">指标口径差异</text>
+  <text x="268.8" y="345.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">业务处室反馈单</text>
+  <text x="428.8" y="345.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">验收材料一致性</text>
+  <text x="563.2" y="345.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">业务A</text>
+  <text x="649.6" y="345.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">6/10</text>
+  <text x="724.8" y="345.6" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">红</text>
+  <line x1="84.8" y1="361.6" x2="827.2" y2="361.6" stroke="#D7DEE8" stroke-width="0.8" />
+  <text x="92.8" y="382.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">R2</text>
+  <text x="147.2" y="382.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">驻场排期冲突</text>
+  <text x="268.8" y="382.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">PMO排期表</text>
+  <text x="428.8" y="382.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">区县验收窗口</text>
+  <text x="563.2" y="382.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">PMO B</text>
+  <text x="649.6" y="382.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">6/11</text>
+  <text x="724.8" y="382.4" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">红</text>
+  <line x1="84.8" y1="398.4" x2="827.2" y2="398.4" stroke="#D7DEE8" stroke-width="0.8" />
+  <text x="92.8" y="419.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">I3</text>
+  <text x="147.2" y="419.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">异常回流失败</text>
+  <text x="268.8" y="419.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">联调问题单#27</text>
+  <text x="428.8" y="419.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">稳定性说明</text>
+  <text x="563.2" y="419.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">技术C</text>
+  <text x="649.6" y="419.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">每日</text>
+  <text x="724.8" y="419.2" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">黄</text>
+  <line x1="84.8" y1="435.2" x2="827.2" y2="435.2" stroke="#D7DEE8" stroke-width="0.8" />
+  <text x="92.8" y="456" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">I4</text>
+  <text x="147.2" y="456" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">培训未覆盖</text>
+  <text x="268.8" y="456" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">运营计划</text>
+  <text x="428.8" y="456" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">上线使用率</text>
+  <text x="563.2" y="456" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">运营D</text>
+  <text x="649.6" y="456" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">6/13</text>
+  <text x="724.8" y="456" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">蓝</text>
+  <line x1="84.8" y1="472" x2="827.2" y2="472" stroke="#D7DEE8" stroke-width="0.8" />
+  <text x="92.8" y="492.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">E5</text>
+  <text x="147.2" y="492.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">验收截图缺失</text>
+  <text x="268.8" y="492.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">证据包目录</text>
+  <text x="428.8" y="492.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">提交包完整性</text>
+  <text x="563.2" y="492.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">项目D</text>
+  <text x="649.6" y="492.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">6/14</text>
+  <text x="724.8" y="492.8" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">蓝</text>
+  <line x1="84.8" y1="508.8" x2="827.2" y2="508.8" stroke="#D7DEE8" stroke-width="0.8" />
+  <text x="92.8" y="529.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">A6</text>
+  <text x="147.2" y="529.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">责任边界不清</text>
+  <text x="268.8" y="529.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">会议纪要待补</text>
+  <text x="428.8" y="529.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">跨部门扯皮</text>
+  <text x="563.2" y="529.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">PMO B</text>
+  <text x="649.6" y="529.6" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">6/12</text>
+  <text x="724.8" y="529.6" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">黄</text>
+  <rect x="872" y="280" width="337.6" height="292.8" rx="12.8" fill="#FFF7ED" stroke="#F59E0B" />
+  <text x="892.8" y="312" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="16" font-weight="900" text-anchor="start">证据链与闭环动作</text>
+  <rect x="891.2" y="336" width="299.2" height="40" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="905.6" y="352" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">1 来源</text>
+  <text x="966.4" y="352" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">问题单#27 / 业务反馈单 / PMO排期表</text>
+  <text x="905.6" y="368" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">每项阻塞必须能追到文件或截图</text>
+  <rect x="891.2" y="390.4" width="299.2" height="40" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="905.6" y="406.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">2 判断</text>
+  <text x="966.4" y="406.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">影响验收材料、驻场窗口、稳定性说明</text>
+  <text x="905.6" y="422.4" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">写清为什么需要升级，不写泛风险</text>
+  <rect x="891.2" y="444.8" width="299.2" height="40" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="905.6" y="460.8" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">3 动作</text>
+  <text x="966.4" y="460.8" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">口径确认、排期协调、日清回归、补证据</text>
+  <text x="905.6" y="476.8" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">动作必须绑定Owner和时限</text>
+  <rect x="891.2" y="499.2" width="299.2" height="40" rx="9.6" fill="#FFFFFF" stroke="#F6C77A" />
+  <text x="905.6" y="515.2" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">4 验收</text>
+  <text x="966.4" y="515.2" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="800" text-anchor="start">关闭截图入库、口径说明签字、提交包复核</text>
+  <text x="905.6" y="531.2" fill="#243447" font-family="Microsoft YaHei, Arial" font-size="8.8" font-weight="600" text-anchor="start">用验收标准替代“持续跟进”</text>
+  <rect x="70.4" y="588.8" width="256" height="41.6" rx="11.2" fill="#EAF3FF" stroke="#B8D8FF" />
+  <circle cx="89.6" cy="602.4" r="5.6" fill="#B91C1C" />
+  <text x="102.4" y="606.4" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">红色阻塞</text>
+  <text x="180.8" y="606.4" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">业务A｜周三</text>
+  <text x="84.8" y="622.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">三类指标口径说明签字</text>
+  <rect x="355.2" y="588.8" width="256" height="41.6" rx="11.2" fill="#EAF3FF" stroke="#B8D8FF" />
+  <circle cx="374.4" cy="602.4" r="5.6" fill="#B91C1C" />
+  <text x="387.2" y="606.4" fill="#B91C1C" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">红色阻塞</text>
+  <text x="465.6" y="606.4" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">PMO B｜周四</text>
+  <text x="369.6" y="622.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">区县驻场排期锁定</text>
+  <rect x="640" y="588.8" width="256" height="41.6" rx="11.2" fill="#EAF3FF" stroke="#B8D8FF" />
+  <circle cx="659.2" cy="602.4" r="5.6" fill="#B45309" />
+  <text x="672" y="606.4" fill="#B45309" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">黄色跟踪</text>
+  <text x="750.4" y="606.4" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">技术C｜日清</text>
+  <text x="654.4" y="622.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">18点截图入证据包</text>
+  <rect x="924.8" y="588.8" width="256" height="41.6" rx="11.2" fill="#EAF3FF" stroke="#B8D8FF" />
+  <circle cx="944" cy="602.4" r="5.6" fill="#2F80ED" />
+  <text x="956.8" y="606.4" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">蓝色归档</text>
+  <text x="1035.2" y="606.4" fill="#2F80ED" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="900" text-anchor="start">项目D｜周五</text>
+  <text x="939.2" y="622.4" fill="#003D79" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="700" text-anchor="start">提交包完成二次复核</text>
+  <rect x="70.4" y="640" width="1139.2" height="27.2" rx="11.2" fill="#003D79" stroke="#003D79" />
+  <text x="94.4" y="658.4" fill="#FFFFFF" font-family="Microsoft YaHei, Arial" font-size="10.4" font-weight="900" text-anchor="start">Issue log 合同：每项阻塞必须有来源、影响、Owner、时限、状态、验收标准；缺来源时标“需补证据”，不能删掉问题。</text>
+  <text x="70.4" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">素材：项目周报台账 / 联调问题清单 / PMO 验收排期表 / 验收证据包目录</text>
+  <text x="992" y="676.8" fill="#6B7A90" font-family="Microsoft YaHei, Arial" font-size="9.6" font-weight="500" text-anchor="start">项目阶段汇报 / 08-issue-log</text>
+  </svg>
