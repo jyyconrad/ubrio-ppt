@@ -26,23 +26,23 @@ Claude Code 也可以登记插件市场：
 
 ## 效果
 
-第一张是技能导出的可编辑页，数字为合成演示。后面几张是包内高密度版式，用来展示目标版面；页脚保留原图水印，不是去掉水印后的交付稿，也不是真实客户材料。
+下面 8 张都是用这个技能做成的可编辑页，从三份成稿里挑出来：产品调研、架构评审、课堂讲读。架构评审稿发布前已去掉地区名和单位名。
 
-![经营复盘：四项指标与三项机制](ppt-workbench/docs/screenshots/01-skill-export-operating-review.png)
+![全流程若不设免疫机制，编码提速会沿下游衰减](ppt-workbench/docs/screenshots/01-immunity-loop.png)
 
-| 实验循环 | 指标因果链 |
+| 434 万实例的审核容量 | 《在细雨中呼喊》 |
 | --- | --- |
-| ![把创新做成高频学习循环](ppt-workbench/docs/screenshots/02-experiment-cycle.jpg) | ![管理能被行动改变的因果变量](ppt-workbench/docs/screenshots/03-metric-network.jpg) |
+| ![审核方式决定架构与履约](ppt-workbench/docs/screenshots/02-review-capacity.png) | ![第一部长篇，写一个孩子如何学会孤独](ppt-workbench/docs/screenshots/03-lecture-rain.png) |
 
-| 七阶门径 | 效率与质量指标盘 |
+| 两个业务域 | 沟通复杂度 |
 | --- | --- |
-| ![七阶门径管控](ppt-workbench/docs/screenshots/04-roadmap.jpg) | ![三维度综合评估](ppt-workbench/docs/screenshots/05-metric-dashboard.jpg) |
+| ![共享事实、分离状态](ppt-workbench/docs/screenshots/04-two-domains.png) | ![28 条沟通边对照 190 条](ppt-workbench/docs/screenshots/05-communication-load.png) |
 
-| 一年成效 | 研效架构 |
+| 《第七天》与《文城》 | 五种规则状态 |
 | --- | --- |
-| ![周期缩短与人效提升](ppt-workbench/docs/screenshots/06-results-review.jpg) | ![精益与数字化双轮驱动](ppt-workbench/docs/screenshots/07-architecture.jpg) |
+| ![晚近两部长篇对照](ppt-workbench/docs/screenshots/06-lecture-two-novels.png) | ![缺数据不再被当满分](ppt-workbench/docs/screenshots/07-rule-states.png) |
 
-![四类卡点的现象、根因和应对](ppt-workbench/docs/screenshots/08-diagnosis.jpg)
+![从行内补全到 Agent 的四层能力](ppt-workbench/docs/screenshots/08-capability-ladder.png)
 
 每张图的说明见 [效果图说明](ppt-workbench/docs/screenshots/captions.md)。
 

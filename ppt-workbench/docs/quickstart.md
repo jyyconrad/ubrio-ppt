@@ -64,21 +64,19 @@ npm ci --ignore-scripts --no-audit --no-fund
 
 ## 效果图
 
-![技能实际导出的经营复盘页](screenshots/01-skill-export-operating-review.png)
+这三张是成稿里的页面，不是版式参考图。其余五张和每页说明见 [效果图说明](screenshots/captions.md)。
 
-[01-skill-export-operating-review.png](screenshots/01-skill-export-operating-review.png)：技能实际导出的经营复盘页。标题是结论，行动和指标对比是可编辑对象；页内数字标为合成演示，不是真实客户。
+![全流程若不设免疫机制，编码提速会沿下游衰减](screenshots/01-immunity-loop.png)
 
-![七阶路线版式参考](screenshots/04-roadmap.jpg)
+[01-immunity-loop.png](screenshots/01-immunity-loop.png)：《AI 开发全流程提效》第 4 页。闭环、衰减链和有无门禁的对照放在同一页，结论在页底。
 
-[04-roadmap.jpg](screenshots/04-roadmap.jpg)：七阶路线版式参考。上方是七个门径，中间对比串行与并行，下方用周期和变更说明效果。
+![434 万实例不能逐户自由生成](screenshots/02-review-capacity.png)
 
-![指标盘版式参考](screenshots/05-metric-dashboard.jpg)
+[02-review-capacity.png](screenshots/02-review-capacity.png)：合规申报项目架构评审里的容量页。地区名和单位名已去掉。全年实例被拆成每日处理量、吞吐和人工审核人数。
 
-[05-metric-dashboard.jpg](screenshots/05-metric-dashboard.jpg)：指标盘版式参考。上半部分并列效率与质量趋势，下半部分把一次延期拆到根因和整改。
+![《在细雨中呼喊》](screenshots/03-lecture-rain.png)
 
-其余高密度版式见 [效果图说明](screenshots/captions.md)。
-
-后两张是包内高密度版式参考，页脚可能保留原图水印，不是交付稿，数字都是演示。做自己的页时只借用分区和阅读顺序，换成你的材料和口径。
+[03-lecture-rain.png](screenshots/03-lecture-rain.png)：《余华作品讲读》第 5 页。左侧插画，右侧故事、结构、主题三块，每块有一句读法。
 
 ## 不要这样做
 
