@@ -4,7 +4,7 @@
 
 默认是结论先行的经营、项目和方案汇报：一页一个主观点，用卡片、指标、图表、表格和来源承载证据。整页截图、低密度海报和“大标题加一句口号”不是正文页的交付标准。
 
-给人看的安装和开口方式在 [快速使用手册](docs/quickstart.md)。效果图在 [docs/screenshots](docs/screenshots/captions.md)，是三份成稿里挑出的页面，不是 `assets/visual-references` 里的参考图。Agent 从 [SKILL.md](SKILL.md) 进入。
+给人看的安装和开口方式在 [快速使用手册](docs/quickstart.md)。效果图在 [docs/screenshots](docs/screenshots/captions.md)：分类按技能图场景节点，每一张是一份 6 页合成演示的整册概览。版式参考仍在 `assets/visual-references`。Agent 从 [SKILL.md](SKILL.md) 进入。
 
 ## 目录
 

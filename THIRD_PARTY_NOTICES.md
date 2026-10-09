@@ -35,7 +35,7 @@
 
 ## docs/screenshots
 
-首页效果图是用 ppt-workbench 做成的页面导出。其中一份架构评审稿在发布前去掉了地区名和单位名。这些图用来展示成稿，不把 `assets/visual-references` 里的参考图改成可以抹掉水印再分发的素材。
+首页效果图是用 ppt-workbench 画成的合成整册概览，按技能图场景各一份。这些图不包含客户源稿。带水印的版式参考仍留在 `assets/visual-references`，不放到首页。
 
 ## 合成样例
 

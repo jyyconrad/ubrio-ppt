@@ -26,25 +26,51 @@ Claude Code 也可以登记插件市场：
 
 ## 效果
 
-下面 8 张都是用这个技能做成的可编辑页，从三份成稿里挑出来：产品调研、架构评审、课堂讲读。架构评审稿发布前已去掉地区名和单位名。
+分类按技能图里的场景节点。每一张图是该场景一份 6 页合成演示的整册概览，页序从左到右、从上到下。工作简报、周报和里程碑归在项目汇报。店名、数字和人物都是合成演示，不代表任何企业。
 
-![全流程若不设免疫机制，编码提速会沿下游衰减](ppt-workbench/docs/screenshots/01-immunity-loop.png)
+### 年度总结
 
-| 434 万实例的审核容量 | 《在细雨中呼喊》 |
-| --- | --- |
-| ![审核方式决定架构与履约](ppt-workbench/docs/screenshots/02-review-capacity.png) | ![第一部长篇，写一个孩子如何学会孤独](ppt-workbench/docs/screenshots/03-lecture-rain.png) |
+![客流回来了，客单和复购没有一起回来](ppt-workbench/docs/screenshots/01-annual-summary.png)
 
-| 两个业务域 | 沟通复杂度 |
-| --- | --- |
-| ![共享事实、分离状态](ppt-workbench/docs/screenshots/04-two-domains.png) | ![28 条沟通边对照 190 条](ppt-workbench/docs/screenshots/05-communication-load.png) |
+合成品牌澄叶，按假设的 2025 年、120 家店。项目蓝。整册判断写在封面和收口页。
 
-| 《第七天》与《文城》 | 五种规则状态 |
-| --- | --- |
-| ![晚近两部长篇对照](ppt-workbench/docs/screenshots/06-lecture-two-novels.png) | ![缺数据不再被当满分](ppt-workbench/docs/screenshots/07-rule-states.png) |
+### 项目汇报
 
-![从行内补全到 Agent 的四层能力](ppt-workbench/docs/screenshots/08-capability-ladder.png)
+![本周里程碑没掉，联调缺口会吃掉下周验收窗口](ppt-workbench/docs/screenshots/02-project-report.png)
 
-每张图的说明见 [效果图说明](ppt-workbench/docs/screenshots/captions.md)。
+商务蓝。周报、里程碑和工作简报用这一类：节点、缺口、时间线、缺口表和下周只补的两件事。
+
+### 融资路演
+
+![先证明一座城市的回款，再谈开第二座城](ppt-workbench/docs/screenshots/03-financing-roadshow.png)
+
+合成公司厢记。页面检查把文字对照在白底上，深色满版里的浅色字达不到对比度，所以这册用浅底青绿墨色。
+
+### 产品发布
+
+![店长缺的不是更多通知，是交班时听清三件事](ppt-workbench/docs/screenshots/04-product-launch.png)
+
+合成产品听班。项目蓝加上暖棕与橙色字色。交班三件事、试听记录和铺开前要补的表放在同一册。
+
+### 学术答辩
+
+![等待主要堆在交接，不在单台设备前](ppt-workbench/docs/screenshots/05-academic-defense.png)
+
+合成课堂，墨绿强调色。页内写明样本来自课堂签到表，是合成数据。
+
+### 培训课程
+
+![新店长先读懂交接，再改班表](ppt-workbench/docs/screenshots/06-training-course.png)
+
+纸感浅底，课堂蓝字色。一堂课按人、时段、交接往下读，练习只找空档。
+
+### 书籍深读
+
+![灯还亮着，人已经不在原来的屋里](ppt-workbench/docs/screenshots/07-book-deep-analysis.png)
+
+合成小说《巷口的灯》，作者署名为合成作者周晚。文学纪录的纸感浅底，页内没有插图。
+
+每册的场景节点、主题和页序见 [效果图说明](ppt-workbench/docs/screenshots/captions.md)。
 
 ## 怎么用
 

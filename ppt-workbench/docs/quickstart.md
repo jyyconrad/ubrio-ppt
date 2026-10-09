@@ -64,19 +64,19 @@ npm ci --ignore-scripts --no-audit --no-fund
 
 ## 效果图
 
-这三张是成稿里的页面，不是版式参考图。其余五张和每页说明见 [效果图说明](screenshots/captions.md)。
+分类按技能图场景节点。下面三张是整册概览，页序从左到右、从上到下。另外四册（融资路演、产品发布、学术答辩、书籍深读）和每册说明见 [效果图说明](screenshots/captions.md)。这些是合成演示。
 
-![全流程若不设免疫机制，编码提速会沿下游衰减](screenshots/01-immunity-loop.png)
+![客流回来了，客单和复购没有一起回来](screenshots/01-annual-summary.png)
 
-[01-immunity-loop.png](screenshots/01-immunity-loop.png)：《AI 开发全流程提效》第 4 页。闭环、衰减链和有无门禁的对照放在同一页，结论在页底。
+[01-annual-summary.png](screenshots/01-annual-summary.png)：年度总结。合成品牌澄叶，项目蓝。到店、客单和复购拆开核，加店留到复购对完。
 
-![434 万实例不能逐户自由生成](screenshots/02-review-capacity.png)
+![本周里程碑没掉，联调缺口会吃掉下周验收窗口](screenshots/02-project-report.png)
 
-[02-review-capacity.png](screenshots/02-review-capacity.png)：合规申报项目架构评审里的容量页。地区名和单位名已去掉。全年实例被拆成每日处理量、吞吐和人工审核人数。
+[02-project-report.png](screenshots/02-project-report.png)：项目汇报。商务蓝。周报、里程碑和工作简报用这一类。
 
-![《在细雨中呼喊》](screenshots/03-lecture-rain.png)
+![新店长先读懂交接，再改班表](screenshots/06-training-course.png)
 
-[03-lecture-rain.png](screenshots/03-lecture-rain.png)：《余华作品讲读》第 5 页。左侧插画，右侧故事、结构、主题三块，每块有一句读法。
+[06-training-course.png](screenshots/06-training-course.png)：培训课程。纸感浅底、课堂蓝字色。先读交接，练习只找空档。
 
 ## 不要这样做
 
