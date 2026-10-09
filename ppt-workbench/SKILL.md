@@ -1,6 +1,11 @@
 ---
 name: ppt-workbench
 description: Use when 用户要求制作或修改中文业务汇报 PPTX，整理汇报材料或大纲，合并幻灯片，复用复杂汇报组件，或快速生成PPT原生雷达/折线/柱状图；也用于客户介绍、经营复盘、项目汇报、方案汇报和年度总结。不用于普通代码开发。
+license: MIT
+compatibility: 需要 Python 3.10+ 与 Node.js 20+。LibreOffice 仅用于可选预览。适用于 Claude Code、Codex、Grok 及其他读取 Agent Skills 的宿主。
+metadata:
+  author: jyyconrad
+  version: "0.2.0"
 ---
 
 # PPT 工作台

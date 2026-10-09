@@ -1,0 +1,19 @@
+{
+  "name": "ubrio-ppt",
+  "owner": {
+    "name": "jyyconrad"
+  },
+  "metadata": {
+    "description": "中文业务汇报 PPT 技能",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "ppt-workbench",
+      "description": "根据材料整理大纲并生成可编辑的中文业务汇报 PPTX",
+      "source": "./ppt-workbench",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}

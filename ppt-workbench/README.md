@@ -4,13 +4,15 @@
 
 默认是结论先行的经营、项目和方案汇报：一页一个主观点，用卡片、指标、图表、表格和来源承载证据。整页截图、低密度海报和“大标题加一句口号”不是正文页的交付标准。
 
-Agent 从 [SKILL.md](SKILL.md) 进入。本文件只说明目录、依赖和检查方式，不重复制作流程。
+给人看的安装和开口方式在 [快速使用手册](docs/quickstart.md)。效果图在 [docs/screenshots](docs/screenshots/captions.md)。Agent 从 [SKILL.md](SKILL.md) 进入。
 
 ## 目录
 
 ```text
 ppt-workbench/
 ├── SKILL.md                 # 唯一入口
+├── docs/quickstart.md       # 给人看的快速使用手册
+├── docs/screenshots/        # 高密度效果图
 ├── references/              # 素材、大纲、逐页方法、质量门和原始参考
 ├── scripts/                 # 提取、金标 SVG、DrawingML、图表、图标、校验、合并
 ├── assets/                  # 样例、蓝色高密度参考图、内置图片库、组件数据
@@ -28,7 +30,7 @@ ppt-workbench/
 ```bash
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt
-npm install
+npm ci --ignore-scripts --no-audit --no-fund
 ```
 
 维护者再安装 `requirements-dev.txt`。需要单独做 PDF 或文本导出时安装 `requirements-export.txt`。LibreOffice 只用于可选预览，不是安装前提。
@@ -50,4 +52,4 @@ node --test tests/native.test.cjs
 
 ## 来源与许可
 
-本包是内部整理候选，`package.json` 标记为 `private`，没有在此授予开源许可。第三方模板、图标、图片和原始参考的许可边界见 [references/generate/provenance-and-license.md](references/generate/provenance-and-license.md) 与 [assets/images/README.md](assets/images/README.md)。未逐项核清的资产不能当作已经获准公开再分发。
+本包随 <https://github.com/jyyconrad/ubrio-ppt> 发布。仓库根目录 `LICENSE` 的 MIT 适用于本技能自行编写的说明、脚本和合成样例。第三方图标、图片、npm 依赖、vendor 代码和带水印的版式参考仍按各自许可使用，见仓库 `THIRD_PARTY_NOTICES.md` 与 [来源说明](references/generate/provenance-and-license.md)。
